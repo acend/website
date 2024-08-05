@@ -1,0 +1,65 @@
+{{- $fullName := include "acend-website-chart.fullname" . -}}
+{{- $svcPort := .Values.service.port -}}
+{{- $releaseName := .Release.Name -}}
+{{- if eq .Release.Name "latest" -}}
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ $fullName }}
+  labels:
+    {{- include "acend-website-chart.labels" . | nindent 4 }}
+  {{- with .Values.ingress.annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+spec:
+  ingressClassName: {{ .Values.ingress.ingressClass }}
+  rules:
+  - host: new.acend.ch
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: {{ $fullName }}
+            port:
+              number: {{ $svcPort }}
+  tls:
+  - hosts:
+    - new.acend.ch
+    secretName: acend-main-wildcard
+
+{{ else }}
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ $fullName }}
+  labels:
+    {{- include "acend-website-chart.labels" . | nindent 4 }}
+  {{- with .Values.ingress.annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+    nginx.ingress.kubernetes.io/auth-signin: https://github-oauth-proxy.acend.ch/oauth2/start?rd=https%3A%2F%2Fwebsitenew-{{ $releaseName }}.test.acend.ch
+    nginx.ingress.kubernetes.io/auth-url: https://github-oauth-proxy.acend.ch/oauth2/auth
+  {{- end }}
+spec:
+  ingressClassName: {{ .Values.ingress.ingressClass }}
+  rules:
+  - host: websitenew-{{ .Release.Name }}.test.acend.ch
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: {{ $fullName }}
+            port:
+              number: {{ $svcPort }}
+  tls:
+  - hosts:
+    - websitenew-{{ .Release.Name }}.test.acend.ch
+    secretName: acend-test-wildcard
+{{- end }}

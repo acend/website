@@ -1,0 +1,145 @@
+log_format upstreamlog '$remote_addr - $remote_user [$time_local] - $server_name to: $upstream_addr: $request upstream_response_time $upstream_response_time msec $msec request_time $request_time';
+access_log  /var/log/nginx/access.log upstreamlog;
+
+server {
+    listen       8080;
+    server_name  localhost;
+
+    root   /usr/share/nginx/html;
+
+
+    gzip on;
+    gzip_disable "msie6";
+
+    gzip_vary on;
+    gzip_proxied any;
+    gzip_comp_level 6;
+    gzip_buffers 16 8k;
+    gzip_http_version 1.1;
+    gzip_min_length 256;
+    gzip_types
+      application/atom+xml
+      application/geo+json
+      application/javascript
+      application/x-javascript
+      application/json
+      application/ld+json
+      application/manifest+json
+      application/rdf+xml
+      application/rss+xml
+      application/xhtml+xml
+      application/xml
+      font/eot
+      font/otf
+      font/ttf
+      image/svg+xml
+      text/css
+      text/javascript
+      text/plain
+      text/xml;
+
+    absolute_redirect off;
+    #port_in_redirect off;
+
+    #charset koi8-r;
+    #access_log  /var/log/nginx/host.access.log  main;
+
+    location / {
+        index  index.html index.htm;
+    }
+
+    # Expire rules for static content
+
+    # cache.appcache, your document html and data
+    location ~* \.(?:manifest|appcache|html?|xml|json)$ {
+        expires -1;
+        # access_log logs/static.log; # I don't usually include a static log
+    }
+
+    # Feed
+    location ~* \.(?:rss|atom)$ {
+        expires 1h;
+        add_header Cache-Control "public";
+    }
+
+    # Media: images, icons, video, audio, HTC
+    location ~*
+        \.(?:jpg|jpeg|gif|png|ico|cur|gz|svg|svgz|mp4|ogg|ogv|webm|htc|woff|ttf|otf|woff2|eot)$ {
+        expires 1y;
+        access_log off;
+        add_header Cache-Control "public";
+    }
+
+    # CSS and Javascript
+    location ~* \.(?:css|js)$ {
+        expires 1y;
+        access_log off;
+        add_header Cache-Control "public";
+    }
+
+    error_page  404              /404.html;
+
+    # redirect server error pages to the static page /50x.html
+    #
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   /usr/share/nginx/html;
+    }
+
+    # proxy backend requests
+    location /backend/ {
+        proxy_pass   ${BACKEND_URL}/;
+    }
+
+    #
+    # REDIRECTS
+    #
+    # Renaming trainings
+    location = /trainings/terraform-azure/ {
+        return 301 /trainings/terraform/;
+    }
+    location = /trainings/openshift/ {
+        return 301 /trainings/container-openshift/;
+    }
+    location = /trainings/openshift4ops/ {
+        return 301 /trainings/openshift-4-operations/;
+    }
+    location = /trainings/kubernetes/ {
+        return 301 /trainings/container-kubernetes/;
+    }
+    location = /trainings/argocd/ {
+        return 301 /trainings/argo-cd/;
+    }
+    location = /en/trainings/terraform-azure/ {
+        return 301 /en/trainings/terraform/;
+    }
+    location = /en/trainings/openshift/ {
+        return 301 /en/trainings/container-openshift/;
+    }
+    location = /en/trainings/openshift4ops/ {
+        return 301 /en/trainings/openshift-4-operations/;
+    }
+    location = /en/trainings/kubernetes/ {
+        return 301 /en/trainings/container-kubernetes/;
+    }
+    location = /en/trainings/argocd/ {
+        return 301 /en/trainings/argo-cd/;
+    }
+
+    # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+    #
+    #location ~ \.php$ {
+    #    root           html;
+    #    fastcgi_pass   127.0.0.1:9000;
+    #    fastcgi_index  index.php;
+    #    fastcgi_param  SCRIPT_FILENAME  /scripts$fastcgi_script_name;
+    #    include        fastcgi_params;
+    #}
+
+    # deny access to .htaccess files, if Apache's document root
+    # concurs with nginx's one
+    #
+    #location ~ /\.ht {
+    #    deny  all;
+    #}
+}
