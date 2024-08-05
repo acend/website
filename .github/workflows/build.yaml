@@ -34,7 +34,7 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ghcr.io/acend/acend/website:pr-${{ github.event.pull_request.number }}
+            ghcr.io/acend/website:pr-${{ github.event.pull_request.number }}
       -
         name: 'Install Helm'
         uses: azure/setup-helm@v4
