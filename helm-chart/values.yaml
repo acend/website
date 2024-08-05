@@ -27,6 +27,7 @@ imagePullSecrets: []
 nameOverride: "acend-website"
 fullnameOverride: ""
 
+backendurl: localhost:8080
 backendurlprotocol: http://
 
 serviceAccount:
