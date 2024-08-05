@@ -23,14 +23,14 @@ While developing your website, use:
 
 ```bash
 export HUGO_VERSION=$(sed -e '/^FROM docker.io\/floryn90\/hugo:/!d; s/.*:\(.[^ ]*\).*/\1/' Dockerfile)
-docker run --rm --interactive -p 8080:1313 -v $(pwd):/src docker.io/floryn90/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail; npm run dev"
+docker run --rm --interactive -p 8080:1313 -v $(pwd)/site:/src docker.io/floryn90/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail; npm run dev"
 ```
 
 or for developing your website with `hugo server --buildDrafts --buildFuture`, use:
 
 ```bash
 export HUGO_VERSION=$(sed -e '/^FROM docker.io\/floryn90\/hugo:/!d; s/.*:\(.[^ ]*\).*/\1/' Dockerfile)
-docker run --rm --interactive -p 8080:1313 -v $(pwd):/src docker.io/floryn90/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm run preview"
+docker run --rm --interactive -p 8080:1313 -v $(pwd)/site:/src docker.io/floryn90/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm run preview"
 ```
 
 Then visit <http://localhost:8080/> _- or a new browser windows popped-up already -_ to preview your new website. Webpack Dev Server will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
@@ -83,7 +83,7 @@ Build the container image and test the deployment.
 
 ### Pull Request (PR)
 
-Upon each PR, a GitHub Action [pull_request.yaml](.github/workflows/pull_request.yaml) is triggered which builds a Docker image and pushes it to `quay.io/acend/website:pr-{{prnumber}}` on ghcr.io. The image will be deployed by the Workflow.
+Upon each PR, a GitHub Action [pull_request.yaml](.github/workflows/pull_request.yaml) is triggered which builds a Docker image and pushes it to `ghcr.io/acend/website:pr-{{prnumber}}` on ghcr.io. The image will be deployed by the Workflow.
 
 ### Push to Master
 
