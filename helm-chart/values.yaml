@@ -70,6 +70,7 @@ tolerations: []
 affinity: {}
 
 backend:
+  enabled: false
   replicaCount: 2
   service:
     type: ClusterIP
