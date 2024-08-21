@@ -12,7 +12,7 @@ First step, clone this repository and run:
 
 ```bash
 export HUGO_VERSION=$(sed -e '/^FROM docker.io\/floryn90\/hugo:/!d; s/.*:\(.[^ ]*\).*/\1/' Dockerfile)
-docker run --rm --interactive -p 8080:8080 -v $(pwd):/src docker.io/floryn90/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm ci"
+docker run --rm --interactive -p 8080:8080 -v $(pwd)/site:/src docker.io/floryn90/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm ci"
 ```
 
 This will take some time and will install all packages necessary to run Hugo and its tasks.
