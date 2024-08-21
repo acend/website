@@ -1,0 +1,24 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section  class="section footer-banner">
+        <div  class="container bg-primary pattern pattern-2 px-5 py-5">
+          <div  data-scroll class="row  d-flex align-items-center">
+            <div class="col-lg-6 offset-lg-1 d-flex align-items-center mb-5 mb-lg-0">
+                    <svg class="img-fluid me-4 me-md-5 flex-md-shrink-0" width="27px" height="90px" viewBox="0 0 27 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="footer/CTA" transform="translate(-176.000000, -60.000000)" fill="#FFFFFF">
+                                <g id="logo/AC-kurzlogo-cmyk-black" transform="translate(176.000000, 60.000000)">
+                                    <g id="AC-kurzlogo-cmyk-black" fill="none">
+                                        <polygon id="Fill-1" fill="#ffffff" points="27 0 0 0 0 90 27 90 27 76.6297408 13.4993377 76.6297408 13.4993377 13.371571 27 13.371571"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <h5 class="h2 text-white mb-0">{{ $data.anmeldung.footer_banner.text }}</h1>
+             </div>
+             <div class="col-lg-4 ms-auto">
+                 <button  type="button" data-bs-toggle="modal" data-bs-target="#signupModal" class="btn btn-outline-light  py-3 px-5 ">{{  $data.anmeldung.footer_banner.button }}</button>
+             </div>
+        </div>
+    </div>
+</section>

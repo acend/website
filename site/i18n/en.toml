@@ -1,0 +1,134 @@
+[anmelden]
+other = "Register"
+
+[readMore]
+other = "Discover"
+
+[trainingsangebot]
+other = "Training Offer"
+
+[personen]
+other = "Individuals"
+
+[firmen]
+other = "Companies"
+
+[textTeamsShort]
+other = "Individual company trainings on request."
+
+[textTeams]
+other = "Individual company trainings are possible. Contact us for costs and dates."
+
+[backToTrainings]
+other = "Back to trainings"
+
+[showAllTrainings]
+other = "Discover all trainings"
+
+[trainingsLink]
+other = "/en/trainings/"
+
+[praxiserfahrung]
+other = "Expertise"
+
+#––––––––––––––––
+# Footer
+
+[followUs]
+other = "Follow us"
+
+[newsletter]
+other = "Subscribe to our newsletter"
+
+[trainingsberatung]
+other = "Training Consultations"
+
+[trainingsberatungTime]
+other = "Mo – Fr, 8:30 am – 5:00 pm"
+
+[phonenumber]
+other = '<a href="tel:+41313702220">+41 31 370 22 20</a>'
+
+[impressum]
+other = "Impressum"
+
+[impressumLink]
+other = "/en/impressum/"
+
+[privacy]
+other = "Privacy Policy"
+
+[privacyLink]
+other = "/en/privacy/"
+
+#––––––––––––––––
+# Anmeldeformular
+
+[selectTraining]
+other = "Select a training..."
+
+[einzelperson]
+other = "Individual"
+
+[team]
+other = "Team"
+
+[frau]
+other = "Ms."
+
+[herr]
+other = "Mr."
+
+[name]
+other = "Last Name"
+
+[vorname]
+other = "First Name"
+
+[firma]
+other = "Company"
+
+[anzahl_personen]
+other = "Participants"
+
+[email]
+other = "E-Mail"
+
+[telefon]
+other = "Phone"
+
+[nachricht]
+other = "Message"
+
+[agb_check]
+other= 'I have read and accept the <u><b><a href="/en/privacy/" target=\"_blank\" rel=\"noopener\">Privacy Policy</a></b></u> and register for a <b>paid</b> training, which will be conducted in the <b>CET time zone</b> usually from 9 am to 5 pm.'
+
+[send]
+other = "Send"
+
+#––––––––––––––––
+# Kontaktformular
+
+[agb_check_contact]
+other = 'I have read and accept the <u><b><a href="/en/privacy/" target=\"_blank\" rel=\"noopener\">Privacy Policy</a></b></u> of this website.'
+
+#––––––––––––––––
+# Page 404
+
+[title404]
+other = "This page does not exist."
+
+[text404]
+other = "Continue to home page"
+
+#––––––––––––––––
+# Page FAQ
+
+[topics]
+other = "Topics"
+
+[selectTopic]
+other = "Bitte auswählen..."
+
+[faqLink]
+other = "/en/faq/"

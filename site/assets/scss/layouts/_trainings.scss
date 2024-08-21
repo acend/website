@@ -1,0 +1,103 @@
+// Filter
+
+.btn-filter {
+  position: relative;
+  padding-left: 2.6rem;
+  background: none;
+  color: var(--primary);
+
+  &:hover {
+    color: var(--primary);
+  }
+
+  &:not(.btn-reset)::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid;
+    position: absolute;
+    left: 0;
+    top: 9px;
+
+    @include media-breakpoint-up(lg) {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &.active::before {
+    background-color: var(--primary);
+  }
+}
+
+.box-link {
+  transition:  background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  &:hover {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px var(--shadowColor);
+
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .box-training {
+    .box {
+      &:first-child {
+        border-right-width: 0.5rem;
+      }
+      &:last-child {
+        border-left-width: 0.5rem;
+      }
+    }
+
+    .collapse  {
+         display: block !important;
+         opacity: 1 !important;
+    }
+    [data-bs-toggle="collapse"] {
+        pointer-events: none;
+    }
+    .icon-plus {
+      display: none;
+    }
+
+  }
+}
+
+.sticky {
+   transition:  box-shadow 0.2s ease-in-out;
+
+   &.is-sticky {
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    box-shadow: 0 0 30px var(--shadowColor);
+    //z-index: 2;
+  }
+  @include media-breakpoint-down(sm) {
+    //.box-anmelden {
+        position: fixed;
+        top: 180px;
+        left: 15px;
+        right: 15px;
+        z-index: 5;
+        box-shadow: 0 0 30px rgba(0,0,0,0.2);
+        box-shadow: 0 0 30px var(--shadowColor);
+  // }
+  }
+}
+
+.anmelde-toggler {
+    position: fixed;
+    z-index: 5;
+    right: 15px;
+    top: 100px;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+    outline: none !important;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 30px var(--shadowColor);
+}

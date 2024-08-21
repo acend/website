@@ -1,0 +1,111 @@
+.btn {
+  box-shadow: none !important;
+  font-size: 1em;
+}
+
+.btn-outline-light {
+  border-color: #fff;
+  border-width: 2px;
+  &:hover {
+    color: var(--primary);
+    background-color: #fff;
+    border-color: #fff;
+  }
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:  var(--primary)   !important;
+    border-color:  var(--primary);
+    border-width: 2px;
+
+   &:hover {
+    color: var(--primary);
+    background-color: #fff   !important;
+    border-color:  var(--primary);
+  }
+}
+
+.btn-outline-primary {
+    color:  var(--primary);
+    background-color: #fff   !important;
+    border-color:  var(--primary);
+    border-width: 2px;
+
+   &:hover,
+   &:active {
+    color: #fff   !important;
+    background-color: var(--primary)  !important;
+    border-color:  var(--primary)   !important;
+  }
+}
+
+
+.icon-plus {
+  width: 24px;
+  height: 24px;
+
+  .box-anmelden & {
+      width: 22px;
+      height: 22px;
+  }
+
+  position: relative;
+  &::before {
+    content: "";
+    height: 100%;
+    width: 1px;
+    background: var(--primary);
+    display: block;
+    top: 0;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+
+    [aria-expanded="true"] & {
+      height: 0;
+    }
+  }
+  &::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: var(--primary);
+    display: block;
+    top: 50%;
+    left: 0;
+    position: absolute;
+    transform: translateY(-50%);
+  }
+
+  .box-anmelden  [aria-expanded="true"] & {
+      display: none;
+
+  }
+  .box-training  [aria-expanded="true"] & {
+      display: none;
+    }
+}
+
+.close {
+  opacity: 1;
+  position: relative;
+  z-index: 10;
+}
+
+.icon-info {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 42px;
+  height: 42px;
+  background: #fff;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid #fff;
+  transform: translate(-50%, -50%);
+
+  @include media-breakpoint-up(lg) {
+    width: 48px;
+    height: 48px;
+  }
+}

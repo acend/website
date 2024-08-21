@@ -14,13 +14,17 @@
   target = "assets"
 
 [[mounts]]
-  source = "assets"
+  source = "node_modules/@hyas/bootstrap/assets"
   target = "assets"
 
-## content
 [[mounts]]
-  source = "content"
-  target = "content"
+  source = "node_modules/@hyas/bootstrap/layouts"
+  target = "layouts"
+
+
+[[mounts]]
+  source = "assets"
+  target = "assets"
 
 ## data
 [[mounts]]
