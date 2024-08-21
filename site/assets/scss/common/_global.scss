@@ -1,0 +1,335 @@
+:root {
+  --primary: #074761;
+  --primary-light: #e7ecee;
+  scroll-behavior: auto !important;
+}
+
+html {
+  font-size: 10px;
+  // stylelint-disable
+  height: -webkit-fill-available;
+  // stylelint-enable
+}
+
+body {
+  font-family: "TTFirsNeue-Light", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 7rem;
+
+  color: $AC-Blue;
+  color: var(--primary);
+
+  @include media-breakpoint-up(lg) {
+    font-size: 1.8rem;
+    padding-top: 15rem;
+    font-size: 1.8rem;
+  }
+
+  -moz-font-feature-settings: "ss01";
+  -webkit-font-feature-settings: "ss01";
+  font-feature-settings: "ss01";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+//icons
+.icon {
+  width: 28px;
+  height: 28px;
+
+  .box-training [data-bs-toggle="collapse"] &,
+   .navbar-collapse & {
+      width: 40px;
+      height: 40px;
+  }
+
+    @include media-breakpoint-up(lg) {
+      width: 40px;
+      height: 40px;
+
+      &.icon-diplom {
+        width: 32px;
+        height: 36px;
+      }
+    }
+}
+.icon-sm {
+  width: 28px;
+  height: 28px;
+}
+
+.icon-lg {
+  width: 40px;
+  height: 40px;
+}
+
+
+
+#logo,
+.claim,
+.icon:not(.icon-white),
+.toggler-icon,
+.kurzlogo {
+  path, polygon, rect {
+   fill: $AC-Blue;
+    fill: var(--primary);
+  }
+}
+
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "TTFirsNeue-Medium", sans-serif;
+  font-weight: normal;
+}
+
+h2,
+.h2 {
+  font-size: 2.2rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: 3.6rem;
+  }
+}
+
+h3,
+.h3,
+.category,
+.accordion-title,
+.footer-section h5,
+.paragraph-lg,
+.quote {
+  font-size: 2.2rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: 2.488rem
+  }
+}
+
+h4,
+.h4  {
+  font-family: "TTFirsNeue-Light", sans-serif;
+  font-size: 1.8rem;
+  @include media-breakpoint-up(md) {
+      font-size:  3rem;
+    }
+}
+
+h6,
+.h6  {
+  font-size: 1.6rem;
+
+  @include media-breakpoint-up(md) {
+      font-size: 1.8rem;
+    }
+}
+
+.bold {
+  font-family: "TTFirsNeue-Medium", sans-serif;
+}
+
+.small-bold {
+  font-family: "TTFirsNeue-Medium", sans-serif;
+  font-size: 1.4rem;
+}
+
+
+
+.btn {
+  font-family: "TTFirsNeue-Medium", sans-serif;
+  background-color: var(--primary);
+  color: #fff;
+  border-radius: 0;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.mb-minus {
+  margin-bottom: -4.8rem;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.border-outline {
+
+  border-left: 1.6rem solid white;
+  border-right: 1.6rem solid white;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: var(--primary);
+  }
+  .text-white & {
+    color: #fff;
+  }
+}
+
+.border,
+.border-top,
+.border-bottom {
+    border-color: var(--primary) !important;
+}
+
+.border-top,
+.border-bottom {
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 10px;
+    background-color: var(--primary);
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+  }
+}
+
+.border-top::after {
+  top: 0;
+  bottom: auto;
+}
+
+
+.lead-big {
+  font-family: "TTFirsNeue-Medium", sans-serif;
+}
+
+.lead-big,
+.main-carousel .category {
+  font-size: 2.6rem;
+  line-height: 3.44rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: 4.8rem;
+    line-height: 5.2rem;
+  }
+}
+
+.pattern {
+  //position: relative;
+  background-image: url("../images/AC_Muster_2_RGB_Weiss--10-v2.png");
+  background-attachment: fixed;
+  //background-position: center;
+  background-size: 1915px;
+
+  /*
+  &::after {
+    content: "";
+    //opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    //z-index: -1;
+    pointer-events: none;
+  }
+  */
+}
+.pattern-2 {
+  //position: relative;
+  background-image: url("../images/AC_Muster_1_RGB_Weiss--10-v2.png");
+}
+
+
+[data-scroll]:not(.banner) {
+  transition: opacity 1s, transform 0.6s ease-in-out;
+}
+[data-scroll="in"]:not(.banner) {
+  opacity: 1;
+  transform: translateY(0);
+}
+[data-scroll="out"]:not(.banner) {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.entry-content {
+  ol, ul, dl {
+    padding-left: 1.6rem;
+  }
+
+  li {
+    list-style: none;
+    line-height: 1.7;
+
+    &::before {
+      content: "¬ ";
+      margin-left: -0.75rem;
+    }
+  }
+}
+
+/*
+.mt-6, .my-6 {
+    margin-top: 5rem !important;
+}
+.mb-6, .my-6 {
+    margin-bottom: 5rem !important;
+}
+ @include media-breakpoint-up(lg) {
+  .mt-lg-6, .my-lg-6 {
+      margin-top: 5rem !important;
+  }
+  .mb-lg-6, .my-lg-6 {
+      margin-bottom: 5rem !important;
+  }
+ }
+*/
+
+ .bg-primarylight {
+   background: var(--primary-light);
+ }
+
+ .pos-relative {
+   position: relative;
+ }
+
+ .mb-4-5 {
+  margin-bottom: 2.75rem;
+ }
+
+ .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

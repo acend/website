@@ -1,0 +1,89 @@
+// stylelint-disable property-no-vendor-prefix
+.lead {
+  color: $blue;
+  font-size: 2rem; // 2.4rem;
+  font-weight: normal;
+  line-height: 1.455;
+  margin-right: 1rem;
+
+  .footer & {
+    font-size: 2rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 3.46rem; // 3.6rem;
+    line-height: 1.333;
+
+    #about &,
+    .footer & {
+      font-size: 2.4rem;
+      line-height: 1.455;
+
+      span {
+        padding: 1rem 1.5rem;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 1em;
+    color: $green;
+  }
+
+  span {
+    background-color: #fff;
+    padding: 0.75rem 1.6rem;
+    border-radius: 50rem;
+    display: inline;
+    -webkit-box-decoration-break: clone;
+    -ms-box-decoration-break: clone;
+    -moz-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+    line-height: 1.4;
+
+    .windows & {
+      padding: 0.7rem 1.6rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding: 1rem 3rem;
+
+      .windows & {
+        padding: 0.7rem 3rem;
+      }
+    }
+  }
+
+  // animation: fade-in-stagger 0.8s ease forwards 0.1s;
+  // opacity: 0;
+  // transform: translateY(40px);
+
+  // transition: opacity 0.3s ease;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  backface-visibility: hidden;
+}
+
+// keyframes
+@keyframes fade-in-stagger {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// delay
+@for $i from 1 to 5 {
+  .floater:nth-child(#{$i}) img {
+    animation-delay: ($i * 0.25s) + 0.5s;
+  }
+}
+
+.cloud-text {
+  margin-top: -2rem;
+
+  @include media-breakpoint-up(lg) {
+    margin-top: -5rem;
+  }
+}

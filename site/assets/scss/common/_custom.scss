@@ -1,5 +1,83 @@
-// Put your custom SCSS code here
-body {
-  background-color: var(--main-bg-color);
-  text-align: center;
+// custom style
+table.responsive {
+  font-size: $font-size-xl;
+  margin-bottom: 15px;
+  border-collapse: collapse;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  border: 1px solid #ddd;
+}
+
+table.responsive caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+}
+
+table.responsive tr {
+  border: 1px solid #ddd;
+  padding: 0.35em;
+}
+
+table.responsive td,
+table.responsive th {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+table.responsive th {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+pre {
+  font-size: 0.75em;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1.5em;
+}
+
+@media screen and (max-width: 600px) {
+  table.responsive {
+    border: 0;
+  }
+
+  table.responsive caption {
+    font-size: 1.3em;
+  }
+
+  table.responsive thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table.responsive tr {
+    display: block;
+    margin-bottom: 0.625em;
+    border: none;
+  }
+
+  table.responsive td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+
+  table.responsive td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table.responsive td:last-child {
+    border-bottom: 3px solid #ddd;
+  }
 }

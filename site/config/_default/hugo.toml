@@ -1,16 +1,68 @@
-title = "Hyas"
-baseurl = "http://localhost/"
+title = "acend"
+baseurl = "/"
 canonifyURLs = false
 disableAliases = true
+defaultContentLanguage = "de"
+#defaultContentLanguageInSubdir = false
 disableHugoGeneratorInject = true
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-languageCode = "en-US"
+# languageCode = "en-US"
 paginate = 7
 rssLimit = 10
 summarylength = 20 # 70 (default)
+#removePathAccents = true
+
+
+[languages]
+  [languages.de]
+    contentDir = "content/de"
+    languageCode = "de-CH"
+    languageName = "Deutsch"
+    title = "Cloud Native Trainings Schweiz - acend gmbh"
+    weight = 1
+    [languages.de.params]
+      author = "acend gmbh"
+      description = "acend bietet dir praxisorientierte Cloud Native Trainings, bei denen dir mehr als nur das technische Know-how in Erinnerung bleiben wird. Von Engineers für Engineers."
+
+    [languages.de.menus]
+      [[languages.de.menus.main]]
+        name = "Trainings"
+        pageRef = "/trainings"
+        weight = 1
+      [[languages.de.menus.main]]
+        pageRef = "/ueber-uns"
+        name = "Über uns"
+        weight = 2
+      [[languages.de.menus.main]]
+        pageRef = "/kontakt"
+        name = "Kontakt"
+        weight = 3
+
+  [languages.en]
+    contentDir = "content/en"
+    languageCode = "en-US"
+    languageName = "English"
+    title = "Cloud Native Trainings Switzerland - acend gmbh"
+    weight = 2
+
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        pageRef = "/en/trainings"
+        name = "Trainings"
+        weight = 1
+      [[languages.en.menus.main]]
+        pageRef = "/en/about"
+        name = "About"
+        weight = 2
+      [[languages.en.menus.main]]
+        pageRef = "/en/contact"
+        name = "Contact"
+        weight = 3
+
+
 
 copyRight = "Copyright (c) 2020-2024 Hyas"
 
@@ -30,11 +82,11 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
     dir = ":cacheDir/:project"
     maxAge = "30m"
 
-[taxonomies]
-  category = "categories"
+#[taxonomies]
+ # category = "categories"
 
-[permalinks]
-  blog = "/:title/"
+#[permalinks]
+#  blog = "/:title/"
 
 [minify.tdewolff.html]
   keepWhitespace = false
@@ -59,3 +111,5 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
   hint = "photo"
   quality = 85
   resampleFilter = "Lanczos"
+
+

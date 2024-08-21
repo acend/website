@@ -1,0 +1,185 @@
+# about
+about:
+  enable: true
+  title: "Cloud Native Trainings Switzerland - acend gmbh"
+  seo_title: "Cloud Native Trainings Switzerland - acend gmbh"
+  content: "acend offers you practice-oriented Cloud Native trainings. You will remember more than technical know-how. From Engineer to Engineer."
+  description: "We offer Cloud Native training with experts who use these technologies every day. Trainings with a unique experience and a lot of handson."
+  button:
+    enable: false
+    label: "Discover"
+    URL: "ueber-uns"
+
+# slideshow trainigs
+slideshow:
+  enable: true
+  item:
+    - ubertitle: "Training offer"
+      title: "Argo CD"
+      subtitle: "Basics"
+      URL: "/en/trainings/argo-cd/"
+      label: "View training now"
+      img1: "images/trainings/ACEND_Adventure_TopHill@2x.jpg"
+      img2: "images/trainings/ACEND_Poi@2x.jpg"
+      img3: "images/trainings/ACEND_CodeP@2x.jpg"
+
+    - ubertitle: "Training offer"
+      title: "Go"
+      subtitle: "Basics"
+      URL: "/en/trainings/go/"
+      label: "View training now"
+      img1: "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"
+      img2: "images/trainings/ACEND_Mats@2x.jpg"
+      img3: "images/trainings/ACEND_CodeT@2x.jpg"
+
+    - ubertitle: "Training offer"
+      title: "Cilium"
+      subtitle: "Basics"
+      URL: "/en/trainings/cilium/"
+      label: "View training now"
+      img1: "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"
+      img2: "images/trainings/ACEND_Lena@2x.jpg"
+      img3: "images/trainings/ACEND_CodeD@2x.jpg"
+
+    - ubertitle: "Training offer"
+      title: "Container & Kubernetes"
+      subtitle: "Basics"
+      URL: "/en/trainings/container-kubernetes/"
+      label: "View training now"
+      img1: "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
+      img2: "images/trainings/ACEND_Jeremy@2x.jpg"
+      img3: "images/trainings/ACEND_CodeA@2x.jpg"
+
+    - ubertitle: "Training offer"
+      title: "Container & OpenShift"
+      subtitle: "Basics"
+      URL: "/en/trainings/container-openshift/"
+      label: "View training now"
+      img1: "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
+      img2: "images/trainings/ACEND_Philip@2x.jpg"
+      img3: "images/trainings/ACEND_CodeD@2x.jpg"
+
+# trainings
+trainings:
+  title: "Our trainings"
+  text: "Our trainings combine theory with practice-oriented hands-on labs. Get inspired by new technologies – taught by our dedicated trainers."
+  categories:
+    - title: "Kubernetes"
+      text: "Orchestration and management"
+      trainings:
+        - title: "Container & Kubernetes"
+          slug: "container-kubernetes"
+        - title: "Container & OpenShift"
+          slug: "container-openshift"
+        - title: "OpenShift Operations"
+          slug: "openshift-operations"
+
+    - title: "Delivery CI/CD"
+      text: "App definition and development"
+      trainings:
+        - title: "Argo CD"
+          slug: "argo-cd"
+        - title: "Tekton"
+          slug: "tekton"
+        - title: "Terraform on Azure"
+          slug: "terraform"
+
+    - title: "Additional trainings"
+      text: "Exciting technologies from the CNCF landscape"
+      trainings:
+        - title: "Helm"
+          slug: "helm"      
+        - title: "Prometheus"
+          slug: "prometheus"
+        - title: "Serverless"
+          slug: "serverless"
+        - title: "Cilium"
+          slug: "cilium"
+        - title: "Ansible"
+          slug: "ansible"              
+
+    - title: "Programming"
+      text: '"Hello World" & more in Cloud Native'
+      trainings:
+        - title: "Go"
+          slug: "go"
+        - title: "MicroServices"
+          slug: "microservices"
+        - title: "Quarkus"
+          slug: "quarkus"                 
+
+# video
+# video:
+  # enable: false
+  # title: "Ein Titel hier"
+  # text: "Hier ein tolles Video das euch einen einfachen Überblick gibt zur Verwendung unseres Produktes."
+  # youtubeID: "M7lc1UVf-VE"
+
+# testimonial
+testimonials:
+  enable: true
+  title: "Testimonials"
+  testimonial:
+    - title: "Here’s what our clients say about our trainings:<br/>Matthias Summer, Austria"
+      logo: "images/testimonials/adcubum.png"
+      text: "I really enjoyed the training, and I learned several things that helped me with my daily tasks. You could tell that the trainers had a lot of practical experience with and passion for the technology. They also supported us well and gave us useful advice."
+
+    - title: "Here’s what our clients say about our trainings:<br/>Corsin Decurtins, Zurich"
+      logo: "images/testimonials/netceterea.png"
+      text: "Over the course of a number of sessions, our developers all over Europe were able to build up their know-how in Kubernetes. This also helps us to deliver innovative software solutions to our clients in the future. Simply great trainings and fantastic trainers."
+
+    - title: "Here’s what our clients say about our trainings:<br/>Thomas Abbrederis, Vaduz"
+      logo: "images/testimonials/lgt.png"
+      text: "Through the training, we were able to deepen the know-how in the area of modern container technology in a practical way with the Openshift platform provided. The very competent trainers were able to reduce the respect for the new container technologies and thus provide the training participants with a very good baseline for the future."
+
+    - title: "Here’s what our clients say about our trainings:<br/>Michael Rudiger, Solothurn"
+      logo: "images/testimonials/centris.png"
+      text: "The training was very helpful and gave me a great insight into the world of Prometheus. Thanks to the hands-on labs, I was able to apply my knowledge right away. The trainers were very competent and helpful, the workshops were technically great."
+
+    - title: "Here’s what our clients say about our trainings: <br/>Roland Egli, Solothurn"
+      logo: "images/testimonials/kt-solothurn.png"
+      text: "Thank you very much for the wonderful certificate. The training was very educational and the exchange with the other trainees I found very valuable. Great organization."
+
+    - title: "Here’s what our clients say about our trainings:<br/>Nathanael Weber, Bern"
+      logo: "images/testimonials/mtrail.png"
+      text: "The training was exceptionally well tailored to our needs. The practical exercises were just difficult enough that more questions about Helm arose and were answered competently by the instructor. Many thanks acend for this experience!"
+
+# partner
+partner:
+  enable: true
+  title: "Our Partners"
+  item:
+    - logo: "images/partner/puzzle-itc.png"
+      text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on open source technologies as well as the most modern methods. Different interdisciplinary teams work on projects regarding consulting, applications, delivery, infrastructure and open source solutions."
+      URL: "https://puzzle.ch"
+      label: "puzzle.ch"
+    
+    - logo: "images/partner/kubernetes-ktp.png"
+      text: "KTP is an initiative of the Cloud Native Computing Foundation. We have been recognized by them as a Kubernetes Training Partner (KTP). This is a group of vetted training providers who have extensive experience with training on cloud native technologies."
+      URL: "https://www.cncf.io"
+      label: "cncf.io"
+
+    - logo: "images/partner/appuio.png"
+      text: "APPUiO is the leading Kubernetes based container platform for the design, development and operations of applications. Based on reliable open source concepts, such as CRI-O and Kubernetes, APPUiO supports the DevOps approach. Development, deployment and operation processes are accelerated through automation and self-service. The cooperation between software developers and business organization is also improved."
+      URL: "https://www.appuio.ch"
+      label: "appuio.ch"
+
+    - logo: "images/partner/kubernetes-kcsp.png"
+      text: "KCSP is an initiative from the Cloud Native Computing Foundation. The CNCF serves as a vendor neutral home for many of the fastest growing open source projects, including Kubernetes, Prometheus, and Envoy. It promotes the open source and cloud native world and supports the community around these technologies."
+      URL: "https://www.cncf.io"
+      label: "cncf.io"
+
+    - logo: "images/partner/tk.png"
+      text: "tim&koko helps businesses get all the way to the top. More specifically: Into the cloud. With advice at eye-level and technological solutions that unlock untapped potential."
+      URL: "https://tim-koko.ch/"
+      label: "tim-koko.ch/"      
+
+    - logo: "images/partner/arch-cloud.png"
+      text: "Engineering cloud native solutions is their passion. They support customers in the cloud transformation. Not only in architecture, infrastructure and software development, but also in the appropriate strategy and organization."
+      URL: "https://arch.cloud/"
+      label: "arch.cloud"
+
+    - logo: "images/partner/bespinian.png"
+      text: 'bespinian is a start-up from Bern that loves software and cloud computing. As "Cloud Native Citizens" they are at home on different cloud platforms and help their customers in close collaboration to build new software in the cloud or to bring existing ones to the cloud.'
+      URL: "https://bespinian.io/"
+      label: "bespinian.io"
