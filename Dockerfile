@@ -14,5 +14,12 @@ EXPOSE 8080
 ENV BACKEND_URL=http://acend-website-backend:8000
 
 
+LABEL maintainer acend.ch
+LABEL org.opencontainers.image.title "acend.ch's Website"
+LABEL org.opencontainers.image.description "Container with acend.ch's Website"
+LABEL org.opencontainers.image.authors acend.ch
+LABEL org.opencontainers.image.source https://github.com/acend/website/
+LABEL org.opencontainers.image.licenses CC-BY-SA-4.0
+
 COPY --from=builder  /src/public /usr/share/nginx/html
 COPY ./nginx.conf.template /etc/nginx/templates/default.conf.template
