@@ -72,7 +72,7 @@ Then run the following command:
 
 ```bash
 export HUGO_VERSION=$(sed -e '/^FROM docker.io\/floryn90\/hugo:/!d; s/.*:\(.[^ ]*\).*/\1/' Dockerfile)
-docker run --rm --interactive -v $(pwd):/src docker.io/floryn90/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm install"
+docker run --rm --interactive -v $(pwd)/site:/src docker.io/floryn90/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm install"
 ```
 
 This will make sure, the package-lock.json file is updates accordingly.
