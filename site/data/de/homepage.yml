@@ -1,3 +1,9 @@
+# video
+video:
+  enable: true
+  title: "Praxisorientierte Cloud Native Trainings"
+  src: "/videos/testvideo.mp4"
+
 # about
 about:
   enable: true
@@ -61,7 +67,25 @@ slideshow:
 
 # trainings
 trainings:
-  title: "Unsere Trainings"
+  label: "Trainings"
+  title: "Lerne praxisnah neue Technologien kennen"
+  text: "Unsere Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs. Lass dich von neuen Technologien begeistern – mit Herzblut vermittelt von unseren Trainern."
+  subtitle: "Das passende Training für dich"
+  trainings:
+    - title: "Container & Kubernetes"
+      slug: "container-kubernetes"
+    - title: "Container & OpenShift"
+      slug: "container-openshift"
+    - title: "OpenShift Operations"
+      slug: "openshift-operations"
+
+
+
+
+# trainings
+trainings-old:
+  label: "Trainings"
+  title: "Lerne Praxis nah neue Technologien kennen"
   text: "Unsere Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs. Lass dich von neuen Technologien begeistern – mit Herzblut vermittelt von unseren Trainern."
   categories:
     - title: "Kubernetes"
@@ -148,6 +172,7 @@ testimonials:
 partner:
   enable: true
   title: "Unsere Partner"
+  text: "Kurzer Beschreibungstext zum Thema Certe, inquam, pertinax non emolumento aliquo, sed ut aut in animis nostris inesse."
   item:
     - logo: "images/partner/puzzle-itc.png"
       text: "Puzzle ITC deckt als innovativer IT-Dienstleister den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei wird konsequent auf Open Source Technologien sowie modernste Methoden gesetzt. Verschiedene interdisziplinäre Teams arbeitet an Projekten in den Bereichen Beratung, Applikationen, Delivery, Infrastruktur und eigenen Open Source Lösungen."

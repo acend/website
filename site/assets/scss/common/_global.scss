@@ -325,6 +325,7 @@ a {
 }
 
 .video-container iframe,
+.video-container video,
 .video-container object,
 .video-container embed {
     position: absolute;
@@ -332,4 +333,8 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.container-fluid {
+  max-width: 123rem;
 }

@@ -150,7 +150,7 @@
     width: 100%;
 
     @include media-breakpoint-up(md) {
-      width: 40%;
+      width: calc(25% - 1.2rem);
     }
   }
 
