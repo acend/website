@@ -1,6 +1,7 @@
-<footer class="footer-section mt-auto  ">
+<footer class="px-6 mt-auto  ">
+<div class="footer-section">
   <div class="section">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row ">
         <div class="col-md-8 mb-5">
           <h5 class="mb-2">{{ i18n "trainingsberatung" }}<br> {{ i18n "phonenumber" | safeHTML }}</h5>
@@ -102,7 +103,7 @@
     <div class="bg-primary text-white">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 small pt-5 py-md-5 text-center text-md-left">
+        <div class="col-md-6 small pt-10 py-md-10 text-center text-md-left">
 
 
           <div class="d-md-inline pe-md-1">{{site.Params.name  | markdownify}}</div>
@@ -111,7 +112,7 @@
 
         </div>
 
-        <div class="col-md-6 small py-5  text-center  text-md-right">
+        <div class="col-md-6 small py-10  text-center  text-md-right">
               <div class="d-md-inline pe-md-3"><a class="link-border" href="{{ i18n "faqLink" }}">F.A.Q.</a></div>
               <div class="d-md-inline pe-md-3"><a class="link-border" href="{{ i18n "impressumLink" }}">{{ i18n "impressum" }}</a></div>
               <div class="d-md-inline pe-md-3"><a class="link-border" href="{{ i18n "privacyLink" }}">{{ i18n "privacy" }}</a></div>
@@ -122,5 +123,6 @@
     </div>
   </div>
   </div>
+</div>
 </footer>
 {{ partial "modal-anmelden" . }}
