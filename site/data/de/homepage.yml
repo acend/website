@@ -2,7 +2,7 @@
 video:
   enable: true
   title: "Praxisorientierte Cloud Native Trainings"
-  src: "images/home/testvideo.mp4"
+  src: "/videos/testvideo.mp4"
 
 # about
 about:
