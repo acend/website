@@ -1,0 +1,23 @@
+<div data-scroll class="">
+
+  {{ with .Params.main_image }}
+  <div class="img-container_ px-lg-6">
+    {{- partial "figure" (dict "page" page "src" .  "process" "fill 1940x700" "class" "w-100") }}
+  </div>
+{{ end }}
+
+ 
+    <div class="d-flex flex-column mb-4 px-2">
+ 
+         <h2  class="mb-0">{{ .Title }}</h2>
+        <div class="category mb-3">{{  .Params.subtitle  | humanize }}</div>
+        <p class="">{{ .Params.abstract }}</p>
+     </div>
+
+ 
+
+
+            <div class="border-outline mt-2 mx-2_ w-100_ mb-minus  mx-3_"><a class="btn btn-primary py-3 px-5  w-100" href="{{ .Permalink | safeURL }}">{{ i18n "readMore" }}</a></div>
+
+      </div>
+ 

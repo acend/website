@@ -7,6 +7,15 @@ import trainings from "js/views/trainings";
 import about from "js/views/about";
 import faq from "js/views/faq";
 
+// lazy sizes for image loading
+import 'lazysizes';
+
+ 
+import { Popover } from 'bootstrap';
+
+//import Popover from 'bootstrap/js/dist/popover';
+
+
 import { map, lerp, getMousePos, calcWinsize, getRandomNumber } from 'js/utils/utils';
 
 export default function() {
@@ -72,6 +81,15 @@ export default function() {
 
 
   // needs to be fixed:
+ 
+
+  const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+  const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new Popover(popoverTriggerEl));
+
+//console.log('hello', popoverTriggerList);
+console.log(popoverList);
+
+
   /*
   $('[data-bs-toggle="popover"]').popover({ trigger: "manual" , html: true, animation:true})
     .on("mouseenter", function () {

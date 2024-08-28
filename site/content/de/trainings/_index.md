@@ -6,9 +6,9 @@ description: "Cloud Native Trainings mit einer einzigartigen Experience. Von Kub
 
 draft: false
 
-lead:
+header:
   title: "Trainings"
-  content: "Wir eröffnen neue Zugänge zu Cloud Native und Open Source."
+  lead: "Wir eröffnen neue Zugänge zu Cloud Native und Open Source."
 
 filtertitle: "Das passende Training für dich"
 categories:

@@ -6,9 +6,9 @@ description: "It is our shared ambition to revolutionize the world of IT trainin
 draft: false
 type: "ueber-uns"
 
-lead:
+header:
   title: "About us"
-  content: "It is our shared ambition to revolutionize the world of IT training."
+  lead: "It is our shared ambition to revolutionize the world of IT training."
 
 introtext: "What has happened so far: the idea of acend was initially formulated at a Sammy Deluxe concert in 2019. This was the moment when some of the founders agreed to pursue their vision of revolutionizing IT training. The rest is history. Today, we provide educational, entertaining and rewarding training experiences you won’t forget!"
 
