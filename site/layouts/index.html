@@ -2,7 +2,7 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
  
 {{ with  $data.homepage.video }}
-<div class="hero-video px-6 mb-16 mb-lg-32">
+<div class="hero-video px-lg-6 mb-16 mb-lg-32">
   <div class="bg-primary video-container">
   <video  autoplay loop muted playsinline>
     <source src="{{ .src }}" type="video/mp4"> 
@@ -64,7 +64,7 @@
 
 
   <!-- about -->
-  <section  class="section section-about my-13 px-6">
+  <section  class="section section-about my-13 px-lg-6">
     <div class="wide-banner text-white bg-primary pattern pt-16  pt-lg-32 pb-30 pb-lg-54">
 
     <div data-scroll class="container-fluid">

@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-{{ with .Params.lead }}
-  {{ partial "lead.html" . }}
+{{ with .Params.header }}
+  {{ partial "page-header.html" . }}
 {{ end }}
 
 {{ with .Params.introtext }}
@@ -290,7 +290,7 @@
 
               {{ range .member }}
                   <div data-scroll class="col-sm-6 col-md-4 mb-4 memberships">
-                      <a tabindex="0" class="d-block"  data-container="body" data-bs-toggle="popover" data-placement="right" data-trigger="hover" title="" data-html="true" data-content='
+                      <a tabindex="0" class="d-block"  data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="hover" title="" data-bs-html="true" data-bs-content='
                       <div class="py-2 py-md-3 px-1 px-md-1">
                         <h6>{{  .title | markdownify }}</h6>
                       <p class="small mb-2">{{.abstract }}</p>

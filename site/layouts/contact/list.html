@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-{{ with .Params.lead }}
-  {{ partial "lead.html" . }}
+{{ with .Params.header }}
+  {{ partial "page-header.html" . }}
 {{ end }}
 
 

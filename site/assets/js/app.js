@@ -3,7 +3,7 @@
 'use strict';
 
 //import 'bootstrap';
-//import Popper from "@popperjs/core";
+
 
 //import 'jquery';
 import $ from 'jquery';
@@ -39,7 +39,7 @@ const swup = new Swup({
   plugins: [
     new SwupBodyClassPlugin(),
     new SwupHeadPlugin({ persistAssets: true }),
-    new SwupDebugPlugin(),
+    //new SwupDebugPlugin(),
   ],
 });
 

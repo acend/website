@@ -6,9 +6,9 @@ description: "Cloud Native Training with a Unique Experience. From Kubernetes to
 draft: false
 
 
-lead:
+header:
   title: "Trainings"
-  content: "We provide new approaches to Cloud Native and Open Source."
+  lead: "We provide new approaches to Cloud Native and Open Source."
 
 filtertitle: "The right training for you"
 categories:

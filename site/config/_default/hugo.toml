@@ -33,13 +33,25 @@ summarylength = 20 # 70 (default)
         pageRef = "/trainings"
         weight = 1
       [[languages.de.menus.main]]
+        pageRef = "/stories"
+        name = "Stories"
+        weight = 2
+      [[languages.de.menus.main]]
+        pageRef = "/impact"
+        name = "Impact"
+        weight = 3
+      [[languages.de.menus.main]]
+        pageRef = "/journal"
+        name = "Journal"
+        weight = 4
+      [[languages.de.menus.main]]
         pageRef = "/ueber-uns"
         name = "Über uns"
-        weight = 2
+        weight = 5
       [[languages.de.menus.main]]
         pageRef = "/kontakt"
         name = "Kontakt"
-        weight = 3
+        weight = 6
 
   [languages.en]
     contentDir = "content/en"
