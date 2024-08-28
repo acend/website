@@ -1,23 +1,37 @@
-<div data-scroll class="">
+<div data-scroll class="position-relative mb-10 mb-lg-20">
 
   {{ with .Params.main_image }}
-  <div class="img-container_ px-lg-6">
+  <div class="img-container_ mb-6 ">
     {{- partial "figure" (dict "page" page "src" .  "process" "fill 1940x700" "class" "w-100") }}
   </div>
 {{ end }}
 
  
-    <div class="d-flex flex-column mb-4 px-2">
- 
-         <h2  class="mb-0">{{ .Title }}</h2>
-        <div class="category mb-3">{{  .Params.subtitle  | humanize }}</div>
-        <p class="">{{ .Params.abstract }}</p>
+    <div class="row gy-8">
+      <div class="col-lg-5">
+
+        {{ with .Params.person }}
+        <div class="mb-2">
+          <div class="bold"> {{  .name  }}</div>
+          {{  .title  }}
+        </div>
+        {{ end }}
+
+        <a class="stretched-link" href="{{ .Permalink | safeURL }}">
+          <h2  class="h3 mb-0">{{ .Title }}</h2>
+        </a> 
+        
+       </div>
+
+      <div class="col-md-auto ms-md-auto">
+        {{ if .Params.partner.enable }}
+         {{ if .Params.partner.logo }}
+          <div class="logo mb-8" style="width:140px;">
+            {{- partial "figure" (dict "page" . "src" .Params.partner.logo "width" 140 "process" "" "class" "img-fluid") }}
+          </div>
+        {{ end }}
+      {{ end }}
      </div>
-
- 
-
-
-            <div class="border-outline mt-2 mx-2_ w-100_ mb-minus  mx-3_"><a class="btn btn-primary py-3 px-5  w-100" href="{{ .Permalink | safeURL }}">{{ i18n "readMore" }}</a></div>
-
-      </div>
+ </div>
+ </div>
  

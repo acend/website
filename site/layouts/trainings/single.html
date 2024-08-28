@@ -19,7 +19,7 @@
 
       <div class="row w-100">
         <div class="col-11 col-lg-5 bg-primary p-4 ps-5 p-md-5 text-white h-100 box ">
-            <div class="ml-auto duration small-bold text-center text-md-left float-right  d-none d-md-flex align-items-center">
+            <div class="ml-auto duration small bold text-center text-md-left float-right  d-none d-md-flex align-items-center">
                 <svg class="icon-sm img-fluidme-md-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Uhr" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Uhr_RGB_Schwarz" transform="translate(7 7)" fill="#fff" fill-rule="nonzero"><path id="Path" d="M23 12v15h15v-4H27V12z"></path><path d="M25 0C11.193 0 0 11.193 0 25s11.193 25 25 25c.67 0 1.34 0 2-.09V41h-4v4.9C12.232 44.883 3.998 35.854 3.974 25.038c-.023-10.816 8.173-19.88 18.937-20.943 10.763-1.063 20.574 6.223 22.667 16.835C47.67 31.54 41.36 42.007 31 45.11v4.16c12.27-3.032 20.347-14.745 18.82-27.292C48.29 9.43 37.64-.002 25 0z" id="Path"></path></g></g></svg>
                 <span class="nowrap">{{.Params.duration }}</span>
               </div>
@@ -217,7 +217,7 @@
               {{ if gt (len .Params.personen.daten) 0 }}
               </a>
               {{end}}
-              <div id="teams" class="{{ if gt (len .Params.personen.daten) 0 }}collapse fade {{end}} border-top small-bold" data-parent="#box-anmelden">
+              <div id="teams" class="{{ if gt (len .Params.personen.daten) 0 }}collapse fade {{end}} border-top small bold" data-parent="#box-anmelden">
                   <div class="py-2  d-flex">
                       <svg class="icon icon-sm img-fluid flex-shrink-0me-2" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Sprechblase" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Sprechblase" transform="translate(6 12)" fill="#010101" fill-rule="nonzero"><path id="Path" d="M0 0v41l12.52-7H40v-4H11.48L4 34.18V4h44v26h-4v4h8V0z"/><path id="Rectangle" d="M12 10h28v4H12zm0 10h24v4H12z"/></g></g></svg>
                             <p class="mb-0 pt-1">{{ i18n "textTeams"}}</p></div>
@@ -235,7 +235,7 @@
                   <div class="icon-plusms-auto"></div>
                 </div>
               </a>
-              <div id="personen" class="collapse fade show border-top small-bold" data-parent="#box-anmelden">
+              <div id="personen" class="collapse fade show border-top small bold" data-parent="#box-anmelden">
                   <div class="border-bottom  py-2 d-flex">
                       <svg class="icon icon-sm img-fluid flex-shrink-0me-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Kalender" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Kalender_RGB_Schwarz" transform="translate(6 9)" fill="#000" fill-rule="nonzero"><path id="Rectangle" d="M18.97 4h16v4h-16z"/><path id="Path" d="M42.97 3.97V0h-4v7.95l10 .04v34.82h-44V16h40v-4h-40V8h10V.04h-4V4h-10v42.81h52V4.01z"/><path id="Rectangle" d="M8.97 20h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm-32 8h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm-32 8h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4z"/></g></g></svg>
                       <p class="mb-0 pt-1">{{ .Params.personen.daten }}</p></div>

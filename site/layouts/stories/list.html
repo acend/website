@@ -8,21 +8,15 @@
 <div class="container-fluid">
     
   {{ with .Content }}
-  <div class="col-lg-8 offset-lg-1">
+  <div class="col-lg-8 offset-lg-1 mb-8 mb-lg-16">
     {{ . }}
   </div>
   {{ end }}
  
-  
-     <div class="row my-5">
-        <div class="col-lg-10 offset-lg-1">
-          <div class="row">
-            {{ range .Data.Pages }}
-            {{ partial "content-stories" . }}
-            {{ end }}
-          </div>
-        </div>
-    </div>
+  {{ range .Data.Pages }}
+  {{ partial "content-stories" . }}
+  {{ end }}
+ 
   </div>
  
  

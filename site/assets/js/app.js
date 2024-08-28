@@ -35,6 +35,7 @@ ScrollOut({
 
 const swup = new Swup({
   containers: ['#main', '.banner nav' ],
+  ignoreVisit: (url, { el } = {}) => el?.closest('.language-switcher') ,
   //ignoreVisit: (url, { el } = {}) => el?.closest('[data-no-swup]') || el?.closest('#wpadminbar'),
   plugins: [
     new SwupBodyClassPlugin(),

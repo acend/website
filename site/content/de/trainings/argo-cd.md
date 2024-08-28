@@ -8,8 +8,9 @@ draft: false
 weight: 3
 slug:
 subtitle: "Basics"
-categories: ["Basics", "Delivery CI/CD"]
+categories: ["Basics", "Delivery CI/CD", "New"]
 duration: "1 Tag"
+costs : "CHF 1900"
 abstract: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 main_title: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 

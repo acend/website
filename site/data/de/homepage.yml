@@ -142,9 +142,11 @@ trainings-old:
 # testimonial
 testimonials:
   enable: true
-  title: "Testimonials"
+  label: "Stories"
+  title: "Erfahre was unsere Trainingsteilnehmer denken"
+  text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
   testimonial:
-    - title: "Das sagt unser Trainingsteilnehmer<br/>Matthias Summer, Österreich"
+    - title: "Jenna Jakobsen<br/>IT-Projektleiterin bei baloise"
       logo: "images/testimonials/adcubum.png"
       text: "Das Training hat mir sehr gut gefallen und ich konnte einige Dinge mitnehmen, die mir bei der täglichen Arbeit helfen. Die Praxis-Erfahrung und die Leidenschaft für die Technologie war bei den Trainern spürbar. Sie haben uns auch sehr gut unterstützt und uns nützliche Tipps gegeben."
 
