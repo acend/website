@@ -18,7 +18,7 @@ body {
 
   display: flex;
   flex-direction: column;
-  padding-top: 7rem;
+  padding-top: 17rem;
 
   color: $AC-Blue;
   color: var(--primary);
@@ -54,6 +54,11 @@ body {
       &.icon-diplom {
         width: 32px;
         height: 36px;
+      }
+
+      .single.journal & {
+        width: 28px;
+        height: 28px;
       }
     }
 }

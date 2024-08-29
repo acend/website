@@ -86,8 +86,9 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
     dir = ":cacheDir/:project"
     maxAge = "30m"
 
-#[taxonomies]
- # category = "categories"
+[taxonomies]
+  authors = "authors"
+  # category = "categories"
 
 #[permalinks]
 #  blog = "/:title/"

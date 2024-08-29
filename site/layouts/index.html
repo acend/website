@@ -41,8 +41,6 @@
   </section>
       
 
-  
-
 
   <!-- about -->
   <section  class="section section-about my-13 px-lg-6">
@@ -81,31 +79,48 @@
   </section>
   <!-- /about -->
 
+  {{ if  $data.homepage.stories.enable }}
+  {{ with  $data.homepage.stories }}
 
+  <div class="container-fluid  mb-16 mb-lg-32">
+      <a class="btn btn-sm btn-outline-primary border-1 mb-2" href="{{ .link }}">{{ .label }}</a>
+     <h2  data-scroll  class="mb-4 mb-lg-8 col-lg-4">{{ .title }}</h2>
+  
+     <div  data-scroll  class="col-lg-7 mb-8 mb-lg-16">
+       <p>{{ .text | markdownify }}</p>
+     </div>
+
+     <div class="testimonial-carousel text-white">
+      {{ range first 3 (shuffle (where $.Site.RegularPages "Section" "stories" )) }}
+        {{ partial "content-story-testimonial" . }}
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
  
 
-  <!-- testimonials -->
-{{ if  $data.homepage.testimonials.enable }}
-{{ with  $data.homepage.testimonials }}
+  {{ if  $data.homepage.stories.enable }}
+  {{ with  $data.homepage.stories }}
 
-<div class="container-fluid  mb-16 mb-lg-32">
-  {{ with .label }}
-     <a class="btn btn-sm btn-outline-primary border-1 mb-2" href="{{ i18n "trainingsLink" }}">{{ . }}</a>
+  <div class="container-fluid  mb-16 mb-lg-32">
+      <a class="btn btn-sm btn-outline-primary border-1 mb-2" href="{{ .link }}">{{ .label }}</a>
+     <h2  data-scroll  class="mb-4 mb-lg-8 col-lg-4">{{ .title }}</h2>
+  
+     <div  data-scroll  class="col-lg-7 mb-8 mb-lg-16">
+       <p>{{ .text | markdownify }}</p>
+     </div>
+
+     <div class="row row-cols-1 row-cols-lg-3">
+      {{ range first 3 (shuffle (where $.Site.RegularPages "Section" "journal" )) }}
+        {{ partial "content-journal-small" . }}
+      {{ end }}
+    </div>
+  </div>
   {{ end }}
-   <h2  data-scroll  class="mb-4 mb-lg-8 col-lg-4">{{ .title }}</h2>
-
-   <div  data-scroll  class="col-lg-7 mb-8 mb-lg-16">
-     <p>{{ .text | markdownify }}</p>
-   </div>
-
-
-
-  {{ partial "testimonials.html" . }}
-
-</div>
-{{ end }}
-{{ end }}
-<!-- /testimonials -->
+  {{ end }}
+ 
+ 
 
   <!-- partner -->
   {{ if  $data.homepage.partner.enable }}

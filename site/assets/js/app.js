@@ -13,21 +13,14 @@ window.$ = $;
 import Swup from 'swup';
 import SwupBodyClassPlugin from '@swup/body-class-plugin';
 import SwupHeadPlugin from '@swup/head-plugin';
-import SwupDebugPlugin from '@swup/debug-plugin';
+//import SwupDebugPlugin from '@swup/debug-plugin';
 
-import ScrollOut from "scroll-out";
+//import ScrollOut from "scroll-out";
  
 import onEveryPage from "./assets/js/views/on-every-page";
  
- 
-
- 
 
 
-ScrollOut({
-  targets: ".banner",
-  offset: 100
-});
 
  
 

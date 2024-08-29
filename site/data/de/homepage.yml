@@ -139,36 +139,24 @@ trainings-old:
 #  youtubeID: "BReegJE0HaI"
 
 
-# testimonial
-testimonials:
+ 
+# Stories
+stories: 
   enable: true
   label: "Stories"
+  link: "/stories"
   title: "Erfahre was unsere Trainingsteilnehmer denken"
-  text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
-  testimonial:
-    - title: "Jenna Jakobsen<br/>IT-Projektleiterin bei baloise"
-      logo: "images/testimonials/adcubum.png"
-      text: "Das Training hat mir sehr gut gefallen und ich konnte einige Dinge mitnehmen, die mir bei der täglichen Arbeit helfen. Die Praxis-Erfahrung und die Leidenschaft für die Technologie war bei den Trainern spürbar. Sie haben uns auch sehr gut unterstützt und uns nützliche Tipps gegeben."
+  text: "In unseren Stories berichten wir über unsere Trainings und die Erfahrungen unserer Teilnehmer. Lass dich inspirieren und erfahre mehr über die Welt von Cloud Native."
 
-    - title: "Das sagt unser Trainingsteilnehmer<br/>Corsin Decurtins, Zürich"
-      logo: "images/testimonials/netceterea.png"
-      text: "Wir konnten in mehreren Schulungen das Know-How, unserer Entwickler in ganz Europa, im Bereich Kubernetes aufbauen. Dies hilft uns auch in Zukunft, unsere Kunden mit innovativen Softwarelösungen zu  beliefern. Einfach tolle Trainings und super Trainer."
 
-    - title: "Das sagt unser Trainingsteilnehmer<br/>Thomas Abbrederis, Vaduz"
-      logo: "images/testimonials/lgt.png"
-      text: "Durch die Schulung konnten wir das Know-how im Bereich moderner Container Technologie praxisnah mit der zur Verfügung gestellten Openshift Plattform vertiefen. Durch die sehr kompetenten Trainer konnte der Respekt vor den neuen Container Technologien reduziert werden und damit den Schulungsteilnehmern für die Zukunft eine sehr gute Basis gelegt werden."
+# Journal
+journal: 
+  enable: true
+  label: "Journal"
+  link: "/journal"
+  title: "Neuigkeiten von Cloud Native bis Open Source"
+  text: "In unserem Journal findest du spannende Artikel und Neuigkeiten rund um Cloud Native, Open Source und die Welt von acend."
 
-    - title: "Das sagt unser Trainingsteilnehmer<br/>Michael Rudiger, Solothurn"
-      logo: "images/testimonials/centris.png"
-      text: "Das Training war sehr hilfreich und gab mir einen super Einblick in die Welt von Prometheus. Dank den hands-on Labs konnte ich mein Wissen gleich anwenden. Die Trainer waren sehr kompetent und hilfsbereit, die Workshops technisch toll umgesetzt."
-
-    - title: "Das sagt unser Trainingsteilnehmer<br/>Roland Egli, Solothurn"
-      logo: "images/testimonials/kt-solothurn.png"
-      text: "Herzlichen Dank für das wunderbare Zertifikat. Das Training war sehr lernreich und der Austausch mit den anderen Trainees empfand ich als sehr wertvoll. Toll organisiert."
-
-    - title: "Das sagt unsere Trainingsteilnehmer<br/>Nathanael Weber, Bern"
-      logo: "images/testimonials/mtrail.png"
-      text: "Die Ausbildung war ausserordentlich gut auf unsere Bedürfnisse zugeschnitten. Die praktischen Übungen waren gerade genug schwierig, dass sich noch weitere Fragen zu Helm ergeben haben und vom Referent kompetent beantwortet wurden. Herzlichen Dank acend für diese Erfahrung!"
 
 # partner
 partner:

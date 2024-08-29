@@ -1,0 +1,93 @@
+{{ define "main" }}
+
+
+<article>
+
+
+
+  <div class="container-fluid">
+      <div class="col-lg-8 offset-lg-1">
+        <h1 class="h2 mb-8 mb-lg-16">{{ .Title | markdownify }}</h1>
+        {{ with .Params.lead }}
+            <div class="mb-8 mb-lg-16">{{ . | markdownify }}</div>
+        {{ end }}
+      </div>
+
+ 
+        {{ with .Params.main_image }}
+        <div class="col-lg-8 offset-lg-2 mb-8 mb-lg-16">
+          {{- partial "figure" (dict "page" page "src" .  "width" 1200 "process" "" "class" "w-100") }}
+        </div>
+      {{ end }}
+   
+
+ 
+      <div class="col-lg-8 offset-lg-2 entry-content mb-8 mb-lg-16">
+        {{ .Content }}
+      </div>
+ 
+      <div class="col-md-10 offset-md-1">
+        <div class="d-flex mb-8 pb-6 border-bottom">
+          <div class="bold small">
+            {{ .Params.date | time.Format "02.01.2006" }}
+          </div>
+          <div class="ms-auto">
+            <a class="d-inline-block ms-3 email" href="{{ (print "mailto:?subject=" .Title "&body=" .Permalink )   }}"  target="_blank" rel="noopener" aria-label="share by e-mail">
+              <svg class="icon " viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M31.25 8.75v5.625h5v21.75H3.75v-21.75h5V3.75h22.5v2.5h-20V20.1l3.313 3.287 5.156-5.162 5.468 5.475 3.563-3.563V11.25h-2.5v-2.5h5Zm.744 8.125h-.744v.756l.744-.756Zm1.756 1.775v13.638l-6.837-6.82 6.837-6.818Zm-25.944 15h23.75L19.681 21.775 7.806 33.65ZM6.25 31.669V18.637l6.5 6.52-6.5 6.512Zm1.769-14.794.731.725v-.725h-.731Z" fill="#074761"/></svg>
+            </a>
+            <a class="d-inline-block ms-2" href="https://www.linkedin.com/sharing/share-offsite/{{ (print "?url=" .Permalink )  }}"  target="_blank" rel="noopener" aria-label="share on linkedin">
+              <svg class="icon" viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.555 12.87A3.307 3.307 0 0 1 6.25 9.56a3.307 3.307 0 0 1 3.304-3.31 3.307 3.307 0 0 1 3.304 3.31c0 1.828-1.479 3.31-3.303 3.31ZM6.702 33.75h5.7V15.38h-5.7v18.37Zm21.351 0h5.695l.002-10.077c0-4.947-1.064-8.75-6.836-8.75a5.988 5.988 0 0 0-5.392 2.968h-.077v-2.51H15.98v18.368h5.694v-9.086c0-2.397.454-4.717 3.42-4.717 2.923 0 2.96 2.742 2.96 4.872v8.932Z" fill="#074761"/></svg>
+            </a>
+            <a class="d-inline-block ms-2" href="https://twitter.com/intent/tweet?text={{ .Title }}{{ (print "&amp;url=" .Permalink)  }}"  target="_blank" rel="noopener" aria-label="share on twitter">
+              <svg class="icon" viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m18.63 23.97-7.618 8.53h-4.22l9.867-11.052 1.971 2.523ZM20.933 15.95l6.975-7.825h4.217l-9.239 10.361-1.953-2.537Z" fill="#074761"/><path d="M33.75 32.5h-8.486L6.25 8.125h8.701L33.75 32.5Zm-7.322-2.475h2.336L13.682 10.47h-2.508l15.254 19.555Z" fill="#074761"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-8 mx-auto">
+
+          {{ range $key, $value := .Params.authors }}
+          {{ with $.Site.GetPage "taxonomyTerm" $value }}
+          <div class="author d-flex mb-16 mb-lg-32">
+            {{ if .Params.image }}
+            <div class="logo rounded-circle overflow-hidden me-6 me-lg-12 flex-shrink-0" style="width:80px;">
+              {{- partial "img" (dict "page" . "src" .Params.image "width" 80 "process" "fill 160x160" "class" "img-fluid" "alt" "{{  .Params.title  }}") }}
+            </div>
+            {{ end }}
+            <div>
+              <div class="bold mb-4"> {{  .Title  }}</div>
+              <div class="small mb-6"> {{  .Params.abstract  }}</div>
+
+              <div class="d-flex flex-column flex-md-row ">
+
+                {{- partial "social-media-links" . -}}
+                
+                <a class="link  ms-md-auto mt-4 mt-md-auto small bold" href="{{ .Permalink | safeURL }}">
+                  Alle Beiträge von {{  .Title  }}
+                </a> 
+              </div>
+            </div>
+          </div>
+          {{ end }}
+          {{ end }}
+          
+        </div>
+
+        
+      </div>
+
+  </div>
+
+
+</article>
+
+
+
+
+
+
+ 
+
+ 
+ 
+
+{{ end }}

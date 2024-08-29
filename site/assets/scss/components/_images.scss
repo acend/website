@@ -1,9 +1,10 @@
-figure {
-  margin: 2rem 0;
-}
 
-.figure-caption {
+
+.figure-caption,
+figcaption {
+  font-size: 1.4rem !important;
   margin: 0.25rem 0 0.75rem;
+  font-style: normal;
 }
 
 figure.wide {

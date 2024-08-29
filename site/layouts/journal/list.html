@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+{{ with .Params.header }}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+
+<div class="container-fluid">
+    
+  {{ with .Content }}
+  <div class="col-lg-8 offset-lg-1 mb-8 mb-lg-16">
+    {{ . }}
+  </div>
+  {{ end }}
+  
+  <div class="col-lg-10 offset-lg-1 mb-8 mb-lg-16">
+    {{ range .Data.Pages }}
+    {{ partial "content-journal" . }}
+    {{ end }}
+  </div>  
+ 
+  </div>
+ 
+ 
+
+{{ partial "banner-anmelden.html" . }}
+
+
+{{ end }}

@@ -100,7 +100,7 @@
   list-style: none;
 
   .testimonial-carousel & {
-    bottom: 2rem;
+    bottom: -2em;
    }
 
   .dot {
@@ -113,7 +113,7 @@
     opacity: .25;
 
     .testimonial-carousel & {
-      background: #fff;
+      //background: #fff;
     }
   }
 

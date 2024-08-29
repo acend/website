@@ -1,0 +1,27 @@
+.author {
+  .rounded-circle {
+
+    .single & {
+      width: 8rem;
+      height: 8rem;
+
+      @include media-breakpoint-up(lg) {
+        width: 12rem;
+        height: 12rem;
+      } 
+    }
+
+    .single.journal & {
+      @include media-breakpoint-up(lg) {
+        width: 8rem;
+        height: 8rem;
+      } 
+    }
+
+    .journal-teaster & {
+      width: 4rem;
+      height: 4rem;
+    }
+  }
+
+}
