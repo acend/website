@@ -13,13 +13,12 @@
  
 
  
-   <div class="col-lg-6 ">
+   <div class="col-lg-6 py-16 py-lg-32">
 
-     <div class="main-carousel py-16 py-lg-32">
-       <div  class="carousel-cell container p-0 py-5">
+   
          <div class="d-flex images">
            {{ with .Params.headerimages }}
-           <div class="img-container mt-5" id="l1">
+           <div class="img-container mt-5 z-1" id="l1">
              {{ partial "img-srcset.html" (dict "img" .img1 "size" 200 "lazy" false) }}
             </div>
             <div class="img-container" id="l2">
@@ -33,8 +32,7 @@
           
         </div>
       
-        </div>
-      </div>
+       
   </div>
 
 
