@@ -1,0 +1,37 @@
+{{ define "main" }}
+ 
+  <div class="container-fluid mb-16 mb-lg-32">
+      <div class="col-lg-8 offset-lg-1 mb-8 mb-lg-16">
+
+        <div class="author d-flex ">
+          {{ if .Params.image }}
+          <div class="rounded-circle overflow-hidden me-6 me-lg-12 flex-shrink-0 mb-auto">
+            {{- partial "img" (dict "page" . "src" .Params.image "width" 120 "process" "fill 240x240" "class" "img-fluid" "alt" "{{  .Params.title  }}") }}
+          </div>
+          {{ end }}
+          <div>
+            <h1 class="h3 mb-4"> {{  .Title  }}</h1>
+            <div class="mb-6"> {{  .Params.abstract  }}</div>
+
+            
+            {{- partial "social-media-links" . -}}
+
+
+          </div>
+        </div>
+ 
+
+      </div>
+ 
+        <div class="col-lg-10 offset-lg-1 ">
+          {{ range where (where $.Site.RegularPages "Section" "journal") ".Params.authors" "intersect" (slice .Slug) }}
+            {{- partial "content-journal" . -}}
+          {{ end }}
+        </div>
+        
+      </div>
+
+  </div>
+  
+
+{{ end }}

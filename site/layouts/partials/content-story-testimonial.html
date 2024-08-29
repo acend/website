@@ -1,0 +1,41 @@
+<div class="testimonial carousel-cell position-relative_ py-lg-16 bg-primary w-100">
+  <div class="col-lg-1 position-absolute bg-white h-100 top-0 "></div>
+  
+  <div class="row gy-8 ">
+
+    <div class="col-lg-5">
+      {{ with .Params.main_image }}
+        <div class="position-relative z-1 px-3 px-lg-0">
+          {{- partial "img" (dict "page" page "src" .  "process" "fill 1200x700" "class" "w-100") }}
+        </div>
+      {{ end }}
+    </div>
+      <div class="col-lg-7 px-3 ps-lg-8 pe-lg-16">
+
+        <div class="d-flex">
+          {{ with .Params.person }}
+          <div class="mb-2">
+            <div class="bold"> {{  .name  }}</div>
+            {{  .title  }}
+          </div>
+          {{ end }}
+            {{ if .Params.partner.logo }}
+          <div class="logo mb-8 ms-auto" style="width:140px;">
+            {{- partial "figure" (dict "page" . "src" .Params.partner.logo "width" 140 "process" "" "class" "img-fluid") }}
+          </div>
+          {{ end }}
+        </div>
+
+        <p class="quote">«{{ .Params.person.quote  | markdownify }}»</p>
+
+        <a class="stretched-link_" href="{{ .Permalink | safeURL }}">
+         Weiterlesen
+        </a> 
+        
+       </div>
+
+   
+     </div>
+  </div>
+ 
+ 

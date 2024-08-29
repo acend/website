@@ -48,10 +48,6 @@ summarylength = 20 # 70 (default)
         pageRef = "/ueber-uns"
         name = "Über uns"
         weight = 5
-      [[languages.de.menus.main]]
-        pageRef = "/kontakt"
-        name = "Kontakt"
-        weight = 6
 
   [languages.en]
     contentDir = "content/en"
@@ -69,10 +65,6 @@ summarylength = 20 # 70 (default)
         pageRef = "/en/about"
         name = "About"
         weight = 2
-      [[languages.en.menus.main]]
-        pageRef = "/en/contact"
-        name = "Contact"
-        weight = 3
 
 
 
@@ -94,8 +86,9 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
     dir = ":cacheDir/:project"
     maxAge = "30m"
 
-#[taxonomies]
- # category = "categories"
+[taxonomies]
+  authors = "authors"
+  # category = "categories"
 
 #[permalinks]
 #  blog = "/:title/"

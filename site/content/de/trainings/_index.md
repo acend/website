@@ -13,6 +13,12 @@ header:
 filtertitle: "Das passende Training für dich"
 categories:
   ["Kubernetes", "Delivery CI/CD", "Ergänzende Trainings", "Programming"]
+
+zertifikate: 
+  title: "Zertifikate und Badges"
+  text: "Nach erfolgreichem Abschluss des Trainings erhälts Du von uns ein Zertifikat (PDF) und einen Credly-Badge. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod temp."
+  link: "https://credly.com"
+  linktext: "Weiter zu Credly"
 ---
 
 acend steht für eine abenteuerlustige und aussergewöhnliche Lehr- und Lernerfahrung. Als Plattform vermitteln wir Wissen hands-on und stellen dafür hervorragende Rahmenbedingungen sicher.<br/>

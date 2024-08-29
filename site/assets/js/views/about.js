@@ -2,9 +2,11 @@ import  Flickity from 'flickity-fade';
 export default function() {
   
   // decode E-Mail  
+  /*
   $('a.email').each(function(){
     $(this).attr('href', atob( $(this).attr('href')));
   });
+  */
 
   if($('.team-carousel').length) {
       var flkty = new Flickity( '.team-carousel', {

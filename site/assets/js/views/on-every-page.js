@@ -6,6 +6,7 @@ import home from "js/views/home";
 import trainings from "js/views/trainings";
 import about from "js/views/about";
 import faq from "js/views/faq";
+import Slideshows from "js/utils/slideshows";
 
 // lazy sizes for image loading
 import 'lazysizes';
@@ -25,7 +26,10 @@ export default function() {
     once: true,
   });
 
-  
+  ScrollOut({
+    targets: ".banner",
+    offset: 200,
+  });
 
 
   var sticky = new Sticky('.sticky');
@@ -58,6 +62,7 @@ export default function() {
   
  
 
+  Slideshows();
   home();
   trainings();
   about();
@@ -84,29 +89,13 @@ export default function() {
  
 
   const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
-  const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new Popover(popoverTriggerEl));
 
-//console.log('hello', popoverTriggerList);
-console.log(popoverList);
+  if (popoverTriggerList) {
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new Popover(popoverTriggerEl));
+  }
 
 
-  /*
-  $('[data-bs-toggle="popover"]').popover({ trigger: "manual" , html: true, animation:true})
-    .on("mouseenter", function () {
-        var _this = this;
-        $(this).popover("show");
-        $(".popover").on("mouseleave", function () {
-            $(_this).popover('hide');
-        });
-    }).on("mouseleave", function () {
-        var _this = this;
-        setTimeout(function () {
-            if (!$(".popover:hover").length) {
-                $(_this).popover("hide");
-            }
-        }, 200);
-  });
-  */
+ 
 
   // StartslideShow Animation:
 

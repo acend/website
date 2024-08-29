@@ -18,7 +18,7 @@ body {
 
   display: flex;
   flex-direction: column;
-  padding-top: 7rem;
+  padding-top: 17rem;
 
   color: $AC-Blue;
   color: var(--primary);
@@ -54,6 +54,11 @@ body {
       &.icon-diplom {
         width: 32px;
         height: 36px;
+      }
+
+      .single.journal & {
+        width: 28px;
+        height: 28px;
       }
     }
 }
@@ -149,22 +154,38 @@ h6,
     }
 }
 
+.light {
+  font-family: "TTFirsNeue-Light", sans-serif;
+}
+
+.lead-article {
+  font-size: 2rem;
+  line-height: 1.28;
+
+  @include media-breakpoint-up(md) {
+    font-size: 2.8rem;
+  }
+}
+
 .bold {
   font-family: "TTFirsNeue-Medium", sans-serif;
 }
 
-.small-bold {
-  font-family: "TTFirsNeue-Medium", sans-serif;
+.small {
   font-size: 1.4rem;
 }
 
-
-
 .btn {
   font-family: "TTFirsNeue-Medium", sans-serif;
+  font-size: 1em;
   background-color: var(--primary);
   color: #fff;
   border-radius: 0;
+}
+
+.btn-sm {
+  font-family: "TTFirsNeue-Light", sans-serif;
+  font-size: 1.4rem;
 }
 
 .bg-primary {
