@@ -4,8 +4,14 @@ other = "Register"
 [readMore]
 other = "Discover"
 
+[continueReading]
+other = "Continue reading"
+
 [trainingsangebot]
 other = "Training Offer"
+
+[new]
+other = "New"
 
 [personen]
 other = "Individuals"

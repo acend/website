@@ -1,36 +1,7 @@
 {{ define "main" }}
 
 
-<div class="main-carousel mb-lg-6">
-  <div  class="carousel-cell container p-0 py-5">
-    <div class="d-flex images">
-        {{ with .Params.headerimages }}
-        <div class="img-container mt-5" id="l1">
-            {{ partial "img-srcset.html" (dict "img" .img1 "size" 200 "lazy" false) }}
-        </div>
-        <div class="img-container" id="l2">
-            {{ partial "img-srcset.html" (dict "img" .img2 "size" 600 "lazy" false) }}
-        </div>
-        <div class="img-container align-self-end mb-5" id="l3">
-            {{ partial "img-srcset.html" (dict "img" .img3 "size" 300 "lazy" false) }}
-        </div>
-         {{ end }}
-        </div>
 
-      <div class="row w-100">
-        <div class="col-11 col-lg-5 bg-primary p-4 ps-5 p-md-5 text-white h-100 box ">
-            <div class="ml-auto duration small bold text-center text-md-left float-right  d-none d-md-flex align-items-center">
-                <svg class="icon-sm img-fluidme-md-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Uhr" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Uhr_RGB_Schwarz" transform="translate(7 7)" fill="#fff" fill-rule="nonzero"><path id="Path" d="M23 12v15h15v-4H27V12z"></path><path d="M25 0C11.193 0 0 11.193 0 25s11.193 25 25 25c.67 0 1.34 0 2-.09V41h-4v4.9C12.232 44.883 3.998 35.854 3.974 25.038c-.023-10.816 8.173-19.88 18.937-20.943 10.763-1.063 20.574 6.223 22.667 16.835C47.67 31.54 41.36 42.007 31 45.11v4.16c12.27-3.032 20.347-14.745 18.82-27.292C48.29 9.43 37.64-.002 25 0z" id="Path"></path></g></g></svg>
-                <span class="nowrap">{{.Params.duration }}</span>
-              </div>
-
-            <div class="h4">{{ i18n "trainingsangebot" }}</div>
-            <h3 class="lead-big mb-0">{{.Params.title }}</h3>
-            {{ if .Params.subtitle}} <div class="category mb-3 mb-lg-4">{{  .Params.subtitle  | humanize }}</div> {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
 
 
 

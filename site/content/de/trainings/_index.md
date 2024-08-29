@@ -10,6 +10,11 @@ header:
   title: "Trainings"
   lead: "Wir eröffnen neue Zugänge zu Cloud Native und Open Source."
 
+headerimages:
+  img1 : "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
+  img2 : "images/trainings/ACEND_Jeremy@2x.jpg"
+  img3 : "images/trainings/ACEND_CodeA@2x.jpg"
+  
 filtertitle: "Das passende Training für dich"
 categories:
   ["Kubernetes", "Delivery CI/CD", "Ergänzende Trainings", "Programming"]
