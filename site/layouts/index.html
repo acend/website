@@ -100,8 +100,8 @@
   {{ end }}
  
 
-  {{ if  $data.homepage.stories.enable }}
-  {{ with  $data.homepage.stories }}
+  {{ if  $data.homepage.journal.enable }}
+  {{ with  $data.homepage.journal }}
 
   <div class="container-fluid  mb-16 mb-lg-32">
       <a class="btn btn-sm btn-outline-primary border-1 mb-2" href="{{ .link }}">{{ .label }}</a>
@@ -116,6 +116,10 @@
         {{ partial "content-journal-small" . }}
       {{ end }}
     </div>
+
+    <div class="text-end mt-6 mb-18">
+      <a href="{{ .link }}" class="btn btn-outline-primary  py-3 px-5 ">{{ i18n "readMore" }}</a>
+   </div>
   </div>
   {{ end }}
   {{ end }}
