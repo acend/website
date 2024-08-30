@@ -1,3 +1,21 @@
+.person {
+  .info-box {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+  }
+
+  &:hover {
+    .info-box {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  } 
+}
+
+
+
+
 .ueber-uns,
 .about {
   .wide-banner {

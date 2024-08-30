@@ -10,38 +10,20 @@ header:
   title: "Über uns"
   lead: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren."
 
-introtext: "Was bisher geschah: Die Idee zu acend entstand 2019 an einem Samy Deluxe Konzert. Hier fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren. Gesagt, getan. Heute können wir dir lehrreiche, unterhaltsame und bereichernde Trainings anbieten, die dir als unvergessliches Erlebnis in Erinnerung bleiben!"
+introtext: "Wir bieten attraktive Trainings, die den Wissensaustausch und das gemeinsame Lernen ins Zentrum stellen – praxisbezogen, unkompliziert und aus erster Hand."
 
-# main image
-main_image: "images/ueberuns/lava_neu.jpg"
-
-subtopic_1:
-  title: "Unsere Mission"
-  text: "Als Wissensplattform begleitet acend Engineers und ihre Unternehmen in technologisches Neuland. Wir bieten aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrungen. Gemeinsam mit starken Partnern wie Puzzle ITC nutzen wir das Fachwissen, das wir in der Entwicklung, Betreuung und Vermittlung von Cloud Native Technologien und Open Source gemacht haben. Unsere Trainings stellen den Wissensaustausch und das gemeinsame Lernen ins Zentrum - praxisbezogen, unkompliziert und aus erster Hand."
-
-subtopic_2:
-  title: "Neue Wege gehen"
-  text: "Wir vermitteln Wissen überraschend und interaktiv. Unsere Trainings bestehen aus abwechslungsreicher Theorie und praxisnahen hands-on Labs."
-
-subtopic_3:
-  title: "Von Pionieren lernen"
-  text: "Unsere Trainer sind Experten auf ihrem Fachgebiet, bilden sich mit viel Wissensdurst weiter und sind mit Herzblut bei der Sache."
-
-subtopic_4:
-  title: "Teil der Community werden"
-  text: "Wir begreifen uns als Teil der wachsenden Schweizer Cloud Native Community und laden dich ein, dich anzuschliessen. Deswegen pflegen wir den Austausch während und nach unseren Trainings."
-
-# quote
-quote:
-  text: "Die Menschen und ihre Kompetenzen verhelfen Unternehmen zu Erfolg. Wir vermitteln unseren TeilnehmerInnen neues Wissen und unterstützen sie dabei, sich mit neuen Ansätzen weiterzuentwickeln."
-  name: "Thomas"
-  title: "Co-Founder acend"
-  img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
-
+brand_values:
+  - title: "aussergewöhnlich"
+    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
+  - title: "abenteuerlustig"
+    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
+  - title: "open-minded"
+    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
+  
 # team
 team:
   enable: true
-  title: "Die Personen hinter acend"
+  title: "Wir sind +26 leidenschaftliche Technologie-Enthusiasten, die davon überzeugt sind, dass die digitale Transformation eine Reise voller Entdeckungen und Herausforderungen ist."
   team_member:
 
     - title: "Andreas Gehrig"
@@ -242,10 +224,29 @@ team:
       twitter: "https://twitter.com/Tobee_Tr"
       email: "tobi@acend.ch"
 
+join_us:
+  title: "Du möchtest Teil unseres Teams werden?"
+  text: "Bei acend schaffen wir ein Umfeld, das von Kreativität, Zusammenarbeit und Innovation geprägt ist. Wir suchen ständig nach talentierten und motivierten Menschen, die bereit sind, gemeinsam mit uns neue Horizonte zu erschliessen."
+  link: "mailto:info@acend.ch"
+  link_label: "Jetzt bewerben"
+
+
+community:
+  text: "Wir begreifen uns als Teil der wachsenden Schweizer Cloud Native Community und laden dich ein, dich anzuschliessen. Deswegen pflegen wir den Austausch während und nach unseren Trainings."  
+  images:
+    - img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
+    - img: "images/ueberuns/ACEND_Workshop_Brainstorming@4x.jpg"
+    - img: "images/ueberuns/ACEND_Students_Discussion@4x.jpg"
+    - img: "images/ueberuns/ACEND_Workshop_Tablet@4x.jpg"
+    - img: "images/ueberuns/ACEND_Workshop_Frontal@4x.jpg"
+
+
+
 # Memberships
 memberships:
   enable: true
   title: "Mitgliedschaften"
+  text: "Diese Mitgliedschaften ermöglichen es uns, unser Fachwissen zu erweitern, Best Practices auszutauschen und unser Engagement für Exzellenz in der IT-Branche zu unterstreichen."
   member:
     - title: "bernerit.rocks"
       logo: "images/mitgliedschaften/berner-it-rocks.png"
