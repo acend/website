@@ -69,6 +69,8 @@ export default function() {
   faq();
 
 
+
+    // needs to be fixed:
   // Background-images
   $('[data-background]').each(function () {
     $(this).css({
@@ -85,7 +87,7 @@ export default function() {
   
 
 
-  // needs to be fixed:
+
  
 
   const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');

@@ -1,6 +1,27 @@
-import  Flickity from 'flickity-fade';
+//import  Flickity from 'flickity-fade';
 export default function() {
+
+  const teamSection = document.querySelector('.team-list');
   
+  if (teamSection) {
+    
+    // shuffle team
+    for (let i = 0; i <= teamSection.children.length; i++) {      
+      teamSection.appendChild(teamSection.children[Math.random() * i | 0]);
+    } 
+  
+
+    const team = document.querySelectorAll('.person');    
+    
+    team.forEach((el) => {
+      el.addEventListener('click', function() {
+        el.classList.toggle('active');
+      });
+    });
+  }
+
+ 
+
   // decode E-Mail  
   /*
   $('a.email').each(function(){
@@ -8,6 +29,8 @@ export default function() {
   });
   */
 
+
+  /*
   if($('.team-carousel').length) {
       var flkty = new Flickity( '.team-carousel', {
         wrapAround: true,
@@ -91,9 +114,9 @@ export default function() {
     
       setTimeout(function(){
         $('.team-info-link[data-name="'+target+'"]').trigger('click');
-      },600);/**/
+      },600);
     }
    }
 
-
+*/
 }

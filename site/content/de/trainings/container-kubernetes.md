@@ -129,6 +129,7 @@ trainers:
 # testimonials
 testimonials:
   enable: true
+  title: "Das sagen unsere Trainingsteilnehmer"
   testimonial:
     - title : "Das sagt unser Trainingsteilnehmer<br/>Corsin Decurtins, Zürich"
       logo : "images/testimonials/netceterea.png"

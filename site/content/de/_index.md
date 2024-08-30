@@ -1,6 +1,6 @@
 ---
-title: "tim&koko — into the cloud"
-description: "tim&koko helps businesses like yours get all the way to the top. More specifically: Into the cloud. With advice at eye-level and technological solutions that unlock untapped potential"
+title: "Cloud Native Trainings Schweiz - acend gmbh"
+description: "acend bietet dir praxisorientierte Cloud Native Trainings, bei denen dir mehr als nur das technische Know-how in Erinnerung bleiben wird. Von Engineers für Engineers."
 header: ""
 date: 2022-02-22T00:00:00+00:00
 lastmod: 2024-02-20T00:00:00+00:00

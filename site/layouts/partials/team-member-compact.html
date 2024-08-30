@@ -1,18 +1,46 @@
-<div data-scroll class="col-6 col-md-4 col-lg-3 mb-5 person-box">
+<div data-scroll class="col person">
+  <div class="inner position-relative">
 
-         {{ if .image }}
-         <!-- <a class="d-block team-info-link mb-3  " data-bs-toggle="modal" href="#{{ .title | urlize}}"> }} -->
-         <a class="d-block team-info-link mb-3" data-name="{{ .title | urlize}}" data-bs-toggle="modal" href="#modalTeam">
-            {{ partial "img-srcset.html" (dict "img" .image "size" 230) }}
-          <svg  width="22px" height="22px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <title>icon more info</title>
-            <g id="icon-spez./MoreInfo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <path d="M14,0 C6.2680135,0 0,6.2680135 0,14 C0,21.7319865 6.2680135,28 14,28 C21.7319865,28 28,21.7319865 28,14 C28,6.2680135 21.7319865,0 14,0 Z M14,2 C20.627417,2 26,7.372583 26,14 C26,20.627417 20.627417,26 14,26 C7.372583,26 2,20.627417 2,14 C2,7.372583 7.372583,2 14,2 Z" id="Oval" fill="#ffffff" fill-rule="nonzero"></path>
-                <path d="M15,9.36363636 L14.9996364,12.9996364 L18.6363636,13 L18.6363636,15 L14.9996364,14.9996364 L15,18.6363636 L13,18.6363636 L12.9996364,14.9996364 L9.36363636,15 L9.36363636,13 L12.9996364,12.9996364 L13,9.36363636 L15,9.36363636 Z" id="Combined-Shape" fill="#ffffff" fill-rule="nonzero"></path>
-            </g>
-        </svg>
-         </a>
-         {{ end }}
-         <h6 class="mb-0">{{.title }}</h6>
-         <p class="title mb-0">{{.designation }}</p>
+    {{ if .image }}
+    {{- partial "img" (dict "page" . "src" .image "width" 392 "process" "fill 784x1056" "alt" "{{ .title  }}") }}
+    {{ end }}
+    
+    <div class="position-absolute bottom-0 text-white p-4">
+      <h4 class="bold mb-0">{{.title }}</h4>
+      <p class="small mb-0">{{.designation }}</p>
+    </div>
+    
+    <div class="info-box position-absolute top-0 bottom-0 bg-white border w-100 px-4 pb-4 pt-6">
+        <div class="d-flex flex-column h-100">
+          <div class="bold mb-8">{{.abstract }}</div>
+          
+          {{ with .experience }}
+          <div class="small mb-4">
+            <div class="bold">{{ i18n "praxiserfahrung" }}</div>
+            {{ . }}
+          </div>
+          {{ end }}
+
+
+          <div class="mt-auto">
+            {{ with .email }}
+            <a class="d-inline-block me-2 email" href="{{ (print "mailto:" . )   | base64Encode }}"  target="_blank" rel="noopener" aria-label="E-Mail">
+              <svg class="icon icon-sm " viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M31.25 8.75v5.625h5v21.75H3.75v-21.75h5V3.75h22.5v2.5h-20V20.1l3.313 3.287 5.156-5.162 5.468 5.475 3.563-3.563V11.25h-2.5v-2.5h5Zm.744 8.125h-.744v.756l.744-.756Zm1.756 1.775v13.638l-6.837-6.82 6.837-6.818Zm-25.944 15h23.75L19.681 21.775 7.806 33.65ZM6.25 31.669V18.637l6.5 6.52-6.5 6.512Zm1.769-14.794.731.725v-.725h-.731Z" fill="#074761"/></svg>
+            </a>
+            {{ end }}
+            
+            {{ with .linkedin }}
+            <a class="d-inline-block me-2" href="{{. }}"  target="_blank" rel="noopener" aria-label="LinkedIn Profile">
+              <svg class="icon icon-sm" viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.555 12.87A3.307 3.307 0 0 1 6.25 9.56a3.307 3.307 0 0 1 3.304-3.31 3.307 3.307 0 0 1 3.304 3.31c0 1.828-1.479 3.31-3.303 3.31ZM6.702 33.75h5.7V15.38h-5.7v18.37Zm21.351 0h5.695l.002-10.077c0-4.947-1.064-8.75-6.836-8.75a5.988 5.988 0 0 0-5.392 2.968h-.077v-2.51H15.98v18.368h5.694v-9.086c0-2.397.454-4.717 3.42-4.717 2.923 0 2.96 2.742 2.96 4.872v8.932Z" fill="#074761"/></svg>
+            </a>
+            {{ end }}
+            {{ with .twitter }}
+            <a class="d-inline-block" href="{{. }}"  target="_blank" rel="noopener" aria-label="Profile on X">
+              <svg class="icon icon-sm" viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m18.63 23.97-7.618 8.53h-4.22l9.867-11.052 1.971 2.523ZM20.933 15.95l6.975-7.825h4.217l-9.239 10.361-1.953-2.537Z" fill="#074761"/><path d="M33.75 32.5h-8.486L6.25 8.125h8.701L33.75 32.5Zm-7.322-2.475h2.336L13.682 10.47h-2.508l15.254 19.555Z" fill="#074761"/></svg>
+            </a>
+            {{ end }}
+          </div>
         </div>
+    </div>
+  </div>
+</div>
