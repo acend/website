@@ -1,5 +1,5 @@
 title = "acend"
-baseurl = "http://localhost:1313"
+baseurl = "/"
 canonifyURLs = false
 disableAliases = true
 defaultContentLanguage = "de"
