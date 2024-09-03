@@ -229,7 +229,7 @@ a {
 .border-top,
 .border-bottom {
   position: relative;
-
+/*
   &::after {
     content: "";
     display: block;
@@ -240,13 +240,15 @@ a {
     right: 0;
     bottom: -10px;
   }
+    */
 }
 
+/*
 .border-top::after {
   top: 0;
   bottom: auto;
 }
-
+*/
 
 .lead-big {
   font-family: "TTFirsNeue-Medium", sans-serif;
@@ -379,4 +381,6 @@ a {
 
 .container-fluid {
   max-width: 123rem;
+  padding-right: var(--bs-gutter-x);
+  padding-left: var(--bs-gutter-x);
 }
