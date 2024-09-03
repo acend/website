@@ -31,6 +31,7 @@
     border-radius: 0;
     outline: 0;
     background-color: transparent;
+    box-shadow: 0 0 30px var(--shadowColor);
     
     .signup-modal & {
      background-color: #fff;
@@ -46,10 +47,10 @@
   background-color: var(--primary);
 
   &.show {
-    opacity: 1;
-    background-image: url("../images/AC_Muster_1_RGB_Weiss--10-v2.png");
-    background-attachment: fixed;
-    background-size: 1915px;
+    opacity: 0;
+    //background-image: url("../images/AC_Muster_1_RGB_Weiss--10-v2.png");
+    //background-attachment: fixed;
+    //background-size: 1915px;
   }
  }
 }
