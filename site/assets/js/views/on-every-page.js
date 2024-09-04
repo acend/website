@@ -5,7 +5,7 @@ import Sticky from "sticky-js";
 import home from "js/views/home";
 import trainings from "js/views/trainings";
 import about from "js/views/about";
-import faq from "js/views/faq";
+//import faq from "js/views/faq";
 import Slideshows from "js/utils/slideshows";
 
 // lazy sizes for image loading
@@ -17,7 +17,7 @@ import { Popover } from 'bootstrap';
 //import Popover from 'bootstrap/js/dist/popover';
 
 
-import { map, lerp, getMousePos, calcWinsize, getRandomNumber } from 'js/utils/utils';
+import { map, lerp, getMousePosViewport, calcWinsize, getRandomNumber } from 'js/utils/utils';
 
 export default function() {
     
@@ -66,20 +66,22 @@ export default function() {
   home();
   trainings();
   about();
-  faq();
+  //faq();
 
 
 
     // needs to be fixed:
   // Background-images
+  // still needed?
+  /*
   $('[data-background]').each(function () {
     $(this).css({
       'background-image': 'url(' + $(this).data('background') + ')'
     });
   });
+*/
 
-
-
+// still needed?
   $(".anmelde-toggler").click(function(){
     $('.sticky').toggleClass('d-none');
   });
@@ -107,7 +109,7 @@ export default function() {
 
   // Track the mouse position
   let mousepos = {x: winsize.width/2, y: winsize.height/2};
-  window.addEventListener('mousemove', ev => mousepos = getMousePos(ev));
+  window.addEventListener('mousemove', ev => mousepos = getMousePosViewport(ev));
 
 
 
@@ -128,7 +130,7 @@ export default function() {
 
       // gsap.set(this.DOM.el, {x: translationVals.tx, y: translationVals.ty});
       obj.style.transform = "translate("+ ( translationVals.tx) + "px,"+  (translationVals.ty) + "px)";
-      //console.log( getMousePos.x)
+      //console.log( getMousePosViewport.x)
         requestAnimationFrame(render);
     }
     requestAnimationFrame(render);

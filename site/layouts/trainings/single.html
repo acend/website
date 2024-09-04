@@ -138,7 +138,7 @@
                     {{ if .logo }}
                     <div class="col-md-5 col-lg-4   mb-4 pt-2">
                       <div class="bg-primary p-4 text-center">
-                        {{ partial "img-srcset.html" (dict "img" .logo "size" 220) }}
+                        {{- partial "img" (dict "page" $.Page "src"  .logo "width" 800 "process" "fill 800x400" "alt" "{{   .title  }}") }}
                       </div>
                     </div>
                     {{ end }}

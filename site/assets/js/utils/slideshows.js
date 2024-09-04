@@ -64,7 +64,7 @@ export default function() {
       //	autoPlay: $this.hasClass('auto-play') ? 3000 : false,
         wrapAround: true ,
         cellAlign: 'left',
-        //adaptiveHeight: true,
+        adaptiveHeight: true,
         on: {
           ready: function() {
             //console.log('Flickity ready');
@@ -80,7 +80,42 @@ export default function() {
       });
     }
 
+  const carouselPartners = document.querySelector('.partner-carousel');
+  if (carouselPartners) {
+      
+      var flkty_partner = new Flickity( carouselPartners, {
+          wrapAround: true,
+          autoPlay: 5500,
+          //pauseAutoPlayOnHover: false,
+          prevNextButtons: false,
+          cellAlign: 'left',
+          on: {
+              ready: function() {
+                  window.dispatchEvent(new Event('resize'));
+              },
+          }, 
+      });
+    }
 
+          //fade: true,
+
+  const carouselTestimonials = document.querySelector('.testimonial-carousel');
+  if (carouselTestimonials) {
+      
+      var flkty_testimonial = new Flickity( carouselTestimonials, {
+          wrapAround: true,
+          fade: true,
+          adaptiveHeight: false,
+          autoPlay: 7500,
+          pauseAutoPlayOnHover: false,
+          prevNextButtons: false,
+          on: {
+              ready: function() {
+                  window.dispatchEvent(new Event('resize'));
+              },
+          }, 
+      });
+    }
 /*
   const slideshow = document.querySelector('.clients');
 
