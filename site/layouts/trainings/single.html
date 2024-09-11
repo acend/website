@@ -8,8 +8,12 @@
 
 <section data-sticky-container class="section mb-5">
 
-  <div class="title-huge">
-    {{ .Title }}
+  <div class="title-huge overflow-hidden">
+    <div class="container-fluid">
+       <div class="scrollmove">
+         {{ .Title }}
+       </div>
+    </div>
   </div>
 
 
@@ -17,10 +21,14 @@
   <div class="container-fluid">
     <div  class="row">
 
-      <div class="col-lg-1">
-        <div class="sticky" data-sticky-class="is-sticky" data-sticky-for="768" data-margin-top="140">
-          logo
-        </div>
+      <div class="col-lg-1  pt-2">
+        {{ with .Params.techlogo }}
+         {{ with resources.Get . }}
+            <div class="sticky" data-sticky-class="is-sticky" data-sticky-for="768" data-margin-top="140">
+              <img src="{{ .RelPermalink }}" alt="" width="86" height="86" >  
+            </div>
+          {{ end }}
+        {{ end }}
       </div>
       
       <div class="col-lg-7">
@@ -138,7 +146,7 @@
                     {{ if .logo }}
                     <div class="col-md-5 col-lg-4   mb-4 pt-2">
                       <div class="bg-primary p-4 text-center">
-                        {{ partial "img-srcset.html" (dict "img" .logo "size" 220) }}
+                        {{- partial "img" (dict "page" $.Page "src"  .logo "width" 800 "process" "fill 800x400" "alt" "{{   .title  }}") }}
                       </div>
                     </div>
                     {{ end }}

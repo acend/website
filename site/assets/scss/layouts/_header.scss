@@ -240,7 +240,7 @@
     //bottom: 0;
     transition: width .2s ease-in-out;
   }
-
+  /*
   &::before {
     content: "";
     display: block;
@@ -255,17 +255,20 @@
     bottom: 0;
     transition: height .1s ease-in-out  0.25s;
   }
+  */
 
     &:hover {
       //border-bottom: 1px solid;
       &::after {
         width: 0;
-        transition-delay: 0.2s;
+        //transition-delay: 0.2s;
       }
+      /*
       &::before {
         content: "";
         height: 0;
         transition-delay: 0s;
       }
+        */
     }
 }

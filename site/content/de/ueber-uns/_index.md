@@ -239,9 +239,11 @@ community:
   text: "Wir begreifen uns als Teil der wachsenden Schweizer Cloud Native Community und laden dich ein, dich anzuschliessen. Deswegen pflegen wir den Austausch während und nach unseren Trainings."  
   images:
     - img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
-    - img: "images/ueberuns/ACEND_Workshop_Brainstorming@4x.jpg"
+    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
     - img: "images/ueberuns/ACEND_Students_Discussion@4x.jpg"
+    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
     - img: "images/ueberuns/ACEND_Workshop_Tablet@4x.jpg"
+    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
     - img: "images/ueberuns/ACEND_Workshop_Frontal@4x.jpg"
 
 

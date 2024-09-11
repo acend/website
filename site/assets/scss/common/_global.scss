@@ -77,11 +77,22 @@ body {
 .claim,
 .icon:not(.icon-white),
 .toggler-icon,
-.kurzlogo {
+.kurzlogo,
+svg.colored {
   path, polygon, rect {
     fill: $AC-Blue;
     fill: var(--primary);
     transition: fill 0.2s ease;
+  }
+}
+
+svg.colored-light {
+  path, polygon, rect {
+    fill: $AC-Blue;
+    fill: var(--primary);
+    //fill: rgba(var(--primary), 0.8);
+    transition: fill 0.2s ease;
+    opacity: 0.3;
   }
 }
 
@@ -201,7 +212,6 @@ h6,
 }
 
 .border-outline {
-
   border-left: 1.6rem solid white;
   border-right: 1.6rem solid white;
   border-top: 0;
@@ -223,7 +233,16 @@ a {
 .border,
 .border-top,
 .border-bottom {
-    border-color: var(--primary) !important;
+   border-color: var(--primary) !important;
+
+   &.light {
+      border-color: var(--primary-light) !important;
+      transition: border-color 0.2s ease;
+  
+     &:hover {
+       border-color: var(--primary) !important;
+     }
+   }
 }
 
 .border-top,

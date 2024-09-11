@@ -24,6 +24,32 @@ zertifikate:
   text: "Nach erfolgreichem Abschluss des Trainings erhälts Du von uns ein Zertifikat (PDF) und einen Credly-Badge. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod temp."
   link: "https://credly.com"
   linktext: "Weiter zu Credly"
+
+
+ # F.A.Q.
+faq: 
+  enable: true
+  title: "Häufige Fragen"
+  text: "Hier findest du Antworten auf die häufigsten Fragen zu unseren Trainings und acend."
+  items:
+    - question: "Was ist Cloud Native?"
+      answer: "Cloud Native ist ein Ansatz, um Anwendungen zu entwickeln und zu betreiben. Dabei werden die Vorteile der Cloud voll ausgeschöpft. Cloud Native Anwendungen sind modular, skalierbar und hochverfügbar. Sie werden in Containern betrieben und dynamisch orchestriert. Cloud Native Technologien sind Open Source und werden von der Cloud Native Computing Foundation (CNCF) unterstützt."
+
+    - question: "Was sind die Vorteile von Cloud Native?"
+      answer: "Cloud Native Anwendungen sind modular, skalierbar und hochverfügbar. Sie können schneller entwickelt und ausgerollt werden. Durch die Automatisierung von Prozessen wird die Betriebsstabilität erhöht. Cloud Native Anwendungen sind zudem kosteneffizient und können flexibel betrieben werden."
+
+    - question: "Was ist Kubernetes?"
+      answer: "Kubernetes ist ein Open Source System zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von Container-Anwendungen. Es wurde von Google entwickelt und wird von der Cloud Native Computing Foundation (CNCF) unterstützt. Kubernetes ist die führende Plattform für Container Orchestrierung und wird von vielen Unternehmen weltweit eingesetzt."
+
+    - question: "Was ist OpenShift?"
+      answer: "OpenShift ist eine Kubernetes Distribution, die von Red Hat entwickelt wurde. Sie basiert auf Kubernetes und bietet zusätzliche Funktionen für die Entwicklung, den Betrieb und die Skalierung von Cloud Native Anwendungen. OpenShift ist eine Container Plattform, die auf Kubernetes aufbaut und von Red Hat unterstützt wird."
+
+    - question: "Was ist ein Container?"
+      answer: "Ein Container ist eine standardisierte Einheit von Software, die alle notwendigen Abhängigkeiten enthält, um eine Anwendung auszuführen. Container sind isoliert und laufen auf einem gemeinsamen Betriebssystem. Sie sind leichtgewichtig und können schnell gestartet und gestoppt werden. Container sind die Grundlage für Cloud Native Anwendungen."
+
+    - question: "Was ist ein Microservice?"
+      answer: "Ein Microservice ist ein kleiner, unabhängiger Dienst, der eine spezifische Funktion erfüllt."
+   
 ---
 
 acend steht für eine abenteuerlustige und aussergewöhnliche Lehr- und Lernerfahrung. Als Plattform vermitteln wir Wissen hands-on und stellen dafür hervorragende Rahmenbedingungen sicher.<br/>

@@ -11,6 +11,7 @@ categories: ["Basics", "Programming"]
 duration: "1 Tag"
 abstract: "Einführung in Go für Software Entwickler, Architekten und DevOps Engineers."
 main_title: "Einführung in Go für Software Entwickler, Architekten und DevOps Engineers."
+techlogo: "images/tech/Kubernetes.svg"
 
 personen:
   daten : ""

@@ -61,7 +61,7 @@
 
 
 {{ with .Params.community }}
-  <div class="col-lg-8 mb-16 mb-lg-32" data-scroll>
+  <div class="col-lg-8 mb-8 mb-lg-16" data-scroll>
     <h3  class="mb-4">{{ .text | markdownify }}</h3>
   </div>
 {{ end }}
@@ -69,10 +69,10 @@
 </div>
 
 {{ with .Params.community.images }}
-<div class="carousel carousel-community">
+<div class="carousel carousel-community mb-16 mb-lg-32">
   {{ range  $value := . }}
     {{ with $value }}
-      <div class="carousel-item col-md-4">
+      <div class="carousel-cell p-4">
         {{- partial "img" (dict "page" page "src" .img  "process" "" "class" "") }}
       </div>
     {{ end }}
@@ -115,7 +115,7 @@
                       </div>'>
 
                       <div class="mb-2 bg-primary p-4 text-center">
-                          {{ partial "img-srcset.html" (dict "img" .logo "size" 230 "alt" .title) }}
+                          {{- partial "img" (dict "page" $.Page "src"  .logo "width" 800 "process" "fill 800x400" "alt" "{{   .title  }}") }}
                         </div>
                       </a>
                     
