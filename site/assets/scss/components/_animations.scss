@@ -1,0 +1,15 @@
+@keyframes moveXProgress {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+
+.scrollmove {
+  animation-timeline: scroll(block root );
+  animation-name: moveXProgress;
+  animation-duration: auto;
+  animation-timing-function: ease-out;
+}

@@ -236,7 +236,12 @@ a {
    border-color: var(--primary) !important;
 
    &.light {
-     border-color: var(--primary-light) !important;
+      border-color: var(--primary-light) !important;
+      transition: border-color 0.2s ease;
+  
+     &:hover {
+       border-color: var(--primary) !important;
+     }
    }
 }
 

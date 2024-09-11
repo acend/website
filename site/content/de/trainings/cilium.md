@@ -11,6 +11,7 @@ categories: ["Basics", "Ergänzende Trainings", "New"]
 duration: "1 Tag"
 abstract: "eBPF-basiertes Networking"
 main_title: "eBPF-basiertes Networking"
+techlogo: "images/tech/Kubernetes.svg"
 
 personen:
   daten : ""

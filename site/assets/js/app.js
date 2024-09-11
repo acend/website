@@ -4,6 +4,7 @@
 
 //import 'bootstrap';
 
+//import 'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js';
 
 //import 'jquery';
 import $ from 'jquery';
