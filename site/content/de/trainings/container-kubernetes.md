@@ -12,6 +12,7 @@ categories: ["Basics", "Kubernetes", "New"]
 duration: "2 Tage"
 abstract : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
 main_title : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
+techlogo: "images/tech/Kubernetes.svg"
 
 personen:
   #daten : "15.11.22, 16.11.22"

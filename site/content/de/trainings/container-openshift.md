@@ -11,6 +11,7 @@ categories: ["Basics", "Kubernetes"]
 duration: "2 Tage"
 abstract: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
 main_title: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
+techlogo: "images/tech/Kubernetes.svg"
 
 personen:
   daten : ""

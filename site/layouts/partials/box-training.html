@@ -1,17 +1,27 @@
 <div data-scroll class="col-lg-6 box-training  {{ .Title | urlize}} {{ range $key, $value := .Params.categories }}{{ (replace $value "/" "-") | urlize }} {{ end }} ">
 
-  <div class="inner border p-4 px-lg-10 py-lg-8 d-flex flex-column h-100 position-relative">
+  <div class="inner border light p-4 px-lg-10 py-lg-8 d-flex flex-column h-100 position-relative">
   {{ if  in .Params.categories "New"  }}
   <div class="position-absolute label-new bg-primary text-white px-2 py-1 small">{{ i18n "new" }}</div>
   {{ end }}
 
-    <div class="row">
+    <div class="row h-100">
      
      <div class="col-lg-5">
-       <div class="small mb-2">{{  .Params.subtitle  | humanize }}</div>
-       <a class="stretched-link" href="{{ .Permalink | safeURL }}">
-         <h3  class="mb-0">{{ .Title }}</h3>
-        </a>
+
+      <div class="d-flex flex-lg-column h-100">
+        <div class="me-auto">
+          <div class="small mb-2">{{  .Params.subtitle  | humanize }}</div>
+          <a class="stretched-link" href="{{ .Permalink | safeURL }}">
+            <h3  class="mb-3">{{ .Title }}</h3>
+          </a>
+        </div>
+        {{ with .Params.techlogo }}
+          {{ with resources.Get . }}
+           <img src="{{ .RelPermalink }}" alt="" width="60" height="60" class="mt-auto">  
+          {{ end }}
+        {{ end }}
+      </div>
       </div>
       <div class="col-lg-7">
         <p class="small mb-4 mb-lg-8">{{ .Params.abstract }}</p>

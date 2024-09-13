@@ -13,6 +13,7 @@ duration: "1 Tag"
 costs : "CHF 1900"
 abstract: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 main_title: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
+techlogo: "images/tech/Kubernetes.svg"
 
 personen:
   daten : ""

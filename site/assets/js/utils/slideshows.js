@@ -64,7 +64,7 @@ export default function() {
       //	autoPlay: $this.hasClass('auto-play') ? 3000 : false,
         wrapAround: true ,
         cellAlign: 'left',
-        //adaptiveHeight: true,
+        adaptiveHeight: true,
         on: {
           ready: function() {
             //console.log('Flickity ready');
@@ -80,7 +80,79 @@ export default function() {
       });
     }
 
+  const carouselPartners = document.querySelector('.partner-carousel');
+  if (carouselPartners) {
+      
+      var flkty_partner = new Flickity( carouselPartners, {
+          wrapAround: true,
+          autoPlay: 5500,
+          //pauseAutoPlayOnHover: false,
+          prevNextButtons: false,
+          cellAlign: 'left',
+          on: {
+              ready: function() {
+                  window.dispatchEvent(new Event('resize'));
+              },
+          }, 
+      });
+    }
+  
+    const carouselClients = document.querySelector('.clients-carousel');
+  if (carouselClients) {
 
+    const flkty_clients = new Flickity( carouselClients, {
+      wrapAround: true,
+      //autoPlay: 0,
+      pauseAutoPlayOnHover: false,
+      prevNextButtons: false,
+      draggable: false,
+      pageDots: false,
+      cellAlign: 'left',
+      on: {
+        ready: function() {
+          console.log('Flickity ready');
+          window.dispatchEvent(new Event('resize'));
+          //_updateTicker(this);
+        }
+      }
+    });
+    
+    const _updateTicker = function() {
+      flkty_clients.x = (flkty_clients.x - 0.5) % flkty_clients.slideableWidth;
+      flkty_clients.selectedIndex = flkty_clients.dragEndRestingSelect();
+      flkty_clients.updateSelectedSlide();
+      flkty_clients.settle(flkty_clients.x);
+      window.requestAnimationFrame(_updateTicker);
+    };
+    
+    _updateTicker();
+     
+     
+
+
+
+
+    }
+
+          //fade: true,
+
+  const carouselTestimonials = document.querySelector('.testimonial-carousel');
+  if (carouselTestimonials) {
+      
+      const flkty_testimonial = new Flickity( carouselTestimonials, {
+          wrapAround: true,
+          fade: true,
+          adaptiveHeight: false,
+          autoPlay: 7500,
+          pauseAutoPlayOnHover: false,
+          prevNextButtons: false,
+          on: {
+              ready: function() {
+                  window.dispatchEvent(new Event('resize'));
+              },
+          }, 
+      });
+    }
 /*
   const slideshow = document.querySelector('.clients');
 
@@ -100,7 +172,7 @@ export default function() {
       });
 
     // previous
-    var previousButton = document.querySelector('.button-previous');
+    const previousButton = document.querySelector('.button-previous');
     previousButton.addEventListener( 'click', function() {
       flkty.previous();
     });

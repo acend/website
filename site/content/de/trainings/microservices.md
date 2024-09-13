@@ -12,6 +12,7 @@ categories: ["Basics", "Programming"]
 duration: "1 Tag"
 abstract: "Praxisorientierter Einstieg in MicroServices"
 main_title: "Praxisorientierter Einstieg in MicroServices"
+techlogo: "images/tech/Kubernetes.svg"
 
 personen:
   daten : ""

@@ -4,14 +4,37 @@
   {{ partial "page-header.html" . }}
 {{ end }}
 
-<div class="container-fluid">
-  <div class="col-lg-10 offset-lg-1">
-    <div class="py-40">Bilder Slider hier ...</div>
+{{ with .Params.timeline }}
+<div class="overflow-hidden mb-8 mb-lg-16">
+  <div class="container-fluid">
+    <div class="col-lg-10 offset-lg-1 scrollmove">
+      <div class="row flex-nowrap">
+
+        {{ range .items}}
+        <div class="col-8 col-md-6">
+          <div class="timeline-item me-20 me-lg-48">
+              <h2>{{ .title }}</h2>
+              <p>{{ .subtitle }}</p>
+              {{ with .img }}
+                <div class="mb-3 mb-lg-6">
+                  {{- partial "img" (dict "page" page "src" .  "process" "" "class" "") }}
+                </div>
+              {{ end }}
+              <p class="small">{{ .text }}</p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
   </div>
+</div>
+{{ end }}
   
+
+<div class="container-fluid">
   {{ with .Params.introtext }}
   <div class="col-lg-8 offset-lg-1 mb-8 mb-lg-16">
-    <p>{{ . | markdownify }}</p>
+    <h2 class="h3">{{ . | markdownify }}</h2>
   </div>
   {{ end }}
   
@@ -61,7 +84,7 @@
 
 
 {{ with .Params.community }}
-  <div class="col-lg-8 mb-16 mb-lg-32" data-scroll>
+  <div class="col-lg-8 mb-8 mb-lg-16" data-scroll>
     <h3  class="mb-4">{{ .text | markdownify }}</h3>
   </div>
 {{ end }}
@@ -69,10 +92,10 @@
 </div>
 
 {{ with .Params.community.images }}
-<div class="carousel carousel-community">
+<div class="carousel carousel-community mb-16 mb-lg-32">
   {{ range  $value := . }}
     {{ with $value }}
-      <div class="carousel-item col-md-4">
+      <div class="carousel-cell p-4">
         {{- partial "img" (dict "page" page "src" .img  "process" "" "class" "") }}
       </div>
     {{ end }}
@@ -115,7 +138,7 @@
                       </div>'>
 
                       <div class="mb-2 bg-primary p-4 text-center">
-                          {{ partial "img-srcset.html" (dict "img" .logo "size" 230 "alt" .title) }}
+                          {{- partial "img" (dict "page" $.Page "src"  .logo "width" 800 "process" "fill 800x400" "alt" "{{   .title  }}") }}
                         </div>
                       </a>
                     

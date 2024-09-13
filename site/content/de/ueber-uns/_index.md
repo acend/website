@@ -12,7 +12,31 @@ seo:
 
 header:
   title: "Über uns"
-  lead: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren."
+  lead: "Gemeinsam die Zukunft von IT-Trainings revolutionieren"
+
+timeline:
+  enable: true
+  items:
+    - title: "2019"
+      subtitle: "Gründung"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Gründung der acend gmbh durch This und Marcel."
+    - title: "2020"
+      subtitle: "Eröffnung"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Eröffnung des acend Trainingscenters in Bern."
+    - title: "2021"
+      subtitle: "Eröffnung"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Erweiterung des Trainingsangebots um Kubernetes und OpenShift."
+    - title: "2022"
+      subtitle: "Eröffnung"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Eröffnung des acend Trainingscenters in Zürich."
+    - title: "2023"
+      subtitle: "Eröffnung"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Erweiterung des Trainingsangebots um Argo CD und Prometheus."
 
 introtext: "Wir bieten attraktive Trainings, die den Wissensaustausch und das gemeinsame Lernen ins Zentrum stellen – praxisbezogen, unkompliziert und aus erster Hand."
 
@@ -239,9 +263,11 @@ community:
   text: "Wir begreifen uns als Teil der wachsenden Schweizer Cloud Native Community und laden dich ein, dich anzuschliessen. Deswegen pflegen wir den Austausch während und nach unseren Trainings."  
   images:
     - img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
-    - img: "images/ueberuns/ACEND_Workshop_Brainstorming@4x.jpg"
+    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
     - img: "images/ueberuns/ACEND_Students_Discussion@4x.jpg"
+    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
     - img: "images/ueberuns/ACEND_Workshop_Tablet@4x.jpg"
+    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
     - img: "images/ueberuns/ACEND_Workshop_Frontal@4x.jpg"
 
 

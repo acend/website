@@ -46,7 +46,7 @@
 
   }
 }
-
+/*
 @include media-breakpoint-up(lg) {
   .box-training {
     .box {
@@ -70,14 +70,14 @@
     }
 
   }
-}
+}*/
 
 .sticky {
    transition:  box-shadow 0.2s ease-in-out;
 
    &.is-sticky {
-    box-shadow: 0 0 30px rgba(0,0,0,0.2);
-    box-shadow: 0 0 30px var(--shadowColor);
+   // box-shadow: 0 0 30px rgba(0,0,0,0.2);
+   // box-shadow: 0 0 30px var(--shadowColor);
     //z-index: 2;
   }
   @include media-breakpoint-down(sm) {

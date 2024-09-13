@@ -4,66 +4,6 @@ video:
   title: "Praxisorientierte Cloud Native Trainings"
   src: "/videos/testvideo.mp4"
 
-# about
-about:
-  enable: true
-  title: "Cloud Native Trainings Schweiz - acend gmbh"
-  seo_title: "Cloud Native Trainings Schweiz - acend gmbh"
-  content: "acend bietet dir praxisorientierte Cloud Native Trainings, bei denen dir mehr als nur das technische Know-how in Erinnerung bleiben wird. Von Engineers für Engineers."
-  description: "Wir bieten Cloud Native Trainings mit Experten, welche diese Technologien täglich nutzen. Schulungen mit einer einzigartigen Experience und viel handson."
-  button:
-    enable: false
-    label: "Mehr erfahren"
-    URL: "ueber-uns"
-
-# slideshow trainigs
-slideshow:
-  enable: true
-  item:
-    - ubertitle: "Trainingsangebot"
-      title: "Argo CD"
-      subtitle: "Basics"
-      URL: "/trainings/argo-cd/"
-      label: "Jetzt Training anschauen"
-      img1: "images/trainings/ACEND_Adventure_TopHill@2x.jpg"
-      img2: "images/trainings/ACEND_Poi@2x.jpg"
-      img3: "images/trainings/ACEND_CodeP@2x.jpg"
-
-    - ubertitle: "Trainingsangebot"
-      title: "Go"
-      subtitle: "Basics"
-      URL: "/trainings/go/"
-      label: "Jetzt Training anschauen"
-      img1: "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"
-      img2: "images/trainings/ACEND_Mats@2x.jpg"
-      img3: "images/trainings/ACEND_CodeT@2x.jpg"
-
-    - ubertitle: "Trainingsangebot"
-      title: "Cilium"
-      subtitle: "Basics"
-      URL: "/trainings/cilium/"
-      label: "Jetzt Training anschauen"
-      img1: "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"
-      img2: "images/trainings/ACEND_Lena@2x.jpg"
-      img3: "images/trainings/ACEND_CodeD@2x.jpg"
-
-    - ubertitle: "Trainingsangebot"
-      title: "Container & Kubernetes"
-      subtitle: "Basics"
-      URL: "/trainings/container-kubernetes/"
-      label: "Jetzt Training anschauen"
-      img1: "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
-      img2: "images/trainings/ACEND_Jeremy@2x.jpg"
-      img3: "images/trainings/ACEND_CodeA@2x.jpg"
-
-    - ubertitle: "Trainingsangebot"
-      title: "Container & OpenShift"
-      subtitle: "Basics"
-      URL: "/trainings/container-openshift/"
-      label: "Jetzt Training anschauen"
-      img1: "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
-      img2: "images/trainings/ACEND_Philip@2x.jpg"
-      img3: "images/trainings/ACEND_CodeD@2x.jpg"
 
 # trainings
 trainings:
@@ -71,67 +11,77 @@ trainings:
   title: "Lerne praxisnah neue Technologien kennen"
   text: "Unsere Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs. Lass dich von neuen Technologien begeistern – mit Herzblut vermittelt von unseren Trainern."
   subtitle: "Das passende Training für dich"
-  trainings:
-    - title: "Container & Kubernetes"
-      slug: "container-kubernetes"
-    - title: "Container & OpenShift"
-      slug: "container-openshift"
-    - title: "OpenShift Operations"
-      slug: "openshift-operations"
 
 
+# about
+about:
+  enable: true
+  title: "Cloud Native Trainings Schweiz - acend gmbh"
+  content: "acend bietet dir praxisorientierte Cloud Native Trainings, bei denen dir mehr als nur das technische Know-how in Erinnerung bleiben wird. Von Engineers für Engineers."
+  description: "Wir bieten Cloud Native Trainings mit Experten, welche diese Technologien täglich nutzen. Schulungen mit einer einzigartigen Experience und viel handson."
+  button:
+    enable: false
+    label: "Mehr erfahren"
+    URL: "ueber-uns"
 
 
-# trainings
-trainings-old:
-  label: "Trainings"
-  title: "Lerne Praxis nah neue Technologien kennen"
-  text: "Unsere Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs. Lass dich von neuen Technologien begeistern – mit Herzblut vermittelt von unseren Trainern."
-  categories:
-    - title: "Kubernetes"
-      text: "Orchestration und Management"
-      trainings:
-        - title: "Container & Kubernetes"
-          slug: "container-kubernetes"
-        - title: "Container & OpenShift"
-          slug: "container-openshift"
-        - title: "OpenShift Operations"
-          slug: "openshift-operations"
+# Unsere Kunden
+clients:
+  enable: true
+  title: "Unsere Kunden"
+  text: "Wir haben bereits mit vielen Unternehmen zusammengearbeitet und sie in der Cloud Native Transformation unterstützt. Hier findest du eine Auswahl unserer Kunden."
+  item:
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
 
-    - title: "Delivery CI/CD"
-      text: "Definition und Entwicklung von Apps"
-      trainings:
-        - title: "Argo CD"
-          slug: "argo-cd"
-        - title: "Tekton"
-          slug: "tekton"
-        - title: "Terraform on Azure"
-          slug: "terraform"
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
 
-    - title: "Ergänzende Trainings"
-      text: "Spannende Technologien aus der CNCF Landscape"
-      trainings:
-        - title: "Helm"
-          slug: "helm"      
-        - title: "Prometheus"
-          slug: "prometheus"
-        - title: "Serverless"
-          slug: "serverless"
-        - title: "Cilium"
-          slug: "cilium"
-        - title: "Ansible"
-          slug: "ansible"        
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
 
-    - title: "Programmierung"
-      text: '"Hello World" & mehr in Cloud Native'
-      trainings:
-        - title: "Go"
-          slug: "go"
-        - title: "MicroServices"
-          slug: "microservices"              
-        - title: "Quarkus"
-          slug: "quarkus"     
-# video
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+
+   
+# video ????
 #video:
 #  enable: true
 #  title: "acend <3 Cloud Native"
@@ -198,3 +148,30 @@ partner:
       text: 'bespinian ist ein Start-up aus Bern, das Software und Cloud Computing liebt. Als "Cloud Native Citizens" sind sie auf verschiedenen Cloud Plattformen zu Hause und helfen ihren Kunden in enger Zusammenarbeit, neue Software in der Cloud zu bauen oder bestehende in die Cloud zu bringen.'
       URL: "https://bespinian.io"
       label: "bespinian.io"
+
+
+# F.A.Q.
+faq: 
+  enable: true
+  label: "F.A.Q."
+  link: "/faq"
+  title: "Häufige Fragen"
+  text: "Hier findest du Antworten auf die häufigsten Fragen zu unseren Trainings und acend."
+  items:
+    - question: "Was ist Cloud Native?"
+      answer: "Cloud Native ist ein Ansatz, um Anwendungen zu entwickeln und zu betreiben. Dabei werden die Vorteile der Cloud voll ausgeschöpft. Cloud Native Anwendungen sind modular, skalierbar und hochverfügbar. Sie werden in Containern betrieben und dynamisch orchestriert. Cloud Native Technologien sind Open Source und werden von der Cloud Native Computing Foundation (CNCF) unterstützt."
+
+    - question: "Was sind die Vorteile von Cloud Native?"
+      answer: "Cloud Native Anwendungen sind modular, skalierbar und hochverfügbar. Sie können schneller entwickelt und ausgerollt werden. Durch die Automatisierung von Prozessen wird die Betriebsstabilität erhöht. Cloud Native Anwendungen sind zudem kosteneffizient und können flexibel betrieben werden."
+
+    - question: "Was ist Kubernetes?"
+      answer: "Kubernetes ist ein Open Source System zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von Container-Anwendungen. Es wurde von Google entwickelt und wird von der Cloud Native Computing Foundation (CNCF) unterstützt. Kubernetes ist die führende Plattform für Container Orchestrierung und wird von vielen Unternehmen weltweit eingesetzt."
+
+    - question: "Was ist OpenShift?"
+      answer: "OpenShift ist eine Kubernetes Distribution, die von Red Hat entwickelt wurde. Sie basiert auf Kubernetes und bietet zusätzliche Funktionen für die Entwicklung, den Betrieb und die Skalierung von Cloud Native Anwendungen. OpenShift ist eine Container Plattform, die auf Kubernetes aufbaut und von Red Hat unterstützt wird."
+
+    - question: "Was ist ein Container?"
+      answer: "Ein Container ist eine standardisierte Einheit von Software, die alle notwendigen Abhängigkeiten enthält, um eine Anwendung auszuführen. Container sind isoliert und laufen auf einem gemeinsamen Betriebssystem. Sie sind leichtgewichtig und können schnell gestartet und gestoppt werden. Container sind die Grundlage für Cloud Native Anwendungen."
+
+    - question: "Was ist ein Microservice?"
+      answer: "Ein Microservice ist ein kleiner, unabhängiger Dienst, der eine spezifische Funktion erfüllt."

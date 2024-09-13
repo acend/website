@@ -13,6 +13,7 @@ duration: "2 Tage"
 costs : "CHF 1900"
 abstract: "Ansible Kickstart-Training"
 main_title: "Ansible Kickstart-Training"
+techlogo: "images/tech/Kubernetes.svg"
 
 personen:
   daten : ""
