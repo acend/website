@@ -19,7 +19,7 @@
 
 
   <div class="container-fluid">
-    <div  class="row">
+    <div class="row">
 
       <div class="col-lg-1  pt-2">
         {{ with .Params.techlogo }}
@@ -172,17 +172,17 @@
       
       <div class="col-lg-3 offset-lg-1">
         {{ if .Params.kooperation.enable }}
-          <div class="mb-3">{{ .Params.kooperation.subtitle | safeHTML }}</div>
+          <div class="mb-29">{{ .Params.kooperation.subtitle | safeHTML }}</div>
         {{ end }}
 
 
 
-        <div id="box-anmelden" class="col-md-4_ col-xl-3_ w-100 box-anmelden py-0">
+        <div id="box-anmelden" class="w-100 box-anmelden">
           <button class="anmelde-toggler d-md-none" type="button"  aria-label="Toggle navigation">
             <svg class="toggler-icon" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Kalender" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Kalender_RGB_Schwarz" transform="translate(6 9)" fill="#000" fill-rule="nonzero"><path id="Rectangle" d="M18.97 4h16v4h-16z"></path><path id="Path" d="M42.97 3.97V0h-4v7.95l10 .04v34.82h-44V16h40v-4h-40V8h10V.04h-4V4h-10v42.81h52V4.01z"></path><path id="Rectangle" d="M8.97 20h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm-32 8h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm-32 8h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4z"></path></g></g></svg>
           </button>
 
-          <div class="d-none d-md-block p-3 sticky  bg-white" data-sticky-class="is-sticky" data-sticky-for="768" data-margin-top="140">
+          <div class="d-none d-md-block p-3_ sticky  bg-white" data-sticky-class="is-sticky" data-sticky-for="768" data-margin-top="140">
             <div class="border  px-3 pt-3  mb-2 bg-white">
               {{ if gt (len .Params.personen.daten) 0 }}
               <a role="button" class="d-block collapsed" data-bs-toggle="collapse" href="#teams" aria-expanded="false" aria-controls="teams">

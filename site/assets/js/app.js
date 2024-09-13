@@ -28,7 +28,7 @@ import onEveryPage from "./assets/js/views/on-every-page";
  
 
 const swup = new Swup({
-  containers: ['#main', '.banner nav' ],
+  containers: ['#main', '#main-menu', '#top-menu' ],
   ignoreVisit: (url, { el } = {}) => el?.closest('.language-switcher') ,
   //ignoreVisit: (url, { el } = {}) => el?.closest('[data-no-swup]') || el?.closest('#wpadminbar'),
   plugins: [
@@ -68,8 +68,7 @@ swup.hooks.on('page:view', (visit) => {
 
     
 
-  /* ########################################### /hero parallax ############################################## */
-
+ 
 
 
   /* FORMULAR : for gold only */
