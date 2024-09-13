@@ -58,12 +58,12 @@ export default function() {
 
   if ($('.faq-content .carousel').length) {
 		
-		$('.faq-content .slides').each(function(){
+		$('.faq-content_ .slides').each(function(){
 
       var $this = $(this);
 
 			var flkty = new Flickity( $this.find('.carousel')[0], { // eslint-disable-line no-unused-vars
-				lazyLoad: 2,
+				//lazyLoad: 2,
 				prevNextButtons: false,
 				pageDots: false,
 			//	autoPlay: $this.hasClass('auto-play') ? 3000 : false,
@@ -99,10 +99,18 @@ export default function() {
 	}
 
 
-  $('.faq-content .collapse').on('show.bs.collapse', function () {
-    //trigger resize for setting carousel size
-    window.dispatchEvent(new Event('resize'));
-    console.log('collapse')
-  });
  
+  
+  const faqCollapsible = document.querySelectorAll('.faq-content .collapse');
+  if(faqCollapsible) {
+    
+    faqCollapsible.forEach(el => {
+      el.addEventListener('show.bs.collapse', event => {
+        console.log('collapse')
+        window.dispatchEvent(new Event('resize'));
+      });
+    });
+  }
+  
+  
 }

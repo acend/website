@@ -21,7 +21,6 @@ summarylength = 20 # 70 (default)
     contentDir = "content/de"
     languageCode = "de-CH"
     languageName = "Deutsch"
-    title = "Cloud Native Trainings Schweiz - acend gmbh"
     weight = 1
     [languages.de.params]
       author = "acend gmbh"

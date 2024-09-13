@@ -8,7 +8,7 @@ Bei den Badges arbeiten wir mit **[credly](https://info.credly.com/)** zusammen.
 Die Slideshow unten erklärt das Verfahren Schritt für Schritt.
 
 {{< faq-slider >}}
-{{< slider-img src="images/faq/credly-xmail.png" caption="So sieht die Mail von credly aus. Um den Ausweis zu akzeptieren, müssen Sie auf die Schaltfläche \"Accept your badge\"" >}} klicken.
+{{< slider-img src="images/faq/credly-xmail.png" caption="So sieht die Mail von credly aus. Um den Ausweis zu akzeptieren, müssen Sie auf die Schaltfläche \"Accept your badge\" klicken." >}}
 {{< slider-img src="images/faq/credly-xsignin.png" caption="Wenn Sie noch kein credly-Konto haben, können Sie sich kostenlos registrieren." >}}
 {{< slider-img src="images/faq/credly-xaccept.png" caption="Jetzt können Sie als angemeldeter credly-Benutzer den acend-Badge annehmen." >}}
 {{< slider-img src="images/faq/credly-xlinkedin.png" caption="Falls Du möchtest, kannst Du den Badge auf Social media teilen." >}}

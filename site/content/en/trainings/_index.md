@@ -9,6 +9,9 @@ draft: false
 header:
   title: "Trainings"
   lead: "We provide new approaches to Cloud Native and Open Source."
+  img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
+  img2 : "images/trainings/ACEND_Yup@2x.jpg"
+  img3 : "images/trainings/ACEND_Code_Yup@2x.jpg"
 
 filtertitle: "The right training for you"
 categories:

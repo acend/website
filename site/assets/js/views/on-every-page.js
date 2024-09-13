@@ -5,7 +5,7 @@ import Sticky from "sticky-js";
 import home from "js/views/home";
 import trainings from "js/views/trainings";
 import about from "js/views/about";
-//import faq from "js/views/faq";
+import faq from "js/views/faq";
 import Slideshows from "js/utils/slideshows";
 
 // lazy sizes for image loading
@@ -66,7 +66,7 @@ export default function() {
   home();
   trainings();
   about();
-  //faq();
+  faq();
 
 
 

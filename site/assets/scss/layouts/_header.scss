@@ -91,9 +91,9 @@
 .navbar-toggler {
 
    position: fixed;
-    z-index: 5;
-    right: 15px;
-    top: 15px;
+  z-index: 1046;
+  right: 15px;
+  top: 15px;
 
   padding: 0;
   background-color: #fff;
@@ -128,9 +128,13 @@
   }
 }
 
+.offcanvas {
+  --bs-offcanvas-bg: #fff;
+}
+
 .nav-item {
   text-align: center;
-  margin-top: 3em;
+  margin-top: 2em;
 
    @include media-breakpoint-up(md) {
     margin-top: 0;
@@ -164,7 +168,7 @@
     content: "";
     display: block;
     width: 0;
-    height: 1px;
+    height: 2px;
     background-color: var(--primary);
     //position: absolute;
     //right: 0;

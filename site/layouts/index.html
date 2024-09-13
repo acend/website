@@ -2,11 +2,14 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
  
 {{ with  $data.homepage.video }}
-<div class="hero-video px-lg-6 mb-16 mb-lg-32">
+<div class="hero-video px-lg-6 mb-16 mb-lg-32 position-relative">
   <div class="bg-primary video-container">
   <video  autoplay loop muted playsinline>
     <source src="{{ .src }}" type="video/mp4"> 
   </div>
+
+  <h1 class="position-absolute bottom-0 left-0 text-white col-lg-5 px-4 px-lg-8 mb-8 mb-lg-16">{{ .title }}</h1>
+
 </div>
 {{ end }}
 
@@ -78,6 +81,36 @@
 
   </section>
   <!-- /about -->
+
+
+  <!-- partner -->
+  {{ if  $data.homepage.clients.enable }}
+  {{ with  $data.homepage.clients }}
+ 
+    <div class="container-fluid  mb-8 mb-lg-16">
+      <h2 data-scroll="in" class="mb-4 mb-lg-8 col-lg-4">{{  .title }}</h2>
+       <div data-scroll="in" class="col-lg-7">
+        <p>{{  .text | markdownify }}</p>
+      </div>           
+    </div>
+    
+    <div class="clients-carousel mb-16 mb-lg-32">
+    {{ range .item }}
+      {{ $title := .title }}
+      {{ with resources.Get .logo }}
+        <div class="col-4 col-md-3 col-xxl-2  text-center p-4 p-lg-8">
+              <img src="{{ .RelPermalink }}" alt="{{ $title }}" width="100" height="30" class="contain" loading="lazy">  
+        </div>
+      {{ end }}
+    {{ end }}
+    </div>
+ 
+  {{ end }}
+  {{ end }}
+  <!-- /partner -->
+
+
+
 
   {{ if  $data.homepage.stories.enable }}
   {{ with  $data.homepage.stories }}

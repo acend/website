@@ -90,6 +90,13 @@
   opacity: 1;
   position: relative;
   z-index: 10;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.btn-close {
+  color: var(--primary);
 }
 
 .icon-info {

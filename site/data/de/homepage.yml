@@ -4,66 +4,6 @@ video:
   title: "Praxisorientierte Cloud Native Trainings"
   src: "/videos/testvideo.mp4"
 
-# about
-about:
-  enable: true
-  title: "Cloud Native Trainings Schweiz - acend gmbh"
-  seo_title: "Cloud Native Trainings Schweiz - acend gmbh"
-  content: "acend bietet dir praxisorientierte Cloud Native Trainings, bei denen dir mehr als nur das technische Know-how in Erinnerung bleiben wird. Von Engineers für Engineers."
-  description: "Wir bieten Cloud Native Trainings mit Experten, welche diese Technologien täglich nutzen. Schulungen mit einer einzigartigen Experience und viel handson."
-  button:
-    enable: false
-    label: "Mehr erfahren"
-    URL: "ueber-uns"
-
-# slideshow trainigs
-slideshow:
-  enable: true
-  item:
-    - ubertitle: "Trainingsangebot"
-      title: "Argo CD"
-      subtitle: "Basics"
-      URL: "/trainings/argo-cd/"
-      label: "Jetzt Training anschauen"
-      img1: "images/trainings/ACEND_Adventure_TopHill@2x.jpg"
-      img2: "images/trainings/ACEND_Poi@2x.jpg"
-      img3: "images/trainings/ACEND_CodeP@2x.jpg"
-
-    - ubertitle: "Trainingsangebot"
-      title: "Go"
-      subtitle: "Basics"
-      URL: "/trainings/go/"
-      label: "Jetzt Training anschauen"
-      img1: "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"
-      img2: "images/trainings/ACEND_Mats@2x.jpg"
-      img3: "images/trainings/ACEND_CodeT@2x.jpg"
-
-    - ubertitle: "Trainingsangebot"
-      title: "Cilium"
-      subtitle: "Basics"
-      URL: "/trainings/cilium/"
-      label: "Jetzt Training anschauen"
-      img1: "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"
-      img2: "images/trainings/ACEND_Lena@2x.jpg"
-      img3: "images/trainings/ACEND_CodeD@2x.jpg"
-
-    - ubertitle: "Trainingsangebot"
-      title: "Container & Kubernetes"
-      subtitle: "Basics"
-      URL: "/trainings/container-kubernetes/"
-      label: "Jetzt Training anschauen"
-      img1: "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
-      img2: "images/trainings/ACEND_Jeremy@2x.jpg"
-      img3: "images/trainings/ACEND_CodeA@2x.jpg"
-
-    - ubertitle: "Trainingsangebot"
-      title: "Container & OpenShift"
-      subtitle: "Basics"
-      URL: "/trainings/container-openshift/"
-      label: "Jetzt Training anschauen"
-      img1: "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
-      img2: "images/trainings/ACEND_Philip@2x.jpg"
-      img3: "images/trainings/ACEND_CodeD@2x.jpg"
 
 # trainings
 trainings:
@@ -71,67 +11,77 @@ trainings:
   title: "Lerne praxisnah neue Technologien kennen"
   text: "Unsere Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs. Lass dich von neuen Technologien begeistern – mit Herzblut vermittelt von unseren Trainern."
   subtitle: "Das passende Training für dich"
-  trainings:
-    - title: "Container & Kubernetes"
-      slug: "container-kubernetes"
-    - title: "Container & OpenShift"
-      slug: "container-openshift"
-    - title: "OpenShift Operations"
-      slug: "openshift-operations"
 
 
+# about
+about:
+  enable: true
+  title: "Cloud Native Trainings Schweiz - acend gmbh"
+  content: "acend bietet dir praxisorientierte Cloud Native Trainings, bei denen dir mehr als nur das technische Know-how in Erinnerung bleiben wird. Von Engineers für Engineers."
+  description: "Wir bieten Cloud Native Trainings mit Experten, welche diese Technologien täglich nutzen. Schulungen mit einer einzigartigen Experience und viel handson."
+  button:
+    enable: false
+    label: "Mehr erfahren"
+    URL: "ueber-uns"
 
 
-# trainings
-trainings-old:
-  label: "Trainings"
-  title: "Lerne Praxis nah neue Technologien kennen"
-  text: "Unsere Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs. Lass dich von neuen Technologien begeistern – mit Herzblut vermittelt von unseren Trainern."
-  categories:
-    - title: "Kubernetes"
-      text: "Orchestration und Management"
-      trainings:
-        - title: "Container & Kubernetes"
-          slug: "container-kubernetes"
-        - title: "Container & OpenShift"
-          slug: "container-openshift"
-        - title: "OpenShift Operations"
-          slug: "openshift-operations"
+# Unsere Kunden
+clients:
+  enable: true
+  title: "Unsere Kunden"
+  text: "Wir haben bereits mit vielen Unternehmen zusammengearbeitet und sie in der Cloud Native Transformation unterstützt. Hier findest du eine Auswahl unserer Kunden."
+  item:
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
 
-    - title: "Delivery CI/CD"
-      text: "Definition und Entwicklung von Apps"
-      trainings:
-        - title: "Argo CD"
-          slug: "argo-cd"
-        - title: "Tekton"
-          slug: "tekton"
-        - title: "Terraform on Azure"
-          slug: "terraform"
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
 
-    - title: "Ergänzende Trainings"
-      text: "Spannende Technologien aus der CNCF Landscape"
-      trainings:
-        - title: "Helm"
-          slug: "helm"      
-        - title: "Prometheus"
-          slug: "prometheus"
-        - title: "Serverless"
-          slug: "serverless"
-        - title: "Cilium"
-          slug: "cilium"
-        - title: "Ansible"
-          slug: "ansible"        
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
 
-    - title: "Programmierung"
-      text: '"Hello World" & mehr in Cloud Native'
-      trainings:
-        - title: "Go"
-          slug: "go"
-        - title: "MicroServices"
-          slug: "microservices"              
-        - title: "Quarkus"
-          slug: "quarkus"     
-# video
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
+
+
+   
+# video ????
 #video:
 #  enable: true
 #  title: "acend <3 Cloud Native"
