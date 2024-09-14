@@ -1,3 +1,13 @@
+
+.hero-video {
+  .video-container {
+   height: calc(100dvh - var(--body-padding-top) - 2rem);
+  }
+}
+
+
+
+/*
 .main-carousel {
 
   .carousel-cell {
@@ -68,7 +78,7 @@
   }
 }
 }
-
+*/
 .testimonials-img {
   
   .carousel-cell {

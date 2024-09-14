@@ -3,12 +3,12 @@
  
 {{ with  $data.homepage.video }}
 <div class="hero-video px-lg-6 mb-16 mb-lg-32 position-relative">
-  <div class="bg-primary video-container">
-  <video  autoplay loop muted playsinline>
+  <div class="bg-primary video-container pb-0">
+  <video  autoplay loop muted playsinline class="cover">
     <source src="{{ .src }}" type="video/mp4"> 
   </div>
 
-  <h1 class="position-absolute bottom-0 left-0 text-white col-lg-5 px-4 px-lg-8 mb-8 mb-lg-16">{{ .title }}</h1>
+  <h1 data-scroll="out" class="position-absolute bottom-0 left-0 text-white col-lg-5 px-4 px-lg-8 mb-8 mb-lg-16">{{ .title }}</h1>
 
 </div>
 {{ end }}
@@ -20,7 +20,7 @@
   <section class="section section mb-16 mb-lg-32">
     <div class="container-fluid">
        {{ with .label }}
-          <a class="btn btn-sm btn-outline-primary border-1 mb-2" href="{{ i18n "trainingsLink" }}">{{ . }}</a>
+          <a data-scroll class="btn btn-sm btn-outline-primary border-1 mb-2" href="{{ i18n "trainingsLink" }}">{{ . }}</a>
        {{ end }}
         <h2  data-scroll  class="mb-4 mb-lg-8 col-lg-4">{{ .title }}</h2>
  

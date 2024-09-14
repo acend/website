@@ -3,9 +3,9 @@
   <div class="container-fluid mb-16 mb-lg-32">
       <div class="col-lg-8 offset-lg-1 mb-8 mb-lg-16">
 
-        <div class="author d-flex ">
+        <div class="author-details d-flex ">
           {{ if .Params.image }}
-          <div class="rounded-circle overflow-hidden me-6 me-lg-12 flex-shrink-0 mb-auto">
+          <div class="author-img rounded-circle overflow-hidden me-6 me-lg-12 flex-shrink-0 mb-auto">
             {{- partial "img" (dict "page" . "src" .Params.image "width" 120 "process" "fill 240x240" "class" "img-fluid" "alt" "{{  .Params.title  }}") }}
           </div>
           {{ end }}

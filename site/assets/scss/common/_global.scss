@@ -1,7 +1,12 @@
 :root {
   --primary: #074761;
   --primary-light: #e7ecee;
+  --body-padding-top: 17rem;
   scroll-behavior: auto !important;
+  
+  @include media-breakpoint-up(lg) {
+    --body-padding-top: 23rem;
+  }
 }
 
 html {
@@ -18,14 +23,14 @@ body {
 
   display: flex;
   flex-direction: column;
-  padding-top: 17rem;
+  padding-top: var(--body-padding-top);
 
   color: $AC-Blue;
   color: var(--primary);
 
   @include media-breakpoint-up(lg) {
     font-size: 1.8rem;
-    padding-top: 23rem;
+    //padding-top: 23rem;
   }
 
   -moz-font-feature-settings: "ss01";
