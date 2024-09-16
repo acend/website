@@ -123,7 +123,7 @@
        <p>{{ .text | markdownify }}</p>
      </div>
 
-     <div class="testimonial-carousel text-white">
+     <div class="testimonial-carousel text-white position-relative">
       {{ range first 3 (shuffle (where $.Site.RegularPages "Section" "stories" )) }}
         {{ partial "content-story-testimonial" . }}
       {{ end }}
