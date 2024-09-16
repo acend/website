@@ -22,9 +22,12 @@ export default function() {
       // An offset to push the content down from the top.
       var offset = 200;
 
-      var target = $(el).offset().top - offset;
+      var target = document.querySelector(el).offsetTop - offset;
 
-      $('html, body').animate({scrollTop:target}, 500);
+      window.scrollTo({
+        top: target,
+        behavior: 'smooth'
+      });
 
       //prevent the page from jumping down to our section.
       window.location.hash = el;
@@ -33,70 +36,27 @@ export default function() {
 
 
 
-  if($('.topic-selector').length) {
+  if (document.querySelectorAll('.topic-selector').length) {
+    document.querySelectorAll('.topic-selector').forEach(function (el) {
+      el.addEventListener('change', function (e) {
+        var val = this.value;
 
-      $('.topic-selector').on('change', function(e) {
-         const val =  this.value;
-
-         if(val) {
+        if (val) {
           scrollTo(val);
-         }else {
+        } else {
           var noHashURL = window.location.href.replace(/#.*$/, '');
           window.history.replaceState('', document.title, noHashURL);
-         }
-         e.preventDefault();
-
+        }
+        e.preventDefault();
       });
+    });
 
-   //activate filter on pageload with hash
-   if(location.hash) {
-    scrollTo(location.hash);
-   }
- 
+    //activate filter on pageload with hash
+    if (location.hash) {
+      scrollTo(location.hash);
+    }
   }
 
-
-  if ($('.faq-content .carousel').length) {
-		
-		$('.faq-content_ .slides').each(function(){
-
-      var $this = $(this);
-
-			var flkty = new Flickity( $this.find('.carousel')[0], { // eslint-disable-line no-unused-vars
-				//lazyLoad: 2,
-				prevNextButtons: false,
-				pageDots: false,
-			//	autoPlay: $this.hasClass('auto-play') ? 3000 : false,
-				wrapAround: true ,
-				cellAlign: 'left',
-			});
-			
-      /*
-			flkty.on( 'staticClick', function(  ) {
-				flkty.selectedIndex == flkty.cells.length - 1  ? flkty.select( 0 ) : flkty.next();
-
-			});
-*/
-			var carouselStatus = $this.find('.carousel-status')[0];
-			var carouselCaption = $this.find('.c-caption')[0];
-			
-			flkty.on( 'select', function() {
-				var slideNumber = flkty.selectedIndex + 1;
-				carouselStatus.textContent = slideNumber + '/' + flkty.slides.length;
-				carouselCaption.textContent = $this.find('.is-selected .caption').text() ? $this.find('.is-selected .caption').text() : $this.find('.carousel-cell:first-child .caption').text();
-			});
-
-      $this.find('.flickity-button.previous').on( 'click', function() {
-				flkty.previous();
-			});
-			// next
-			$this.find('.flickity-button.next').on( 'click', function() {
-				flkty.next();
-			});
-			
-
-		});
-	}
 
 
  

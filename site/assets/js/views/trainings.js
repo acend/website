@@ -1,109 +1,67 @@
 export default function() {
+  const filterlist = document.querySelector('.filterlist');
 
-  if($('.filterlist').length) {
-
-
-      // helper function
-      function containsAll(needles, haystack) {
-        for (var i = 0, len = needles.length; i < len; i++) {
-          if ($.inArray(needles[i], haystack) === -1) {
-            return false;
-          }
+  if (filterlist) {
+    // helper function
+    function containsAll(needles, haystack) {
+      for (var i = 0, len = needles.length; i < len; i++) {
+        if (haystack.indexOf(needles[i]) === -1) {
+          return false;
         }
-        return true;
       }
-
+      return true;
+    }
 
     const doFilter = function () {
+      var checked_values = Array.from(document.querySelectorAll('.btn-filter.active')).map(function (btn) {
+        return btn.getAttribute('data-filter') !== 'all' ? btn.getAttribute('data-filter') : null;
+      }).filter(Boolean); // ["cat1", "cat2", "cat3"]
 
-      var checked_values =  $('.btn-filter.active').map(function () {
-                          return $(this).attr('data-filter') != 'all' ? $(this).attr('data-filter') : null;
-                      }).get(); // ["cat1", "cat2", "cat3"]
+      console.log(checked_values, checked_values.length);
 
-            console.log(checked_values, checked_values.length)
+      if (checked_values.length) {
+        Array.from(document.querySelectorAll('.box-training')).forEach(function (box) {
+          // get all the classes from the object:
+          var catsArray = box.getAttribute('class').split(' ');
 
-            if (checked_values.length) {
-
-              $('.box-training').each(function () {
-                // get all the classes from the object:
-                var catsArray = $(this).attr('class').split(' ');
-
-                // variante 1 : alle filter müssen zutreffen:
-                if (containsAll(checked_values, catsArray)) {
-                  $(this).removeClass('d-none filtered');
-                } else {
-                  $(this).addClass('d-none filtered');
-                }
-              });
-
-              //location.hash = checked_values.join(',');
-            }else {
-              $('.box-training').removeClass('d-none filtered');
-              //location.hash = '';
-            }
-            // triger lozad
-            window.dispatchEvent(new Event('resize'));
+          // variante 1 : alle filter müssen zutreffen:
+          if (containsAll(checked_values, catsArray)) {
+            box.classList.remove('d-none', 'filtered');
+          } else {
+            box.classList.add('d-none', 'filtered');
           }
+        });
 
+        //location.hash = checked_values.join(',');
+      } else {
+        Array.from(document.querySelectorAll('.box-training')).forEach(function (box) {
+          box.classList.remove('d-none', 'filtered');
+        });
+        //location.hash = '';
+      }
+      // triger lozad
+      window.dispatchEvent(new Event('resize'));
+    };
 
-
-
-
-    $('.btn-filter:not(.btn-reset)').on('click', function (e) {
+    Array.from(document.querySelectorAll('.btn-filter:not(.btn-reset)')).forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
         e.preventDefault();
-        $(this).toggleClass('active').siblings().removeClass('active');
+        this.classList.toggle('active');
+        Array.from(btn.parentNode.querySelectorAll('.btn-filter:not(.btn-reset)')).forEach(function (sibling) {
+          if (sibling !== btn) {
+            sibling.classList.remove('active');
+          }
+        });
         doFilter();
       });
+    });
 
-/*
-      if(!$(this).hasClass('active')){
-           $(this).toggleClass('active').siblings().removeClass('active');
-            var selected = $('.btn-filter.active').attr('data-filter');
-            //console.log(selected);
-            $('.box-training:not(.'+selected+')').removeClass('d-block').addClass('d-none');
-
-            $('.box-training.'+selected+'').addClass('d-block').removeClass('d-none'); //.stop().fadeIn();
-
-
-
-            if(selected === 'project') {
-              var noHashURL = window.location.href.replace(/#.*$/, '');
-              window.history.replaceState('', document.title, noHashURL);
-            }else {
-              location.hash = selected;
-
-            }
-
-            //trigger lazy load
-          window.dispatchEvent(new Event('resize'));
-          $(window).trigger('resize');
-
-        } else {
-           $('.box-training').addClass('d-block').removeClass('d-none');
-            $('.btn-filter.active').removeClass('active');
-            var noHashURL = window.location.href.replace(/#.*$/, '');
-            window.history.replaceState('', document.title, noHashURL);
+    //activate filter on pageload with hash
+    if (location.hash) {
+      var filter = document.querySelector('.btn-filter[data-filter="' + location.hash.split('#')[1] + '"]');
+      if (filter) {
+        filter.click();
       }
-   });
-   */
-
-   //activate filter on pageload with hash
-   if(location.hash) {
-    $('.btn-filter[data-filter="'+location.hash.split('#')[1]+'"]').trigger('click');
-   }
-/*
-   $('.btn-reset').click(function() {
-    $('.box-training').addClass('d-block').removeClass('d-none');
-    $('.btn-filter.active').removeClass('active');
-    var noHashURL = window.location.href.replace(/#.*$/, '');
-    window.history.replaceState('', document.title, noHashURL);
-  });
-*/
+    }
   }
-
-  //enable SVGs in popuver
-  // NEEDS TO BE FIXED:
-  //$('.person-info').popover({sanitize:false});
-
-  //$('.firmen-info').popover({fallbackPlacements:'top'});
 }
