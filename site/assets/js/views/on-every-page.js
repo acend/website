@@ -7,6 +7,7 @@ import trainings from "js/views/trainings";
 import about from "js/views/about";
 import faq from "js/views/faq";
 import Slideshows from "js/utils/slideshows";
+import Scrollmove from "js/utils/scrollmove";
 
 // lazy sizes for image loading
 import 'lazysizes';
@@ -62,6 +63,7 @@ export default function() {
   
  
 
+  Scrollmove();
   Slideshows();
   home();
   trainings();
@@ -71,16 +73,7 @@ export default function() {
 
 
     // needs to be fixed:
-  // Background-images
-  // still needed?
-  /*
-  $('[data-background]').each(function () {
-    $(this).css({
-      'background-image': 'url(' + $(this).data('background') + ')'
-    });
-  });
-*/
-
+ 
 // still needed?
   $(".anmelde-toggler").click(function(){
     $('.sticky').toggleClass('d-none');
@@ -101,7 +94,7 @@ export default function() {
 
  
 
-  // StartslideShow Animation:
+  // Trainings: img block Animation:
 
   // Calculate the viewport size
   let winsize = calcWinsize();
