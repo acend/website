@@ -76,7 +76,7 @@
         <div class="row gy-8 ">
           <div class="col-lg-5 offset-lg-1">
             <div class="h2 mb-4">{{ .title }}</div>
-            <p class="">{{ .text }}</p>
+            <div class="">{{ .text }}</div>
             <a href="{{  .link }}" class="link-border bold">{{ .linktext }}</a>
           </div>
 
@@ -96,9 +96,9 @@
 {{ with .Params.excellence }}
 <div class="container-fluid py-16 py-lg-32">
   <div class="row gy-8 position-relative outline ">
-    <div class="col-lg-6 ">
+    <div class="col-lg-6 d-flex">
       
-      <div class="d-flex images">
+      <div class="d-flex my-auto images">
         <div class="img-container align-self-end mb-20 z-1" id="l1">
           {{ partial "img-srcset.html" (dict "img" .img3 "size" 300 "lazy" false) }}
         </div>
@@ -113,9 +113,9 @@
     </div>
     
     <div class="col-lg-6 d-flex">
-      <div class="p-lg-16 my-auto">
-        <h3>{{ .title }}</h3>
-        <p>{{ .text }}</p>
+      <div class="px-4 ps-lg-8 pe-lg-16 py-lg-32 my-auto quote">
+        <div class=" bold mb-0">{{ .title }}</div>
+          <div class="mb-8">{{ .text }}</div>
       </div>
     </div>
   </div>
@@ -130,7 +130,7 @@
 <div class="container-fluid  mb-16 mb-lg-32">
   <div class="row gy-8">
     <div class="col-lg-4">
-      <h2  data-scroll  class="mb-4 mb-lg-8">{{ .title }}</h2>
+      <h2  data-scroll  class="mb-4 ">{{ .title }}</h2>
       <p>{{ .text | markdownify }}</p>
   </div> 
   
