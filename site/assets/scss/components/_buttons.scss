@@ -80,26 +80,28 @@
       width: 22px;
       height: 22px;
   }
-
   position: relative;
+
   &::before {
     content: "";
     height: 100%;
-    width: 1px;
+    width: 2px;
     background: var(--primary);
     display: block;
     top: 0;
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
-
+    transition: all 0.2s ease;
+    
     [aria-expanded="true"] & {
-      height: 0;
+      background: var(--primary-light);
+      transform: translateX(-50%) scaleY(0);
     }
   }
   &::after {
     content: "";
-    height: 1px;
+    height: 2px;
     width: 100%;
     background: var(--primary);
     display: block;
@@ -107,6 +109,11 @@
     left: 0;
     position: absolute;
     transform: translateY(-50%);
+    transition: all 0.2s ease;
+    
+    [aria-expanded="true"] & {
+      background: var(--primary-light);
+    }
   }
 
   .box-anmelden  [aria-expanded="true"] & {

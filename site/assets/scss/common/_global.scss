@@ -1,5 +1,6 @@
 :root {
   --primary: #074761;
+  --primary-medium: #C1D1D7;
   --primary-light: #e7ecee;
   --body-padding-top: 12rem;
   scroll-behavior: auto !important;
@@ -264,7 +265,7 @@ a {
    border-color: var(--primary) !important;
 
    &.light {
-      border-color: var(--primary-light) !important;
+      border-color: var(--primary-medium) !important;
       transition: border-color 0.2s ease;
   
      &:hover {
@@ -383,16 +384,17 @@ a {
 
 .entry-content {
   ol, ul, dl {
-    padding-left: 1.6rem;
+    padding-left: 0;
   }
-
+  
   li {
     list-style: none;
     line-height: 1.7;
+    padding-left: 1em;
 
     &::before {
       content: "– ";
-      margin-left: -0.75rem;
+      margin-left: -1em;
     }
   }
 }
