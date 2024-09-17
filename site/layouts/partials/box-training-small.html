@@ -4,18 +4,18 @@
   
   <div class="inner border light p-4 ps-lg-10 py-lg-8 d-flex flex-column h-100 position-relative">
     {{ if  in .Params.categories "New"  }}
-    <div class="position-absolute label-new bg-primary text-white px-2 py-1 small">{{ i18n "new" }}</div>
+    <div class="position-absolute label-new bg-primary text-white px-2 py-md-1 small">{{ i18n "new" }}</div>
     {{ end }}
       <div class="d-flex">
-        <div class="me-auto">
+        <div class="me-10 me-md-0">
           <div class="small mb-2">{{  .Params.subtitle  | humanize }}</div>
           <a class="stretched-link" href="{{ .Permalink | safeURL }}">
-            <h3 class="mb-4 mb-lg-8">{{ .Title }}</h3>
+            <h3 class="h2 mb-8">{{ .Title }}</h3>
           </a>
         </div>
         {{ with .Params.techlogo }}
           {{ with resources.Get . }}
-            <img src="{{ .RelPermalink }}" alt="" width="30" height="30" class="mb-auto">  
+            <img src="{{ .RelPermalink }}" alt="" width="30" height="30" class="ms-auto mb-auto">  
           {{ end }}
         {{ end }}
       </div>

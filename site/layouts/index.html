@@ -20,23 +20,23 @@
   <section class="section section mb-16 mb-lg-32">
     <div class="container-fluid">
        {{ with .label }}
-          <a data-scroll class="btn btn-sm btn-outline-primary border-1 mb-2" href="{{ i18n "trainingsLink" }}">{{ . }}</a>
+          <a data-scroll class="btn btn-sm btn-outline-primary border-1 py-0  mb-2" href="{{ i18n "trainingsLink" }}">{{ . }}</a>
        {{ end }}
-        <h2  data-scroll  class="mb-4 mb-lg-8 col-lg-4">{{ .title }}</h2>
+        <h2  data-scroll  class="mb-2 col-lg-4">{{ .title }}</h2>
  
         <div  data-scroll  class="col-lg-7 mb-8 mb-lg-16">
           <p>{{ .text | markdownify }}</p>
         </div>
  
-          <h3 class="mb-5 mb-lg-10">{{ .subtitle }}</h3>
+          <h3 class="mb-8 mb-lg-10">{{ .subtitle }}</h3>
           <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 gy-8">
             {{ range where (where $.Site.RegularPages "Section" "trainings") ".Params.categories" "intersect" (slice "New") }}
               {{ partial "box-training-small" . }}
             {{ end }}
           </div>
 
-          <div class="text-end mt-6 mb-18">
-            <a href="{{ i18n "trainingsLink" }}" class="btn btn-outline-primary  py-3 px-5 ">{{ i18n "showAllTrainings" }}</a>
+          <div class="d-flex mt-8 mb-18">
+            <a href="{{ i18n "trainingsLink" }}" class="btn btn-outline-primary  py-3 px-18 px-md-5 mx-auto  me-md-0">{{ i18n "showAllTrainings" }}</a>
          </div>
       
       {{ end }}
@@ -53,8 +53,8 @@
       <div class="row">
         <div class="col-11 col-lg-10 mx-md-auto">
           {{ with $data.homepage.about }}
-          <div class="h4">{{.title}}</div>
-          <p class="h1 lead-big">{{.content | markdownify}}</p>
+          <div class="h3 sm light mb-4">{{.title}}</div>
+          <div class="h1 sm">{{.content | markdownify}}</div>
           {{ if .button.enable }}
             {{ with .button }}
             <a href="{{ .URL | absURL }}" class="btn btn-outline-light">{{.label}}</a>
@@ -88,7 +88,7 @@
   {{ with  $data.homepage.clients }}
  
     <div class="container-fluid  mb-8 mb-lg-16">
-      <h2 data-scroll="in" class="mb-4 mb-lg-8 col-lg-4">{{  .title }}</h2>
+      <h2 data-scroll="in" class="mb-2 col-lg-4">{{  .title }}</h2>
        <div data-scroll="in" class="col-lg-7">
         <p>{{  .text | markdownify }}</p>
       </div>           
@@ -115,9 +115,9 @@
   {{ if  $data.homepage.stories.enable }}
   {{ with  $data.homepage.stories }}
 
-  <div class="container-fluid  mb-16 mb-lg-32">
-      <a class="btn btn-sm btn-outline-primary border-1 mb-2" href="{{ .link }}">{{ .label }}</a>
-     <h2  data-scroll  class="mb-4 mb-lg-8 col-lg-4">{{ .title }}</h2>
+  <div class="container-fluid  mb-18 mb-lg-32">
+      <a class="btn btn-sm btn-outline-primary border-1 py-0  mb-2" href="{{ .link }}">{{ .label }}</a>
+     <h2  data-scroll  class="mb-2 col-lg-4">{{ .title }}</h2>
   
      <div  data-scroll  class="col-lg-7 mb-8 mb-lg-16">
        <p>{{ .text | markdownify }}</p>
@@ -137,8 +137,8 @@
   {{ with  $data.homepage.journal }}
 
   <div class="container-fluid  mb-16 mb-lg-32">
-      <a class="btn btn-sm btn-outline-primary border-1 mb-2" href="{{ .link }}">{{ .label }}</a>
-     <h2  data-scroll  class="mb-4 mb-lg-8 col-lg-4">{{ .title }}</h2>
+      <a class="btn btn-sm btn-outline-primary border-1 py-0  mb-2" href="{{ .link }}">{{ .label }}</a>
+     <h2  data-scroll  class="mb-2 col-lg-4">{{ .title }}</h2>
   
      <div  data-scroll  class="col-lg-7 mb-8 mb-lg-16">
        <p>{{ .text | markdownify }}</p>
@@ -150,9 +150,10 @@
       {{ end }}
     </div>
 
-    <div class="text-end mt-6 mb-18">
-      <a href="{{ .link }}" class="btn btn-outline-primary  py-3 px-5 ">{{ i18n "readMore" }}</a>
+    <div class="d-flex mt-8 mb-18">
+      <a href="{{ .link }}" class="btn btn-outline-primary  py-3 px-18 px-md-5 mx-auto  me-md-0">{{ i18n "readMore" }}</a>
    </div>
+ 
   </div>
   {{ end }}
   {{ end }}
@@ -164,7 +165,7 @@
   {{ with  $data.homepage.partner }}
   <section class="section mb-16 mb-lg-32">
     <div class="container-fluid">
-      <h2 data-scroll="in" class="mb-4 mb-lg-8 col-lg-4">{{  .title }}</h2>
+      <h2 data-scroll="in" class="mb-2 col-lg-4">{{  .title }}</h2>
        <div data-scroll="in" class="col-lg-7 mb-8 mb-lg-16">
         <p>{{  .text | markdownify }}</p>
       </div>           
@@ -199,7 +200,7 @@
   <div class="container-fluid  mb-16 mb-lg-32">
     <div class="row gy-8">
       <div class="col-lg-4">
-        <a class="btn btn-sm btn-outline-primary border-1 mb-2" href="{{ .link }}">{{ .label }}</a>
+        <a class="btn btn-sm btn-outline-primary border-1 py-0  mb-2" href="{{ .link }}">{{ .label }}</a>
         <h2  data-scroll  class="mb-4 mb-lg-8">{{ .title }}</h2>
         <p>{{ .text | markdownify }}</p>
     </div> 

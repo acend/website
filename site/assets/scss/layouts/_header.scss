@@ -1,28 +1,12 @@
 .banner {
   transition:  box-shadow 0.3s ease-in-out, background-color 0.1s linear;
+  height: 12rem;
 
   &.nav-open {
-    background: var(--primary);
-    background-image: url("../images/AC_Muster_1_RGB_Weiss--10-v2.png");
-    background-attachment: fixed;
-    background-size: 1675px;
-
-    bottom: 0;
-
-    a {
-      color: #fff;
-    }
+    // ???
 
     #logo {
-        //transform: translateX(0) !important;
         opacity: 1  !important;
-         path {
-           //#claim:()
-          fill: #fff;
-        }
-        #claim {
-          display: none;
-        }
     }
   }
 
@@ -36,10 +20,10 @@
 
 
   .navbar-brand {
-    width: 200px;
+    width: 10.6rem;
 
     @include media-breakpoint-up(lg) {
-      width: 300px;
+      width: 18.2rem;
       transition: width 0.3s ease-in-out;
     }
 
@@ -72,15 +56,7 @@
         box-shadow: 0 0 30px var(--shadowColor);
       }
 
-
-    .navbar-brand {
-      width: 200px;
-      overflow: hidden;
-    }
-
-    #claim {
-      opacity: 0;
-     }
+ 
   }
 }
 
@@ -89,11 +65,11 @@
 }
 
 .navbar-toggler {
-
-   position: fixed;
+  display: flex;
+   position: relative;
   z-index: 1046;
-  right: 15px;
-  top: 15px;
+  //right: 15px;
+  //top: 15px;
 
   padding: 0;
   background-color: #fff;
@@ -102,8 +78,32 @@
   outline: none !important;
   transition:  box-shadow 0.3s ease-in-out;
 
+  width: 2.5rem;
+  height: 1.9rem;
+
 
   .toggler-icon {
+    width: 100%;
+    height: 0.2rem;
+    background-color: var(--primary);
+
+    &::before, &::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 0.2rem;
+      background-color: var(--primary);
+      position: absolute;
+    }
+
+    &::before {
+      top: 0;
+    }
+
+    &::after {
+      bottom: 0;
+    }
+
     #top, #bottom {
        transition:  transform 0.2s ease-in-out;
     }
@@ -134,10 +134,10 @@
 
 .nav-item {
   text-align: center;
-  margin-top: 2em;
+  margin-bottom: 2.2rem;
 
    @include media-breakpoint-up(md) {
-    margin-top: 0;
+    margin-bottom: 0;
     text-align: left;
      margin-left: 1rem;
 
@@ -148,7 +148,8 @@
 }
 
 .nav-link {
-  font-size: 1.75rem;
+  font-size: 3.2rem;
+  line-height: 1.3;
   color: var(--primary);
 
   @include media-breakpoint-up(md) {
@@ -160,7 +161,7 @@
   }
 
   //padding-left: 0 !important;
-  padding-bottom: 0 !important;
+  //padding-bottom: 0 !important;
   position: relative;
   white-space: nowrap;
 
