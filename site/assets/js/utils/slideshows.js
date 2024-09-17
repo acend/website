@@ -112,11 +112,11 @@ export default function() {
         ready: function() {
           console.log('Flickity ready');
           window.dispatchEvent(new Event('resize'));
-          //_updateTicker(this);
         }
       }
     });
     
+    // cotinuous ticker:
     const _updateTicker = function() {
       flkty_clients.x = (flkty_clients.x - 0.5) % flkty_clients.slideableWidth;
       flkty_clients.selectedIndex = flkty_clients.dragEndRestingSelect();
@@ -127,14 +127,12 @@ export default function() {
     
     _updateTicker();
      
-     
-
 
 
 
     }
 
-          //fade: true,
+         
 
   const carouselTestimonials = document.querySelector('.testimonial-carousel');
   if (carouselTestimonials) {

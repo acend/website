@@ -6,15 +6,15 @@
 // Filter
 
 .btn-filter {
-  position: relative;
-  padding-left: 2.6rem;
-  background: none;
+  //position: relative;
+  //padding-left: 2.6rem;
+  //background: none;
   color: var(--primary);
 
   &:hover {
     color: var(--primary);
   }
-
+  /*
   &:not(.btn-reset)::before {
     content: "";
     display: inline-block;
@@ -30,6 +30,7 @@
       height: 20px;
     }
   }
+  */
 
   &.active::before {
     background-color: var(--primary);

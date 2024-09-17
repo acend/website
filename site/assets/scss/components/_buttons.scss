@@ -1,42 +1,74 @@
 .btn {
   box-shadow: none !important;
+  font-family: "TTFirsNeue-Medium", sans-serif;
+  font-size: 1em;
+  border-radius: 0;
 }
 
+.btn-sm {
+  font-family: "TTFirsNeue-Light", sans-serif;
+  font-size: 1.4rem;
+}
+/*
+.bg-primary {
+  background-color: var(--primary) !important;
+  --bs-btn-color: #074761;
+  --bs-btn-border-color: #074761;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #074761;
+  --bs-btn-hover-border-color: #074761;
+  --bs-btn-focus-shadow-rgb: 7, 71, 97;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #074761;
+  --bs-btn-active-border-color: #074761;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #074761;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #074761;
+  --bs-gradient: none;
+}
+*/
 .btn-outline-light {
-  border-color: #fff;
-  border-width: 2px;
-  &:hover {
-    color: var(--primary);
-    background-color: #fff;
-    border-color: #fff;
-  }
+  --bs-btn-bg: var(--primary);
+  --bs-btn-active-border-color:#fff;
+  --bs-btn-hover-color: var(--primary);
+  --bs-btn-hover-bg:#fff;
+  --bs-btn-hover-border-color:  #fff;
+  
+  
+   --bs-btn-border-color:  #fff;
+  --bs-btn-border-width: 2px;
+
 }
 
 .btn-primary {
-    color: #fff;
-    background-color:  var(--primary)   !important;
-    border-color:  var(--primary);
-    border-width: 2px;
-
-   &:hover {
-    color: var(--primary);
-    background-color: #fff   !important;
-    border-color:  var(--primary);
-  }
+    //color: #fff;
+    --bs-btn-bg: var(--primary);
+    --bs-btn-border-color: var(--primary);
+    --bs-btn-border-width: 2px;
+    --bs-btn-hover-color: var(--primary);
+    --bs-btn-hover-border-color: var(--primary);
+    --bs-btn-hover-bg:  #fff;
 }
 
 .btn-outline-primary {
-    color:  var(--primary);
-    background-color: #fff   !important;
-    border-color:  var(--primary);
-    border-width: 2px;
+  --bs-btn-color: var(--primary);
+  --bs-btn-active-color: #fff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-active-bg: var(--primary);
+  --bs-btn-hover-bg: var(--primary);
+  --bs-btn-active-border-color: var(--primary);
+  --bs-btn-hover-border-color: var(--primary);
+  --bs-btn-border-width: 2px;
+  --bs-btn-border-color: var(--primary);
+}
 
-   &:hover,
-   &:active {
-    color: #fff   !important;
-    background-color: var(--primary)  !important;
-    border-color:  var(--primary)   !important;
-  }
+.btn-filter {
+  --bs-btn-active-color: var(--primary);
+  --bs-btn-active-bg: var(--primary-light);
+  --bs-btn-hover-bg: var(--primary-light);
+  --bs-btn-active-border-color: var(--primary-light);
+  --bs-btn-border-width: 1px;
 }
 
 

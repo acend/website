@@ -49,7 +49,7 @@
           {{ with $.Site.GetPage "taxonomyTerm" $value }}
           <div class="author d-flex mb-16 mb-lg-32">
             {{ if .Params.image }}
-            <div class="logo rounded-circle overflow-hidden me-6 me-lg-12 flex-shrink-0" style="width:80px;">
+            <div class="author-img rounded-circle overflow-hidden me-6 me-lg-12 flex-shrink-0">
               {{- partial "img" (dict "page" . "src" .Params.image "width" 80 "process" "fill 160x160" "class" "img-fluid" "alt" "{{  .Params.title  }}") }}
             </div>
             {{ end }}

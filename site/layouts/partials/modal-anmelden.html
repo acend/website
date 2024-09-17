@@ -56,25 +56,25 @@
 
 
                     <div class="mb-4">
-                      <div class="custom-control custom-radio custom-control-inline">
-                          <input type="radio" id="select_einzelperson" name="person_team" value="{{ i18n "einzelperson" }}"  class="custom-control-input" required>
-                          <label class="custom-control-label" for="select_einzelperson">{{ i18n "einzelperson" }}</label>
+                      <div class="form-check form-check-inline">
+                          <input type="radio" id="select_einzelperson" name="person_team" value="{{ i18n "einzelperson" }}"  class="form-check-input" required>
+                          <label class="form-check-label" for="select_einzelperson">{{ i18n "einzelperson" }}</label>
                         </div>
-                        <div class="custom-control custom-radio custom-control-inline">
-                          <input type="radio" id="select_team" name="person_team" value="Team"  class="custom-control-input">
-                          <label class="custom-control-label" for="select_team">{{ i18n "team" }}</label>
+                        <div class="form-check form-check-inline">
+                          <input type="radio" id="select_team" name="person_team" value="Team"  class="form-check-input">
+                          <label class="form-check-label" for="select_team">{{ i18n "team" }}</label>
                         </div>
                       </div>
 
 
                       <div class="mb-4">
-                      <div class="custom-control custom-radio custom-control-inline">
-                          <input type="radio" id="anrede_frau" name="anrede" value="Frau" class="custom-control-input" required>
-                          <label class="custom-control-label" for="anrede_frau">{{ i18n "frau" }}</label>
+                      <div class="form-check form-check-inline">
+                          <input type="radio" id="anrede_frau" name="anrede" value="Frau" class="form-check-input" required>
+                          <label class="form-check-label" for="anrede_frau">{{ i18n "frau" }}</label>
                         </div>
-                        <div class="custom-control custom-radio custom-control-inline">
-                          <input type="radio" id="anrede_herr" name="anrede" value="Herr" class="custom-control-input">
-                          <label class="custom-control-label" for="anrede_herr">{{ i18n "herr" }}</label>
+                        <div class="form-check form-check-inline">
+                          <input type="radio" id="anrede_herr" name="anrede" value="Herr" class="form-check-input">
+                          <label class="form-check-label" for="anrede_herr">{{ i18n "herr" }}</label>
                         </div>
                       </div>
 
@@ -102,9 +102,9 @@
                     <textarea name="nachricht" id="nachricht" class="form-control form-control-lg mb-4"
                       placeholder="{{ i18n "nachricht" }}"></textarea>
 
-                      <div class="custom-control custom-checkbox mb-4">
-                          <input type="checkbox" class="custom-control-input" id="agb_check" required>
-                          <label class="custom-control-label small" for="agb_check"> {{ i18n "agb_check"  | safeHTML }}</label>
+                      <div class="form-check form-check-inline mb-4">
+                          <input type="checkbox" class="form-check-input" id="agb_check" required>
+                          <label class="form-check-label small" for="agb_check"> {{ i18n "agb_check"  | safeHTML }}</label>
                         </div>
 
                     <button class="btn btn-outline-primary  py-3 px-5 ">{{ i18n "send" }}</button>

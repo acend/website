@@ -1,3 +1,28 @@
+.form-check-input {
+  //--bs-form-check-bg: var(--primary);
+  background-image: none;
+  border-color: var(--primary);
+  border-radius: 0;
+
+  &[type="radio"] {
+    border-radius: 0;
+  }
+
+  &[type="checkbox"] {
+    border-radius: 0;
+  }
+
+  &:checked {
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+  
+  &:focus {
+    border-color: var(--primary);
+    box-shadow: none;
+  }
+}
+
 .form-control,
 .custom-select {
     outline: none;

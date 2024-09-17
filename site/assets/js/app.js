@@ -2,30 +2,14 @@
 // to reduce http requests of small files
 'use strict';
 
-//import 'bootstrap';
-
-//import 'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js';
-
-//import 'jquery';
-import $ from 'jquery';
-window.jQuery = $;
-window.$ = $;
-
 import Swup from 'swup';
 import SwupBodyClassPlugin from '@swup/body-class-plugin';
 import SwupHeadPlugin from '@swup/head-plugin';
 //import SwupDebugPlugin from '@swup/debug-plugin';
-
-//import ScrollOut from "scroll-out";
  
 import onEveryPage from "./assets/js/views/on-every-page";
  
 
-
-
- 
-
- 
 
 const swup = new Swup({
   containers: ['#main', '#main-menu', '#top-menu' ],
@@ -44,26 +28,28 @@ swup.hooks.on('page:view', (visit) => {
 });
 
 
-(function ($) {
-'use strict';
-
 
   onEveryPage();
   
   
 
 
-  $('#signupModal').on('show.bs.modal', function (e) {
-
-    $('body').addClass('signup-modal');
+  document.getElementById('signupModal').addEventListener('show.bs.modal', function (e) {
+    document.body.classList.add('signup-modal');
 
     const selectedTraining = e.relatedTarget.dataset.kurs;
-    if(selectedTraining){
-      $(this).find('.custom-select option[value="'+selectedTraining+'"]').prop('selected', true);
+    if (selectedTraining) {
+      const options = this.querySelectorAll('.custom-select option');
+      options.forEach(option => {
+        if (option.value === selectedTraining) {
+          option.selected = true;
+        }
+      });
     }
+  });
 
-  }).on('hidden.bs.modal', function (e) {
-    $('body').removeClass('signup-modal');
+  document.getElementById('signupModal').addEventListener('hidden.bs.modal', function (e) {
+    document.body.classList.remove('signup-modal');
   });
 
     
@@ -74,48 +60,29 @@ swup.hooks.on('page:view', (visit) => {
   /* FORMULAR : for gold only */
 
 
-  $( 'form' ).submit(function ( e ) {
+  document.querySelector('form').addEventListener('submit', function(e) {
+    e.preventDefault();
 
-  const $form = $(this);
-  const formdata = $form.serializeArray();
+    const form = this;
+    const formData = new FormData(form);
 
-  $.ajax({
-    url:  $form.attr("action"),
-    method: "POST",
-    dataType: "json",
-    data: formdata,
-    success: function (msg) {
-
-      //console.log(msg);
-
-      if (msg.ok == true) {
-
-
-            if (($form.attr('id') === "signupModal") || ($form.attr('id') === "newsletterform")) {
-              $form.replaceWith("<p>Danke für deine Anmeldung.</p>");
-            }else {
-              $form.replaceWith("<p>Danke für deine Nachricht.</p>");
-
-            }
-
-
-
-      } else {
-
-          alert(msg );
-      }
-
-
-  }
+    fetch(form.getAttribute('action'), {
+      method: 'POST',
+      body: formData
+    })
+      .then(response => response.json())
+      .then(data => {
+        if (data.ok === true) {
+          if (form.id === 'signupModal' || form.id === 'newsletterform') {
+            form.outerHTML = '<p>Danke für deine Anmeldung.</p>';
+          } else {
+            form.outerHTML = '<p>Danke für deine Nachricht.</p>';
+          }
+        } else {
+          alert(data);
+        }
+      })
+      .catch(error => {
+        console.error(error);
+      });
   });
-
-  e.preventDefault();
-  });
-
-
-
-
-
-
-
-})(jQuery);

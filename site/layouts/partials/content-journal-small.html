@@ -29,7 +29,7 @@
           {{ with $.Site.GetPage "taxonomyTerm" $value }}
             <div class="author d-flex align-items-center me-2">
                 {{ if .Params.image }}
-                <div class="logo rounded-circle overflow-hidden me-2 flex-shrink-0">
+                <div class="author-img rounded-circle overflow-hidden me-2 flex-shrink-0">
                   {{- partial "img" (dict "page" . "src" .Params.image "width" 40 "process" "fill 80x80" "class" "img-fluid" "alt" "{{  .Params.title  }}") }}
                 </div>
                 {{ end }}
