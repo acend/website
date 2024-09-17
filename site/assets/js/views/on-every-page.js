@@ -43,15 +43,22 @@ export default function() {
     "54 115 92", //#36735c //AC-Green
     "208 143 76", //#F6E8DB", //AC-Yellow
   ];
+  const colors_medium = [
+      "193 209 215",        //AC-Blue - light
+      "232 212 223",        //AC-Red - light
+      "230 237 234",         //AC-Green - light
+      "246 232 219",         //AC-Yellow - light
+          ];
   const colors_light = [
-      "230 236 238",        //"#E6ECEE", //AC-Blue
-      "232 212 223",        //"#E8D4DF", //AC-Red
-      "230 237 234",        //"#E6EDEA", //AC-Green
-      "246 232 219",        //"#F6E8DB", //AC-Yellow
+      "230 236 238",        //AC-Blue - light
+      "232 212 223",        //AC-Red - light
+      "230 237 234",         //AC-Green - light
+      "246 232 219",         //AC-Yellow - light
           ];
   let randomColor =  Math.floor(Math.random() * colors.length);
 
   root.style.setProperty('--primary', 'rgb('+colors[randomColor]+')');
+  root.style.setProperty('--primary-medium', 'rgb('+colors_medium[randomColor]+')');
   root.style.setProperty('--primary-light', 'rgb('+colors_light[randomColor]+')');
   //root.style.setProperty('--color', colors[randomColor]);
   root.style.setProperty('--shadowColor', 'rgba('+colors[randomColor].split(' ').join(',')+', 0.3)');

@@ -118,7 +118,7 @@ export default function() {
     
     // cotinuous ticker:
     const _updateTicker = function() {
-      flkty_clients.x = (flkty_clients.x - 0.5) % flkty_clients.slideableWidth;
+      flkty_clients.x = (flkty_clients.x - 0.85) % flkty_clients.slideableWidth;
       flkty_clients.selectedIndex = flkty_clients.dragEndRestingSelect();
       flkty_clients.updateSelectedSlide();
       flkty_clients.settle(flkty_clients.x);
