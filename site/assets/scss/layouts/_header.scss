@@ -1,13 +1,11 @@
 .banner {
-  transition:  box-shadow 0.3s ease-in-out, background-color 0.1s linear;
+  //transition:  box-shadow 0.3s ease-in-out, background-color 0.1s linear;
   height: 12rem;
 
-  &.nav-open {
-    // ???
-
-    #logo {
-        opacity: 1  !important;
-    }
+	.collapsing {
+    height: auto !important;
+    overflow: auto !important;
+    transition: none !important;
   }
 
   @include media-breakpoint-up(md) {
@@ -29,14 +27,8 @@
 
   }
 
-    #claim {
-      transition:  opacity 0.2s ease-in-out;
-
-      body:not(.home) & {
-        display: none;
-      }
-    }
-
+ 
+/*
   &[data-scroll="in"] {
     //position: fixed;
      @include media-breakpoint-down(sm) {
@@ -58,10 +50,29 @@
 
  
   }
+  */
 }
 
-.navbar {
-  //--bs-navbar-nav-link-padding-x: 0;
+.offcanvas {
+	//--bs-offcanvas-bg: var(--bs-secondary);
+	--bs-offcanvas-width: 100%;
+
+  
+  &.show,
+  &.showing,
+  &.hiding {
+    overflow-x: hidden;
+    background-color: #ffffffe0;
+    backdrop-filter: blur(10px);
+    min-height: 100vh;
+    /* mobile viewport bug fix */
+    height: fill-available;
+  }
+}
+
+.navbar-brand {
+  position: relative;
+  z-index: 1046;
 }
 
 .navbar-toggler {
@@ -72,7 +83,7 @@
   //top: 15px;
 
   padding: 0;
-  background-color: #fff;
+  //background-color: #fff;
   border: none;
   border-radius: 0;
   outline: none !important;
@@ -86,29 +97,46 @@
     width: 100%;
     height: 0.2rem;
     background-color: var(--primary);
+    transition:  transform 0.2s ease-in-out;
+    transform-origin: center;
 
-    &::before, &::after {
+    .menu-open & {
+      transform: rotate(45deg);
+    }
+  
+    &::before,
+    &::after {
       content: "";
       display: block;
       width: 100%;
       height: 0.2rem;
       background-color: var(--primary);
       position: absolute;
+      transition:  transform 0.2s ease-in-out;
+
     }
 
     &::before {
       top: 0;
+      
+      .menu-open & {
+        transform: rotate(90deg);
+      }
     }
-
+    
     &::after {
       bottom: 0;
+      
+      .menu-open & {
+        transform: scaleX(0);
+      }
     }
 
     #top, #bottom {
        transition:  transform 0.2s ease-in-out;
     }
   }
-  &[aria-expanded="true"] {
+  body.menu-open & {
 
       background-color: transparent;
      box-shadow: none !important;

@@ -20,7 +20,7 @@ export default function() {
       console.log(checked_values, checked_values.length);
 
       if (checked_values.length) {
-        Array.from(document.querySelectorAll('.box-training')).forEach(function (box) {
+        Array.from(document.querySelectorAll('.item')).forEach(function (box) {
           // get all the classes from the object:
           var catsArray = box.getAttribute('class').split(' ');
 
@@ -34,7 +34,7 @@ export default function() {
 
         //location.hash = checked_values.join(',');
       } else {
-        Array.from(document.querySelectorAll('.box-training')).forEach(function (box) {
+        Array.from(document.querySelectorAll('.item')).forEach(function (box) {
           box.classList.remove('d-none', 'filtered');
         });
         //location.hash = '';

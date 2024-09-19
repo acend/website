@@ -73,7 +73,7 @@
   }
 }*/
 
-.sticky {
+.box-anmelden .sticky {
    transition:  box-shadow 0.2s ease-in-out;
 
    &.is-sticky {
@@ -98,11 +98,10 @@
     position: fixed;
     z-index: 5;
     right: 15px;
-    top: 100px;
+    bottom: 100px;
     padding: 0;
-    background-color: #fff;
-    border: none;
-    border-radius: 0;
+    //border: none;
+    //border-radius: 0;
     outline: none !important;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 30px var(--shadowColor);

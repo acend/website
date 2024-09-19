@@ -8,14 +8,18 @@ draft: false
 weight: 4
 subtitle: "Basics"
 categories: ["Basics", "Ergänzende Trainings", "New"]
-duration: "1 Tag"
+
 abstract: "eBPF-basiertes Networking"
 main_title: "eBPF-basiertes Networking"
 techlogo: "images/tech/Kubernetes.svg"
 
-personen:
-  daten : ""
-  preis : "CHF 1100"
+
+  # Infos NEU 2024
+duration: "1 Tag"
+costs : "CHF 1100"
+certificate : "Credly Zertifikat"
+documents: "Digitale Unterlagen"
+info: "Bringe deinen eigenen Laptop mit."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"

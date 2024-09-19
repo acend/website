@@ -44,6 +44,7 @@
           </div>
             <div class="filterlist mb-8 " >
               <div>
+                <button class="btn btn-filter btn-outline-primary me-3 mb-3 active" data-filter="item">{{ i18n "all" }}</button>
                 {{ range $key, $value := .Params.categories }}
                 <button class="btn btn-filter btn-outline-primary me-3 mb-3" data-filter="{{ (replace $value "/" "-") | urlize }}">{{ $value }}</button>
                 {{ end }}

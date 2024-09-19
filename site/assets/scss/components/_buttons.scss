@@ -95,7 +95,7 @@
     transition: all 0.2s ease;
     
     [aria-expanded="true"] & {
-      background: var(--primary-light);
+      background: var(--primary-medium);
       transform: translateX(-50%) scaleY(0);
     }
   }
@@ -112,7 +112,7 @@
     transition: all 0.2s ease;
     
     [aria-expanded="true"] & {
-      background: var(--primary-light);
+      background: var(--primary-medium);
     }
   }
 

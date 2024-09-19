@@ -19,6 +19,9 @@ other = "Individuals"
 [firmen]
 other = "Companies"
 
+[all]
+other = "All"
+
 [textTeamsShort]
 other = "Individual company trainings on request."
 
