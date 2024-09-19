@@ -75,7 +75,7 @@ other = "/datenschutz/"
 # Anmeldeformular
 
 [selectTraining]
-other = "Select a training..."
+other = "Training auswählen..."
 
 [einzelperson]
 other = "Einzelperson"
@@ -88,6 +88,12 @@ other = "Frau"
 
 [herr]
 other = "Herr"
+
+[divers]
+other = "Divers"
+
+[keineAngabe]
+other = "keine Angabe"
 
 [name]
 other = "Name"

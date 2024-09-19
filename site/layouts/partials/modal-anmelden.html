@@ -4,7 +4,7 @@
         <div class="modal-dialog container" role="document">
           <div class="modal-content">
             <div class="modal-header border-0">
-              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+              <button type="button" class="close ms-auto" data-bs-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">
                   <svg class="icon" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                   <g id="icon/Close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -23,8 +23,8 @@
                 {{ with $data.anmeldung }}
                     <div class="row mb-5">
                       <div class="col-lg-8 offset-lg-1">
-                      <h4 class="modal-title" id="signupModalLabel">{{  .title }}</h4>
-                      <div class="lead-big">
+                      <div class="modal-title" id="signupModalLabel">{{  .title }}</div>
+                      <div class="h1 sm mb-6 mb-lg-16">
                           {{  .text }}
                       </div>
                     </div>
@@ -39,9 +39,9 @@
                 <form id="anmeldeform" action="{{site.Params.anmeldung.form_action}}" method="POST" >
 
 
-                    <div class="mb-4  form-row">
-                    <div class="col-lg-6">
-                        <select class="custom-select" name="kurs" required>
+                    
+                    <div class="col-lg-6 mb-6 mb-lg-16">
+                        <select class="form-select form-control" name="kurs" required>
                         <option value="" selected>{{ i18n "selectTraining" }}</option>
                         {{ $t := where .Site.RegularPages "Section" "trainings"}}
                         {{ range $t }}
@@ -52,9 +52,9 @@
 
                       </select>
                       </div>
-                      </div>
+                 
 
-
+                      {{/*
                     <div class="mb-4">
                       <div class="form-check form-check-inline">
                           <input type="radio" id="select_einzelperson" name="person_team" value="{{ i18n "einzelperson" }}"  class="form-check-input" required>
@@ -65,7 +65,7 @@
                           <label class="form-check-label" for="select_team">{{ i18n "team" }}</label>
                         </div>
                       </div>
-
+                      */}}
 
                       <div class="mb-4">
                       <div class="form-check form-check-inline">
@@ -76,6 +76,14 @@
                           <input type="radio" id="anrede_herr" name="anrede" value="Herr" class="form-check-input">
                           <label class="form-check-label" for="anrede_herr">{{ i18n "herr" }}</label>
                         </div>
+                        <div class="form-check form-check-inline">
+                          <input type="radio" id="anrede_divers" name="anrede" value="Divers" class="form-check-input">
+                          <label class="form-check-label" for="anrede_divers">{{ i18n "divers" }}</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input type="radio" id="anrede_none" name="anrede" value="keine Angabe" class="form-check-input">
+                          <label class="form-check-label" for="anrede_none">{{ i18n "keineAngabe" }}</label>
+                        </div>
                       </div>
 
 
@@ -83,7 +91,7 @@
 
                     <input type="text" id="vorname" name="vorname" placeholder="{{ i18n "vorname" }} *" class="form-control form-control-lg  mb-4" required>
 
-                    <div class="form-row">
+                    <div class="row">
                       <div class="col-lg-9">
                         <input type="text" id="firma" name="firma" placeholder="{{ i18n "firma" }}" class="form-control form-control-lg  mb-4">
                         </div>
@@ -107,7 +115,7 @@
                           <label class="form-check-label small" for="agb_check"> {{ i18n "agb_check"  | safeHTML }}</label>
                         </div>
 
-                    <button class="btn btn-outline-primary  py-3 px-5 ">{{ i18n "send" }}</button>
+                    <button class="btn btn-outline-primary  py-3 px-10">{{ i18n "send" }}</button>
 
                 </form>
               </div>

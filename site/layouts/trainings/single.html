@@ -32,10 +32,10 @@
       </div>
       
       <div class="col-lg-7">
-        <div class="h4 mb-2 mb-lg-4">Training</div> 
+        <div class="h4 mb-0 mb-lg-4">Training</div> 
         <h1 class="mb-8 mb-lg-16">{{ .Title }}</h1>
         
-        <div class="h3 mb-4 mb-lg-8">{{ .Params.main_title | markdownify}}</div>
+        <div class="h2 mb-4 mb-lg-8">{{ .Params.main_title | markdownify}}</div>
         <div class="entry-content mb-16 mb-lg-32">
           {{ .Params.main_text | markdownify}}
         </div>
@@ -46,7 +46,7 @@
             {{ range $index, $element := .item }}
 
             <a role="button" class="collapsed" data-bs-toggle="collapse" data-bs-target="#{{ .title | urlize}}" aria-expanded="{{ if (eq $index 3) }}true{{ else }}false{{ end }}" aria-controls="{{ .title | urlize}}">
-                <div class="accordion-header py-3 border-top d-flex align-items-center">
+                <div class="accordion-header ps-3 py-3 border-top d-flex align-items-center">
                     {{ if eq .icon "1" }}
                     <svg class="icon me-3 me-lg-6" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Ziel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Ziel_RGB_Schwarz" transform="translate(9 6)" fill="#000" fill-rule="nonzero"><path id="Path" d="M4 52H0V0h45.8L31.56 17.98l14.31 17.6H8V27h4v4.58h25.46L26.44 18.02 37.53 4H4z"/></g></g></svg>
                     {{ else if eq .icon "2" }}
@@ -63,7 +63,7 @@
                 </div>
               </a>
             <div id="{{ .title | urlize}}" class="collapse {{ if (eq $index 3) }} show {{ end }}" aria-labelledby="heading" data-parent="#mainAccordion">
-              <div class="ps-10 ps-lg-16 pb-6 entry-content">{{ .content | safeHTML }}</div>
+              <div class="ps-13 ps-lg-19 pb-6 entry-content">{{ .content | safeHTML }}</div>
              </div>
 
              {{ end }}
@@ -77,7 +77,7 @@
         <!-- video -->
         {{ if  .Params.video.enable }}
         {{ with  .Params.video }}
-            <h3 class="mb-6">{{ .title  | markdownify }}</h3>
+            <h3 class="h2 mb-4">{{ .title  | markdownify }}</h3>
             <div class="video-container mb-16 mb-lg-32">
               <iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube-nocookie.com/embed/{{  .youtubeID }}?modestbranding=1&playsinline=1&color=white" frameborder="0" allowfullscreen></iframe>
             </div>
@@ -86,7 +86,7 @@
       <!-- /video -->
 
 
-           <h2 class="h3 mb-6">{{ .Params.trainingsinhalt.title | markdownify}}</h2>
+           <h2 class="mb-2 mb-lg-4">{{ .Params.trainingsinhalt.title | markdownify}}</h2>
    
             <div class="entry-content mb-6">
                 {{ .Params.trainingsinhalt.text | markdownify}}
@@ -259,7 +259,7 @@
       
 
       <div class="col-lg-11 offset-lg-1 ">
-        <h3 class="mb-6">{{ .title  | markdownify }}</h3>
+        <h3 class="h2 mb-4 mb-lg-6">{{ .title  | markdownify }}</h3>
         <div class="row gx-lg-16">
         {{ range .trainer }}
 
@@ -294,7 +294,7 @@
   <!-- /testimonials -->
 
   <div class="container-fluid mb-16 mb-lg-32">
-    <h3 class="mb-8 mb-lg-10">Weitere Trainings</h3>
+    <h3 class="h2 mb-8 mb-lg-10">Weitere Trainings</h3>
     <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 gy-8">
       
       {{ $related := $.Site.RegularPages.Related . | first 4 }}

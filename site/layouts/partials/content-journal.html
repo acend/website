@@ -46,8 +46,9 @@
           {{ end }}
           {{ end }}
           
-          <a class="stretched-link bold ms-auto mt-lg-auto" href="{{ .Permalink | safeURL }}">
-            {{ i18n "continueReading" }}
+
+          <a class="stretched-link bold ms-auto mt-lg-auto " href="{{ .Permalink | safeURL }}">
+            <span class="link-border d-none d-lg-block">{{ i18n "continueReading" }}</span> 
           </a> 
         </div>
      </div>
