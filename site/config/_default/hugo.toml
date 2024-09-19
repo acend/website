@@ -35,10 +35,11 @@ summarylength = 20 # 70 (default)
         pageRef = "/stories"
         name = "Stories"
         weight = 2
-      [[languages.de.menus.main]]
-        pageRef = "/impact"
-        name = "Impact"
-        weight = 3
+     
+     # [[languages.de.menus.main]]
+      #  pageRef = "/impact"
+      #  name = "Impact"
+      #  weight = 3
       [[languages.de.menus.main]]
         pageRef = "/journal"
         name = "Journal"

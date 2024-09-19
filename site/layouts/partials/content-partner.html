@@ -1,0 +1,18 @@
+<div data-scroll class="col partner">
+  <div class="inner position-relative bg-primary p-4">
+    {{ if .logo }}
+     {{- partial "img" (dict "page" . "src"  .logo "width" 800 "process" "fill 800x460" "alt" "{{   .title  }}") }}
+    {{ end }}
+    <div class="info-box  position-absolute top-0 bottom-0 bg-primary  start-0 w-100 p-4">
+        <div class="d-flex flex-column h-100 text-white small">
+          {{ with .title }}
+          <h6 class="inherit bold mb-3">{{  . | markdownify }}</h6>
+          {{ end }}
+          <div class="mb-3 hyphens">{{.text }}</div>
+          {{ if .link}} 
+            <a href="{{ .link | absURL }}" class="link-border mt-auto me-auto"  target="_blank" rel="noopener">{{.link_label}}</a>
+          {{ end }}
+        </div>
+    </div>
+  </div>
+</div>

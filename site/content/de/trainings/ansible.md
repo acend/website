@@ -9,15 +9,18 @@ weight: 10
 slug:
 subtitle: "Basics"
 categories: ["Basics", "Ergänzende Trainings"]
-duration: "2 Tage"
-costs : "CHF 1900"
+
 abstract: "Ansible Kickstart-Training"
 main_title: "Ansible Kickstart-Training"
 techlogo: "images/tech/Kubernetes.svg"
 
-personen:
-  daten : ""
-  preis : "CHF 1900"
+# Infos NEU 2024
+duration: "2 Tage"
+costs : "CHF 1900"
+certificate : "Credly Zertifikat"
+documents: "Digitale Unterlagen"
+info: "Bringe deinen eigenen Laptop mit."
+ 
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Hicham-Bike@2x.jpg"

@@ -26,12 +26,12 @@ export default function() {
     /* options */
     once: true,
   });
-
+/*
   ScrollOut({
     targets: ".banner",
     offset: 200,
   });
-
+*/
 
   var sticky = new Sticky('.sticky');
 
@@ -45,9 +45,9 @@ export default function() {
   ];
   const colors_medium = [
       "193 209 215",        //AC-Blue - light
-      "232 212 223",        //AC-Red - light
-      "230 237 234",         //AC-Green - light
-      "246 232 219",         //AC-Yellow - light
+      "227 135 186",        //AC-Red - light
+      "172 200 189",         //AC-Green - light
+      "229 209 190",         //AC-Yellow - light
           ];
   const colors_light = [
       "230 236 238",        //AC-Blue - light
@@ -86,7 +86,7 @@ export default function() {
 if (anmeldeToggler) {
 
   anmeldeToggler.addEventListener('click', function() {
-    document.querySelector('.sticky').classList.toggle('d-none');
+    document.querySelector('.box-anmelden .sticky').classList.toggle('d-none');
   });
 }          
   

@@ -19,6 +19,9 @@ other = "Personen"
 [firmen]
 other = "Firmen"
 
+[all]
+other = "Alle"
+
 
 [textTeamsShort]
 other = "Firmen-Trainings auf Anfrage."

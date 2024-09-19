@@ -280,37 +280,37 @@ memberships:
   member:
     - title: "bernerit.rocks"
       logo: "images/mitgliedschaften/berner-it-rocks.png"
-      abstract: "Der Verein bernerit.rocks veranstaltet technisch motivierte Events für die Berner IT-Community. acend gehört zu den ersten Gönnern und ist auch im Vorstand vertreten."
+      text: "Der Verein bernerit.rocks veranstaltet technisch motivierte Events für die Berner IT-Community. acend gehört zu den ersten Gönnern und ist auch im Vorstand vertreten."
       link: "https://bernerit.rocks/"
       link_label: "bernerit.rocks"
 
     - title: "CH Open"
       logo: "images/mitgliedschaften/CH-open.png"
-      abstract: "CH Open fördert Open Source Software und offene Standards im Schweizer Markt durch Weiterbildungen und Informationsaustausch unter den Mitgliedern."
+      text: "CH Open fördert Open Source Software und offene Standards im Schweizer Markt durch Weiterbildungen und Informationsaustausch unter den Mitgliedern."
       link: "https://www.ch-open.ch/"
       link_label: "www.ch-open.ch"
 
     - title: "Cloud Native Computing Foundation"
       logo: "images/mitgliedschaften/cncf.png"
-      abstract: "Die Open Source Software Stiftung, welche die Zusammenarbeit zwischen Entwickler, Anwender und Anbieter von Cloud Native Software fördert."
+      text: "Die Open Source Software Stiftung, welche die Zusammenarbeit zwischen Entwickler, Anwender und Anbieter von Cloud Native Software fördert."
       link: "https://www.cncf.io/"
       link_label: "www.cncf.io"
 
     - title: "Digital Impact Network"
       logo: "images/mitgliedschaften/digital-impact-network.png"
-      abstract: "Digital Impact Network ist ein Zusammenschluss zur Förderung der Digitalisierung in der Hauptstadtregion Schweiz."
+      text: "Digital Impact Network ist ein Zusammenschluss zur Förderung der Digitalisierung in der Hauptstadtregion Schweiz."
       link: "https://digitalimpact.ch/"
       link_label: "digitalimpact.ch/"
 
     - title: "Linux Foundation"
       logo: "images/mitgliedschaften/linuxfoundation.png"
-      abstract: "Die Linux Foundation hat sich zum Ziel gesetzt das Wachstum von Linux zu unterstützen. Da helfen wir natürlich gerne mit."
+      text: "Die Linux Foundation hat sich zum Ziel gesetzt das Wachstum von Linux zu unterstützen. Da helfen wir natürlich gerne mit."
       link: "https://www.linuxfoundation.org/"
       link_label: "www.linuxfoundation.org/"
 
     - title: "swissICT"
       logo: "images/mitgliedschaften/swiss-itc.png"
-      abstract: "swissITC ist der grösste Fachverband der Branche und verbindet als einzger Verband ICT-Anbieter, Anwender und Fachkräfte der Schweiz"
+      text: "swissITC ist der grösste Fachverband der Branche und verbindet als einzger Verband ICT-Anbieter, Anwender und Fachkräfte der Schweiz"
       link: "https://www.swissict.ch"
       link_label: "www.swissict.ch"
 ---

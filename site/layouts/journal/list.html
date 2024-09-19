@@ -13,6 +13,25 @@
   </div>
   {{ end }}
   
+
+  <div class="row">
+    <div class="col-lg-10 offset-lg-1">
+      
+      <div class="d-flex border-top  py-3">
+       <!-- <button class="btn btn-filter btn-resetms-auto">Reset</button> -->
+      </div>
+        <div class="filterlist mb-8 " >
+          <button class="btn btn-filter btn-outline-primary me-3 mb-3 active" data-filter="item">{{ i18n "all" }}</button>
+          
+            {{ range $key, $value := .Params.categories }}
+            <button class="btn btn-filter btn-outline-primary me-3 mb-3" data-filter="{{ (replace $value "/" "-") | urlize }}">{{ $value }}</button>
+            {{ end }}
+           
+        </div>
+    </div>
+  </div>
+
+
   <div class="col-lg-10 offset-lg-1 mb-8 mb-lg-16">
     {{ range .Data.Pages }}
     {{ partial "content-journal" . }}

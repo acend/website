@@ -14,6 +14,14 @@ abstract : "KubeVirt ermöglicht DevOps-Teams, herkömmliche virtuelle Maschinen
 main_title : "KubeVirt ermöglicht DevOps-Teams, herkömmliche virtuelle Maschinen und nicht containerisierbare Workloads auf Kubernetes zu betreiben."
 techlogo: "images/tech/Kubernetes.svg"
 
+# Infos NEU 2024
+costs : "CHF 2300"
+duration : "2 Tage"
+certificate : "Credly Zertifikat"
+documents: "Digitale Unterlagen"
+info: "Bringe deinen eigenen Laptop mit."
+
+# old
 personen:
   #daten : "15.11.22, 16.11.22"
   daten : ""

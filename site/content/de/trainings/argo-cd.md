@@ -9,15 +9,18 @@ weight: 3
 slug:
 subtitle: "Basics"
 categories: ["Basics", "Delivery CI/CD", "New"]
-duration: "1 Tag"
-costs : "CHF 1900"
+
 abstract: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 main_title: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 techlogo: "images/tech/Kubernetes.svg"
 
-personen:
-  daten : ""
-  preis : "CHF 1100"
+# Infos NEU 2024
+duration: "1 Tag"
+costs : "CHF 1900"
+certificate : "Credly Zertifikat"
+documents: "Digitale Unterlagen"
+info: "Bringe deinen eigenen Laptop mit."
+ 
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_TopHill@2x.jpg"

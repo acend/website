@@ -229,6 +229,7 @@ h6,
 
 .small {
   font-size: 1.4rem;
+  line-height: 1.41;
 }
 
 
@@ -399,22 +400,9 @@ a {
   }
 }
 
-/*
-.mt-6, .my-6 {
-    margin-top: 5rem !important;
+.hyphens {
+  hyphens: auto;
 }
-.mb-6, .my-6 {
-    margin-bottom: 5rem !important;
-}
- @include media-breakpoint-up(lg) {
-  .mt-lg-6, .my-lg-6 {
-      margin-top: 5rem !important;
-  }
-  .mb-lg-6, .my-lg-6 {
-      margin-bottom: 5rem !important;
-  }
- }
-*/
 
 .bg-primary {
   background-color: var(--primary) !important;
