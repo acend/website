@@ -8,30 +8,30 @@
 
  
     <div class="row gy-8">
-      <div class="col-lg-5">
-
+      <div class="col-7">
         {{ with .Params.person }}
         <div class="mb-2 small">
           <div class="bold"> {{  .name  }}</div>
           {{  .title  }}
         </div>
         {{ end }}
+      </div>
+        <div class="col-5 d-flex">
+          {{ if .Params.partner.enable }}
+           {{ if .Params.partner.logo }}
+            <div class="logo ms-auto flex-shrink-1" style="width:140px;">
+              {{- partial "figure" (dict "page" . "src" .Params.partner.logo "width" 140 "process" "" "class" "img-fluid") }}
+            </div>
+          {{ end }}
+        {{ end }}
+       </div>
+      </div>
 
+       <div class="col-md-7 col-lg-5">
         <a class="stretched-link" href="{{ .Permalink | safeURL }}">
           <h2  class="h3 mb-0">{{ .Title }}</h2>
         </a> 
-        
-       </div>
+      </div>
 
-      <div class="col-md-auto ms-md-auto">
-        {{ if .Params.partner.enable }}
-         {{ if .Params.partner.logo }}
-          <div class="logo mb-8" style="width:140px;">
-            {{- partial "figure" (dict "page" . "src" .Params.partner.logo "width" 140 "process" "" "class" "img-fluid") }}
-          </div>
-        {{ end }}
-      {{ end }}
-     </div>
- </div>
  </div>
  

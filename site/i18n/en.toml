@@ -88,6 +88,12 @@ other = "Ms."
 [herr]
 other = "Mr."
 
+[divers]
+other = "Diverse"
+
+[keineAngabe]
+other = "No information"
+
 [name]
 other = "Last Name"
 

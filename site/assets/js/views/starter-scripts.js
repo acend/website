@@ -24,7 +24,7 @@ export default function() {
 
     const selectedTraining = e.relatedTarget.dataset.kurs;
     if (selectedTraining) {
-      const options = this.querySelectorAll('.custom-select option');
+      const options = this.querySelectorAll('.form-select[name="kurs"] option');
       options.forEach(option => {
         if (option.value === selectedTraining) {
           option.selected = true;

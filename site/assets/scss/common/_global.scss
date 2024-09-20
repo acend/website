@@ -2,10 +2,10 @@
   --primary: #074761;
   --primary-medium: #C1D1D7;
   --primary-light: #e7ecee;
-  --body-padding-top: 12rem;
+  --body-padding-top: 7.4rem;
   scroll-behavior: auto !important;
   
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(md) {
     --body-padding-top: 20rem;
 
     &:has(.home) {
@@ -316,13 +316,16 @@ a {
 
 .title-huge {
   font-family: "TTFirsNeue-Medium", sans-serif;
-  font-size: 37.2rem;
+  font-size: 15.2rem;
   line-height: 1;
   white-space: nowrap;
   overflow: hidden;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--primary);
+  @include media-breakpoint-up(md) {
+    font-size: 37.2rem;
+  }
 }
 
 .pattern {
