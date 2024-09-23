@@ -1,15 +1,28 @@
-.content {
-  [data-scroll]:not(.floater) {
-    transition: opacity 1s, transform 0.5s;
-  }
+[data-scroll] {
+  opacity: 0;
+  transform: translateY(2rem);
+  will-change: opacity, transform;
+  transition: opacity 0.5s cubic-bezier(0.215,0.61,0.355,1) 0.5s, transform 0.75s cubic-bezier(0.215,0.61,0.355,1) 0.5s;
 
-  [data-scroll="in"]:not(.floater) {
-    opacity: 1;
-    transform: translateY(0);
+  &.accordion-item {
+    transform: translate(-20%, 0);
   }
+}
 
-  [data-scroll="out"]:not(.floater) {
-    opacity: 0;
-    transform: translateY(2rem);
+[data-scroll="in"] {
+  opacity: 1;
+  transform: translate(0, 0);
+
+  &.accordion-item {
+    transform: translate(0, 0);
+  }
+}
+
+[data-scroll="out"] {
+  opacity: 0;
+  transform: translateY(2rem);
+
+  &.accordion-item {
+    transform: translate(-20%, 0);
   }
 }

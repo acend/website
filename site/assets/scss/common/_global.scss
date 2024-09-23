@@ -374,18 +374,6 @@ a {
   }
 }
 
-[data-scroll]:not(.banner) {
-  transition: opacity 1s, transform 0.6s ease-in-out;
-}
-[data-scroll="in"]:not(.banner) {
-  opacity: 1;
-  transform: translateY(0);
-}
-[data-scroll="out"]:not(.banner) {
-  opacity: 0;
-  transform: translateY(20px);
-}
-
 .entry-content {
   ol, ul, dl {
     padding-left: 0;
