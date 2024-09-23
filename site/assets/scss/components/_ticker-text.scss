@@ -1,0 +1,55 @@
+/*
+.ticker {
+  overflow: hidden;
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 2rem;
+  }
+
+  .inner {
+    position: relative;
+    width: 100%;
+    display: flex;
+    color: white;
+    font-size: 8rem;
+
+    > * {
+      white-space: nowrap;
+      padding-right: 0.5em;
+    }
+  }
+}
+*/
+
+.marquee {
+  --offset: 20vw;
+  --move-initial: calc(-25% + var(--offset));
+  --move-final: calc(-50% + var(--offset));
+}
+
+.marquee__inner {
+  width: fit-content;
+  display: flex;
+  position: relative;
+  transform: translate3d(var(--move-initial), 0, 0);
+  animation: marquee 15s linear infinite;
+  
+  div {
+    padding-right: 0.25em;
+  }
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(var(--move-initial), 0, 0);
+  }
+
+  100% {
+    transform: translate3d(var(--move-final), 0, 0);
+  }
+}
