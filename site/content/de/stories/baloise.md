@@ -8,6 +8,14 @@ draft: false
 weight: 10
 slug:
 
+trainings:
+  - title: "Container & OpenShift"
+    link: "/trainings/container-openshift"
+  - title: "Tekton"
+    link: "/trainings/tekton"
+  - title: "KubeVirt"
+    link: "/trainings/kubevirt"
+
 person:
   name : "Robert Mohaupt"
   title : "IT-Projektmanager, Baloise"

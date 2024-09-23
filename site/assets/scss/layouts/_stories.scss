@@ -1,0 +1,12 @@
+.story-teaser,
+.single.stories {
+  .logo {
+    width: 118px;
+
+    @include media-breakpoint-up(md) {
+      width: 140px;
+    }
+  }
+
+}
+

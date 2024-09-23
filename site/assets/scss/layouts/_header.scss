@@ -33,17 +33,16 @@
 .offcanvas {
 	//--bs-offcanvas-bg: var(--bs-secondary);
 	--bs-offcanvas-width: 100%;
-  background-color: #ffffffe0;
-  backdrop-filter: blur(10px);
-  min-height: 100vh;
   /* mobile viewport bug fix */
   height: fill-available;
-
+  
   
   &.show,
   &.showing,
   &.hiding {
- //
+    background-color: #ffffffe0;
+    backdrop-filter: blur(10px);
+    min-height: 100vh;
 
   }
 }
