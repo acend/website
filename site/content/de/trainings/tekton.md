@@ -12,6 +12,8 @@ categories: ["Basics", "Delivery CI/CD"]
 duration: "1 Tag"
 abstract: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
 main_title: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
+techlogo: "images/tech/tekton-stacked.svg"
+
 
 personen:
   daten : ""

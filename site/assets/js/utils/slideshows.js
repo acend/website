@@ -86,8 +86,9 @@ export default function() {
       var flkty_partner = new Flickity( carouselPartners, {
           wrapAround: true,
           autoPlay: 5500,
-          //pauseAutoPlayOnHover: false,
+          pauseAutoPlayOnHover: true,
           prevNextButtons: false,
+          pageDots: false,
           cellAlign: 'left',
           on: {
               ready: function() {
@@ -95,6 +96,18 @@ export default function() {
               },
           }, 
       });
+
+       // cotinuous ticker:
+    const _updateTicker2 = function() {
+      flkty_partner.x = (flkty_partner.x - 0.85) % flkty_partner.slideableWidth;
+      flkty_partner.selectedIndex = flkty_partner.dragEndRestingSelect();
+      flkty_partner.updateSelectedSlide();
+      flkty_partner.settle(flkty_partner.x);
+      window.requestAnimationFrame(_updateTicker2);
+    };
+    
+    _updateTicker2();
+     
     }
   
     const carouselClients = document.querySelector('.clients-carousel');
@@ -110,7 +123,7 @@ export default function() {
       cellAlign: 'left',
       on: {
         ready: function() {
-          console.log('Flickity ready');
+          //console.log('Flickity ready');
           window.dispatchEvent(new Event('resize'));
         }
       }

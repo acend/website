@@ -12,7 +12,7 @@ categories: ["Basics", "Ergänzende Trainings"]
 duration: "1 Tag"
 abstract : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
 main_title : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
-techlogo: "images/tech/Kubernetes.svg"
+techlogo: "images/tech/helm-horizontal.svg"
 
 personen:
   daten : ""

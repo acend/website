@@ -169,33 +169,27 @@
        <div data-scroll="in" class="col-lg-7 mb-8 mb-lg-16">
         <p>{{  .text | markdownify }}</p>
       </div>           
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4">           
+    </div>           
+
+    <div class="partner-carousel mb-16 mb-lg-32">
+      {{ range .item }}
+      {{ partial "content-partner" . }}
+      {{ end }}
+    </div>
+
+      {{/*
+<div class=" ">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4  row-cols-xxl-6 gy-4">           
         {{ range .item }}
         {{ partial "content-partner" . }}
         {{ end }}
       </div>           
 
+ 
 
-      {{/*
-      <div class="partner-carousel">
-
-              {{ range .item }}
-                  <div class="carousel-cell mb-4 me-4">
-                      <div class="mb-3 bg-primary p-4 text-center">
-                          {{- $image := .logo  -}}
-                          {{- partial "img" (dict "page" $.Page "src" $image "width" 800 "process" "fill 800x400" "alt" "{{   .title  }}") }}
-                        </div>
-                      <p>
-                          {{  .text | markdownify }}
-                      </p>
-                      {{ if .URL}} <a href="{{ .URL | absURL }}" class="link-border"  target="_blank" rel="noopener">{{.label}}</a> {{ end }}
-                  </div>
-                  {{ end }}
-              </div>
-
-              */}}
+             
+    </div> */}}
         
-    </div>
   </section>
   {{ end }}
   {{ end }}
