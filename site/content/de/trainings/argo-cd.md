@@ -12,7 +12,7 @@ categories: ["Basics", "Delivery CI/CD", "New"]
 
 abstract: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 main_title: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
-techlogo: "images/tech/Kubernetes.svg"
+techlogo: "images/tech/argo-horizontal.svg"
 
 # Infos NEU 2024
 duration: "1 Tag"

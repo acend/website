@@ -13,6 +13,9 @@ categories: ["Basics", "Delivery CI/CD"]
 duration: "2 Tage"
 abstract : "Write, Plan and Apply. IaC made easy."
 main_title : "Write, Plan and Apply. IaC made easy."
+techlogo: "images/tech/Terraform_VerticalLogo.svg"
+
+
 
 personen:
   daten : ""
