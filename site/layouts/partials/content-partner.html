@@ -1,7 +1,9 @@
-<div data-scroll_ class="col-4 col-md-3 col-xxl-2 partner me-3">
+<div data-scroll_ class="col-10 col-md-4 col-lg-3 col-xxl-2 partner me-3">
   <div class="inner position-relative bg-primary p-4">
     {{ if .logo }}
-     {{- partial "img" (dict "page" . "src"  .logo "width" 800 "process" "fill 800x460" "alt" "{{   .title  }}") }}
+    <div class="p-4">
+      {{- partial "img" (dict "page" . "src"  .logo "width" 800 "process" "fill 800x460" "alt" "{{   .title  }}") }}
+    </div>
     {{ end }}
     <div class="info-box  position-absolute top-0 bottom-0 bg-primary  start-0 w-100 p-4">
         <div class="d-flex flex-column h-100 text-white small">
