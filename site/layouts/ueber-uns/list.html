@@ -116,15 +116,21 @@
   {{ if .Params.memberships.enable }}
   {{ with .Params.memberships }}
  
-    <div class="container-fluid mb-16 mb-lg-32">
+    <div class="container-fluid ">
 
       <div class="col-lg-5 mb-8 mb-lg-16" data-scroll>
         <h3  class="mb-4">{{ .title | markdownify }}</h3>
         <div class="mb-4 mb-lg-8">{{ .text | markdownify }}</div>
        </div>
 
+    </div>           
 
- 
+    <div class="partner-carousel mb-16 mb-lg-32">
+      {{ range .member }}
+      {{ partial "content-partner" . }}
+      {{ end }}
+    </div>
+     {{/*
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4">
               {{ range .member }}
                 {{ partial "content-partner" . }}

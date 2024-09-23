@@ -169,14 +169,26 @@
        <div data-scroll="in" class="col-lg-7 mb-8 mb-lg-16">
         <p>{{  .text | markdownify }}</p>
       </div>           
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4">           
+    </div>           
+
+
+
+    <div class="partner-carousel mb-16 mb-lg-32">
+      {{ range .item }}
+      {{ partial "content-partner" . }}
+      {{ end }}
+    </div>
+
+      {{/*
+<div class=" ">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4  row-cols-xxl-6 gy-4">           
         {{ range .item }}
         {{ partial "content-partner" . }}
         {{ end }}
       </div>           
 
 
-      {{/*
+
       <div class="partner-carousel">
 
               {{ range .item }}
@@ -193,9 +205,9 @@
                   {{ end }}
               </div>
 
-              */}}
+             
+    </div> */}}
         
-    </div>
   </section>
   {{ end }}
   {{ end }}
