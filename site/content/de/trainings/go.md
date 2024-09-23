@@ -7,11 +7,11 @@ date: 2022-03-30T12:16:39+06:00
 draft: false
 weight: 3
 subtitle: "Basics"
-categories: ["Basics", "Programming"]
+categories: ["Basics", "Programming", "New"]
 duration: "1 Tag"
 abstract: "Einführung in Go für Software Entwickler, Architekten und DevOps Engineers."
 main_title: "Einführung in Go für Software Entwickler, Architekten und DevOps Engineers."
-techlogo: "images/tech/Kubernetes.svg"
+techlogo: "images/tech/Go.svg"
 
 personen:
   daten : ""

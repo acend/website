@@ -11,7 +11,7 @@ categories: ["Basics", "Ergänzende Trainings", "New"]
 
 abstract: "eBPF-basiertes Networking"
 main_title: "eBPF-basiertes Networking"
-techlogo: "images/tech/Kubernetes.svg"
+techlogo: "images/tech/cilium-logo.svg"
 
 
   # Infos NEU 2024
