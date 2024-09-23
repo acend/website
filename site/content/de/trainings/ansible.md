@@ -8,7 +8,7 @@ draft: false
 weight: 10
 slug:
 subtitle: "Basics"
-categories: ["Basics", "Ergänzende Trainings"]
+categories: ["Ergänzende Trainings"]
 
 abstract: "Ansible Kickstart-Training"
 main_title: "Ansible Kickstart-Training"

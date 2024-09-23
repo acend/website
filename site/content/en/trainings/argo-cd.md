@@ -8,7 +8,7 @@ draft: false
 weight: 3
 slug:
 subtitle: "Basics"
-categories: ["Basics", "Delivery CI/CD"]
+categories: ["Delivery CI/CD"]
 duration: "1 Day"
 abstract: "Next generation application delivery and operations."
 main_title: "Next generation application delivery and operations."

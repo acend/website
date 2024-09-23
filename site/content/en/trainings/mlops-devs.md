@@ -8,7 +8,7 @@ draft: false
 weight: 4
 slug:
 subtitle: "Basics"
-categories: ["Basics", "Additional Trainings"]
+categories: ["Additional Trainings"]
 duration: "2 days"
 abstract: "A practical introduction and comprehensive insight into MLOps."
 main_title: "A practical introduction and comprehensive insight into MLOps."
