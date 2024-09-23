@@ -12,7 +12,7 @@
 
         {{ range .items}}
         <div class="col-8 col-md-6">
-          <div class="timeline-item me-20 me-lg-48">
+          <div data-scroll class="timeline-item me-20 me-lg-48">
               <h2>{{ .title }}</h2>
               <p>{{ .subtitle }}</p>
               {{ with .img }}
@@ -34,7 +34,7 @@
 <div class="container-fluid">
   {{ with .Params.introtext }}
   <div class="col-lg-8 offset-lg-1 mb-8 mb-lg-16">
-    <h2 class="h3">{{ . | markdownify }}</h2>
+    <h2 data-scroll class="h3">{{ . | markdownify }}</h2>
   </div>
   {{ end }}
   
@@ -44,9 +44,9 @@
       {{ range $index, $value := .Params.brand_values }}
         {{ with $value }}
         <div class="col">
-          <div class="h1">{{ add $index  1  }}</div>
-          <h3 class="h4">{{ .title }}</h3>
-          <p class="small">{{ .text }}</p>
+          <div data-scroll class="h1">{{ add $index  1  }}</div>
+          <h3 data-scroll class="h4">{{ .title }}</h3>
+          <p data-scroll class="small">{{ .text }}</p>
       </div>
       {{ end }}
       {{ end }}
@@ -73,10 +73,10 @@
  
 
 {{ with .Params.join_us }}
-  <div class="col-lg-5 mb-16 mb-lg-32" data-scroll>
-    <h3  class="mb-4">{{ .title | markdownify }}</h3>
-    <div class="mb-4 mb-lg-8">{{ .text | markdownify }}</div>
-    <a class="btn btn-outline-primary py-3 px-5" href="{{ .link }}">{{ .link_label }}</a>
+  <div class="col-lg-5 mb-16 mb-lg-32">
+    <h3  data-scroll class="mb-4">{{ .title | markdownify }}</h3>
+    <div data-scroll class="mb-4 mb-lg-8">{{ .text | markdownify }}</div>
+    <a data-scroll class="btn btn-outline-primary py-3 px-5" href="{{ .link }}">{{ .link_label }}</a>
   </div>
 {{ end }}
 
@@ -84,15 +84,15 @@
 
 
 {{ with .Params.community }}
-  <div class="col-lg-8 mb-8 mb-lg-16" data-scroll>
-    <h3  class="mb-4">{{ .text | markdownify }}</h3>
+  <div class="col-lg-8 mb-8 mb-lg-16">
+    <h3  data-scroll class="mb-4">{{ .text | markdownify }}</h3>
   </div>
 {{ end }}
 
 </div>
 
 {{ with .Params.community.images }}
-<div class="carousel carousel-community mb-16 mb-lg-32">
+<div data-scroll class="carousel carousel-community mb-16 mb-lg-32">
   {{ range  $value := . }}
     {{ with $value }}
       <div class="carousel-cell p-4">
@@ -118,14 +118,14 @@
  
     <div class="container-fluid ">
 
-      <div class="col-lg-5 mb-8 mb-lg-16" data-scroll>
-        <h3  class="mb-4">{{ .title | markdownify }}</h3>
-        <div class="mb-4 mb-lg-8">{{ .text | markdownify }}</div>
+      <div class="col-lg-5 mb-8 mb-lg-16" >
+        <h3  data-scroll class="mb-4">{{ .title | markdownify }}</h3>
+        <div data-scroll class="mb-4 mb-lg-8">{{ .text | markdownify }}</div>
        </div>
 
     </div>           
 
-    <div class="partner-carousel mb-16 mb-lg-32">
+    <div data-scroll class="partner-carousel mb-16 mb-lg-32">
       {{ range .member }}
       {{ partial "content-partner" . }}
       {{ end }}
