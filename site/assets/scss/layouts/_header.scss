@@ -40,8 +40,8 @@
   &.show,
   &.showing,
   &.hiding {
-    background-color: #ffffffe0;
-    backdrop-filter: blur(10px);
+    background-color: #fff;
+    //backdrop-filter: blur(10px);
     min-height: 100vh;
 
   }

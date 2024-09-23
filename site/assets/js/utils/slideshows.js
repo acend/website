@@ -102,7 +102,7 @@ export default function() {
     let speed = 0.85;   
 
     carouselPartners.addEventListener('mouseenter', function() {
-      speed = 0.2;
+      speed = 0;
     }); 
     carouselPartners.addEventListener('mouseleave', function() {
       speed = 0.85;
