@@ -8,7 +8,7 @@ draft: false
 weight: 1
 slug: ""
 subtitle: "Basics"
-categories: ["Basics", "Kubernetes"]
+categories: ["Kubernetes"]
 duration: "2 Days"
 abstract: "KubeVirt allows DevOps teams to run traditional virtual machines and non-containerizable workloads on Kubernetes."
 main_title: "KubeVirt allows DevOps teams to run traditional virtual machines and non-containerizable workloads on Kubernetes."

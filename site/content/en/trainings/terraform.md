@@ -8,7 +8,7 @@ draft: false
 weight: 8
 slug:
 subtitle: "Basics"
-categories: ["Basics", "Delivery CI/CD"]
+categories: ["Delivery CI/CD"]
 
 duration: "2 Days"
 abstract : "Write, Plan and Apply. IaC made easy."

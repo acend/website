@@ -24,7 +24,7 @@
       <div class="col-lg-1  pt-2">
         {{ with .Params.techlogo }}
          {{ with resources.Get . }}
-            <div class="sticky" data-sticky-class="is-sticky" data-sticky-for="1200" data-margin-top="140">
+            <div>
               <img src="{{ .RelPermalink }}" alt="" width="86" height="86" >  
             </div>
           {{ end }}
@@ -142,23 +142,14 @@
           <div  data-scroll class="row section mb-16 mb-lg-32">
  
                   <h3 class="mb-4 mb-md-6 pb-2 border-bottom">{{ .title  | markdownify }}</h3>
-                  <div class="row">
-                    {{ if .logo }}
-                    <div class="col-md-5 col-lg-4   mb-4 pt-2">
-                      <div class="bg-primary p-4 text-center">
-                        {{- partial "img" (dict "page" $.Page "src"  .logo "width" 800 "process" "fill 800x400" "alt" "{{   .title  }}") }}
-                      </div>
-                    </div>
-                    {{ end }}
-                    <div class="col-md-7 col-lg-8 ps-md-4">
-                      <p>{{ .text  | markdownify }}</p>
-                      {{ if .link }}
-                      <a class="link-border" href="{{ .link | safeURL }}">{{ .linktext  | markdownify }}</a>
-                    {{ end }}
 
-                    </div>
+                  <div class="">
+                    <p>{{ .text  | markdownify }}</p>
+                    {{ if .link }}
+                    <a class="link-border" href="{{ .link | safeURL }}">{{ .linktext  | markdownify }}</a>
+                  {{ end }}
+                  </div>
 
-                </div>
                 </div>
             
 

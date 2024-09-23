@@ -8,7 +8,7 @@ draft: false
 weight: 4
 slug:
 subtitle: "Basics"
-categories: ["Basics", "Ergänzende Trainings"]
+categories: ["Ergänzende Trainings"]
 duration: "2 Tage"
 abstract : "Ein praktischer Einstieg und umfassender Einblick in MLOps."
 main_title : "Ein praktischer Einstieg und umfassender Einblick in MLOps."

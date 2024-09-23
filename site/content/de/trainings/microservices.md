@@ -8,7 +8,7 @@ draft: false
 weight: 10
 slug:
 subtitle: "Basics"
-categories: ["Basics", "Programming"]
+categories: ["Programming"]
 duration: "1 Tag"
 abstract: "Praxisorientierter Einstieg in MicroServices"
 main_title: "Praxisorientierter Einstieg in MicroServices"

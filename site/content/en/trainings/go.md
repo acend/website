@@ -7,7 +7,7 @@ date: 2022-03-30T12:16:39+06:00
 draft: false
 weight: 3
 subtitle: "Basics"
-categories: ["Basics", "Programming"]
+categories: ["Programming"]
 duration: "1 Day"
 abstract: "Introduction to Go for software developers, architects and DevOps engineers."
 main_title: "Introduction to Go for software developers, architects and DevOps engineers."
