@@ -85,7 +85,7 @@ export default function() {
       
       var flkty_partner = new Flickity( carouselPartners, {
           wrapAround: true,
-          autoPlay: 5500,
+          //autoPlay: 2000,
           pauseAutoPlayOnHover: true,
           prevNextButtons: false,
           pageDots: false,
