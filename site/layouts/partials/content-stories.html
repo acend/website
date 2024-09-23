@@ -1,8 +1,11 @@
-<div data-scroll class="position-relative mb-10 mb-lg-20">
+<div data-scroll class="story-teaser position-relative mb-10 mb-lg-20">
 
   {{ with .Params.main_image }}
-  <div class="img-container_ mb-6 ">
-    {{- partial "figure" (dict "page" page "src" .  "process" "fill 1940x700" "class" "w-100") }}
+  <div class="mb-6 d-none d-md-block">
+    {{- partial "img" (dict "page" page "src" .  "process" "fill 1940x700" "class" "w-100") }}
+  </div>
+  <div class="mb-6 d-md-none">
+    {{- partial "img" (dict "page" page "src" .  "process" "fill 1400x930" "class" "w-100") }}
   </div>
 {{ end }}
 
@@ -19,8 +22,8 @@
         <div class="col-5 d-flex">
           {{ if .Params.partner.enable }}
            {{ if .Params.partner.logo }}
-            <div class="logo ms-auto flex-shrink-1" style="width:140px;">
-              {{- partial "figure" (dict "page" . "src" .Params.partner.logo "width" 140 "process" "" "class" "img-fluid") }}
+            <div class="logo ms-auto flex-shrink-1">
+              {{- partial "img" (dict "page" . "src" .Params.partner.logo "width" 140 "process" "" "class" "img-fluid") }}
             </div>
           {{ end }}
         {{ end }}
