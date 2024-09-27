@@ -62,7 +62,7 @@ export default function() {
         prevNextButtons: false,
         pageDots: false,
       //	autoPlay: $this.hasClass('auto-play') ? 3000 : false,
-        wrapAround: true ,
+        wrapAround: false ,
         cellAlign: 'left',
         adaptiveHeight: true,
         on: {
@@ -116,7 +116,7 @@ export default function() {
       window.requestAnimationFrame(_updateTicker2);
     };
     
-    _updateTicker2();
+    //_updateTicker2();
     
     }
   
