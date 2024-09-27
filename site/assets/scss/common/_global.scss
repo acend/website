@@ -273,6 +273,15 @@ a {
        border-color: var(--primary) !important;
      }
    }
+
+   &.extra-light {
+      border-color: transparent !important;
+      transition: border-color 0.2s ease;
+      
+      &:hover {
+       border-color: var(--primary-medium) !important;
+     }
+   }
 }
 
 .border-top,
