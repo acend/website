@@ -11,7 +11,7 @@ export default function() {
 
       var flkty = new Flickity(el.querySelector('.carousel'), {  
         //lazyLoad: 2,
-        prevNextButtons: false,
+        prevNextButtons: true,
         pageDots: false,
       //	autoPlay: $this.hasClass('auto-play') ? 3000 : false,
         wrapAround: true ,
@@ -41,13 +41,7 @@ export default function() {
         carouselCaption.textContent = el.querySelector('.is-selected .caption').textContent ? el.querySelector('.is-selected .caption').textContent : el.querySelector('.carousel-cell:first-child .caption').textContent;
       });
 
-      el.querySelector('.button-previous').addEventListener( 'click', function() {
-        flkty.previous();
-      });
-      // next
-      el.querySelector('.button-next').addEventListener( 'click', function() {
-        flkty.next();
-      });
+      
       
 
     });
@@ -59,7 +53,7 @@ export default function() {
         
       var flkty = new Flickity(carouselCommunity, {  
         //lazyLoad: 2,
-        prevNextButtons: false,
+        prevNextButtons: true,
         pageDots: false,
       //	autoPlay: $this.hasClass('auto-play') ? 3000 : false,
         wrapAround: false ,
@@ -116,7 +110,7 @@ export default function() {
       window.requestAnimationFrame(_updateTicker2);
     };
     
-    //_updateTicker2();
+    _updateTicker2();
     
     }
   
