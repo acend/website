@@ -56,8 +56,30 @@
   z-index: 2;
 }
 
-.button-previous svg {
-  transform: rotate(180deg);
+.flickity-button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  mix-blend-mode: difference;
+
+  transition: all 0.2s ease;
+
+  &:hover {
+      background: #fff;
+      color: #000;
+  }
+
+  &:disabled {  
+    display: none ;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+  
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
 }
 
 .entry-content {
