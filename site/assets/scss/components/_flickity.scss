@@ -61,12 +61,23 @@
   border: none;
   color: #fff;
   mix-blend-mode: difference;
-
   transition: all 0.2s ease;
-
+  
+  path {
+    fill: #fff;
+    transition: all 0.2s ease;
+  }
+  path {
+    fill: #fff;
+    transition: all 0.2s ease;
+  }
+  
   &:hover {
-      background: #fff;
-      color: #000;
+    background: #fff;
+
+    path {
+      fill: #000;
+    }
   }
 
   &:disabled {  
