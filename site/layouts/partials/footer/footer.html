@@ -49,7 +49,7 @@
           {{ end }}
 
       </div>
-      <div class="mb-10 mb-lg-20 text-end">
+      <div class="mb-10 mb-lg-20 text-end  ms-20 ms-md-0">
           <svg class="claim img-fluid" width="386px" height="53px" viewBox="0 0 386 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <title>experience knowledge</title>
             <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -93,16 +93,16 @@
     <div class="bg-primary text-white">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 small pt-10 py-md-10 text-center text-md-left">
+        <div class="col-6 small pt-10 py-md-10  ">
 
 
           <div class="d-md-inline pe-md-1">{{site.Params.name  | markdownify}}</div>
-          <div class="d-md-inline pe-md-1">{{site.Params.address  | markdownify}}</div>
-          <div class="d-md-inline ">{{site.Params.email  | markdownify}}</div>
+          <div class="d-inline pe-md-1">{{site.Params.address  | markdownify}}</div>
+          <div class="d-inline ">– {{site.Params.email  | markdownify}}</div>
 
         </div>
 
-        <div class="col-md-6 small py-10  text-center  text-md-right">
+        <div class="col-6 small py-10   text-md-end">
               <div class="d-md-inline pe-md-3"><a class="link-border" href="{{ i18n "faqLink" }}">F.A.Q.</a></div>
               <div class="d-md-inline pe-md-3"><a class="link-border" href="{{ i18n "impressumLink" }}">{{ i18n "impressum" }}</a></div>
               <div class="d-md-inline pe-md-3"><a class="link-border" href="{{ i18n "privacyLink" }}">{{ i18n "privacy" }}</a></div>

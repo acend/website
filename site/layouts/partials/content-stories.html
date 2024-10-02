@@ -21,11 +21,18 @@
       </div>
         <div class="col-5 d-flex">
           {{ if .Params.partner.enable }}
-           {{ if .Params.partner.logo }}
-            <div class="logo ms-auto flex-shrink-1">
-              {{- partial "img" (dict "page" . "src" .Params.partner.logo "width" 140 "process" "" "class" "img-fluid") }}
+           
+          {{ $logo := resources.Get .Params.partner.logo }}
+          {{ if $logo }}
+            <div class="logo logo-gray ms-auto flex-shrink-1">
+              {{ if eq $logo.MediaType.SubType "svg" }}                 
+                {{ $logo.Content | htmlUnescape | safeHTML }}
+              {{ else }}
+               {{- partial "img" (dict "page" . "src"  .Params.partner.logo "width" 190 "process" "" "alt" "{{ .Params.partner.title }}") }} 
+              {{ end }}
             </div>
           {{ end }}
+
         {{ end }}
        </div>
       </div>

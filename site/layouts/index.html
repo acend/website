@@ -29,7 +29,7 @@
         </div>
  
           <h3 data-scroll class="mb-8 mb-lg-10">{{ .subtitle }}</h3>
-          <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 gy-8">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3  row-cols-lg-4 gy-8">
             {{ range where (where $.Site.RegularPages "Section" "trainings") ".Params.categories" "intersect" (slice "New") }}
               {{ partial "box-training-small" . }}
             {{ end }}
