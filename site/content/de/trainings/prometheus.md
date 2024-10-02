@@ -11,8 +11,11 @@ categories: ["Ergänzende Trainings"]
 duration: "2 Tage"
 abstract: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 main_title: "Prometheus – Einstieg in die moderne Monitoring Plattform."
-techlogo: "images/tech/Prometheus_software_logo.svg"
 
+techlogo:  
+  full: "images/tech/Prometheus_software_logo.svg"
+  cut_lg: "images/tech/partials/Prometheus_lg.svg"
+  cut_sm: "images/tech/partials/Prometheus_sm.svg"
 
 personen:
   daten : ""

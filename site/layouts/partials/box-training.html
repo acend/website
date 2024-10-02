@@ -42,11 +42,13 @@
   
       </div>
 
-      {{ with .Params.techlogo }}
-      {{ with resources.Get . }}
-        <div class="techlogo">
-          <img src="{{ .RelPermalink }}" alt="" width="30" height="30" class="contain">  
-        </div>
+      {{ if .Params.techlogo  }}
+      {{ with .Params.techlogo.cut_lg }}
+        {{ with resources.Get . }}
+          <div class="techlogo">
+            <img src="{{ .RelPermalink }}" alt="" width="30" height="30" class="contain">  
+          </div>
+        {{ end }}
       {{ end }}
   {{ end }}
   </div>

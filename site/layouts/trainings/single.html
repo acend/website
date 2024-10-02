@@ -31,12 +31,14 @@
     <div class="row">
 
       <div class="col-lg-1  pt-2">
-        {{ with .Params.techlogo }}
+        {{ if .Params.techlogo.full }}
+        {{ with .Params.techlogo.full }}
          {{ with resources.Get . }}
             <div>
               <img src="{{ .RelPermalink }}" alt="" width="86" height="86" >  
             </div>
           {{ end }}
+        {{ end }}
         {{ end }}
       </div>
       

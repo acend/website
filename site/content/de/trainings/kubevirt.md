@@ -12,7 +12,10 @@ categories: ["Kubernetes"]
 duration: "2 Tage"
 abstract : "KubeVirt ermöglicht DevOps-Teams, herkömmliche virtuelle Maschinen und nicht containerisierbare Workloads auf Kubernetes zu betreiben."
 main_title : "KubeVirt ermöglicht DevOps-Teams, herkömmliche virtuelle Maschinen und nicht containerisierbare Workloads auf Kubernetes zu betreiben."
-techlogo: "images/tech/Kubernetes.svg"
+techlogo:  
+  full: "images/tech/Kubernetes.svg"
+  cut_lg: "images/tech/partials/KubeVirt_lg.svg"
+  cut_sm: "images/tech/partials/KubeVirt_sm.svg"
 
 # Infos NEU 2024
 costs : "CHF 2300"

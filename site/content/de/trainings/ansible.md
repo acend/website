@@ -12,7 +12,10 @@ categories: ["Ergänzende Trainings"]
 
 abstract: "Ansible Kickstart-Training"
 main_title: "Ansible Kickstart-Training"
-techlogo: "images/tech/Kubernetes.svg"
+techlogo: 
+  full: "images/tech/Kubernetes.svg"
+  cut_lg: "images/tech/partials/Ansible_lg.svg"
+  cut_sm: "images/tech/partials/Ansible_sm.svg"
 
 # Infos NEU 2024
 duration: "2 Tage"

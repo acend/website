@@ -12,7 +12,10 @@ categories: ["Delivery CI/CD", "New"]
 
 abstract: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 main_title: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
-techlogo: "images/tech/argo-horizontal.svg"
+techlogo: 
+  full: "images/tech/argo-horizontal.svg"
+  cut_lg: "images/tech/partials/ArgoCD_lg.svg"
+  cut_sm: "images/tech/partials/ArgoCD_sm.svg"
 
 # Infos NEU 2024
 duration: "1 Tag"
