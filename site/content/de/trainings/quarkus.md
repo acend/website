@@ -14,7 +14,7 @@ abstract: "Starte mit Quarkus, dem Supersonic Subatomic Java Toolkit"
 main_title: "Starte mit Quarkus, dem Supersonic Subatomic Java Toolkit"
 
 techlogo:  
-  #full: "images/tech/Prometheus_software_logo.svg"
+  full: "images/tech/Quarkus.svg"
   cut_lg: "images/tech/partials/Quarkus_lg.svg"
   cut_sm: "images/tech/partials/Quarkus_sm.svg"
 

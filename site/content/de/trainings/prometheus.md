@@ -13,7 +13,7 @@ abstract: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 main_title: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 
 techlogo:  
-  full: "images/tech/Prometheus_software_logo.svg"
+  full: "images/tech/Prometheus.svg"
   cut_lg: "images/tech/partials/Prometheus_lg.svg"
   cut_sm: "images/tech/partials/Prometheus_sm.svg"
 

@@ -33,7 +33,7 @@
       {{ with .Params.techlogo.cut_sm }}
         {{ with resources.Get . }}
           <div class="techlogo">
-            <img src="{{ .RelPermalink }}" alt="" width="30" height="30" class="contain">  
+            {{  .Content | htmlUnescape | safeHTML }}
           </div>
         {{ end }}
     {{ end }}

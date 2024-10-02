@@ -12,7 +12,7 @@ categories: ["Ergänzende Trainings", "New"]
 abstract: "eBPF-basiertes Networking"
 main_title: "eBPF-basiertes Networking"
 techlogo: 
-  full: "images/tech/cilium-logo.svg"
+  full: "images/tech/Cilium.svg"
   cut_lg: "images/tech/partials/Cilium_lg.svg"
   cut_sm: "images/tech/partials/Cilium_sm.svg"
 

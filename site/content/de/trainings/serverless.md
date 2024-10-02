@@ -15,7 +15,7 @@ abstract : "Level up your Serverless Game - Hands-on Best Practices für Serverl
 main_title : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS"
 
 techlogo:  
-  #full: "images/tech/Prometheus_software_logo.svg"
+  full: "images/tech/Serverless.svg"
   cut_lg: "images/tech/partials/Serverless_lg.svg"
   cut_sm: "images/tech/partials/Serverless_sm.svg"
 
