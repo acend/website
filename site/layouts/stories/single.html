@@ -21,11 +21,20 @@
       <div data-scroll class="col-lg-8 offset-lg-2">
         {{ if .Params.partner.enable }}
         <div class="mb-2 bold small">{{ .Params.partner.title }}</div>
-        {{ if .Params.partner.logo }}
-          <div class="logo">
-            {{- partial "img" (dict "page" . "src" .Params.partner.logo "width" 190 "process" "" "class" "img-fluid") }}
-          </div>
-        {{ end }}
+
+        {{ $logo := resources.Get .Params.partner.logo }}
+          {{ if $logo }}
+            <div class="logo flex-shrink-1">
+              {{ if eq $logo.MediaType.SubType "svg" }}
+              {{ $logo.Content | htmlUnescape | safeHTML }}
+              {{ else }}
+              {{- partial "img" (dict "page" . "src" .Params.partner.logo "width" 190 "process" "" "class" "img-fluid") }}
+              {{ end }}
+            </div>
+          {{ end }}
+
+
+       
       {{ end }}
 
       </div>

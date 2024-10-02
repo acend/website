@@ -29,7 +29,7 @@ lead: "Lead-/Einleitungstext Lorem ipsum dolor sit amet, consetetur sadipscing e
 partner:
   enable: true
   title: "Unser Partner"
-  logo: "images/stories/baloise.png"
+  logo: "images/stories/baloise.svg"
   link: "?"
  
 

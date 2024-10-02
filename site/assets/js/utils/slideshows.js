@@ -67,15 +67,55 @@ export default function() {
         }
       });
       
-  
-      flkty.on( 'staticClick', function(  ) {
-        flkty.selectedIndex == flkty.cells.length - 1  ? flkty.select( 0 ) : flkty.next();
-  
+
+      flkty.on( 'change', function( index ) {
+       
+        
+        const lastSlide = window.innerWidth > 1200 ?  2 : (window.innerWidth > 768 ?  2  : 1);
+
+        console.log(flkty.cells.length,lastSlide,flkty.selectedIndex);
+        console.log(flkty.cells.length - lastSlide,flkty.selectedIndex);
+
+        if (flkty.cells.length - lastSlide  <= flkty.selectedIndex) {
+          carouselCommunity.querySelector('.flickity-prev-next-button.next').classList.add('d-none');
+        }else {
+          carouselCommunity.querySelector('.flickity-prev-next-button.next').classList.remove('d-none');
+        }
       });
+
+      flkty.on( 'staticClick', function( event, pointer ) {
+        var pWidth = this.element.clientWidth;
+        var x = pointer.pageX - this.element.offsetLeft;
+        
+        const lastSlide = window.innerWidth > 1200 ?  2 : (window.innerWidth > 768 ?  2  : 1);
+
+  
+        if(pWidth/2 > x) {
+          flkty.selectedIndex == 0  ? flkty.select( flkty.cells.length - lastSlide ) : flkty.previous();
+        } else {
+          flkty.selectedIndex >= flkty.cells.length - lastSlide  ? flkty.select( 0 ) : flkty.next();
+        }
+
+			});
+      
+
+  
     }
 
   const carouselPartners = document.querySelector('.partner-carousel');
   if (carouselPartners) {
+
+      // Duplicate elements if less than 7
+      const cells = carouselPartners.querySelectorAll('.partner');
+      if (cells.length < 7) {
+        const fragment = document.createDocumentFragment();
+        for (let i = 0; i < 7 - cells.length; i++) {
+          const clone = cells[i % cells.length].cloneNode(true);
+          fragment.appendChild(clone);
+        }
+        carouselPartners.appendChild(fragment);
+      }
+
       
       var flkty_partner = new Flickity( carouselPartners, {
           wrapAround: true,
