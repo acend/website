@@ -15,7 +15,7 @@ abstract : "Write, Plan and Apply. IaC made easy."
 main_title : "Write, Plan and Apply. IaC made easy."
 
 techlogo:  
-  full: "images/tech/Terraform_VerticalLogo.svg"
+  full: "images/tech/Terraform.svg"
   cut_lg: "images/tech/partials/Terraform_lg.svg"
   cut_sm: "images/tech/partials/Terraform_sm.svg"
 

@@ -13,7 +13,7 @@ duration: "2 Tage"
 abstract : "KubeVirt ermöglicht DevOps-Teams, herkömmliche virtuelle Maschinen und nicht containerisierbare Workloads auf Kubernetes zu betreiben."
 main_title : "KubeVirt ermöglicht DevOps-Teams, herkömmliche virtuelle Maschinen und nicht containerisierbare Workloads auf Kubernetes zu betreiben."
 techlogo:  
-  full: "images/tech/Kubernetes.svg"
+  full: "images/tech/KubeVirt.svg"
   cut_lg: "images/tech/partials/KubeVirt_lg.svg"
   cut_sm: "images/tech/partials/KubeVirt_sm.svg"
 

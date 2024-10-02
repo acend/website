@@ -34,9 +34,9 @@
         {{ if .Params.techlogo.full }}
         {{ with .Params.techlogo.full }}
          {{ with resources.Get . }}
-            <div>
-              <img src="{{ .RelPermalink }}" alt="" width="86" height="86" >  
-            </div>
+         <div class="techlogo">
+            {{  .Content | htmlUnescape | safeHTML }}
+          </div>
           {{ end }}
         {{ end }}
         {{ end }}

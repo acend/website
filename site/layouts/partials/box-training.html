@@ -45,10 +45,17 @@
       {{ if .Params.techlogo  }}
       {{ with .Params.techlogo.cut_lg }}
         {{ with resources.Get . }}
-          <div class="techlogo">
-            <img src="{{ .RelPermalink }}" alt="" width="30" height="30" class="contain">  
+          <div class="techlogo d-none d-lg-block">
+            {{  .Content | htmlUnescape | safeHTML }}
           </div>
         {{ end }}
       {{ end }}
+      {{ with .Params.techlogo.cut_sm }}
+      {{ with resources.Get . }}
+        <div class="techlogo d-lg-none">
+          {{  .Content | htmlUnescape | safeHTML }}
+        </div>
+      {{ end }}
+  {{ end }}
   {{ end }}
   </div>

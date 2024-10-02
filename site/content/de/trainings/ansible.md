@@ -13,7 +13,7 @@ categories: ["Ergänzende Trainings"]
 abstract: "Ansible Kickstart-Training"
 main_title: "Ansible Kickstart-Training"
 techlogo: 
-  full: "images/tech/Kubernetes.svg"
+  full: "images/tech/Ansible.svg"
   cut_lg: "images/tech/partials/Ansible_lg.svg"
   cut_sm: "images/tech/partials/Ansible_sm.svg"
 

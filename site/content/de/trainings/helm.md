@@ -13,7 +13,7 @@ duration: "1 Tag"
 abstract : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
 main_title : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
 techlogo: 
-  full: "images/tech/helm-horizontal.svg"
+  full: "images/tech/Helm.svg"
   cut_lg: "images/tech/partials/Helm_lg.svg"
   cut_sm: "images/tech/partials/Helm_sm.svg"
 
