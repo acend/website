@@ -7,13 +7,20 @@
   position: absolute;
   top: 0.1rem;
   right: 1rem;
-  width: 33%; //8rem;
-  height: 6rem;
+  width: 30%; //8rem;
   overflow: hidden;
   z-index: -1;
+  height: 6rem;
+
+  /*
+  @include media-breakpoint-up(md) {
+    width: 10.8rem;
+    height: 7.2rem;
+  }
+    */
 
   img {
-    transform: translate(0.5rem, -0.5rem);
+    //transform: translate(0.5rem, -0.5rem);
     object-position: top right;
   }
   
@@ -23,12 +30,12 @@
       top: auto;
       right: auto;
       width: 33%;
-      height: 10rem;
+      height: 7.2rem;
       bottom: 0.1rem;
       left: 3.1rem;
 
       img {
-        transform: translate(-1.5rem, 1.5rem);
+        //transform: translate(-1.5rem, 1.5rem);
         object-position: bottom left;
       }
     }

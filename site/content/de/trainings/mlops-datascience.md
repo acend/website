@@ -12,7 +12,8 @@ categories: ["Ergänzende Trainings"]
 duration: "2 Tage"
 abstract : "Ein praktischer Einstieg und umfassender Einblick in MLOps."
 main_title : "Ein praktischer Einstieg und umfassender Einblick in MLOps."
-techlogo: "images/tech/Kubernetes.svg"
+techlogo:  
+  full: "images/tech/Kubernetes.svg"
 
 personen:
   daten : ""

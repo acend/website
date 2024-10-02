@@ -14,6 +14,11 @@ duration: "1 Tag"
 abstract : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS"
 main_title : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS"
 
+techlogo:  
+  #full: "images/tech/Prometheus_software_logo.svg"
+  cut_lg: "images/tech/partials/Serverless_lg.svg"
+  cut_sm: "images/tech/partials/Serverless_sm.svg"
+
 personen:
   daten : ""
   preis : "CHF 1100"

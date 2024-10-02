@@ -12,6 +12,11 @@ duration: "2 Tage"
 abstract: "OpenShift - Operations Mastery für System Engineers."
 main_title: "OpenShift - Operations Mastery für System Engineers."
 
+techlogo: 
+  full: "images/tech/Kubernetes.svg"
+  cut_lg: "images/tech/partials/OpenShift_lg.svg"
+  cut_sm: "images/tech/partials/OpenShift_sm.svg"
+  
 personen:
   daten : ""
   preis : "CHF 2200"
