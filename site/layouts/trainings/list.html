@@ -6,24 +6,31 @@
       {{ with .Params.header }}
       <h1 data-scroll class="h4 mb-2 mb-lg-3">{{ .title | markdownify }}</h1>
          <div data-scroll class="h1 sm mb-0">{{ .lead | markdownify }}</div>
+
+      {{ end }}
     </div>
  
-     <div class="col-lg-6 py-16 py-lg-32">
-
-      <div data-scroll class="d-flex images">
+     <div class="col-lg-6 py-16 py-lg-32 imagecloud">
+ 
+ 
+      {{ range .Params.imagecloud }}
+ 
+     
+      <div data-scroll class="d-none images">
         <div class="img-container align-self-end mb-10 z-1" id="l1">
-          {{ partial "img-srcset.html" (dict "img" .img1 "size" 200 "lazy" false) }}
+          {{- partial "img" (dict "page" . "src"  .img1 "width" 200 "process" ""  ) }} 
           </div>
           <div class="img-container" id="l2">
-            {{ partial "img-srcset.html" (dict "img" .img2 "size" 600 "lazy" false) }}
+             {{- partial "img" (dict "page" . "src"  .img2 "width" 600 "process" ""  ) }} 
           </div>
           <div class="img-container mt-20" id="l3">
-            {{ partial "img-srcset.html" (dict "img" .img3 "size" 300 "lazy" false) }}
+            {{- partial "img" (dict "page" . "src"  .img3 "width" 300 "process" ""  ) }} 
           </div>
         </div>
-        
+   
+        {{ end }}
     </div>
-    {{ end }}
+
       
        
   </div>
