@@ -4,9 +4,11 @@
   will-change: opacity, transform;
   transition: opacity 0.5s cubic-bezier(0.215,0.61,0.355,1) 0.5s, transform 0.75s cubic-bezier(0.215,0.61,0.355,1) 0.5s;
 
+  /*
   &.accordion-item {
     transform: translate(-20%, 0);
   }
+    */
 }
 
 [data-scroll="in"] {
@@ -22,7 +24,9 @@
   opacity: 0;
   transform: translateY(2rem);
 
+  /*
   &.accordion-item {
     transform: translate(-20%, 0);
   }
+    */
 }

@@ -8,6 +8,8 @@ import about from "js/views/about";
 import faq from "js/views/faq";
 import Slideshows from "js/utils/slideshows";
 import Scrollmove from "js/utils/scrollmove";
+import ScrollText from "js/utils/scrolltext";
+import imageclouds from "js/utils/imageclouds";
 
 // lazy sizes for image loading
 import 'lazysizes';
@@ -70,7 +72,9 @@ export default function() {
   
  
 
+  imageclouds();
   Scrollmove();
+  ScrollText();
   Slideshows();
   //home();
   trainings();
