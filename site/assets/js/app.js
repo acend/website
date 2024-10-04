@@ -16,6 +16,7 @@ const swup = new Swup({
   containers: ['#main', '#main-menu', '#top-menu' ],
   ignoreVisit: (url, { el } = {}) => el?.closest('.language-switcher') ,
   //ignoreVisit: (url, { el } = {}) => el?.closest('[data-no-swup]') || el?.closest('#wpadminbar'),
+  native: true,
   plugins: [
     new SwupBodyClassPlugin(),
     new SwupHeadPlugin({ persistAssets: true }),

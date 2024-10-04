@@ -2,13 +2,19 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
  
 {{ with  $data.homepage.video }}
-<div class="hero-video px-lg-6 mb-16 mb-lg-32 position-relative">
+<div data-scroll class="hero-video px-lg-6  position-relative">
   <div class="bg-primary video-container pb-0">
-  <video  autoplay loop muted playsinline class="cover">
-    <source src="{{ .src }}" type="video/mp4"> 
+    <video    autoplay loop muted playsinline class="cover">
+      <source src="{{ .src }}" type="video/mp4"> 
+    </video>
+    <div class="scroll-down position-absolute bottom-0 left-0 w-100 text-center pb-6">
+      <a href="#start">
+        <svg width="42" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M39 3 21 21 3 3" stroke="#fff" stroke-width="4" stroke-miterlimit="10" stroke-linecap="square"/></svg>
+      </a>
+    </div>
   </div>
 
-  <h1 data-scroll="out" class="position-absolute bottom-0 left-0 text-white col-lg-5 px-4 px-lg-8 mb-8 mb-lg-16">{{ .title }}</h1>
+  <h1 data-scroll="out" class="position-absolute bottom-0 left-0 text-white col-lg-5 px-4 px-lg-8 mb-20 mb-lg-16">{{ .title }}</h1>
 
 </div>
 {{ end }}
@@ -17,7 +23,7 @@
 
   <!-- trainings -->
   {{ with  $data.homepage.trainings }}
-  <section class="section section mb-16 mb-lg-32">
+  <section id="start" class="section mb-16 mb-lg-32 pt-16 pt-lg-32">
     <div class="container-fluid">
        {{ with .label }}
           <a data-scroll class="btn btn-sm btn-outline-primary border-1 py-0  mb-2" href="{{ i18n "trainingsLink" }}">{{ . }}</a>
@@ -94,7 +100,7 @@
       </div>           
     </div>
     
-    <div class="clients-carousel mb-16 mb-lg-32">
+    <div data-scroll class="clients-carousel mb-16 mb-lg-32">
     {{ range .item }}
       {{ $title := .title }}
       {{ with resources.Get .logo }}
