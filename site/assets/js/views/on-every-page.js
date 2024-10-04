@@ -95,11 +95,11 @@ if (anmeldeToggler) {
 }          
   
 
-
+/*
 document.querySelectorAll('video[autoplay]').forEach( video => {
   video.play();
 });
- 
+ */
 
   const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
 

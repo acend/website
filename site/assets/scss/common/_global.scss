@@ -7,9 +7,10 @@
   
   @include media-breakpoint-up(md) {
     --body-padding-top: 20rem;
-
+    
     &:has(.home) {
       --body-padding-top: 12rem;
+      scroll-behavior: smooth !important;
     }
   }
 }
@@ -28,16 +29,15 @@ body {
 
   display: flex;
   flex-direction: column;
-  padding-top: var(--body-padding-top);
-
+  
   color: $AC-Blue;
   color: var(--primary);
-
+  
   @include media-breakpoint-up(lg) {
     font-size: 1.8rem;
     //padding-top: 23rem;
   }
-
+  
   -moz-font-feature-settings: "ss01";
   -webkit-font-feature-settings: "ss01";
   font-feature-settings: "ss01";
@@ -45,6 +45,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#main {
+  padding-top: var(--body-padding-top);
+
+}
 
 //icons
 .icon {
@@ -223,7 +227,10 @@ h6,
   }
 }
 
-.bold {
+.bold,
+b,
+strong {
+  font-weight: normal;
   font-family: "TTFirsNeue-Medium", sans-serif;
 }
 

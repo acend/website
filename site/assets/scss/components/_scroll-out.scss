@@ -2,7 +2,7 @@
   opacity: 0;
   transform: translateY(2rem);
   will-change: opacity, transform;
-  transition: opacity 0.5s cubic-bezier(0.215,0.61,0.355,1) 0.5s, transform 0.75s cubic-bezier(0.215,0.61,0.355,1) 0.5s;
+  transition: opacity 0.3s cubic-bezier(0.215,0.61,0.355,1) 0.2s, transform 0.75s cubic-bezier(0.215,0.61,0.355,1) 0.2s;
 
   /*
   &.accordion-item {
