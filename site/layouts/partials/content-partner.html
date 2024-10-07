@@ -5,7 +5,7 @@
       <div class="ratio " style="--bs-aspect-ratio: 60%;">
         {{ if eq $logo.MediaType.SubType "svg" }}
         <div class="p-lg-4">
-          <img src="{{ $logo.RelPermalink }}" alt="{{ .title }}" width="200" height="200" class="contain">  
+          <img src="{{ $logo.RelPermalink }}" alt="{{ .title }}" width="200" height="200" class="contain" loading="lazy">  
          </div>
         {{ else }}
         <div class="p-4">

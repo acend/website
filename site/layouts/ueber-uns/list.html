@@ -5,14 +5,14 @@
 {{ end }}
 
 {{ with .Params.timeline }}
-<div class="overflow-hidden mb-8 mb-lg-16">
+<div class="overflow-x-hidden mb-8 mb-lg-16">
   <div class="container-fluid">
     <div class="col-lg-10 offset-lg-1 scrollmove">
       <div class="row flex-nowrap">
 
         {{ range .items}}
         <div class="col-8 col-md-6">
-          <div data-scroll class="timeline-item me-20 me-lg-48">
+          <div data-scroll_ class="timeline-item me-20 me-lg-48">
               <h2>{{ .title }}</h2>
               <p>{{ .subtitle }}</p>
               {{ with .img }}
