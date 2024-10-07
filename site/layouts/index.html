@@ -2,13 +2,19 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
  
 {{ with  $data.homepage.video }}
-<div class="hero-video px-lg-6 mb-16 mb-lg-32 position-relative">
+<div data-scroll_ class="hero-video px-lg-6  position-relative">
   <div class="bg-primary video-container pb-0">
-  <video  autoplay loop muted playsinline class="cover">
-    <source src="{{ .src }}" type="video/mp4"> 
+    <video    autoplay loop muted playsinline class="cover">
+      <source src="{{ .src }}" type="video/mp4"> 
+    </video>
+    <div class="scroll-down position-absolute bottom-0 left-0 w-100 text-center pb-6">
+      <a href="#start" aria-label="Scroll down">
+        <svg width="42" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M39 3 21 21 3 3" stroke="#fff" stroke-width="4" stroke-miterlimit="10" stroke-linecap="square"/></svg>
+      </a>
+    </div>
   </div>
 
-  <h1 data-scroll="out" class="position-absolute bottom-0 left-0 text-white col-lg-5 px-4 px-lg-8 mb-8 mb-lg-16">{{ .title }}</h1>
+  <h1 data-scroll="out" class="position-absolute bottom-0 left-0 text-white col-lg-5 px-4 px-lg-8 mb-20 mb-lg-16">{{ .title }}</h1>
 
 </div>
 {{ end }}
@@ -17,26 +23,26 @@
 
   <!-- trainings -->
   {{ with  $data.homepage.trainings }}
-  <section class="section section mb-16 mb-lg-32">
+  <section id="start" class="section mb-16 mb-lg-32 pt-16 pt-lg-32">
     <div class="container-fluid">
        {{ with .label }}
-          <a data-scroll class="btn btn-sm btn-outline-primary border-1 mb-2" href="{{ i18n "trainingsLink" }}">{{ . }}</a>
+          <a data-scroll class="btn btn-sm btn-outline-primary border-1 py-0  mb-2" href="{{ i18n "trainingsLink" }}">{{ . }}</a>
        {{ end }}
-        <h2  data-scroll  class="mb-4 mb-lg-8 col-lg-4">{{ .title }}</h2>
+        <h2  data-scroll  class="mb-2 col-lg-4">{{ .title }}</h2>
  
         <div  data-scroll  class="col-lg-7 mb-8 mb-lg-16">
           <p>{{ .text | markdownify }}</p>
         </div>
  
-          <h3 class="mb-5 mb-lg-10">{{ .subtitle }}</h3>
-          <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 gy-8">
+          <h3 data-scroll class="mb-8 mb-lg-10">{{ .subtitle }}</h3>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3  row-cols-lg-4 gy-8">
             {{ range where (where $.Site.RegularPages "Section" "trainings") ".Params.categories" "intersect" (slice "New") }}
               {{ partial "box-training-small" . }}
             {{ end }}
           </div>
 
-          <div class="text-end mt-6 mb-18">
-            <a href="{{ i18n "trainingsLink" }}" class="btn btn-outline-primary  py-3 px-5 ">{{ i18n "showAllTrainings" }}</a>
+          <div data-scroll class="d-flex mt-8 mb-18">
+            <a href="{{ i18n "trainingsLink" }}" class="btn btn-outline-primary  py-3 px-18 px-md-5 mx-auto  me-md-0">{{ i18n "showAllTrainings" }}</a>
          </div>
       
       {{ end }}
@@ -49,12 +55,12 @@
   <section  class="section section-about my-13 px-lg-6">
     <div class="wide-banner text-white bg-primary pattern pt-16  pt-lg-32 pb-30 pb-lg-54">
 
-    <div data-scroll class="container-fluid">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-11 col-lg-10 mx-md-auto">
           {{ with $data.homepage.about }}
-          <div class="h4">{{.title}}</div>
-          <p class="h1 lead-big">{{.content | markdownify}}</p>
+          <div data-scroll class="h3 sm light mb-4">{{.title}}</div>
+          <div data-scroll class="h1 sm">{{.content | markdownify}}</div>
           {{ if .button.enable }}
             {{ with .button }}
             <a href="{{ .URL | absURL }}" class="btn btn-outline-light">{{.label}}</a>
@@ -88,13 +94,13 @@
   {{ with  $data.homepage.clients }}
  
     <div class="container-fluid  mb-8 mb-lg-16">
-      <h2 data-scroll="in" class="mb-4 mb-lg-8 col-lg-4">{{  .title }}</h2>
-       <div data-scroll="in" class="col-lg-7">
+      <h2 data-scroll class="mb-2 col-lg-4">{{  .title }}</h2>
+       <div data-scroll class="col-lg-7">
         <p>{{  .text | markdownify }}</p>
       </div>           
     </div>
     
-    <div class="clients-carousel mb-16 mb-lg-32">
+    <div data-scroll class="clients-carousel mb-16 mb-lg-32">
     {{ range .item }}
       {{ $title := .title }}
       {{ with resources.Get .logo }}
@@ -115,15 +121,15 @@
   {{ if  $data.homepage.stories.enable }}
   {{ with  $data.homepage.stories }}
 
-  <div class="container-fluid  mb-16 mb-lg-32">
-      <a class="btn btn-sm btn-outline-primary border-1 mb-2" href="{{ .link }}">{{ .label }}</a>
-     <h2  data-scroll  class="mb-4 mb-lg-8 col-lg-4">{{ .title }}</h2>
+  <div class="container-fluid  mb-18 mb-lg-32">
+      <a data-scroll class="btn btn-sm btn-outline-primary border-1 py-0  mb-2" href="{{ .link }}">{{ .label }}</a>
+     <h2  data-scroll  class="mb-2 col-lg-4">{{ .title }}</h2>
   
      <div  data-scroll  class="col-lg-7 mb-8 mb-lg-16">
        <p>{{ .text | markdownify }}</p>
      </div>
 
-     <div class="testimonial-carousel text-white position-relative">
+     <div data-scroll  class="testimonial-carousel text-white position-relative">
       {{ range first 3 (shuffle (where $.Site.RegularPages "Section" "stories" )) }}
         {{ partial "content-story-testimonial" . }}
       {{ end }}
@@ -137,8 +143,8 @@
   {{ with  $data.homepage.journal }}
 
   <div class="container-fluid  mb-16 mb-lg-32">
-      <a class="btn btn-sm btn-outline-primary border-1 mb-2" href="{{ .link }}">{{ .label }}</a>
-     <h2  data-scroll  class="mb-4 mb-lg-8 col-lg-4">{{ .title }}</h2>
+      <a data-scroll class="btn btn-sm btn-outline-primary border-1 py-0  mb-2" href="{{ .link }}">{{ .label }}</a>
+     <h2  data-scroll  class="mb-2 col-lg-4">{{ .title }}</h2>
   
      <div  data-scroll  class="col-lg-7 mb-8 mb-lg-16">
        <p>{{ .text | markdownify }}</p>
@@ -150,9 +156,10 @@
       {{ end }}
     </div>
 
-    <div class="text-end mt-6 mb-18">
-      <a href="{{ .link }}" class="btn btn-outline-primary  py-3 px-5 ">{{ i18n "readMore" }}</a>
+    <div class="d-flex mt-8 mb-18">
+      <a data-scroll  href="{{ .link }}" class="btn btn-outline-primary  py-3 px-18 px-md-5 mx-auto  me-md-0">{{ i18n "readMore" }}</a>
    </div>
+ 
   </div>
   {{ end }}
   {{ end }}
@@ -164,30 +171,37 @@
   {{ with  $data.homepage.partner }}
   <section class="section mb-16 mb-lg-32">
     <div class="container-fluid">
-      <h2 data-scroll="in" class="mb-4 mb-lg-8 col-lg-4">{{  .title }}</h2>
-       <div data-scroll="in" class="col-lg-7 mb-8 mb-lg-16">
+      <h2 data-scroll class="mb-2 col-lg-4">{{  .title }}</h2>
+       <div data-scroll class="col-lg-7 mb-8 mb-lg-16">
         <p>{{  .text | markdownify }}</p>
       </div>           
-              <div class="partner-carousel">
+    </div>           
 
-              {{ range .item }}
-                  <div class="carousel-cell mb-4 me-4">
-                      <div class="mb-3 bg-primary p-4 text-center">
-                          {{- $image := .logo  -}}
-                          {{- partial "img" (dict "page" $.Page "src" $image "width" 800 "process" "fill 800x400" "alt" "{{   .title  }}") }}
-                        </div>
-                      <p>
-                          {{  .text | markdownify }}
-                      </p>
-                      {{ if .URL}} <a href="{{ .URL | absURL }}" class="link-border"  target="_blank" rel="noopener">{{.label}}</a> {{ end }}
-                  </div>
-                  {{ end }}
-              </div>
-        
+    <div data-scroll  class="partner-carousel mb-16 mb-lg-32">
+      {{ range .item }}
+      {{ partial "content-partner" . }}
+      {{ end }}
     </div>
+
+      {{/*
+<div class=" ">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4  row-cols-xxl-6 gy-4">           
+        {{ range .item }}
+        {{ partial "content-partner" . }}
+        {{ end }}
+      </div>           
+
+ 
+
+             
+    </div> */}}
+        
   </section>
   {{ end }}
   {{ end }}
+
+
+
   <!-- /partner -->
 
 
@@ -199,7 +213,7 @@
   <div class="container-fluid  mb-16 mb-lg-32">
     <div class="row gy-8">
       <div class="col-lg-4">
-        <a class="btn btn-sm btn-outline-primary border-1 mb-2" href="{{ .link }}">{{ .label }}</a>
+        <a data-scroll class="btn btn-sm btn-outline-primary border-1 py-0  mb-2" href="{{ .link }}">{{ .label }}</a>
         <h2  data-scroll  class="mb-4 mb-lg-8">{{ .title }}</h2>
         <p>{{ .text | markdownify }}</p>
     </div> 
@@ -207,10 +221,10 @@
     <div class="col-lg-7 offset-lg-1">
       <div class="accordion accordion-flush border-top border-bottom" id="faqAccordion">
         {{ range $index, $value := .items }}
-        <div class="accordion-item">
+        <div data-scroll class="accordion-item">
           <h3 class="accordion-header" id="heading{{ $index }}">
             <button class="accordion-button strong {{ if (ne $index 0) }} collapsed {{ end }}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ $index }}" aria-expanded="{{ if (eq $index 0) }}true{{ else }}false{{ end }}" aria-controls="collapse{{ $index }}">
-              {{ .question }} <div class="icon-plus ms-auto me-3"></div>
+              <div class="title">{{ .question }}</div>  <div class="icon-plus ms-auto me-3"></div>
             </button>
           </h3>
           <div id="collapse{{ $index }}" class="accordion-collapse collapse {{ if (eq $index 0) }} show {{ end }}" aria-labelledby="heading{{ $index }}" data-bs-parent="#faqAccordion">

@@ -11,7 +11,7 @@ export default function() {
 
       var flkty = new Flickity(el.querySelector('.carousel'), {  
         //lazyLoad: 2,
-        prevNextButtons: false,
+        prevNextButtons: true,
         pageDots: false,
       //	autoPlay: $this.hasClass('auto-play') ? 3000 : false,
         wrapAround: true ,
@@ -41,13 +41,7 @@ export default function() {
         carouselCaption.textContent = el.querySelector('.is-selected .caption').textContent ? el.querySelector('.is-selected .caption').textContent : el.querySelector('.carousel-cell:first-child .caption').textContent;
       });
 
-      el.querySelector('.button-previous').addEventListener( 'click', function() {
-        flkty.previous();
-      });
-      // next
-      el.querySelector('.button-next').addEventListener( 'click', function() {
-        flkty.next();
-      });
+      
       
 
     });
@@ -59,10 +53,10 @@ export default function() {
         
       var flkty = new Flickity(carouselCommunity, {  
         //lazyLoad: 2,
-        prevNextButtons: false,
+        prevNextButtons: true,
         pageDots: false,
       //	autoPlay: $this.hasClass('auto-play') ? 3000 : false,
-        wrapAround: true ,
+        wrapAround: false ,
         cellAlign: 'left',
         adaptiveHeight: true,
         on: {
@@ -73,21 +67,62 @@ export default function() {
         }
       });
       
-  
-      flkty.on( 'staticClick', function(  ) {
-        flkty.selectedIndex == flkty.cells.length - 1  ? flkty.select( 0 ) : flkty.next();
-  
+
+      flkty.on( 'change', function( index ) {
+       
+        
+        const lastSlide = window.innerWidth > 1200 ?  2 : (window.innerWidth > 768 ?  2  : 1);
+
+        console.log(flkty.cells.length,lastSlide,flkty.selectedIndex);
+        console.log(flkty.cells.length - lastSlide,flkty.selectedIndex);
+
+        if (flkty.cells.length - lastSlide  <= flkty.selectedIndex) {
+          carouselCommunity.querySelector('.flickity-prev-next-button.next').classList.add('d-none');
+        }else {
+          carouselCommunity.querySelector('.flickity-prev-next-button.next').classList.remove('d-none');
+        }
       });
+
+      flkty.on( 'staticClick', function( event, pointer ) {
+        var pWidth = this.element.clientWidth;
+        var x = pointer.pageX - this.element.offsetLeft;
+        
+        const lastSlide = window.innerWidth > 1200 ?  2 : (window.innerWidth > 768 ?  2  : 1);
+
+  
+        if(pWidth/2 > x) {
+          flkty.selectedIndex == 0  ? flkty.select( flkty.cells.length - lastSlide ) : flkty.previous();
+        } else {
+          flkty.selectedIndex >= flkty.cells.length - lastSlide  ? flkty.select( 0 ) : flkty.next();
+        }
+
+			});
+      
+
+  
     }
 
   const carouselPartners = document.querySelector('.partner-carousel');
   if (carouselPartners) {
+
+      // Duplicate elements if less than 7
+      const cells = carouselPartners.querySelectorAll('.partner');
+      if (cells.length < 7) {
+        const fragment = document.createDocumentFragment();
+        for (let i = 0; i < 7 - cells.length; i++) {
+          const clone = cells[i % cells.length].cloneNode(true);
+          fragment.appendChild(clone);
+        }
+        carouselPartners.appendChild(fragment);
+      }
+
       
       var flkty_partner = new Flickity( carouselPartners, {
           wrapAround: true,
-          autoPlay: 5500,
-          //pauseAutoPlayOnHover: false,
+          //autoPlay: 2000,
+          pauseAutoPlayOnHover: true,
           prevNextButtons: false,
+          pageDots: false,
           cellAlign: 'left',
           on: {
               ready: function() {
@@ -95,6 +130,28 @@ export default function() {
               },
           }, 
       });
+
+       // continuous ticker:
+
+    let speed = 0.85;   
+
+    carouselPartners.addEventListener('mouseenter', function() {
+      speed = 0;
+    }); 
+    carouselPartners.addEventListener('mouseleave', function() {
+      speed = 0.85;
+    }); 
+
+    const _updateTicker2 = function() {
+      flkty_partner.x = (flkty_partner.x - speed) % flkty_partner.slideableWidth;
+      flkty_partner.selectedIndex = flkty_partner.dragEndRestingSelect();
+      flkty_partner.updateSelectedSlide();
+      flkty_partner.settle(flkty_partner.x);
+      window.requestAnimationFrame(_updateTicker2);
+    };
+    
+    _updateTicker2();
+    
     }
   
     const carouselClients = document.querySelector('.clients-carousel');
@@ -110,7 +167,7 @@ export default function() {
       cellAlign: 'left',
       on: {
         ready: function() {
-          console.log('Flickity ready');
+          //console.log('Flickity ready');
           window.dispatchEvent(new Event('resize'));
         }
       }
@@ -118,7 +175,7 @@ export default function() {
     
     // cotinuous ticker:
     const _updateTicker = function() {
-      flkty_clients.x = (flkty_clients.x - 0.5) % flkty_clients.slideableWidth;
+      flkty_clients.x = (flkty_clients.x - 0.85) % flkty_clients.slideableWidth;
       flkty_clients.selectedIndex = flkty_clients.dragEndRestingSelect();
       flkty_clients.updateSelectedSlide();
       flkty_clients.settle(flkty_clients.x);

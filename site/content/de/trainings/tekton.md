@@ -8,10 +8,15 @@ draft: false
 weight: 3
 slug:
 subtitle: "Basics"
-categories: ["Basics", "Delivery CI/CD"]
+categories: ["Delivery CI/CD"]
 duration: "1 Tag"
 abstract: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
 main_title: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
+
+techlogo:  
+  full: "images/tech/Tekton.svg"
+  cut_lg: "images/tech/partials/Tekton_lg.svg"
+  cut_sm: "images/tech/partials/Tekton_sm.svg"
 
 personen:
   daten : ""

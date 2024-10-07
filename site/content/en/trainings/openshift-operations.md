@@ -7,7 +7,7 @@ date: 2019-06-12T12:14:34+06:00
 draft: false
 weight: 6
 subtitle: "Advanced"
-categories: ["Advanced", "Kubernetes"]
+categories: ["Kubernetes"]
 duration: "2 Days"
 abstract: "OpenShift - Operations Mastery for System Engineers."
 main_title: "OpenShift - Operations Mastery for System Engineers."

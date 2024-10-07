@@ -13,4 +13,18 @@
   }
 }
 
- 
+.testimonial {
+  .logo {
+    width: 10rem;
+    
+    @include media-breakpoint-up(md) {
+      width: 14rem;
+    }
+  }
+  
+  @include media-breakpoint-down(lg) {
+    .bg-white {
+      height: 11rem !important;
+    }
+  }
+}

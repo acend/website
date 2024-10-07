@@ -6,6 +6,7 @@ description: "Lerne von unseren Ansible-Cracks, wie du linuxbasierte Services ko
 date: 2023-09-15T12:16:39+06:00
 draft: false
 weight: 10
+categories: ["News", "Open Source"]
 slug:
 
 person:

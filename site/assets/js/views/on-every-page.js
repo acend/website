@@ -8,6 +8,8 @@ import about from "js/views/about";
 import faq from "js/views/faq";
 import Slideshows from "js/utils/slideshows";
 import Scrollmove from "js/utils/scrollmove";
+import ScrollText from "js/utils/scrolltext";
+import imageclouds from "js/utils/imageclouds";
 
 // lazy sizes for image loading
 import 'lazysizes';
@@ -26,12 +28,12 @@ export default function() {
     /* options */
     once: true,
   });
-
+/*
   ScrollOut({
     targets: ".banner",
     offset: 200,
   });
-
+*/
 
   var sticky = new Sticky('.sticky');
 
@@ -43,15 +45,22 @@ export default function() {
     "54 115 92", //#36735c //AC-Green
     "208 143 76", //#F6E8DB", //AC-Yellow
   ];
+  const colors_medium = [
+      "193 209 215",        //AC-Blue - light
+      "227 135 186",        //AC-Red - light
+      "172 200 189",         //AC-Green - light
+      "229 209 190",         //AC-Yellow - light
+          ];
   const colors_light = [
-      "230 236 238",        //"#E6ECEE", //AC-Blue
-      "232 212 223",        //"#E8D4DF", //AC-Red
-      "230 237 234",        //"#E6EDEA", //AC-Green
-      "246 232 219",        //"#F6E8DB", //AC-Yellow
+      "230 236 238",        //AC-Blue - light
+      "232 212 223",        //AC-Red - light
+      "230 237 234",         //AC-Green - light
+      "246 232 219",         //AC-Yellow - light
           ];
   let randomColor =  Math.floor(Math.random() * colors.length);
 
   root.style.setProperty('--primary', 'rgb('+colors[randomColor]+')');
+  root.style.setProperty('--primary-medium', 'rgb('+colors_medium[randomColor]+')');
   root.style.setProperty('--primary-light', 'rgb('+colors_light[randomColor]+')');
   //root.style.setProperty('--color', colors[randomColor]);
   root.style.setProperty('--shadowColor', 'rgba('+colors[randomColor].split(' ').join(',')+', 0.3)');
@@ -63,7 +72,9 @@ export default function() {
   
  
 
+  imageclouds();
   Scrollmove();
+  ScrollText();
   Slideshows();
   //home();
   trainings();
@@ -72,21 +83,23 @@ export default function() {
 
 
 
-    // needs to be fixed:
+   
  
 // still needed?
   const anmeldeToggler = document.querySelector(".anmelde-toggler");
 if (anmeldeToggler) {
 
   anmeldeToggler.addEventListener('click', function() {
-    document.querySelector('.sticky').classList.toggle('d-none');
+    document.querySelector('.box-anmelden .sticky').classList.toggle('d-none');
   });
 }          
   
 
+/* autoplay ios fix */
+document.querySelectorAll('video[autoplay]').forEach( video => {
+  video.play();
+});
 
-
- 
 
   const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
 

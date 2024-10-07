@@ -1,32 +1,28 @@
-<div data-scroll class="col-lg-6 box-training  {{ .Title | urlize}} {{ range $key, $value := .Params.categories }}{{ (replace $value "/" "-") | urlize }} {{ end }} ">
+<div data-scroll class="col-sm-6 box-training box-large item {{ .Title | urlize}} {{ range $key, $value := .Params.categories }}{{ (replace $value "/" "-") | urlize }} {{ end }} ">
 
-  <div class="inner border light p-4 px-lg-10 py-lg-8 d-flex flex-column h-100 position-relative">
+  <div class="inner border light p-4 px-lg-10 pt-lg-8 pb-lg-6 d-flex flex-column h-100 position-relative">
   {{ if  in .Params.categories "New"  }}
   <div class="position-absolute label-new bg-primary text-white px-2 py-1 small">{{ i18n "new" }}</div>
   {{ end }}
 
+  <div class="small mb-2">{{  .Params.subtitle  | humanize }}</div>
     <div class="row h-100">
      
      <div class="col-lg-5">
 
       <div class="d-flex flex-lg-column h-100">
         <div class="me-auto">
-          <div class="small mb-2">{{  .Params.subtitle  | humanize }}</div>
           <a class="stretched-link" href="{{ .Permalink | safeURL }}">
-            <h3  class="mb-3">{{ .Title }}</h3>
+            <h3 class="h2 mb-5 mb-lg-18">{{ .Title }}</h3>
           </a>
         </div>
-        {{ with .Params.techlogo }}
-          {{ with resources.Get . }}
-           <img src="{{ .RelPermalink }}" alt="" width="60" height="60" class="mt-auto">  
-          {{ end }}
-        {{ end }}
+       
       </div>
       </div>
-      <div class="col-lg-7">
+      <div class="col-lg-7 d-flex flex-column">
         <p class="small mb-4 mb-lg-8">{{ .Params.abstract }}</p>
         
-        <div class="d-flex">
+        <div class="d-flex mt-auto">
           <div class="duration small bold me-6 ">
             {{ if .Params.duration }}
             <svg class="icon icon-sm img-fluid flex-shrink-0" width="64" height="64"  viewBox="0 0 64 64"  xmlns="http://www.w3.org/2000/svg"><g fill="#000" fill-rule="nonzero"><path d="M30 19v15h15v-4H34V19z"/><path d="M32 7C18.193 7 7 18.193 7 32s11.193 25 25 25c.67 0 1.34 0 2-.09V48h-4v4.9c-10.768-1.017-19.002-10.046-19.026-20.862-.023-10.816 8.173-19.88 18.937-20.943 10.763-1.063 20.574 6.223 22.667 16.835C54.67 38.54 48.36 49.007 38 52.11v4.16c12.27-3.032 20.347-14.745 18.82-27.292C55.29 16.43 44.64 6.998 32 7z"/></g></svg>
@@ -45,4 +41,21 @@
 
   
       </div>
+
+      {{ if .Params.techlogo  }}
+      {{ with .Params.techlogo.cut_lg }}
+        {{ with resources.Get . }}
+          <div class="techlogo d-none d-lg-block">
+            {{  .Content | htmlUnescape | safeHTML }}
+          </div>
+        {{ end }}
+      {{ end }}
+      {{ with .Params.techlogo.cut_sm }}
+      {{ with resources.Get . }}
+        <div class="techlogo d-lg-none">
+          {{  .Content | htmlUnescape | safeHTML }}
+        </div>
+      {{ end }}
+  {{ end }}
+  {{ end }}
   </div>

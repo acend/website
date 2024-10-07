@@ -1,18 +1,16 @@
 :root {
   --primary: #074761;
+  --primary-medium: #C1D1D7;
   --primary-light: #e7ecee;
-  --body-padding-top: 17rem;
+  --body-padding-top: 7.4rem;
   scroll-behavior: auto !important;
-
-  &:has(.home) {
-    --body-padding-top: 11rem;
-  }
   
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(md) {
     --body-padding-top: 20rem;
-
+    
     &:has(.home) {
       --body-padding-top: 12rem;
+      scroll-behavior: smooth !important;
     }
   }
 }
@@ -31,16 +29,15 @@ body {
 
   display: flex;
   flex-direction: column;
-  padding-top: var(--body-padding-top);
-
+  
   color: $AC-Blue;
   color: var(--primary);
-
+  
   @include media-breakpoint-up(lg) {
     font-size: 1.8rem;
     //padding-top: 23rem;
   }
-
+  
   -moz-font-feature-settings: "ss01";
   -webkit-font-feature-settings: "ss01";
   font-feature-settings: "ss01";
@@ -48,6 +45,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#main {
+  padding-top: var(--body-padding-top);
+
+}
 
 //icons
 .icon {
@@ -129,8 +130,14 @@ h6,
 
 h1,
 .h1 {
-  font-size: 2.2rem;
+  font-size: 4.2rem;
   line-height: 1.25;
+
+  @include media-breakpoint-down(md) {
+    &.sm {
+      font-size: 2.4rem;
+    }
+  }
 
   @include media-breakpoint-up(md) {
     font-size: 4.8rem;
@@ -140,20 +147,48 @@ h1,
 
 h2,
 .h2 {
-  font-size: 2.2rem;
-
+  font-size: 2.4rem;
+  line-height: 1.166;
+  
   @include media-breakpoint-up(md) {
-    font-size: 3.6rem;
+    font-size: 2.8rem;
+    line-height: 1.3;
   }
 }
 
 h3,
-.h3,
+.h3 {
+  font-size: 1.9rem;
+  line-height: 1.16;
+
+  @include media-breakpoint-down(md) {
+    &.sm {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    font-size: 2.2rem;
+    line-height: 1.3;
+  }
+}
+
+.quote {
+  @include media-breakpoint-up(md) {
+    font-size: 2.2rem;
+    line-height: 1.45;
+  }
+}
+
+.inherit {
+ font-size: inherit;
+ line-height: inherit;
+}
+
 .category,
 .accordion-title,
 .footer-section h5,
-.paragraph-lg,
-.quote {
+.paragraph-lg {
   font-size: 2.2rem;
 
   @include media-breakpoint-up(md) {
@@ -192,12 +227,16 @@ h6,
   }
 }
 
-.bold {
+.bold,
+b,
+strong {
+  font-weight: normal;
   font-family: "TTFirsNeue-Medium", sans-serif;
 }
 
 .small {
   font-size: 1.4rem;
+  line-height: 1.41;
 }
 
 
@@ -234,11 +273,20 @@ a {
    border-color: var(--primary) !important;
 
    &.light {
-      border-color: var(--primary-light) !important;
+      border-color: var(--primary-medium) !important;
       transition: border-color 0.2s ease;
   
      &:hover {
        border-color: var(--primary) !important;
+     }
+   }
+
+   &.extra-light {
+      border-color: transparent !important;
+      transition: border-color 0.2s ease;
+      
+      &:hover {
+       border-color: var(--primary-medium) !important;
      }
    }
 }
@@ -284,13 +332,16 @@ a {
 
 .title-huge {
   font-family: "TTFirsNeue-Medium", sans-serif;
-  font-size: 37.2rem;
-  line-height: 1;
+  font-size: 15.2rem;
+  line-height: 1.05;
   white-space: nowrap;
   overflow: hidden;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--primary);
+  @include media-breakpoint-up(md) {
+    font-size: 37.2rem;
+  }
 }
 
 .pattern {
@@ -339,50 +390,26 @@ a {
   }
 }
 
-[data-scroll]:not(.banner) {
-  transition: opacity 1s, transform 0.6s ease-in-out;
-}
-[data-scroll="in"]:not(.banner) {
-  opacity: 1;
-  transform: translateY(0);
-}
-[data-scroll="out"]:not(.banner) {
-  opacity: 0;
-  transform: translateY(20px);
-}
-
 .entry-content {
   ol, ul, dl {
-    padding-left: 1.6rem;
+    padding-left: 0;
   }
-
+  
   li {
     list-style: none;
     line-height: 1.7;
+    padding-left: 1em;
 
     &::before {
       content: "– ";
-      margin-left: -0.75rem;
+      margin-left: -1em;
     }
   }
 }
 
-/*
-.mt-6, .my-6 {
-    margin-top: 5rem !important;
+.hyphens {
+  hyphens: auto;
 }
-.mb-6, .my-6 {
-    margin-bottom: 5rem !important;
-}
- @include media-breakpoint-up(lg) {
-  .mt-lg-6, .my-lg-6 {
-      margin-top: 5rem !important;
-  }
-  .mb-lg-6, .my-lg-6 {
-      margin-bottom: 5rem !important;
-  }
- }
-*/
 
 .bg-primary {
   background-color: var(--primary) !important;

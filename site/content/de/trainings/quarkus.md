@@ -8,10 +8,15 @@ draft: false
 weight: 10
 slug:
 subtitle: "Basics"
-categories: ["Basics", "Programming"]
+categories: ["Programming"]
 duration: "2 Tage"
 abstract: "Starte mit Quarkus, dem Supersonic Subatomic Java Toolkit"
 main_title: "Starte mit Quarkus, dem Supersonic Subatomic Java Toolkit"
+
+techlogo:  
+  full: "images/tech/Quarkus.svg"
+  cut_lg: "images/tech/partials/Quarkus_lg.svg"
+  cut_sm: "images/tech/partials/Quarkus_sm.svg"
 
 personen:
   daten : ""

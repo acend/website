@@ -8,11 +8,18 @@ draft: false
 weight: 8
 slug:
 subtitle: "Basics"
-categories: ["Basics", "Delivery CI/CD"]
+categories: ["Delivery CI/CD"]
 
 duration: "2 Tage"
 abstract : "Write, Plan and Apply. IaC made easy."
 main_title : "Write, Plan and Apply. IaC made easy."
+
+techlogo:  
+  full: "images/tech/Terraform.svg"
+  cut_lg: "images/tech/partials/Terraform_lg.svg"
+  cut_sm: "images/tech/partials/Terraform_sm.svg"
+
+
 
 personen:
   daten : ""

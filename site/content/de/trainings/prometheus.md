@@ -7,10 +7,15 @@ date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 6
 subtitle: "Basics"
-categories: ["Basics", "Ergänzende Trainings"]
+categories: ["Ergänzende Trainings"]
 duration: "2 Tage"
 abstract: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 main_title: "Prometheus – Einstieg in die moderne Monitoring Plattform."
+
+techlogo:  
+  full: "images/tech/Prometheus.svg"
+  cut_lg: "images/tech/partials/Prometheus_lg.svg"
+  cut_sm: "images/tech/partials/Prometheus_sm.svg"
 
 personen:
   daten : ""

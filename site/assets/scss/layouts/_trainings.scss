@@ -3,6 +3,63 @@
   left: 1em;
 }
 
+.techlogo {
+  position: absolute;
+  top: 0.1rem;
+  right: 1rem;
+  width: 8.8rem; //8rem;
+  height: 6rem;
+  overflow: hidden;
+  z-index: -1;
+
+  /*
+  @include media-breakpoint-up(md) {
+    width: 10.8rem;
+    height: 7.2rem;
+  }
+    */
+
+  img,
+  svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    //transform: translate(0.5rem, -0.5rem);
+    object-position: top right;
+    
+    path {
+      fill: var(--primary-light);
+    }
+  }
+  
+  .box-training.box-large & {
+
+    @include media-breakpoint-up(lg) {    
+      top: auto;
+      right: auto;
+      width: 20.8rem;
+      height: 7.2rem;
+      bottom: 0.1rem;
+      left: 3.1rem;
+
+      img,
+      svg {
+        //transform: translate(-1.5rem, 1.5rem);
+        object-position: bottom left;
+      }
+    }
+  }
+
+  &.full {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 100%;
+    height: 8.2rem;
+  }
+}
+
+
 // Filter
 
 .btn-filter {
@@ -47,6 +104,14 @@
 
   }
 }
+
+.box-training.box-large {
+  @include media-breakpoint-up(lg) {
+    min-height: 23rem;
+  }
+}
+
+
 /*
 @include media-breakpoint-up(lg) {
   .box-training {
@@ -73,7 +138,7 @@
   }
 }*/
 
-.sticky {
+.box-anmelden .sticky {
    transition:  box-shadow 0.2s ease-in-out;
 
    &.is-sticky {
@@ -98,11 +163,10 @@
     position: fixed;
     z-index: 5;
     right: 15px;
-    top: 100px;
+    bottom: 100px;
     padding: 0;
-    background-color: #fff;
-    border: none;
-    border-radius: 0;
+    //border: none;
+    //border-radius: 0;
     outline: none !important;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 30px var(--shadowColor);

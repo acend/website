@@ -1,71 +1,90 @@
 {{ define "main" }}
 
 
+ 
 
-
-
-
-
-<section data-sticky-container class="section mb-5">
-
-  <div class="title-huge overflow-hidden">
-    <div class="container-fluid">
-       <div class="scrollmove">
-         {{ .Title }}
-       </div>
+  <div class="title-huge overflow-hidden marquee position-relative mb-4">
+    <div class="marquee__inner">
+       <div>{{ .Title }}</div>
+       <div>{{ .Title }}</div>
+       <div>{{ .Title }}</div>
+       <div>{{ .Title }}</div>
     </div>
   </div>
 
+ 
 
-
-  <div class="container-fluid">
+  <div class="container-fluid mb-16 mb-lg-32" data-sticky-container>
     <div class="row">
 
-      <div class="col-lg-1  pt-2">
-        {{ with .Params.techlogo }}
+      <div class="col-8 col-lg-7 order-lg-1">
+        <div class="h4 mb-0 mb-lg-4">Training</div> 
+        <h1 class="mb-8 mb-lg-16">{{ .Title }}</h1>
+      </div>
+
+
+      <div class="col-4 col-lg-1 pt-2">
+        {{ if .Params.techlogo.full }}
+        {{ with .Params.techlogo.full }}
          {{ with resources.Get . }}
-            <div class="sticky" data-sticky-class="is-sticky" data-sticky-for="768" data-margin-top="140">
-              <img src="{{ .RelPermalink }}" alt="" width="86" height="86" >  
-            </div>
+         <div class="techlogo full">
+            {{  .Content | htmlUnescape | safeHTML }}
+          </div>
           {{ end }}
+        {{ end }}
         {{ end }}
       </div>
       
-      <div class="col-lg-7">
-        <div class="h4 mb-2 mb-lg-4">Training</div> 
-        <h1 class="mb-8 mb-lg-16">{{ .Title }}</h1>
+      {{ if .Params.kooperation.enable }}
+        <div class="col-7 col-lg-3 offset-lg-1 ps-lg-10 order-lg-3">
+          <div class="mb-8 text-lg-end">{{ .Params.kooperation.subtitle | safeHTML }}</div>
+        </div>
+        {{ end }}
         
-        <div class="h3 mb-4 mb-lg-8">{{ .Params.main_title | markdownify}}</div>
+      </div>
+ 
+        
+        
+      <div class="row">
+        
+        <div class="col-lg-7 offset-lg-1">
+        <div class="h2 mb-4 mb-lg-8">{{ .Params.main_title | markdownify}}</div>
         <div class="entry-content mb-16 mb-lg-32">
           {{ .Params.main_text | markdownify}}
         </div>
 
         {{ if .Params.accordion.enable }}
-        <div data-scroll id="mainAccordion" class="accordion mb-16 mb-lg-32 border-bottom">
+        <div  id="mainAccordion" class="accordion accordion-flush mb-16 mb-lg-32 border-top  border-bottom">
           {{ with .Params.accordion }}
             {{ range $index, $element := .item }}
 
-            <a role="button" class="collapsed" data-bs-toggle="collapse" data-bs-target="#{{ .title | urlize}}" aria-expanded="{{ if (eq $index 3) }}true{{ else }}false{{ end }}" aria-controls="{{ .title | urlize}}">
-                <div class="accordion-header py-3 border-top d-flex align-items-center">
-                    {{ if eq .icon "1" }}
-                    <svg class="icon me-3 me-lg-4" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Ziel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Ziel_RGB_Schwarz" transform="translate(9 6)" fill="#000" fill-rule="nonzero"><path id="Path" d="M4 52H0V0h45.8L31.56 17.98l14.31 17.6H8V27h4v4.58h25.46L26.44 18.02 37.53 4H4z"/></g></g></svg>
-                    {{ else if eq .icon "2" }}
-                    <svg class="icon me-3 me-lg-4" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Rucksack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Rucksack" transform="translate(9 4)" fill="#1D1D1B" fill-rule="nonzero"><path d="M42 18.05V0H30v9.09A23.14 23.14 0 0 0 23 8a22.83 22.83 0 0 0-7 1.1V0H4v18a22.802 22.802 0 0 0-4 13v26h46V31a22.89 22.89 0 0 0-4-12.95zM34 4h4v9.58a23 23 0 0 0-4-2.77V4zm7.74 24H4.26C5.79 18.843 13.715 12.132 23 12.132c9.285 0 17.21 6.71 18.74 15.868zM12 4v6.8a23.21 23.21 0 0 0-4 2.8V4h4zM4 53V32h38v21H4z" id="Shape"/><path id="Path" d="M8 44.95h26V49h4v-8.05H8z"/><path id="Rectangle" d="M18 18h10v4H18z"/></g></g></svg>
-                    {{ else if eq .icon "3" }}
-                    <svg class="icon me-3 me-lg-4" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Gruppe_RGB_Schwarz" transform="translate(4 6)" fill="#000" fill-rule="nonzero"><path d="M56.72 30.63l-6-4.05a8.56 8.56 0 0 0 1.55-5.06v-7.38h-4v7.38c0 2.73-1.67 4.4-4.48 4.45a4.38 4.38 0 0 1-3.21-1.11 4.55 4.55 0 0 1-1.21-3.34V14c0-3 1.33-4.29 4.29-4.29a6.35 6.35 0 0 1 2.83.68 7.88 7.88 0 0 0 5.25.68l2-.39L53 6.75l-2 .39a4.06 4.06 0 0 1-2.9-.43 10.09 10.09 0 0 0-4.4-1c-5.19 0-8.29 3.1-8.29 8.29v7.53a8.92 8.92 0 0 0 1.52 5.12l-4.65 3.53-.74-.47a12.61 12.61 0 0 0 1.42-6V9.84H17.13v8.3h4v-4.3H29v9.83c0 4.79-2.81 7.58-7.71 7.67a7.4 7.4 0 0 1-5.58-1.89 7.86 7.86 0 0 1-2.06-5.78V11.84c0-5.16 2.51-7.67 7.68-7.67A10.91 10.91 0 0 1 26.1 5.3a11.09 11.09 0 0 0 7.45 1l2-.39L34.67 2l-2 .4a7.28 7.28 0 0 1-5.08-.73A14.754 14.754 0 0 0 21.24.21C14 .17 9.6 4.53 9.6 11.84v11.83A12.86 12.86 0 0 0 11.12 30L.2 36.9V52h4V39.1l9.53-6A11.7 11.7 0 0 0 21 35.34h.29A12.36 12.36 0 0 0 29 32.81l9.9 6.29V48h4V36.9l-7-4.45 4.22-3.2a8.92 8.92 0 0 0 3.59.72h.2a9.44 9.44 0 0 0 3.6-.77l7 4.74 2.21-3.31z" id="Path"/></g></g></svg>
-                    {{ else if eq .icon "4" }}
-                    <svg class="icon me-3 me-lg-4" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Wallet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Wallet" transform="translate(6 7)" fill="#010101" fill-rule="nonzero"><path d="M48 16H36.08a10.73 10.73 0 0 0 .9-4.09H48v-4H36.35A11 11 0 0 0 15.62 8H6a6 6 0 0 0-6 6v36h40v-4H4V19.65A6 6 0 0 0 6 20h42v26h-4v4h8V16h-4zM26 4.6a7 7 0 0 1 7 7 6.94 6.94 0 0 1-1.56 4.4H20.56A6.94 6.94 0 0 1 19 11.6a7 7 0 0 1 7-7zM4 14a2 2 0 0 1 2-2h9a10.86 10.86 0 0 0 .9 4H6a2 2 0 0 1-2-2z" id="Shape"/></g></g></svg>
-                    {{ end }}
-
-
-                  <h4 class="accordion-title m-0">{{ .title | markdownify}}</h4>
-                    <div class="icon-plus ms-auto me-3"></div>
+            <div data-scroll class="accordion-item">
+            <h3 class="accordion-header" id="heading{{ $index }}">
+              <button class="accordion-button strong {{ if (ne $index 999) }} collapsed {{ end }}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ $index }}" aria-expanded="{{ if (eq $index 999) }}true{{ else }}false{{ end }}" aria-controls="collapse{{ $index }}">
+                <div class="title">
+                {{ if eq .icon "1" }}
+                <svg class="icon me-3 me-lg-6" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Ziel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Ziel_RGB_Schwarz" transform="translate(9 6)" fill="#000" fill-rule="nonzero"><path id="Path" d="M4 52H0V0h45.8L31.56 17.98l14.31 17.6H8V27h4v4.58h25.46L26.44 18.02 37.53 4H4z"/></g></g></svg>
+                {{ else if eq .icon "2" }}
+                <svg class="icon me-3 me-lg-6" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Rucksack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Rucksack" transform="translate(9 4)" fill="#1D1D1B" fill-rule="nonzero"><path d="M42 18.05V0H30v9.09A23.14 23.14 0 0 0 23 8a22.83 22.83 0 0 0-7 1.1V0H4v18a22.802 22.802 0 0 0-4 13v26h46V31a22.89 22.89 0 0 0-4-12.95zM34 4h4v9.58a23 23 0 0 0-4-2.77V4zm7.74 24H4.26C5.79 18.843 13.715 12.132 23 12.132c9.285 0 17.21 6.71 18.74 15.868zM12 4v6.8a23.21 23.21 0 0 0-4 2.8V4h4zM4 53V32h38v21H4z" id="Shape"/><path id="Path" d="M8 44.95h26V49h4v-8.05H8z"/><path id="Rectangle" d="M18 18h10v4H18z"/></g></g></svg>
+                {{ else if eq .icon "3" }}
+                <svg class="icon me-3 me-lg-6" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Gruppe_RGB_Schwarz" transform="translate(4 6)" fill="#000" fill-rule="nonzero"><path d="M56.72 30.63l-6-4.05a8.56 8.56 0 0 0 1.55-5.06v-7.38h-4v7.38c0 2.73-1.67 4.4-4.48 4.45a4.38 4.38 0 0 1-3.21-1.11 4.55 4.55 0 0 1-1.21-3.34V14c0-3 1.33-4.29 4.29-4.29a6.35 6.35 0 0 1 2.83.68 7.88 7.88 0 0 0 5.25.68l2-.39L53 6.75l-2 .39a4.06 4.06 0 0 1-2.9-.43 10.09 10.09 0 0 0-4.4-1c-5.19 0-8.29 3.1-8.29 8.29v7.53a8.92 8.92 0 0 0 1.52 5.12l-4.65 3.53-.74-.47a12.61 12.61 0 0 0 1.42-6V9.84H17.13v8.3h4v-4.3H29v9.83c0 4.79-2.81 7.58-7.71 7.67a7.4 7.4 0 0 1-5.58-1.89 7.86 7.86 0 0 1-2.06-5.78V11.84c0-5.16 2.51-7.67 7.68-7.67A10.91 10.91 0 0 1 26.1 5.3a11.09 11.09 0 0 0 7.45 1l2-.39L34.67 2l-2 .4a7.28 7.28 0 0 1-5.08-.73A14.754 14.754 0 0 0 21.24.21C14 .17 9.6 4.53 9.6 11.84v11.83A12.86 12.86 0 0 0 11.12 30L.2 36.9V52h4V39.1l9.53-6A11.7 11.7 0 0 0 21 35.34h.29A12.36 12.36 0 0 0 29 32.81l9.9 6.29V48h4V36.9l-7-4.45 4.22-3.2a8.92 8.92 0 0 0 3.59.72h.2a9.44 9.44 0 0 0 3.6-.77l7 4.74 2.21-3.31z" id="Path"/></g></g></svg>
+                {{ else if eq .icon "4" }}
+                <svg class="icon me-3 me-lg-6" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Wallet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Wallet" transform="translate(6 7)" fill="#010101" fill-rule="nonzero"><path d="M48 16H36.08a10.73 10.73 0 0 0 .9-4.09H48v-4H36.35A11 11 0 0 0 15.62 8H6a6 6 0 0 0-6 6v36h40v-4H4V19.65A6 6 0 0 0 6 20h42v26h-4v4h8V16h-4zM26 4.6a7 7 0 0 1 7 7 6.94 6.94 0 0 1-1.56 4.4H20.56A6.94 6.94 0 0 1 19 11.6a7 7 0 0 1 7-7zM4 14a2 2 0 0 1 2-2h9a10.86 10.86 0 0 0 .9 4H6a2 2 0 0 1-2-2z" id="Shape"/></g></g></svg>
+                {{ end }}
+               
+                {{ .title }} 
                 </div>
-              </a>
-            <div id="{{ .title | urlize}}" class="collapse {{ if (eq $index 3) }} show {{ end }}" aria-labelledby="heading" data-parent="#mainAccordion">
-              <div class="pb-5  pe-5 ms-3 ms-lg-5 ps-4 ps-lg-3 entry-content">{{ .content | safeHTML }}</div>
-             </div>
+                <div class="icon-plus ms-auto me-3"></div>
+              </button>
+            </h3>
 
+           
+
+
+            <div id="collapse{{ $index }}" class="collapse {{ if (eq $index 999) }} show {{ end }}" aria-labelledby="heading" data-parent="#mainAccordion">
+              <div class="ps-13 ps-lg-19 pb-6 entry-content">{{ .content | safeHTML }}</div>
+             </div>
+            </div>
              {{ end }}
             {{ end }}
         </div>
@@ -77,7 +96,7 @@
         <!-- video -->
         {{ if  .Params.video.enable }}
         {{ with  .Params.video }}
-            <h3 class="mb-6">{{ .title  | markdownify }}</h3>
+            <h3 class="h2 mb-4">{{ .title  | markdownify }}</h3>
             <div class="video-container mb-16 mb-lg-32">
               <iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube-nocookie.com/embed/{{  .youtubeID }}?modestbranding=1&playsinline=1&color=white" frameborder="0" allowfullscreen></iframe>
             </div>
@@ -86,7 +105,7 @@
       <!-- /video -->
 
 
-           <h2 class="h3 mb-6">{{ .Params.trainingsinhalt.title | markdownify}}</h2>
+           <h2 class="mb-2 mb-lg-4">{{ .Params.trainingsinhalt.title | markdownify}}</h2>
    
             <div class="entry-content mb-6">
                 {{ .Params.trainingsinhalt.text | markdownify}}
@@ -139,26 +158,17 @@
 
         {{ if .Params.kooperation.enable }}
           {{ with .Params.kooperation }}
-          <div  data-scroll class="row section mb-16 mb-lg-32">
+          <div  data-scroll class="row">
  
                   <h3 class="mb-4 mb-md-6 pb-2 border-bottom">{{ .title  | markdownify }}</h3>
-                  <div class="row">
-                    {{ if .logo }}
-                    <div class="col-md-5 col-lg-4   mb-4 pt-2">
-                      <div class="bg-primary p-4 text-center">
-                        {{- partial "img" (dict "page" $.Page "src"  .logo "width" 800 "process" "fill 800x400" "alt" "{{   .title  }}") }}
-                      </div>
-                    </div>
-                    {{ end }}
-                    <div class="col-md-7 col-lg-8 ps-md-4">
-                      <p>{{ .text  | markdownify }}</p>
-                      {{ if .link }}
-                      <a class="link-border" href="{{ .link | safeURL }}">{{ .linktext  | markdownify }}</a>
-                    {{ end }}
 
-                    </div>
+                  <div class="">
+                    <p>{{ .text  | markdownify }}</p>
+                    {{ if .link }}
+                    <a class="link-border" href="{{ .link | safeURL }}">{{ .linktext  | markdownify }}</a>
+                  {{ end }}
+                  </div>
 
-                </div>
                 </div>
             
 
@@ -170,66 +180,63 @@
       </div>
       
       
-      <div class="col-lg-3 offset-lg-1">
-        {{ if .Params.kooperation.enable }}
-          <div class="mb-29">{{ .Params.kooperation.subtitle | safeHTML }}</div>
-        {{ end }}
-
+      <div class="col-lg-3 offset-lg-1 ps-lg-10">
 
 
         <div id="box-anmelden" class="w-100 box-anmelden">
-          <button class="anmelde-toggler d-md-none" type="button"  aria-label="Toggle navigation">
-            <svg class="toggler-icon" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Kalender" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Kalender_RGB_Schwarz" transform="translate(6 9)" fill="#000" fill-rule="nonzero"><path id="Rectangle" d="M18.97 4h16v4h-16z"></path><path id="Path" d="M42.97 3.97V0h-4v7.95l10 .04v34.82h-44V16h40v-4h-40V8h10V.04h-4V4h-10v42.81h52V4.01z"></path><path id="Rectangle" d="M8.97 20h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm-32 8h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm-32 8h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4z"></path></g></g></svg>
+          <button class="anmelde-toggler d-md-none btn btn-primary bg-primary p-2" type="button"  aria-label="Toggle navigation">
+            <svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.875 24C4.875 13.438 13.438 4.875 24 4.875S43.125 13.438 43.125 24 34.562 43.125 24 43.125 4.875 34.562 4.875 24Zm35.518 0c0-9.053-7.34-16.393-16.393-16.393S7.607 14.947 7.607 24 14.947 40.393 24 40.393 40.393 33.053 40.393 24Z" fill="#fff"/><path fill-rule="evenodd" clip-rule="evenodd" d="M25.162 17.495a1.625 1.625 0 0 1-1.175.475 1.58 1.58 0 0 1-1.162-.475 1.58 1.58 0 0 1-.475-1.162c0-.458.158-.85.475-1.175a1.559 1.559 0 0 1 1.162-.489c.458 0 .85.163 1.175.489.326.325.489.717.489 1.175 0 .458-.163.845-.489 1.162Zm.225 2.456v13.468h-2.773V19.951h2.773Z" fill="#fff"/></svg>
           </button>
 
           <div class="d-none d-md-block p-3_ sticky  bg-white" data-sticky-class="is-sticky" data-sticky-for="768" data-margin-top="140">
-            <div class="border  px-3 pt-3  mb-2 bg-white">
-              {{ if gt (len .Params.personen.daten) 0 }}
-              <a role="button" class="d-block collapsed" data-bs-toggle="collapse" href="#teams" aria-expanded="false" aria-controls="teams">
-              {{end}}
+            
+            <div class="border px-5 pb-2 pt-3  mb-2 bg-white small">
 
-                <div class="d-flex align-items-center mb-3">
-                  <svg class="icon img-fluid me-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Gruppe_RGB_Schwarz" transform="translate(4 6)" fill="#000" fill-rule="nonzero"><path d="M56.72 30.63l-6-4.05a8.56 8.56 0 0 0 1.55-5.06v-7.38h-4v7.38c0 2.73-1.67 4.4-4.48 4.45a4.38 4.38 0 0 1-3.21-1.11 4.55 4.55 0 0 1-1.21-3.34V14c0-3 1.33-4.29 4.29-4.29a6.35 6.35 0 0 1 2.83.68 7.88 7.88 0 0 0 5.25.68l2-.39L53 6.75l-2 .39a4.06 4.06 0 0 1-2.9-.43 10.09 10.09 0 0 0-4.4-1c-5.19 0-8.29 3.1-8.29 8.29v7.53a8.92 8.92 0 0 0 1.52 5.12l-4.65 3.53-.74-.47a12.61 12.61 0 0 0 1.42-6V9.84H17.13v8.3h4v-4.3H29v9.83c0 4.79-2.81 7.58-7.71 7.67a7.4 7.4 0 0 1-5.58-1.89 7.86 7.86 0 0 1-2.06-5.78V11.84c0-5.16 2.51-7.67 7.68-7.67A10.91 10.91 0 0 1 26.1 5.3a11.09 11.09 0 0 0 7.45 1l2-.39L34.67 2l-2 .4a7.28 7.28 0 0 1-5.08-.73A14.754 14.754 0 0 0 21.24.21C14 .17 9.6 4.53 9.6 11.84v11.83A12.86 12.86 0 0 0 11.12 30L.2 36.9V52h4V39.1l9.53-6A11.7 11.7 0 0 0 21 35.34h.29A12.36 12.36 0 0 0 29 32.81l9.9 6.29V48h4V36.9l-7-4.45 4.22-3.2a8.92 8.92 0 0 0 3.59.72h.2a9.44 9.44 0 0 0 3.6-.77l7 4.74 2.21-3.31z" id="Path"/></g></g></svg>
-                  <h6 class="mt-1 mb-0">{{ i18n "firmen" }}</h6>
-                  {{ if gt (len .Params.personen.daten) 0 }}
-                  <div class="icon-plus ms-auto"></div>
-                  {{end}}
+              {{ with .Params.duration }}
+                <div class="py-2  d-flex border-bottom">
+                  <svg class="icon icon-sm img-fluid flex-shrink-0 me-2" width="64" height="64"  viewBox="0 0 64 64"  xmlns="http://www.w3.org/2000/svg"><g fill="#000" fill-rule="nonzero"><path d="M30 19v15h15v-4H34V19z"/><path d="M32 7C18.193 7 7 18.193 7 32s11.193 25 25 25c.67 0 1.34 0 2-.09V48h-4v4.9c-10.768-1.017-19.002-10.046-19.026-20.862-.023-10.816 8.173-19.88 18.937-20.943 10.763-1.063 20.574 6.223 22.667 16.835C54.67 38.54 48.36 49.007 38 52.11v4.16c12.27-3.032 20.347-14.745 18.82-27.292C55.29 16.43 44.64 6.998 32 7z"/></g></svg>
+                  <p class="mb-0 pt-1">{{ . }}</p>
                 </div>
-              {{ if gt (len .Params.personen.daten) 0 }}
-              </a>
-              {{end}}
-              <div id="teams" class="{{ if gt (len .Params.personen.daten) 0 }}collapse fade {{end}} border-top small bold" data-parent="#box-anmelden">
-                  <div class="py-2  d-flex">
-                      <svg class="icon icon-sm img-fluid flex-shrink-0 me-2" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Sprechblase" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Sprechblase" transform="translate(6 12)" fill="#010101" fill-rule="nonzero"><path id="Path" d="M0 0v41l12.52-7H40v-4H11.48L4 34.18V4h44v26h-4v4h8V0z"/><path id="Rectangle" d="M12 10h28v4H12zm0 10h24v4H12z"/></g></g></svg>
-                            <p class="mb-0 pt-1">{{ i18n "textTeams"}}</p></div>
-
-                      </div>
+                {{end}}
+                
+                {{ with .Params.costs }}
+                <div class="py-2  d-flex border-bottom">
+                  <svg class="icon icon-sm img-fluid flex-shrink-0 me-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Wallet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Wallet" transform="translate(6 7)" fill="#010101" fill-rule="nonzero"><path d="M48 16H36.08a10.73 10.73 0 0 0 .9-4.09H48v-4H36.35A11 11 0 0 0 15.62 8H6a6 6 0 0 0-6 6v36h40v-4H4V19.65A6 6 0 0 0 6 20h42v26h-4v4h8V16h-4zM26 4.6a7 7 0 0 1 7 7 6.94 6.94 0 0 1-1.56 4.4H20.56A6.94 6.94 0 0 1 19 11.6a7 7 0 0 1 7-7zM4 14a2 2 0 0 1 2-2h9a10.86 10.86 0 0 0 .9 4H6a2 2 0 0 1-2-2z" id="Shape"/></g></g></svg>
+                  <p class="mb-0 pt-1">{{ . }}</p>
+                </div>
+                {{end}}
+     
+                {{ with .Params.certificate }}
+                <div class="py-2  d-flex border-bottom">
+                  <svg class="icon icon-sm img-fluid flex-shrink-0 me-2" width="64" height="64" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M26.525 14.134h-2l-.025-2h4l-.03 16.307H13v1.5l-3.7-2.314-3.7 2.314V20.6a5.685 5.685 0 0 1 2.9-9.966V2.14H22l6.63 7.996H13v-2h7V4.14h-9.5v6.566a5.647 5.647 0 0 1 2.705 1.43H22.5v1.999h-7.915c.256.636.396 1.313.415 1.999h9.5v1.999h-9.82A5.712 5.712 0 0 1 13 20.6v5.867h13.525V14.134ZM24.37 8.137l-2.4-2.894v2.894h2.4ZM9.3 12.574a3.7 3.7 0 1 1 .002 7.399 3.7 3.7 0 0 1-.002-7.399ZM7.6 21.71v4.602l1.7-1.074 1.7 1.075V21.71a5.693 5.693 0 0 1-3.4 0Z" fill="#074761"/><path fill="#074761" d="M20 20.131h4.5v1.999H20z"/></svg>
+                  <p class="mb-0 pt-1">{{ . }}</p>
+                </div>
+                {{end}}
+             
+                {{ with .Params.documents }}
+                <div class="py-2  d-flex border-bottom">
+                  <svg class="icon icon-sm img-fluid flex-shrink-0 me-2"  width="64" height="64" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.184 19.84v-3.674h-2v3.689c0 1.364-.835 2.198-2.24 2.223a2.181 2.181 0 0 1-1.605-.554 2.273 2.273 0 0 1-.605-1.67v-3.778c0-1.499.665-2.144 2.145-2.144a3.16 3.16 0 0 1 1.415.345c.81.41 1.737.529 2.625.335l1-.195-.42-1.959-1 .195a2.03 2.03 0 0 1-1.45-.215 5.047 5.047 0 0 0-2.2-.5c-2.595 0-4.145 1.55-4.145 4.143v3.764c0 .907.277 1.793.795 2.538l-4.45 2.849v2.928h2v-1.834l4.06-2.614c.56.237 1.162.356 1.77.35h.12a4.643 4.643 0 0 0 1.845-.4l4.155 2.664v1.834h2v-2.928l-4.555-2.924c.492-.728.75-1.59.74-2.468Z" fill="#074761"/><path d="M27.01 20.164h-10v2h12V10.168h-2v9.995ZM3.01 4.172v17.991h2V10.17h20V8.17h-20V6.171h22v2h2V4.171h-26Z" fill="#074761"/></svg>              
+                  <p class="mb-0 pt-1">{{ . }}</p>
+                </div>
+                {{end}}
+     
+                {{ with .Params.info }}
+                <div class="py-2  d-flex  ">
+                  <svg class="icon icon-sm img-fluid flex-shrink-0 me-2"  width="64" height="64" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.25 16.1C3.25 9.062 8.958 3.357 16 3.357S28.75 9.062 28.75 16.1 23.042 28.844 16 28.844 3.25 23.138 3.25 16.1Zm23.679 0c0-6.032-4.893-10.923-10.929-10.923-6.036 0-10.929 4.89-10.929 10.923S9.964 27.023 16 27.023c6.036 0 10.929-4.89 10.929-10.923Z" fill="#074761"/><path fill-rule="evenodd" clip-rule="evenodd" d="M16.775 11.766a1.084 1.084 0 0 1-.783.316c-.305 0-.563-.105-.775-.316a1.053 1.053 0 0 1-.317-.775c0-.305.106-.566.317-.783a1.04 1.04 0 0 1 .775-.325c.305 0 .566.108.783.325.218.217.326.478.326.783 0 .305-.108.564-.326.775Zm.15 1.636v8.975h-1.849v-8.975h1.849Z" fill="#074761"/></svg>
+                  <p class="mb-0 pt-1">{{ . }}</p>
+                </div>
+                {{end}}
+            
+            
+             
             </div>
 
-              {{ if gt (len .Params.personen.daten) 0 }}
-              <div class="border px-3 pt-3  mb-2">
-
-               <a role="button" class="d-block" data-bs-toggle="collapse" href="#personen" aria-expanded="true" aria-controls="personen">
-                <div class="d-flex align-items-center mb-3">
-                  <svg class="icon img-fluid me-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Avatar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Avatar_RGB_Schwarz" transform="translate(6 6)" fill="#000" fill-rule="nonzero"><path d="M37.4 33.82A14.52 14.52 0 0 0 40 25.6V10H20v8h4v-4h12v11.6a10.64 10.64 0 0 1-2.2 6.48v.09A9.92 9.92 0 0 1 16 26V13c0-6.22 2.48-9 8.05-9a17.28 17.28 0 0 1 6 1.29C33.4 6.46 36.87 7.67 42 4.74l1.73-1-2-3.47-1.73.99c-3.54 2-5.57 1.32-8.64.25A21 21 0 0 0 24 0c-7.77 0-12 4.62-12 13v13a13.87 13.87 0 0 0 2.36 7.79L0 40.75V52h4v-8.75l13.17-6.38A13.88 13.88 0 0 0 25.94 40h.27a13.66 13.66 0 0 0 8.36-3.1L48 43.26V52h4V40.74l-14.6-6.92z" id="Path"/></g></g></svg>
-                  <h6 class="mt-1 mb-0">{{ i18n "personen" }}</h6>
-                  <div class="icon-plus ms-auto"></div>
-                </div>
-              </a>
-              <div id="personen" class="collapse fade show border-top small bold" data-parent="#box-anmelden">
-                  <div class="border-bottom  py-2 d-flex">
-                      <svg class="icon icon-sm img-fluid flex-shrink-0 me-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Kalender" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Kalender_RGB_Schwarz" transform="translate(6 9)" fill="#000" fill-rule="nonzero"><path id="Rectangle" d="M18.97 4h16v4h-16z"/><path id="Path" d="M42.97 3.97V0h-4v7.95l10 .04v34.82h-44V16h40v-4h-40V8h10V.04h-4V4h-10v42.81h52V4.01z"/><path id="Rectangle" d="M8.97 20h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm-32 8h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm-32 8h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4z"/></g></g></svg>
-                      <p class="mb-0 pt-1">{{ .Params.personen.daten }}</p></div>
-                  <div class="py-2  d-flex">
-                      <svg class="icon icon-sm img-fluid flex-shrink-0 me-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Wallet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Wallet" transform="translate(6 7)" fill="#010101" fill-rule="nonzero"><path d="M48 16H36.08a10.73 10.73 0 0 0 .9-4.09H48v-4H36.35A11 11 0 0 0 15.62 8H6a6 6 0 0 0-6 6v36h40v-4H4V19.65A6 6 0 0 0 6 20h42v26h-4v4h8V16h-4zM26 4.6a7 7 0 0 1 7 7 6.94 6.94 0 0 1-1.56 4.4H20.56A6.94 6.94 0 0 1 19 11.6a7 7 0 0 1 7-7zM4 14a2 2 0 0 1 2-2h9a10.86 10.86 0 0 0 .9 4H6a2 2 0 0 1-2-2z" id="Shape"/></g></g></svg>
-                      <p class="mb-0 pt-1">{{ .Params.personen.preis }}</p></div>
-                </div>
-                    </div>
-                    {{ end }}
+ 
+           
 
 
 
-              <button  type="button" data-bs-toggle="modal" data-bs-target="#signupModal" data-kurs="{{.Params.title }}" class="mt-3 btn btn-primary py-3 w-100">{{ i18n "anmelden" }}</button>
+              <button  type="button" data-bs-toggle="modal" data-bs-target="#signupModal" data-kurs="{{.Params.title }}" class="btn btn-primary py-3 w-100">{{ i18n "anmelden" }}</button>
 
               </div>
 
@@ -242,7 +249,7 @@
      
     </div>
   </div>
-</section>
+ 
 
 
 
@@ -258,7 +265,7 @@
       
 
       <div class="col-lg-11 offset-lg-1 ">
-        <h3 class="mb-6">{{ .title  | markdownify }}</h3>
+        <h3 class="h2 mb-4 mb-lg-6">{{ .title  | markdownify }}</h3>
         <div class="row gx-lg-16">
         {{ range .trainer }}
 
@@ -292,11 +299,28 @@
   {{ end }}
   <!-- /testimonials -->
 
-
-
-<div class="text-center my-6">
-    <a  href="{{ i18n "trainingsLink" }}" class="btn btn-outline-primary  py-3 px-5 ">{{ i18n "backToTrainings" }}</a>
+  <div class="container-fluid mb-16 mb-lg-32">
+    <h3 class="h2 mb-8 mb-lg-10">Weitere Trainings</h3>
+    <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 gy-8">
+      
+      {{ $related := $.Site.RegularPages.Related . | first 4 }}
+      {{ with $related }}
+        {{ range . }}
+        {{ partial "box-training-small" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+      
+      
+  
+    
+  <div class="d-flex mt-8 mb-18">
+    <a href="{{ i18n "trainingsLink" }}" class="btn btn-outline-primary  py-3 px-18 px-md-5 mx-auto  me-md-0">{{ i18n "backToTrainings" }}</a>
+  </div>
 </div>
+
+
+{{ partial "banner-anmelden.html" . }}
 
 
 {{ end }}

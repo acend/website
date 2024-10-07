@@ -8,7 +8,7 @@ draft: false
 weight: 3
 slug:
 subtitle: "Basics"
-categories: ["Basics", "Delivery CI/CD"]
+categories: ["Delivery CI/CD"]
 duration: "1 day"
 abstract: "Kubernetes-native CI/CD building blocks."
 main_title: "Kubernetes-native CI/CD building blocks."

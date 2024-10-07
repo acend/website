@@ -1,7 +1,7 @@
 
 .hero-video {
   .video-container {
-   height: calc(100dvh - var(--body-padding-top) - 2rem);
+   height: calc(100dvh - var(--body-padding-top) );
   }
 }
 
@@ -110,7 +110,7 @@
   list-style: none;
 
   .testimonial-carousel & {
-    bottom: -2em;
+    bottom: -2rem;
    }
 
   .dot {

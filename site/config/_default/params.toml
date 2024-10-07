@@ -4,8 +4,22 @@ description = "Congrats on setting up a new Hyas project!"
 images = ["cover.png"]
 
 
+# contact info
+phone = '<a href="tel:+41313702220">+41 31 370 22 20</a>'
+name = "**acend gmbh**"
+address = "Sickingerstrasse 10, 3014 Bern"
+email = "hello@acend.ch"
+
+
+# copyright
+copyright = "&copy; __YEAR__ acend gmbh"
+
+  # social site
 [social]
-  twitter = "gethyas"
+  linkedin = "https://www.linkedin.com/company/acendch/"
+  twitter = "https://www.x.com/acendch"
+  youtube = "https://www.youtube.com/@acendch"
+
 
 # Debug
 [render_hooks.image]

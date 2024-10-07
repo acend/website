@@ -8,16 +8,22 @@ draft: false
 weight: 3
 slug:
 subtitle: "Basics"
-categories: ["Basics", "Delivery CI/CD", "New"]
-duration: "1 Tag"
-costs : "CHF 1900"
+categories: ["Delivery CI/CD", "New"]
+
 abstract: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 main_title: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
-techlogo: "images/tech/Kubernetes.svg"
+techlogo: 
+  full: "images/tech/ArgoCD.svg"
+  cut_lg: "images/tech/partials/ArgoCD_lg.svg"
+  cut_sm: "images/tech/partials/ArgoCD_sm.svg"
 
-personen:
-  daten : ""
-  preis : "CHF 1100"
+# Infos NEU 2024
+duration: "1 Tag"
+costs : "CHF 1900"
+certificate : "Credly Zertifikat"
+documents: "Digitale Unterlagen"
+info: "Bringe deinen eigenen Laptop mit."
+ 
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_TopHill@2x.jpg"

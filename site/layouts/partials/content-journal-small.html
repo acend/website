@@ -21,7 +21,7 @@
           </div>
         </div>
 
-        <h3 class="h4 mb-6">{{ .Title }}</h3>
+        <h3 class="inherit mb-6">{{ .Title }}</h3>
 
         <div class="d-flex align-items-center mt-auto">
           
@@ -39,7 +39,7 @@
           {{ end }}
           
           <a class="stretched-link  ms-auto mt-lg-auto" href="{{ .Permalink | safeURL }}">
-            {{ i18n "continueReading" }}
+            <span class="d-none">{{ i18n "continueReading" }}</span> 
           </a> 
         </div>
      </div>

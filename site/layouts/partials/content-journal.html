@@ -1,4 +1,4 @@
-<div data-scroll class="journal-teaser position-relative mb-6">
+<div data-scroll class="journal-teaser item position-relative mb-6 {{ range $key, $value := .Params.categories }}{{ (replace $value "/" "-") | urlize }} {{ end }} ">
 <div class="border light">
 
   <div class="row">
@@ -46,8 +46,9 @@
           {{ end }}
           {{ end }}
           
-          <a class="stretched-link  ms-auto mt-lg-auto" href="{{ .Permalink | safeURL }}">
-            {{ i18n "continueReading" }}
+
+          <a class="stretched-link bold ms-auto mt-lg-auto " href="{{ .Permalink | safeURL }}">
+            <span class="link-border d-none d-lg-block">{{ i18n "continueReading" }}</span> 
           </a> 
         </div>
      </div>

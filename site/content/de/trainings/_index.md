@@ -9,9 +9,29 @@ draft: false
 header:
   title: "Trainings"
   lead: "Wir eröffnen neue Zugänge zu Cloud Native und Open Source."
-  img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
-  img2 : "images/trainings/ACEND_Yup@2x.jpg"
-  img3 : "images/trainings/ACEND_Code_Yup@2x.jpg"
+
+imagecloud:
+  - img1: "images/trainings/ACEND_Adventure_TopHill@2x.jpg"
+    img2: "images/trainings/ACEND_Poi@2x.jpg"
+    img3: "images/trainings/ACEND_CodeP@2x.jpg"
+
+  - img1: "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"
+    img2: "images/trainings/ACEND_Mats@2x.jpg"
+    img3: "images/trainings/ACEND_CodeT@2x.jpg"
+
+  - img1: "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"
+    img2: "images/trainings/ACEND_Lena@2x.jpg"
+    img3: "images/trainings/ACEND_CodeD@2x.jpg"
+
+  - img1: "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
+    img2: "images/trainings/ACEND_Jeremy@2x.jpg"
+    img3: "images/trainings/ACEND_CodeA@2x.jpg"
+
+  - img1: "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
+    img2: "images/trainings/ACEND_Philip@2x.jpg"
+    img3: "images/trainings/ACEND_CodeD@2x.jpg"
+
+
 
 filtertitle: "Das passende Training für dich"
 categories:

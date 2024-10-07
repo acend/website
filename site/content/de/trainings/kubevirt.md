@@ -8,12 +8,23 @@ draft: false
 weight: 1
 slug:
 subtitle: "Basics"
-categories: ["Basics", "Kubernetes"]
+categories: ["Kubernetes"]
 duration: "2 Tage"
 abstract : "KubeVirt ermöglicht DevOps-Teams, herkömmliche virtuelle Maschinen und nicht containerisierbare Workloads auf Kubernetes zu betreiben."
 main_title : "KubeVirt ermöglicht DevOps-Teams, herkömmliche virtuelle Maschinen und nicht containerisierbare Workloads auf Kubernetes zu betreiben."
-techlogo: "images/tech/Kubernetes.svg"
+techlogo:  
+  full: "images/tech/KubeVirt.svg"
+  cut_lg: "images/tech/partials/KubeVirt_lg.svg"
+  cut_sm: "images/tech/partials/KubeVirt_sm.svg"
 
+# Infos NEU 2024
+costs : "CHF 2300"
+duration : "2 Tage"
+certificate : "Credly Zertifikat"
+documents: "Digitale Unterlagen"
+info: "Bringe deinen eigenen Laptop mit."
+
+# old
 personen:
   #daten : "15.11.22, 16.11.22"
   daten : ""
