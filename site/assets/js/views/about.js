@@ -18,6 +18,37 @@ export default function() {
         el.classList.toggle('active');
       });
     });
+
+
+    // Hide more than 6 team members
+    const teamMembers = Array.from(team);
+    const showMore = document.querySelector('.btn-showmore');
+    let visibleCount = window.innerWidth > 768 ?  6 : 3;
+    const counter = visibleCount
+
+
+    teamMembers.slice(visibleCount).forEach(member => {
+      member.classList.add('d-none');
+    });
+
+
+    showMore.addEventListener('click', function() {
+      const hiddenMembers = teamMembers.slice(visibleCount, visibleCount + counter);
+      hiddenMembers.forEach(member => {
+      member.classList.remove('d-none');      
+    });
+
+    window.scrollTo({
+      top: hiddenMembers[0].offsetTop - 100,
+      behavior: 'smooth'
+    });
+
+    visibleCount += counter;
+    
+    if (visibleCount >= teamMembers.length) {
+      showMore.classList.add('d-none');
+      }
+    });
   }
 
  

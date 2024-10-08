@@ -461,3 +461,9 @@ a {
   padding-right: var(--bs-gutter-x);
   padding-left: var(--bs-gutter-x);
 }
+
+@include media-breakpoint-down(md) {
+  .overflow-x-hidden {
+    overflow-x: scroll !important;
+  }
+}
