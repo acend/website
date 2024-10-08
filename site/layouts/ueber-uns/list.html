@@ -11,8 +11,8 @@
       <div class="row flex-nowrap">
 
         {{ range .items}}
-        <div class="col-8 col-md-6">
-          <div data-scroll_ class="timeline-item me-20 me-lg-48">
+        <div class="col-10 col-md-6">
+          <div data-scroll_ class="timeline-item me-14 me-lg-48">
               <h2>{{ .title }}</h2>
               <p>{{ .subtitle }}</p>
               {{ with .img }}
@@ -60,12 +60,14 @@
     <h2 id="team" data-scroll class="mb-5">{{ .title | markdownify }}</h2>
   </div>
 
-  <div class="team-list row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-8 mb-16 mb-lg-32">
- 
+  <div class="team-list row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-8 mb-4">
     {{ range .team_member }}
         {{ partial "team-member-compact" . }}
     {{ end }}
- 
+  </div>
+
+  <div data-scroll class="d-flex mb-16 mb-lg-32">
+    <button class="btn btn-sm btn-outline-primary btn-showmore mx-auto">Mehr anzeigen</button>
   </div>
 
   {{ end }}
