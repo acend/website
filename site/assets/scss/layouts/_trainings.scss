@@ -144,23 +144,46 @@
   }
 }*/
 
-.box-anmelden .sticky {
-   transition:  box-shadow 0.2s ease-in-out;
+.box-anmelden.sticky-top {
+  //transition:  box-shadow 0.2s ease-in-out;
+  top: 12rem;
 
-   &.is-sticky {
-   // box-shadow: 0 0 30px rgba(0,0,0,0.2);
-   // box-shadow: 0 0 30px var(--shadowColor);
-    //z-index: 2;
-  }
-  @include media-breakpoint-down(sm) {
-    //.box-anmelden {
+  @include media-breakpoint-down(md) {
+
+    .inner {
+
+      //.box-anmelden {
         position: fixed;
-        top: 180px;
-        left: 15px;
-        right: 15px;
+        //top: 180px;
+        bottom: 180px;
+        left: 1.8rem;
+        right: 1.8rem;
         z-index: 5;
-        box-shadow: 0 0 30px rgba(0,0,0,0.2);
-        box-shadow: 0 0 30px var(--shadowColor);
+        //box-shadow: 0 0 30px rgba(0,0,0,0.2);
+        //box-shadow: 0 0 30px var(--shadowColor);
+
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.45, 0.98);
+        transform: scale(0, 0);
+        transform-origin: bottom right;
+        
+        .box,
+        .btn {
+          opacity: 0;
+          transition: opacity 0.3s ease 0.3s;
+          transition-delay: 0s;
+        }
+        
+        &.active {
+          transform: scale(1);
+          transition: all 0.3s cubic-bezier(0.37, 0.03, 0.27, 1.55);
+          
+          .box,
+          .btn {
+            opacity: 1;
+            transition: opacity 0.3s ease 0.3s;
+          }
+        }
+      }
   // }
   }
 }
