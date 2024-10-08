@@ -2,15 +2,19 @@
   --primary: #074761;
   --primary-medium: #C1D1D7;
   --primary-light: #e7ecee;
-  --body-padding-top: 7.4rem;
+  --body-padding-top: 10.6rem;
   scroll-behavior: auto !important;
   
   @include media-breakpoint-up(md) {
-    --body-padding-top: 20rem;
+    --body-padding-top: 20rem;    
+  }
+  
+  &:has(.home) {
+    --body-padding-top: 7.2rem;
+    scroll-behavior: smooth !important;
     
-    &:has(.home) {
-      --body-padding-top: 12rem;
-      scroll-behavior: smooth !important;
+    @include media-breakpoint-up(md) {
+      --body-padding-top: 12rem;    
     }
   }
 }
@@ -136,6 +140,12 @@ h1,
   @include media-breakpoint-down(md) {
     &.sm {
       font-size: 2.4rem;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    &.md {
+      font-size: 3.2rem;
     }
   }
 
@@ -432,7 +442,7 @@ a {
     padding-bottom: 56.25%;
     padding-top: 0;
     height: 0;
-    overflow: hidden;
+    //overflow: hidden;
 }
 
 .video-container iframe,
