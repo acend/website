@@ -34,18 +34,18 @@
 <div class="container-fluid">
   {{ with .Params.introtext }}
   <div class="col-lg-8 offset-lg-1 mb-8 mb-lg-16">
-    <h2 data-scroll class="h3">{{ . | markdownify }}</h2>
+    <h2 data-scroll class="mb-0">{{ . | markdownify }}</h2>
   </div>
   {{ end }}
   
   
   <div class="col-lg-10 offset-lg-1 mb-16 mb-lg-32">
-    <div class="row row-cols-1 row-cols-lg-3 ">
+    <div class="row row-cols-1 row-cols-lg-3 gy-6">
       {{ range $index, $value := .Params.brand_values }}
         {{ with $value }}
         <div class="col">
-          <div data-scroll class="h1">{{ add $index  1  }}</div>
-          <h3 data-scroll class="h4">{{ .title }}</h3>
+          <div data-scroll class="h1 mb-0">{{ add $index  1  }}</div>
+          <h3 data-scroll class="h4 bold mb-6">{{ .title }}</h3>
           <p data-scroll class="small">{{ .text }}</p>
       </div>
       {{ end }}
@@ -67,7 +67,7 @@
   </div>
 
   <div data-scroll class="d-flex mb-16 mb-lg-32">
-    <button class="btn btn-sm btn-outline-primary btn-showmore mx-auto">Mehr anzeigen</button>
+    <button class="btn btn-sm btn-outline-primary btn-showmore mx-auto px-3 border-1">{{ i18n "loadMore" }}</button>
   </div>
 
   {{ end }}
