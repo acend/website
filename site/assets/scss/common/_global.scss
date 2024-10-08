@@ -11,7 +11,7 @@
   
   &:has(.home) {
     --body-padding-top: 7.2rem;
-    scroll-behavior: smooth !important;
+    //scroll-behavior: smooth !important;
     
     @include media-breakpoint-up(md) {
       --body-padding-top: 12rem;    

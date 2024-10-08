@@ -2,7 +2,7 @@
 import ScrollOut from "scroll-out";
 import Sticky from "sticky-js";
 
-//import home from "js/views/home";
+import home from "js/views/home";
 import trainings from "js/views/trainings";
 import about from "js/views/about";
 import faq from "js/views/faq";
@@ -76,7 +76,7 @@ export default function() {
   Scrollmove();
   ScrollText();
   Slideshows();
-  //home();
+  home();
   trainings();
   about();
   faq();
