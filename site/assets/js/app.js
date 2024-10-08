@@ -5,6 +5,7 @@
 import Swup from 'swup';
 import SwupBodyClassPlugin from '@swup/body-class-plugin';
 import SwupHeadPlugin from '@swup/head-plugin';
+//import SwupScrollPlugin from '@swup/scroll-plugin';
 //import SwupDebugPlugin from '@swup/debug-plugin';
  
 import starterScripts from "./assets/js/views/starter-scripts";
@@ -20,6 +21,12 @@ const swup = new Swup({
   plugins: [
     new SwupBodyClassPlugin(),
     new SwupHeadPlugin({ persistAssets: true }),
+   /*
+    new SwupScrollPlugin({
+      //doScrollingRightAway: true,
+      //animateScroll: false
+    }),
+    */
     //new SwupDebugPlugin(),
   ],
 });

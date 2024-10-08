@@ -1,3 +1,21 @@
+::view-transition-old(*),
+::view-transition-new(*) {
+  position: absolute;
+  //top: 0;
+  inset-block-start: 0;
+  inline-size: 100%;
+  block-size: auto;
+  
+  // animation-duration: inherit;
+  animation-fill-mode: inherit;
+  // animation-delay: inherit;
+}
+
+::view-transition-new(*) {
+  //top: -2rem;
+}
+
+
 html.is-changing .transition-fade {
   view-transition-name: main;
 }

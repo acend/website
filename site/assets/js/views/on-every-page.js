@@ -1,6 +1,6 @@
  
 import ScrollOut from "scroll-out";
-import Sticky from "sticky-js";
+//import Sticky from "sticky-js";
 
 import home from "js/views/home";
 import trainings from "js/views/trainings";
@@ -35,7 +35,7 @@ export default function() {
   });
 */
 
-  var sticky = new Sticky('.sticky');
+ // var sticky = new Sticky('.sticky');
 
 
   let root = document.documentElement;
@@ -84,16 +84,16 @@ export default function() {
 
 
    
- 
+
 // still needed?
   const anmeldeToggler = document.querySelector(".anmelde-toggler");
 if (anmeldeToggler) {
 
   anmeldeToggler.addEventListener('click', function() {
-    document.querySelector('.box-anmelden .sticky').classList.toggle('d-none');
+    document.querySelector('.box-anmelden .inner').classList.toggle('active');
   });
 }          
-  
+
 
 /* autoplay ios fix */
 document.querySelectorAll('video[autoplay]').forEach( video => {
