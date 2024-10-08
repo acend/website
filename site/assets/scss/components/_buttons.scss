@@ -29,11 +29,14 @@
 }
 */
 .btn-outline-light {
+  --bs-btn-color: #fff;
   --bs-btn-bg: var(--primary);
-  --bs-btn-active-border-color:#fff;
   --bs-btn-hover-color: var(--primary);
   --bs-btn-hover-bg:#fff;
   --bs-btn-hover-border-color:  #fff;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--primary-medium);
+  --bs-btn-active-border-color:#fff;
   
   
    --bs-btn-border-color:  #fff;

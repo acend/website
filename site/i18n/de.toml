@@ -22,6 +22,8 @@ other = "Firmen"
 [all]
 other = "Alle"
 
+[loadMore]
+other = "Mehr laden"
 
 [textTeamsShort]
 other = "Firmen-Trainings auf Anfrage."
