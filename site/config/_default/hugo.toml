@@ -97,7 +97,7 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
   keepWhitespace = false
 
 [related]
-  threshold = 80
+  threshold = 0
   includeNewer = true
   toLower = false
     [[related.indices]]

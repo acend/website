@@ -74,10 +74,22 @@
 
     </div>
     
-    <div class="row entry-content">
-      <div class="col-lg-8 offset-lg-2">
+    <div class="row ">
+      <div class="col-lg-8 offset-lg-2 entry-content mb-8 mb-lg-16">
         {{ .Content }}
+      </div>
+      <div class="col-md-10 offset-md-1">
+        {{ partial "socialmedia-share" . }}
+ 
         
+        {{ $related := (where (.Site.RegularPages.Related .) "Type" "stories") | first 3 }}
+        {{ with $related }}
+        <h3 class="mb-8">Weitere Beiträge zum Thema</h3>
+          {{ range . }}
+            {{ partial "content-stories" . }}
+          {{ end }}
+        {{ end }}
+
       </div>
     </div>
 
@@ -88,13 +100,8 @@
 </article>
 
 
-
-
-
-
  
+  {{ partial "banner-anmelden.html" . }}
 
- 
- 
 
 {{ end }}
