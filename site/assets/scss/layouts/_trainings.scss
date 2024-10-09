@@ -151,7 +151,7 @@
   @include media-breakpoint-down(md) {
 
     .inner {
-
+        background-color: var(--primary);
       //.box-anmelden {
         position: fixed;
         //top: 180px;

@@ -11,13 +11,30 @@ import SwupHeadPlugin from '@swup/head-plugin';
 import starterScripts from "./assets/js/views/starter-scripts";
 import onEveryPage from "./assets/js/views/on-every-page";
  
+// Include parts of Bootstrap
+
+import {
+  //Alert,
+  Button,
+  //Carousel,
+  Collapse,
+  Dropdown,
+  Modal,
+  Offcanvas,
+  //Popover,
+  //ScrollSpy,
+  //Tab,
+  //Toast,
+  //Tooltip
+} from 'bootstrap';
+
 
 
 const swup = new Swup({
   containers: ['#main', '#main-menu', '#top-menu' ],
   ignoreVisit: (url, { el } = {}) => el?.closest('.language-switcher') ,
   //ignoreVisit: (url, { el } = {}) => el?.closest('[data-no-swup]') || el?.closest('#wpadminbar'),
-  native: true,
+  //native: true,
   plugins: [
     new SwupBodyClassPlugin(),
     new SwupHeadPlugin({ persistAssets: true }),
