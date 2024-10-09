@@ -1,8 +1,8 @@
 {
   "name": "acend-website",
   "version": "0.0.0",
-  "description": "Hyas",
-  "author": "Hyas",
+  "description": "Thulite",
+  "author": "Thulite",
   "license": "MIT",
   "scripts": {
     "create": "hugo new",
@@ -12,18 +12,18 @@
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
-    "@hyas/bootstrap": "^1.1.1",
-    "@hyas/images": "^3.2.0",
-    "@hyas/seo": "^2.3.0",
     "@swup/body-class-plugin": "^3.2.0",
     "@swup/debug-plugin": "^4.1.0",
     "@swup/head-plugin": "^2.2.0",
+    "@thulite/bootstrap": "^1.2.0",
+    "@thulite/images": "^3.3.0",
+    "@thulite/seo": "^2.4.0",
     "flickity": "^2.3.0",
     "flickity-fade": "^1.0.0",
-    "gethyas": "^2.4.2",
     "headroom.js": "^0.12.0",
     "scroll-out": "^2.2.12",
-    "swup": "^4.7.0"
+    "swup": "^4.7.0",
+    "thulite": "^2.5.0"
   },
   "devDependencies": {
     "prettier": "^3.2.5",

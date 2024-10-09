@@ -1,6 +1,17 @@
 export default function() {
   const filterlist = document.querySelector('.filterlist');
 
+
+  const anmeldeToggler = document.querySelector(".anmelde-toggler");
+  if (anmeldeToggler) {
+    
+    anmeldeToggler.addEventListener('click', function() {
+      document.querySelector('.box-anmelden .inner').classList.toggle('active');
+    });
+  }          
+  
+
+  
   if (filterlist) {
     // helper function
     function containsAll(needles, haystack) {
