@@ -1,6 +1,6 @@
 ---
 title: "Eine Entdeckungsreise durch die Welt der eleganten Programmierung"
-# type: 'trainings'
+type: 'stories'
 seo_title: "Ansible Kickstart-Training"
 description: "Lerne von unseren Ansible-Cracks, wie du linuxbasierte Services konfigurieren und automatisieren kannst."
 date: 2023-09-15T12:16:39+06:00
