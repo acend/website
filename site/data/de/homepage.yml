@@ -2,7 +2,7 @@
 video:
   enable: true
   title: "Praxisorientierte Cloud Native Trainings"
-  src: "/videos/testvideo.mp4"
+  src: "/videos/acend16-9_web.mp4"
 
 
 # trainings
