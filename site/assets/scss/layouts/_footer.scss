@@ -1,8 +1,10 @@
 .footer-banner {
-  transform: translateY(38%);
+  //transform: translateY(38%);
+  top: 8rem;
 
   @include media-breakpoint-up(md) {
-    transform: translateY(25%);
+    //transform: translateY(25%);
+    top: 6rem;
   }
 }
 
