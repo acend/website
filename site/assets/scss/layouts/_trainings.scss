@@ -111,9 +111,17 @@
   }
 }
 
-.box-training.box-large {
-  @include media-breakpoint-up(lg) {
-    min-height: 23rem;
+.box-training {
+
+  @include media-breakpoint-up(sm) {
+    min-height: 19.6rem;
+  }
+
+
+  &.box-large {
+    @include media-breakpoint-up(lg) {
+      min-height: 23rem;
+    }
   }
 }
 
