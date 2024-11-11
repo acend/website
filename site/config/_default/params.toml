@@ -11,6 +11,17 @@ address = "Sickingerstrasse 10, 3014 Bern"
 email = "hello@acend.ch"
 
 
+# Formulare
+[params.contact]
+enable = true
+form_action = "/backend/form"
+
+# contact
+[params.anmeldung]
+enable = true
+form_action = "/backend/form"
+
+
 # copyright
 copyright = "&copy; __YEAR__ acend gmbh"
 
