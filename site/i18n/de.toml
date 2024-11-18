@@ -124,13 +124,14 @@ other= 'Ich habe die <u><b><a href="/datenschutz/" target=\"_blank\" rel=\"noope
 [send]
 other = "Senden"
 
-
 #––––––––––––––––
 # Kontaktformular
 
 [agb_check_contact]
 other = 'Ich habe die <u><b><a href="/datenschutz/" target=\"_blank\" rel=\"noopener\">Nutzungsbedingungen</a></b></u> der Website gelesen und bin damit einverstanden.'
 
+[evening_event]
+other = 'Ich melde mich für den Event am Abend an.'
 
 #––––––––––––––––
 # Page 404
