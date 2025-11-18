@@ -38,6 +38,6 @@
     "node": ">=20.11.0"
   },
   "otherDependencies": {
-    "hugo": "0.144.2"
+    "hugo": "0.134.2"
   }
 }
