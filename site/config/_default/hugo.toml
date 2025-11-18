@@ -72,7 +72,7 @@ pagerSize = 7
 copyRight = "Copyright (c) 2020-2024 Hyas"
 
 [build.buildStats]
-  enable = false
+  enable = true
 
 [outputs]
   home = ["HTML"]
