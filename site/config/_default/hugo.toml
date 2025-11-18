@@ -9,7 +9,7 @@ disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-# languageCode = "en-US"
+languageCode = "de-CH"
 rssLimit = 10
 summarylength = 20 # 70 (default)
 #removePathAccents = true
@@ -41,10 +41,10 @@ pagerSize = 7
       #  pageRef = "/impact"
       #  name = "Impact"
       #  weight = 3
-      [[languages.de.menus.main]]
-        pageRef = "/journal"
-        name = "Journal"
-        weight = 4
+      #[[languages.de.menus.main]]
+      #  pageRef = "/journal"
+      #  name = "Journal"
+      #  weight = 4
       [[languages.de.menus.main]]
         pageRef = "/ueber-uns"
         name = "Über uns"
