@@ -14,7 +14,7 @@ EXPOSE 8080
 ENV BACKEND_URL=http://acend-website-backend:8000
 
 
-LABEL maintainer acend.ch
+LABEL maintainer=acend.ch
 LABEL org.opencontainers.image.title="acend.ch's Website"
 LABEL org.opencontainers.image.description="Container with acend.ch's Website"
 LABEL org.opencontainers.image.authors="acend.ch"
