@@ -13,5 +13,6 @@
   gtag('config', '{{ . }}');
 </script>
 {{ end }}
-
+{{ with site.Params.plausible }}
 <script async defer data-domain="acend.ch" src="https://plausible.acend.ch/js/plausible.js"></script>
+{{ end }}
