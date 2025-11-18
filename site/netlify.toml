@@ -8,16 +8,16 @@
   HUGO_VERSION = "0.152.2"
 
 [context.production]
-  command = "npm run build"
+  command = "npm run hugo-build"
 
 [context.deploy-preview]
-  command = "npm run build -- -b $DEPLOY_PRIME_URL"
+  command = "npm run hugo-build -- -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "npm run build -- -b $DEPLOY_PRIME_URL"
+  command = "npm run hugo-build -- -b $DEPLOY_PRIME_URL"
 
 [context.next]
-  command = "npm run build"
+  command = "npm run hugo-build"
 
 [context.next.environment]
   HUGO_ENV = "next"
