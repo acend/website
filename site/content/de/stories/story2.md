@@ -8,9 +8,16 @@ draft: false
 weight: 10
 slug:
 
+trainings:
+  - title: "Container & OpenShift"
+    link: "/trainings/container-openshift"
+  - title: "Prometheus"
+    link: "/trainings/prometheus"
+
 person:
   name : "Robert Mohaupt"
   title : "IT-Projektmanager, Baloise"
+  quote: "Das Training war sehr hilfreich und gab mir einen super Einblick in die Welt von Prome- theus. Dank den hands-on Labs konnte ich mein Wissen gleich anwenden. Die Trainer waren sehr kompetent und hilfsbereit, die Workshops technisch toll umgesetzt."
 
 main_image : "images/trainings/ACEND_Hicham@2x.jpg"
 
