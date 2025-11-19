@@ -274,7 +274,7 @@ community:
 
 # Memberships
 memberships:
-  enable: true
+  enable: false
   title: "Mitgliedschaften"
   text: "Diese Mitgliedschaften ermöglichen es uns, unser Fachwissen zu erweitern, Best Practices auszutauschen und unser Engagement für Exzellenz in der IT-Branche zu unterstreichen."
   member:

@@ -2,19 +2,15 @@ baseurl = "http://localhost/"
 title = "acend"
 canonifyURLs = false
 disableAliases = true
-
 disableHugoGeneratorInject = true
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-#languageCode = "de"
 rssLimit = 10
 summarylength = 20 # 70 (default)
 #multilingualMode = true
 defaultContentLanguage = "de"
-#defaultContentLanguageInSubdir = true
-#disableDefaultLanguageRedirect = false
 removePathAccents = true
 
 [pagination]
@@ -28,7 +24,6 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
   [languages.de]
     languageCode = "de-CH"
     languageName = "Deutsch"
-    #shortCode = "De"
     weight = 1
     contentDir = "content/de"
     [languages.de.params]
@@ -49,14 +44,18 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
       #  pageRef = "/impact"
       #  name = "Impact"
       #  weight = 3
-      [[languages.de.menus.main]]
-        pageRef = "/journal"
-        name = "Journal"
-        weight = 4
+     # [[languages.de.menus.main]]
+     #   pageRef = "/journal"
+     #   name = "Journal"
+      #  weight = 4
       [[languages.de.menus.main]]
         pageRef = "/ueber-uns"
         name = "Über uns"
         weight = 5
+      [[languages.de.menus.main]]
+        pageRef = "/kontakt"
+        name = "Kontakt"
+        weight = 6
 
   [languages.en]
     contentDir = "content/en"
@@ -74,6 +73,10 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
         pageRef = "/en/about"
         name = "About"
         weight = 2
+      [[languages.en.menus.main]]
+        pageRef = "/en/contact"
+        name = "Contact"
+        weight = 6
 
 
 
