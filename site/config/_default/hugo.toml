@@ -1,5 +1,5 @@
+baseURL = "/"
 title = "acend"
-baseurl = "/"
 canonifyURLs = false
 disableAliases = true
 defaultContentLanguage = "de"
@@ -19,10 +19,10 @@ pagerSize = 7
 
 [languages]
   [languages.de]
-    contentDir = "content/de"
     languageCode = "de-CH"
     languageName = "Deutsch"
     weight = 1
+    #contentDir = "content/de"
     [languages.de.params]
       author = "acend gmbh"
       description = "acend bietet dir praxisorientierte Cloud Native Trainings, bei denen dir mehr als nur das technische Know-how in Erinnerung bleiben wird. Von Engineers für Engineers."
@@ -36,7 +36,7 @@ pagerSize = 7
         pageRef = "/stories"
         name = "Stories"
         weight = 2
-     
+
      # [[languages.de.menus.main]]
       #  pageRef = "/impact"
       #  name = "Impact"
@@ -51,7 +51,7 @@ pagerSize = 7
         weight = 5
 
   [languages.en]
-    contentDir = "content/en"
+    #contentDir = "content/en"
     languageCode = "en-US"
     languageName = "English"
     title = "Cloud Native Trainings Switzerland - acend gmbh"
