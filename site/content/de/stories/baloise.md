@@ -56,6 +56,14 @@ Joachim: Einfache und praktische digitale Services sind ein Bedürfnis der Gesel
 Nikolas: Die Trainer kommen aus der Praxis und sind mit unserem Tagesgeschäft bestens vertraut – aus meiner Sicht das grösste Empfehlungsmerkmal. 
 Joachim: Ein weiteres grosses Plus ist die Flexibilität. Acend passt sich der Umgebung der Kundschaft an. Mit gefällt, dass sie lokal in der Schweiz angesiedelt sind. Sprich die Schulungen in unserer Konzernsprache stattfinden konnten – sowie der Austausch beim lockeren Apéro nach den Trainings.
 
+((Infobox mit Projektinfos))
+## Trainings 
+Anwendungen: 	OpenShift und Prometheus 
+Zeitraum: 		Herbst 2022 bis Frühling 2024
+Trainingstage: 	44 
+Teilnehmende: 	ca. 200	
+Orte:			Schweiz, Deutschland, Serbien
+
 ((Infobox))
 ## Über Baloise
 Als europäisches Unternehmen mit Hauptsitz in Basel und Tochtergesellschaften in Belgien, Deutschland und Luxemburg, wirkt Baloise seit rund 160 Jahren mit den aktuell 8000 Mitarbeitenden. In der Schweiz agiert die Baloise Versicherung AG gemeinsam mit der Baloise Bank AG als fokussierter Finanzdienstleister. Mit der schweizweit einzigartigen Kombination aus Versicherung und Bank erfahren Kundinnen und Kunden eine Rundum-Beratung mit auf ihre Bedürfnisse zugeschnittenen Lösungen.
