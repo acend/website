@@ -10,11 +10,12 @@ enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
 # languageCode = "en-US"
-paginate = 7
 rssLimit = 10
 summarylength = 20 # 70 (default)
 #removePathAccents = true
 
+[pagination]
+pagerSize = 7
 
 [languages]
   [languages.de]
@@ -97,7 +98,7 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
   keepWhitespace = false
 
 [related]
-  threshold = 80
+  threshold = 0
   includeNewer = true
   toLower = false
     [[related.indices]]

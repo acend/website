@@ -10,7 +10,7 @@ jobs:
     steps:
       - 
         name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           submodules: recursive
       -
@@ -22,7 +22,11 @@ jobs:
 
       -
         name: Log in to the ghcr.io Container registry
+<<<<<<< HEAD
         uses: docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567
+=======
+        uses: docker/login-action@28fdb31ff34708d19615a74d67103ddc2ea9725c
+>>>>>>> 213bf5c1b294b87f597240f92034547b52b4d550
         with:
           registry: ghcr.io
           username: ${{ github.actor }}

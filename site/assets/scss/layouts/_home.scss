@@ -1,11 +1,23 @@
 
 .hero-video {
   .video-container {
-   height: calc(100dvh - var(--body-padding-top) );
+    height: calc(100dvh - var(--body-padding-top) );
+    
+    @include media-breakpoint-up(lg) {
+      height: calc(100dvh - var(--body-padding-top) - 2.4rem);
+    }
+
   }
 }
 
+.scroll-down {
+  transition: opacity 0.3s ease;
 
+  body:has(.headroom--not-top) & {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
 
 /*
 .main-carousel {

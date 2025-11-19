@@ -1,8 +1,8 @@
  
 import ScrollOut from "scroll-out";
-import Sticky from "sticky-js";
+//import Sticky from "sticky-js";
 
-//import home from "js/views/home";
+import home from "js/views/home";
 import trainings from "js/views/trainings";
 import about from "js/views/about";
 import faq from "js/views/faq";
@@ -13,14 +13,9 @@ import imageclouds from "js/utils/imageclouds";
 
 // lazy sizes for image loading
 import 'lazysizes';
-
  
-import { Popover } from 'bootstrap';
+//import { Popover } from 'bootstrap';
 
-//import Popover from 'bootstrap/js/dist/popover';
-
-
-import { map, lerp, getMousePosViewport, calcWinsize, getRandomNumber } from 'js/utils/utils';
 
 export default function() {
     
@@ -28,17 +23,10 @@ export default function() {
     /* options */
     once: true,
   });
-/*
-  ScrollOut({
-    targets: ".banner",
-    offset: 200,
-  });
-*/
-
-  var sticky = new Sticky('.sticky');
+ 
 
 
-  let root = document.documentElement;
+  const root = document.documentElement;
   const colors = [
     "7 71 97", //#E6ECEE", //AC-Blue
     "125 15 75", //#E8D4DF", //AC-Red
@@ -57,18 +45,22 @@ export default function() {
       "230 237 234",         //AC-Green - light
       "246 232 219",         //AC-Yellow - light
           ];
-  let randomColor =  Math.floor(Math.random() * colors.length);
 
-  root.style.setProperty('--primary', 'rgb('+colors[randomColor]+')');
-  root.style.setProperty('--primary-medium', 'rgb('+colors_medium[randomColor]+')');
-  root.style.setProperty('--primary-light', 'rgb('+colors_light[randomColor]+')');
-  //root.style.setProperty('--color', colors[randomColor]);
-  root.style.setProperty('--shadowColor', 'rgba('+colors[randomColor].split(' ').join(',')+', 0.3)');
-  root.style.setProperty('--primary-opaque', 'rgba('+colors[randomColor].split(' ').join(',')+', 0.96)');
-  root.style.setProperty('--primary-opaque-light', 'rgba('+colors_light[randomColor].split(' ').join(',')+', 0.75)');
 
-  
-  
+  const currentColor = root.style.getPropertyValue('--primary').replace('rgb(', '').replace(')', '');
+  //console.log("currentColor " + root.style.getPropertyValue('--primary').replace('rgb(', '').replace(')', ''));
+  let newRandomColor;
+  do {
+    newRandomColor = Math.floor(Math.random() * colors.length);
+  } while (colors[newRandomColor] === currentColor);
+
+  root.style.setProperty('--primary', 'rgb('+colors[newRandomColor]+')');
+  root.style.setProperty('--primary-medium', 'rgb('+colors_medium[newRandomColor]+')');
+  root.style.setProperty('--primary-light', 'rgb('+colors_light[newRandomColor]+')');
+  root.style.setProperty('--shadowColor', 'rgba('+colors[newRandomColor].split(' ').join(',')+', 0.3)');
+  root.style.setProperty('--primary-opaque', 'rgba('+colors[newRandomColor].split(' ').join(',')+', 0.96)');
+  root.style.setProperty('--primary-opaque-light', 'rgba('+colors_light[newRandomColor].split(' ').join(',')+', 0.75)');
+
   
  
 
@@ -76,7 +68,7 @@ export default function() {
   Scrollmove();
   ScrollText();
   Slideshows();
-  //home();
+  home();
   trainings();
   about();
   faq();
@@ -84,23 +76,11 @@ export default function() {
 
 
    
- 
-// still needed?
-  const anmeldeToggler = document.querySelector(".anmelde-toggler");
-if (anmeldeToggler) {
 
-  anmeldeToggler.addEventListener('click', function() {
-    document.querySelector('.box-anmelden .sticky').classList.toggle('d-none');
-  });
-}          
   
-
-/* autoplay ios fix */
-document.querySelectorAll('video[autoplay]').forEach( video => {
-  video.play();
-});
-
-
+  
+  // still needed?
+/**/
   const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
 
   if (popoverTriggerList) {
@@ -110,49 +90,6 @@ document.querySelectorAll('video[autoplay]').forEach( video => {
 
  
 
-  // Trainings: img block Animation:
-
-  const images = document.querySelectorAll('.img-container');
-  if (images) {
-
-
-      // Calculate the viewport size
-      let winsize = calcWinsize();
-      window.addEventListener('resize', () => winsize = calcWinsize());
-
-      // Track the mouse position
-      let mousepos = {x: winsize.width/2, y: winsize.height/2};
-      window.addEventListener('mousemove', ev => mousepos = getMousePosViewport(ev));
-
-
-
-      function move(obj) {
-        // amount to move in each axis
-        let translationVals = {tx: 0, ty: 0};
-        // get random start and end movement boundaries
-        const xstart = getRandomNumber(20,50);
-        const ystart = getRandomNumber(20,50);
-
-        // infinite loop
-        const render = () => {
-            // Calculate the amount to move.
-            // Using linear interpolation to smooth things out.
-            // Translation values will be in the range of [-start, start] for a cursor movement from 0 to the window's width/height
-            translationVals.tx = lerp(translationVals.tx, map(mousepos.x, 0, winsize.width, -xstart, xstart), 0.07);
-            translationVals.ty = lerp(translationVals.ty, map(mousepos.y, 0, winsize.height, -ystart, ystart), 0.07);
-
-          // gsap.set(this.DOM.el, {x: translationVals.tx, y: translationVals.ty});
-          obj.style.transform = "translate("+ ( translationVals.tx) + "px,"+  (translationVals.ty) + "px)";
-          //console.log( getMousePosViewport.x)
-            requestAnimationFrame(render);
-        }
-        requestAnimationFrame(render);
-      }
-
-
-      images.forEach(item => move(item));
-    
-  }
 }
 
 

@@ -23,15 +23,15 @@
         <p class="small mb-4 mb-lg-8">{{ .Params.abstract }}</p>
         
         <div class="d-flex mt-auto">
-          <div class="duration small bold me-6 ">
+          <div class="duration d-flex small bold me-6 ">
             {{ if .Params.duration }}
-            <svg class="icon icon-sm img-fluid flex-shrink-0" width="64" height="64"  viewBox="0 0 64 64"  xmlns="http://www.w3.org/2000/svg"><g fill="#000" fill-rule="nonzero"><path d="M30 19v15h15v-4H34V19z"/><path d="M32 7C18.193 7 7 18.193 7 32s11.193 25 25 25c.67 0 1.34 0 2-.09V48h-4v4.9c-10.768-1.017-19.002-10.046-19.026-20.862-.023-10.816 8.173-19.88 18.937-20.943 10.763-1.063 20.574 6.223 22.667 16.835C54.67 38.54 48.36 49.007 38 52.11v4.16c12.27-3.032 20.347-14.745 18.82-27.292C55.29 16.43 44.64 6.998 32 7z"/></g></svg>
+            <svg class="icon icon-sm img-fluid flex-shrink-0 me-1" width="64" height="64"  viewBox="0 0 64 64"  xmlns="http://www.w3.org/2000/svg"><g fill="#000" fill-rule="nonzero"><path d="M30 19v15h15v-4H34V19z"/><path d="M32 7C18.193 7 7 18.193 7 32s11.193 25 25 25c.67 0 1.34 0 2-.09V48h-4v4.9c-10.768-1.017-19.002-10.046-19.026-20.862-.023-10.816 8.173-19.88 18.937-20.943 10.763-1.063 20.574 6.223 22.667 16.835C54.67 38.54 48.36 49.007 38 52.11v4.16c12.27-3.032 20.347-14.745 18.82-27.292C55.29 16.43 44.64 6.998 32 7z"/></g></svg>
             <span class="nowrap">{{ .Params.duration }}</span>
             {{ end }}
           </div>
-          <div class="costs small bold ">
+          <div class="costs d-flex small bold ">
             {{ if .Params.costs }}
-            <svg class="icon icon-sm img-fluid flex-shrink-0" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Wallet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Wallet" transform="translate(6 7)" fill="#010101" fill-rule="nonzero"><path d="M48 16H36.08a10.73 10.73 0 0 0 .9-4.09H48v-4H36.35A11 11 0 0 0 15.62 8H6a6 6 0 0 0-6 6v36h40v-4H4V19.65A6 6 0 0 0 6 20h42v26h-4v4h8V16h-4zM26 4.6a7 7 0 0 1 7 7 6.94 6.94 0 0 1-1.56 4.4H20.56A6.94 6.94 0 0 1 19 11.6a7 7 0 0 1 7-7zM4 14a2 2 0 0 1 2-2h9a10.86 10.86 0 0 0 .9 4H6a2 2 0 0 1-2-2z" id="Shape"/></g></g></svg>
+            <svg class="icon icon-sm img-fluid flex-shrink-0 me-1" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Wallet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Wallet" transform="translate(6 7)" fill="#010101" fill-rule="nonzero"><path d="M48 16H36.08a10.73 10.73 0 0 0 .9-4.09H48v-4H36.35A11 11 0 0 0 15.62 8H6a6 6 0 0 0-6 6v36h40v-4H4V19.65A6 6 0 0 0 6 20h42v26h-4v4h8V16h-4zM26 4.6a7 7 0 0 1 7 7 6.94 6.94 0 0 1-1.56 4.4H20.56A6.94 6.94 0 0 1 19 11.6a7 7 0 0 1 7-7zM4 14a2 2 0 0 1 2-2h9a10.86 10.86 0 0 0 .9 4H6a2 2 0 0 1-2-2z" id="Shape"/></g></g></svg>
             <span class="nowrap">{{ .Params.costs }}</span>
             {{ end }}
           </div>

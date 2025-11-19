@@ -7,7 +7,7 @@
       
       {{ with .Params.main_image }}
       <div class="ps-lg-6 py-lg-6 ">
-        {{- partial "img" (dict "page" page "src" .  "process" "fill 768x510" "class" "img-fluid w-100") }}
+        {{- partial "img" (dict "page"  $.Page "src" .  "process" "fill 768x510" "class" "w-100") }}
       </div>
       {{ end }}
       
@@ -38,7 +38,7 @@
             <div class="author d-flex align-items-center me-2">
                 {{ if .Params.image }}
                 <div class="author-img rounded-circle overflow-hidden me-2">
-                  {{- partial "img" (dict "page" . "src" .Params.image "width" 40 "process" "fill 80x80" "class" "img-fluid" "alt" "{{  .Params.title  }}") }}
+                  {{- partial "img" (dict "page" . "src" .Params.image "width" 40 "process" "fill 80x80" "class" "img-fluid" "alt" .Params.title) }}
                 </div>
                 {{ end }}
                 <div class="small"> {{  .Title  }}</div>

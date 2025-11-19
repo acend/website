@@ -59,6 +59,12 @@
   }
 }
 
+.costs,
+.duration {
+  .nowrap {
+    margin-top: 5px;
+  }
+}
 
 // Filter
 
@@ -105,9 +111,17 @@
   }
 }
 
-.box-training.box-large {
-  @include media-breakpoint-up(lg) {
-    min-height: 23rem;
+.box-training {
+
+  @include media-breakpoint-up(sm) {
+    min-height: 19.6rem;
+  }
+
+
+  &.box-large {
+    @include media-breakpoint-up(lg) {
+      min-height: 23rem;
+    }
   }
 }
 
@@ -138,23 +152,46 @@
   }
 }*/
 
-.box-anmelden .sticky {
-   transition:  box-shadow 0.2s ease-in-out;
+.box-anmelden.sticky-top {
+  //transition:  box-shadow 0.2s ease-in-out;
+  top: 12rem;
 
-   &.is-sticky {
-   // box-shadow: 0 0 30px rgba(0,0,0,0.2);
-   // box-shadow: 0 0 30px var(--shadowColor);
-    //z-index: 2;
-  }
-  @include media-breakpoint-down(sm) {
-    //.box-anmelden {
+  @include media-breakpoint-down(md) {
+
+    .inner {
+        background-color: var(--primary);
+      //.box-anmelden {
         position: fixed;
-        top: 180px;
-        left: 15px;
-        right: 15px;
+        //top: 180px;
+        bottom: 10.8rem;
+        left: 1.8rem;
+        right: 1.8rem;
         z-index: 5;
-        box-shadow: 0 0 30px rgba(0,0,0,0.2);
-        box-shadow: 0 0 30px var(--shadowColor);
+        //box-shadow: 0 0 30px rgba(0,0,0,0.2);
+        //box-shadow: 0 0 30px var(--shadowColor);
+
+        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.45, 0.98);
+        transform: scale(0, 0) translateY(3rem);
+        transform-origin: bottom right;
+        
+        .box,
+        .btn {
+          opacity: 0;
+          transition: opacity 0.1s ease 0s;
+          transition-delay: 0s;
+        }
+        
+        &.active {
+          transform: scale(1) translateY(0);
+          transition: all 0.2s cubic-bezier(0.37, 0.03, 0.27, 1.55);
+          
+          .box,
+          .btn {
+            opacity: 1;
+            transition: opacity 0.3s ease 0.2s;
+          }
+        }
+      }
   // }
   }
 }
@@ -162,12 +199,14 @@
 .anmelde-toggler {
     position: fixed;
     z-index: 5;
-    right: 15px;
-    bottom: 100px;
+    right: 1.8rem;
+    bottom: 1.8rem;
     padding: 0;
     //border: none;
     //border-radius: 0;
     outline: none !important;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 30px var(--shadowColor);
+    //box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    //box-shadow: 0 0 30px var(--shadowColor);
+    box-shadow: none !important;
+
 }
