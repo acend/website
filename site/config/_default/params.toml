@@ -21,6 +21,7 @@ copyright = "&copy; __YEAR__ acend gmbh"
   youtube = "https://www.youtube.com/@acendch"
 
 
+
 # Debug
 [render_hooks.image]
   errorLevel = 'ignore' # ignore (default), warning, or error (fails the build)
@@ -63,5 +64,7 @@ copyright = "&copy; __YEAR__ acend gmbh"
     images = ["acend-og.jpg"] # ["cover.png"] (default)
     article = [] # Article sections
     newsArticle = [] # NewsArticle sections
-    blogPosting = ["journal"] # BlogPosting sections
-    product = [] # Product sections
+    #blogPosting = ["journal"] # BlogPosting sections
+    #product = [] # Product sections
+
+

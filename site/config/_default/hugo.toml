@@ -1,28 +1,36 @@
-baseURL = "/"
+baseurl = "http://localhost/"
 title = "acend"
 canonifyURLs = false
 disableAliases = true
-defaultContentLanguage = "de"
-#defaultContentLanguageInSubdir = false
+
 disableHugoGeneratorInject = true
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-# languageCode = "en-US"
+#languageCode = "de"
 rssLimit = 10
 summarylength = 20 # 70 (default)
-#removePathAccents = true
+#multilingualMode = true
+defaultContentLanguage = "de"
+#defaultContentLanguageInSubdir = true
+#disableDefaultLanguageRedirect = false
+removePathAccents = true
 
 [pagination]
 pagerSize = 7
+
+
+copyRight = "Copyright (c) 2020-2024 Hyas"
+
 
 [languages]
   [languages.de]
     languageCode = "de-CH"
     languageName = "Deutsch"
+    #shortCode = "De"
     weight = 1
-    #contentDir = "content/de"
+    contentDir = "content/de"
     [languages.de.params]
       author = "acend gmbh"
       description = "acend bietet dir praxisorientierte Cloud Native Trainings, bei denen dir mehr als nur das technische Know-how in Erinnerung bleiben wird. Von Engineers für Engineers."
@@ -51,7 +59,7 @@ pagerSize = 7
         weight = 5
 
   [languages.en]
-    #contentDir = "content/en"
+    contentDir = "content/en"
     languageCode = "en-US"
     languageName = "English"
     title = "Cloud Native Trainings Switzerland - acend gmbh"
@@ -68,8 +76,6 @@ pagerSize = 7
         weight = 2
 
 
-
-copyRight = "Copyright (c) 2020-2024 Hyas"
 
 [build.buildStats]
   enable = true

@@ -17,13 +17,13 @@
       <div class="offcanvas offcanvas-top offcanvas-end_ border-0" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
         <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center" data-bs-dismiss="offcanvas">
 
-        
+
 
           {{ $currentPage := . }}
 
 
             <nav id="main-menu" class="navbar-nav mt-auto ms-md-auto d-flex flex-column flex-md-row align-items-center order-md-1">
-             
+
               {{ range $index, $val := $.Site.Menus.main }}
             {{ $active := or ($currentPage.IsMenuCurrent .Menu .) ($currentPage.HasMenuCurrent .Menu .) }}
             {{ $active = or $active (eq .Name $currentPage.Title) }}
@@ -46,11 +46,11 @@
                 <a  class="nav-link small" href="{{ .Permalink }}">{{ .Title }}</a>
               </span>
               {{ end }}
-  
+
             {{ if .IsTranslated }}
                 {{ range .Translations }}
                 <span class="nav-item">
-                    <a  class="nav-link small language-switcher" href="{{ .Permalink }}">{{ .Lang | humanize }}</a>
+                    <a  class="nav-link small language-switcher" href="{{ .Permalink }}">{{ .Lang  | humanize }}</a>
                 </span>
                 {{ end}}
             {{ end }}

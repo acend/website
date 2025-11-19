@@ -1,10 +1,10 @@
 ---
-translationKey: "ueber-uns"
-type: "ueber-uns"
+translationKey: "about"
 title: "Über uns"
 seo_title: "Unser Ziel ist es, IT-Schulungen zu revolutionieren - acend gmbh"
 description: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren. Wir sind spezialisiert auf Container-Technologien und weitere OpenSource Technologien im Cloud Native Bereich."
 draft: false
+type: "about"
 
 seo:
   title: "Unser Ziel ist es, IT-Schulungen zu revolutionieren - acend gmbh"
@@ -47,7 +47,7 @@ brand_values:
     text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
   - title: "open-minded"
     text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
-  
+
 # team
 team:
   enable: true
@@ -260,7 +260,7 @@ join_us:
 
 
 community:
-  text: "Wir begreifen uns als Teil der wachsenden Schweizer Cloud Native Community und laden dich ein, dich anzuschliessen. Deswegen pflegen wir den Austausch während und nach unseren Trainings."  
+  text: "Wir begreifen uns als Teil der wachsenden Schweizer Cloud Native Community und laden dich ein, dich anzuschliessen. Deswegen pflegen wir den Austausch während und nach unseren Trainings."
   images:
     - img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
     - img: "images/trainings/ACEND_Jeremy@2x.jpg"

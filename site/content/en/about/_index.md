@@ -1,5 +1,5 @@
 ---
-translationKey: "ueber-uns"
+translationKey: "about"
 title: "About us"
 seo_title: "Our goal is to revolutionize IT training - acend gmbh"
 description: "It is our shared ambition to revolutionize the world of IT training. We are specialized in container technologies and further OpenSource technologies in the Cloud Native area."
