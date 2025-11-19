@@ -37,7 +37,7 @@ filtertitle: "Das passende Training für dich"
 categories:
   ["Kubernetes", "Delivery CI/CD", "Ergänzende Trainings", "Programming"]
 
-zertifikate: 
+zertifikate:
   title: "Zertifikate und Badges"
   text: "Nach erfolgreichem Abschluss des Trainings erhälts Du von uns ein Zertifikat (PDF) und einen Credly-Badge. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod temp."
   link: "https://credly.com"
@@ -51,7 +51,7 @@ excellence:
   img3 : "images/trainings/ACEND_CodeA@2x.jpg"
 
  # F.A.Q.
-faq: 
+faq:
   enable: true
   title: "Häufige Fragen"
   text: "Hier findest du Antworten auf die häufigsten Fragen zu unseren Trainings und acend."
@@ -73,7 +73,7 @@ faq:
 
     - question: "Was ist ein Microservice?"
       answer: "Ein Microservice ist ein kleiner, unabhängiger Dienst, der eine spezifische Funktion erfüllt."
-   
+
 ---
 
 acend steht für eine abenteuerlustige und aussergewöhnliche Lehr- und Lernerfahrung. Als Plattform vermitteln wir Wissen hands-on und stellen dafür hervorragende Rahmenbedingungen sicher.<br/>

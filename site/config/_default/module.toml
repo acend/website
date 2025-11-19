@@ -8,9 +8,20 @@
 # from different locations.
 
 ## content
+#[[mounts]]
+#  source = "content"
+#  target = "content"
+
 [[mounts]]
-  source = "content"
-  target = "content"
+lang = "de"
+source = "content/de"
+target = "content"
+
+[[mounts]]
+lang = "en"
+source = "content/en"
+target = "content"
+
 
 ## data
 [[mounts]]
