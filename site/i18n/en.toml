@@ -44,6 +44,14 @@ other = "/en/trainings/"
 other = "Expertise"
 
 #––––––––––––––––
+# Forms
+[messageSuccess]
+other = "Thank you for your registration!"
+
+[messageError]
+other = "Sorry, an error has occurred!"
+
+#––––––––––––––––
 # Footer
 
 [followUs]
