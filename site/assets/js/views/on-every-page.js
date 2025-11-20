@@ -83,13 +83,13 @@ export default function() {
 
 
   // still needed?
-/**/
+/*
   const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
 
   if (popoverTriggerList) {
     const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new Popover(popoverTriggerEl));
   }
-
+*/
 
 
 
