@@ -20,7 +20,10 @@ copyright = "&copy; __YEAR__ acend gmbh"
   twitter = "https://www.x.com/acendch"
   youtube = "https://www.youtube.com/@acendch"
 
-
+[netlifyForms]
+  anmeldung = 'Anmeldeformular'
+  contact = 'Kontaktformular'
+  newsletter = 'Newsletterformular'
 
 # Debug
 [render_hooks.image]

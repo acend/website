@@ -2,18 +2,18 @@ import  Flickity from 'flickity';
 
 export default function() {
 
-  
+
   const $stickyTop = document.querySelector('.sticky-top');
 
   if ($stickyTop) {
-    console.log('$stickyTop');
-    
-    const observer = new IntersectionObserver( 
+    //console.log('$stickyTop');
+
+    const observer = new IntersectionObserver(
       ([e]) => e.target.toggleAttribute('stuck', e.intersectionRatio < 0.5),
       {threshold: [1]}
-      
+
       );
-      
+
       observer.observe($stickyTop);
     }
 
@@ -59,18 +59,18 @@ export default function() {
 
 
 
- 
-  
+
+
   const faqCollapsible = document.querySelectorAll('.faq-content .collapse');
   if(faqCollapsible) {
-    
+
     faqCollapsible.forEach(el => {
       el.addEventListener('show.bs.collapse', event => {
-        console.log('collapse')
+        //console.log('collapse')
         window.dispatchEvent(new Event('resize'));
       });
     });
   }
-  
-  
+
+
 }

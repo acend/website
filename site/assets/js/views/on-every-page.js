@@ -10,6 +10,7 @@ import Slideshows from "js/utils/slideshows";
 import Scrollmove from "js/utils/scrollmove";
 import ScrollText from "js/utils/scrolltext";
 import imageclouds from "js/utils/imageclouds";
+import formsNetlify from "js/utils/forms-netlify";
 
 // lazy sizes for image loading
 import 'lazysizes';
@@ -73,6 +74,7 @@ export default function() {
   trainings();
   about();
   faq();
+  formsNetlify();
 
 
 
@@ -81,13 +83,13 @@ export default function() {
 
 
   // still needed?
-/**/
+/*
   const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
 
   if (popoverTriggerList) {
     const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new Popover(popoverTriggerEl));
   }
-
+*/
 
 
 

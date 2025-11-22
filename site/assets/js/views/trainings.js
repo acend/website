@@ -4,14 +4,14 @@ export default function() {
 
   const anmeldeToggler = document.querySelector(".anmelde-toggler");
   if (anmeldeToggler) {
-    
+
     anmeldeToggler.addEventListener('click', function() {
       document.querySelector('.box-anmelden .inner').classList.toggle('active');
     });
-  }          
-  
+  }
 
-  
+
+
   if (filterlist) {
     // helper function
     function containsAll(needles, haystack) {
@@ -28,7 +28,7 @@ export default function() {
         return btn.getAttribute('data-filter') !== 'all' ? btn.getAttribute('data-filter') : null;
       }).filter(Boolean); // ["cat1", "cat2", "cat3"]
 
-      console.log(checked_values, checked_values.length);
+      //console.log(checked_values, checked_values.length);
 
       if (checked_values.length) {
         Array.from(document.querySelectorAll('.item')).forEach(function (box) {

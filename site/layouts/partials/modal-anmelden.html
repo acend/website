@@ -17,7 +17,7 @@
                   </g>
               </svg></span>
               </button>
- 
+
             </div>
             <div class="modal-body">
                 {{ with $data.anmeldung }}
@@ -36,88 +36,94 @@
                       <div class="col-lg-9 offset-lg-2">
 
 
-                <form id="anmeldeform" action="{{site.Params.anmeldung.form_action}}" method="POST" >
+                <div class="form-wrap">
+
+                    <form id="anmeldeform" name="{{ site.Params.netlifyForms.anmeldung }}" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" >
+                        <input type="hidden" name="bot-field" />
+                        <input type="hidden" name="form-name" value="{{ site.Params.netlifyForms.anmeldung }}" />
 
 
-                    
-                    <div class="col-lg-6 mb-6 mb-lg-16">
-                        <select class="form-select form-control" name="kurs" required>
-                        <option value="" selected>{{ i18n "selectTraining" }}</option>
-                        {{ $t := where .Site.RegularPages "Section" "trainings"}}
-                        {{ range $t }}
-                        <option value="{{ .Title }}">{{ .Title }}</option>
-                        {{ end }}
+                        <div class="col-lg-6 mb-6 mb-lg-16">
+                            <select class="form-select form-control" name="kurs" required>
+                            <option value="" selected>{{ i18n "selectTraining" }}</option>
+                            {{ $t := where .Site.RegularPages "Section" "trainings"}}
+                            {{ range $t }}
+                            <option value="{{ .Title }}">{{ .Title }}</option>
+                            {{ end }}
 
 
 
-                      </select>
-                      </div>
-                 
-
-                      {{/*
-                    <div class="mb-4">
-                      <div class="form-check form-check-inline">
-                          <input type="radio" id="select_einzelperson" name="person_team" value="{{ i18n "einzelperson" }}"  class="form-check-input" required>
-                          <label class="form-check-label" for="select_einzelperson">{{ i18n "einzelperson" }}</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                          <input type="radio" id="select_team" name="person_team" value="Team"  class="form-check-input">
-                          <label class="form-check-label" for="select_team">{{ i18n "team" }}</label>
-                        </div>
-                      </div>
-                      */}}
-
-                      <div class="mb-4">
-                      <div class="form-check form-check-inline">
-                          <input type="radio" id="anrede_frau" name="anrede" value="Frau" class="form-check-input" required>
-                          <label class="form-check-label" for="anrede_frau">{{ i18n "frau" }}</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                          <input type="radio" id="anrede_herr" name="anrede" value="Herr" class="form-check-input">
-                          <label class="form-check-label" for="anrede_herr">{{ i18n "herr" }}</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                          <input type="radio" id="anrede_divers" name="anrede" value="Divers" class="form-check-input">
-                          <label class="form-check-label" for="anrede_divers">{{ i18n "divers" }}</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                          <input type="radio" id="anrede_none" name="anrede" value="keine Angabe" class="form-check-input">
-                          <label class="form-check-label" for="anrede_none">{{ i18n "keineAngabe" }}</label>
-                        </div>
-                      </div>
+                          </select>
+                          </div>
 
 
-                    <input type="text" id="name" name="name" placeholder="{{ i18n "name" }} *" class="form-control form-control-lg  mb-4" required>
+                          {{/*
+                        <div class="mb-4">
+                          <div class="form-check form-check-inline">
+                              <input type="radio" id="select_einzelperson" name="person_team" value="{{ i18n "einzelperson" }}"  class="form-check-input" required>
+                              <label class="form-check-label" for="select_einzelperson">{{ i18n "einzelperson" }}</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input type="radio" id="select_team" name="person_team" value="Team"  class="form-check-input">
+                              <label class="form-check-label" for="select_team">{{ i18n "team" }}</label>
+                            </div>
+                          </div>
+                          */}}
 
-                    <input type="text" id="vorname" name="vorname" placeholder="{{ i18n "vorname" }} *" class="form-control form-control-lg  mb-4" required>
+                          <div class="mb-4">
+                          <div class="form-check form-check-inline">
+                              <input type="radio" id="anrede_frau" name="anrede" value="Frau" class="form-check-input" required>
+                              <label class="form-check-label" for="anrede_frau">{{ i18n "frau" }}</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input type="radio" id="anrede_herr" name="anrede" value="Herr" class="form-check-input">
+                              <label class="form-check-label" for="anrede_herr">{{ i18n "herr" }}</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input type="radio" id="anrede_divers" name="anrede" value="Divers" class="form-check-input">
+                              <label class="form-check-label" for="anrede_divers">{{ i18n "divers" }}</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input type="radio" id="anrede_none" name="anrede" value="keine Angabe" class="form-check-input">
+                              <label class="form-check-label" for="anrede_none">{{ i18n "keineAngabe" }}</label>
+                            </div>
+                          </div>
 
-                    <div class="row">
-                      <div class="col-lg-9">
-                        <input type="text" id="firma" name="firma" placeholder="{{ i18n "firma" }}" class="form-control form-control-lg  mb-4">
-                        </div>
-                      <div class="col-lg-3">
-                        <input type="number" id="personen" name="anzahl_personen" placeholder="{{ i18n "anzahl_personen" }}" class="form-control form-control-lg  mb-4">
-                        </div>
 
-                      </div>
+                        <input type="text" id="name" name="name" placeholder="{{ i18n "name" }} *" class="form-control form-control-lg  mb-4" required>
 
-                    <input type="email" id="email" name="email" placeholder="{{ i18n "email" }} *" class="form-control form-control-lg mb-4" required>
+                        <input type="text" id="vorname" name="vorname" placeholder="{{ i18n "vorname" }} *" class="form-control form-control-lg  mb-4" required>
 
-                    <input type="text" id="telefon" name="telefon" placeholder="{{ i18n "telefon" }}" class="form-control form-control-lg mb-4">
+                        <div class="row">
+                          <div class="col-lg-9">
+                            <input type="text" id="firma" name="firma" placeholder="{{ i18n "firma" }}" class="form-control form-control-lg  mb-4">
+                            </div>
+                          <div class="col-lg-3">
+                            <input type="number" id="personen" name="anzahl_personen" placeholder="{{ i18n "anzahl_personen" }}" class="form-control form-control-lg  mb-4">
+                            </div>
 
-                    <input type="text" id="url" name="url" value="">
+                          </div>
 
-                    <textarea name="nachricht" id="nachricht" class="form-control form-control-lg mb-4"
-                      placeholder="{{ i18n "nachricht" }}"></textarea>
+                        <input type="email" id="email" name="email" placeholder="{{ i18n "email" }} *" class="form-control form-control-lg mb-4" required>
 
-                      <div class="form-check form-check-inline mb-4">
-                          <input type="checkbox" class="form-check-input" id="agb_check" required>
-                          <label class="form-check-label small" for="agb_check"> {{ i18n "agb_check"  | safeHTML }}</label>
-                        </div>
+                        <input type="text" id="telefon" name="telefon" placeholder="{{ i18n "telefon" }}" class="form-control form-control-lg mb-4">
 
-                    <button class="btn btn-outline-primary  py-3 px-10">{{ i18n "send" }}</button>
+                        <input type="text" id="url" name="url" value="">
 
-                </form>
+                        <textarea name="nachricht" id="nachricht" class="form-control form-control-lg mb-4"
+                          placeholder="{{ i18n "nachricht" }}"></textarea>
+
+                          <div class="form-check form-check-inline mb-4">
+                              <input type="checkbox" class="form-check-input" id="agb_check" required>
+                              <label class="form-check-label small" for="agb_check"> {{ i18n "agb_check"  | safeHTML }}</label>
+                            </div>
+
+                        <button type="submit" class="btn btn-outline-primary  py-3 px-10">{{ i18n "send" }}</button>
+
+                    </form>
+                      <div class="message-success d-none">{{ i18n "messageSuccess" }}</div>
+                    <div class="message-error d-none">{{ i18n "messageError" }}</div>
+                </div>
               </div>
             </div>
             </div>
@@ -127,4 +133,4 @@
 
           </div>
         </div>
- 
+
