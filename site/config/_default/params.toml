@@ -20,6 +20,10 @@ copyright = "&copy; __YEAR__ acend gmbh"
   twitter = "https://www.x.com/acendch"
   youtube = "https://www.youtube.com/@acendch"
 
+[netlifyForms]
+  anmeldung = 'Anmeldeformular'
+  contact = 'Kontaktformular'
+  newsletter = 'Newsletterformular'
 
 # Debug
 [render_hooks.image]
@@ -63,5 +67,7 @@ copyright = "&copy; __YEAR__ acend gmbh"
     images = ["acend-og.jpg"] # ["cover.png"] (default)
     article = [] # Article sections
     newsArticle = [] # NewsArticle sections
-    blogPosting = ["journal"] # BlogPosting sections
-    product = [] # Product sections
+    #blogPosting = ["journal"] # BlogPosting sections
+    #product = [] # Product sections
+
+

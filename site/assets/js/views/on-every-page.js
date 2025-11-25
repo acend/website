@@ -1,4 +1,4 @@
- 
+
 import ScrollOut from "scroll-out";
 //import Sticky from "sticky-js";
 
@@ -10,20 +10,21 @@ import Slideshows from "js/utils/slideshows";
 import Scrollmove from "js/utils/scrollmove";
 import ScrollText from "js/utils/scrolltext";
 import imageclouds from "js/utils/imageclouds";
+import formsNetlify from "js/utils/forms-netlify";
 
 // lazy sizes for image loading
 import 'lazysizes';
- 
+
 //import { Popover } from 'bootstrap';
 
 
 export default function() {
-    
+
   ScrollOut({
     /* options */
     once: true,
   });
- 
+
 
 
   const root = document.documentElement;
@@ -54,6 +55,7 @@ export default function() {
     newRandomColor = Math.floor(Math.random() * colors.length);
   } while (colors[newRandomColor] === currentColor);
 
+  root.style.setProperty('--bs-body-color', 'rgb('+colors[newRandomColor]+')');
   root.style.setProperty('--primary', 'rgb('+colors[newRandomColor]+')');
   root.style.setProperty('--primary-medium', 'rgb('+colors_medium[newRandomColor]+')');
   root.style.setProperty('--primary-light', 'rgb('+colors_light[newRandomColor]+')');
@@ -61,8 +63,8 @@ export default function() {
   root.style.setProperty('--primary-opaque', 'rgba('+colors[newRandomColor].split(' ').join(',')+', 0.96)');
   root.style.setProperty('--primary-opaque-light', 'rgba('+colors_light[newRandomColor].split(' ').join(',')+', 0.75)');
 
-  
- 
+
+
 
   imageclouds();
   Scrollmove();
@@ -72,26 +74,26 @@ export default function() {
   trainings();
   about();
   faq();
+  formsNetlify();
 
 
 
-   
 
-  
-  
+
+
+
   // still needed?
-/**/
+/*
   const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
 
   if (popoverTriggerList) {
     const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new Popover(popoverTriggerEl));
   }
+*/
 
 
- 
 
 }
 
 
 
-  

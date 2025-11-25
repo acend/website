@@ -1,28 +1,31 @@
+baseurl = "http://localhost/"
 title = "acend"
-baseurl = "/"
 canonifyURLs = false
 disableAliases = true
-defaultContentLanguage = "de"
-#defaultContentLanguageInSubdir = false
 disableHugoGeneratorInject = true
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-# languageCode = "en-US"
 rssLimit = 10
 summarylength = 20 # 70 (default)
-#removePathAccents = true
+#multilingualMode = true
+defaultContentLanguage = "de"
+removePathAccents = true
 
 [pagination]
 pagerSize = 7
 
+
+copyRight = "Copyright (c) 2020-2024 Hyas"
+
+
 [languages]
   [languages.de]
-    contentDir = "content/de"
     languageCode = "de-CH"
     languageName = "Deutsch"
     weight = 1
+    contentDir = "content/de"
     [languages.de.params]
       author = "acend gmbh"
       description = "acend bietet dir praxisorientierte Cloud Native Trainings, bei denen dir mehr als nur das technische Know-how in Erinnerung bleiben wird. Von Engineers für Engineers."
@@ -36,19 +39,23 @@ pagerSize = 7
         pageRef = "/stories"
         name = "Stories"
         weight = 2
-     
+
      # [[languages.de.menus.main]]
       #  pageRef = "/impact"
       #  name = "Impact"
       #  weight = 3
-      [[languages.de.menus.main]]
-        pageRef = "/journal"
-        name = "Journal"
-        weight = 4
+     # [[languages.de.menus.main]]
+     #   pageRef = "/journal"
+     #   name = "Journal"
+      #  weight = 4
       [[languages.de.menus.main]]
         pageRef = "/ueber-uns"
         name = "Über uns"
         weight = 5
+      [[languages.de.menus.main]]
+        pageRef = "/kontakt"
+        name = "Kontakt"
+        weight = 6
 
   [languages.en]
     contentDir = "content/en"
@@ -66,10 +73,12 @@ pagerSize = 7
         pageRef = "/en/about"
         name = "About"
         weight = 2
+      [[languages.en.menus.main]]
+        pageRef = "/en/contact"
+        name = "Contact"
+        weight = 6
 
 
-
-copyRight = "Copyright (c) 2020-2024 Hyas"
 
 [build.buildStats]
   enable = true

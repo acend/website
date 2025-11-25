@@ -7,10 +7,10 @@ import SwupBodyClassPlugin from '@swup/body-class-plugin';
 import SwupHeadPlugin from '@swup/head-plugin';
 //import SwupScrollPlugin from '@swup/scroll-plugin';
 //import SwupDebugPlugin from '@swup/debug-plugin';
- 
+
 import starterScripts from "./assets/js/views/starter-scripts";
 import onEveryPage from "./assets/js/views/on-every-page";
- 
+
 // Include parts of Bootstrap
 
 import {
@@ -49,13 +49,13 @@ const swup = new Swup({
 });
 
 swup.hooks.on('page:view', (visit) => {
-  console.log('New page loaded:', visit.to.url);
+  //console.log('New page loaded:', visit.to.url);
   onEveryPage();
 });
 
 
   starterScripts();
   onEveryPage();
-  
-  
+
+
 

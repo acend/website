@@ -11,7 +11,13 @@
     <div class="row">
 
       <div class="col-lg-9 offset-lg-3">
-            <form data-scroll id="contactform" action="{{site.Params.contact.form_action}}" method="POST" >
+
+         <div class="form-wrap">
+            <form id="contactform" name="{{ site.Params.netlifyForms.contact }}" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" >
+                    <input type="hidden" name="bot-field" />
+                    <input type="hidden" name="form-name" value="{{ site.Params.netlifyForms.contact }}" />
+
+           {{/* <form data-scroll id="contactform" action="{{site.Params.contact.form_action}}" method="POST" > */}}
 
               <div class="mb-4">
                 <div class="form-check form-check-inline">
@@ -45,9 +51,11 @@
                     <label class="form-check-label small" for="agb_check_contact">{{ i18n "agb_check_contact" | safeHTML }}</label>
                   </div>
 
-              <button class="btn btn-outline-primary  py-3 px-5 ">{{ i18n "send" }}</button>
-
-          </form>
+              <button type="submit" class="btn btn-outline-primary  py-3 px-5 ">{{ i18n "send" }}</button>
+            </form>
+            <div class="message-success d-none">{{ i18n "messageSuccess" }}</div>
+             <div class="message-error d-none">{{ i18n "messageError" }}</div>
+          </div>
        </div>
     </div>
   </div>

@@ -1,5 +1,5 @@
 ---
-translationKey: "ueber-uns"
+translationKey: "about"
 title: "About us"
 seo_title: "Our goal is to revolutionize IT training - acend gmbh"
 description: "It is our shared ambition to revolutionize the world of IT training. We are specialized in container technologies and further OpenSource technologies in the Cloud Native area."
@@ -10,33 +10,42 @@ header:
   title: "About us"
   lead: "It is our shared ambition to revolutionize the world of IT training."
 
-introtext: "What has happened so far: the idea of acend was initially formulated at a Sammy Deluxe concert in 2019. This was the moment when some of the founders agreed to pursue their vision of revolutionizing IT training. The rest is history. Today, we provide educational, entertaining and rewarding training experiences you won’t forget!"
 
-# main image
-main_image: "images/ueberuns/lava_neu.jpg"
+timeline:
+  enable: true
+  items:
+    - title: "2019"
+      subtitle: "Gründung"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Gründung der acend gmbh durch This und Marcel."
+    - title: "2020"
+      subtitle: "Eröffnung"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Eröffnung des acend Trainingscenters in Bern."
+    - title: "2021"
+      subtitle: "Eröffnung"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Erweiterung des Trainingsangebots um Kubernetes und OpenShift."
+    - title: "2022"
+      subtitle: "Eröffnung"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Eröffnung des acend Trainingscenters in Zürich."
+    - title: "2023"
+      subtitle: "Eröffnung"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Erweiterung des Trainingsangebots um Argo CD und Prometheus."
 
-subtopic_1:
-  title : "Our Mission"
-  text : "As a knowledge platform, acend accompanies engineers and their businesses across new technological frontiers. We offer extraordinary, inspiring and practice-oriented teaching and learning experiences. Together with high-powered partners like Puzzle ITC, we draw on our expertise in the development, support and teaching of Cloud Native and Open Source technologies. Our trainings focus on the exchange of knowledge and shared learning – practice-oriented, uncomplicated and direct."
+introtext: "Today, we provide educational, entertaining and rewarding training experiences you won’t forget!"
 
-subtopic_2:
-  title : "Blazing New Trails"
-  text : "We present knowledge in a surprising and interactive fashion. Our trainings consist of varied approaches to theory and practice-based labs."
 
-subtopic_3:
-  title : "Taught by Pioneers"
-  text : "Our trainers are experts in their field, continue to develop their skills with an ardent thirst for knowledge and put their heart and soul into their trainings."
+brand_values:
+  - title: "aussergewöhnlich"
+    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
+  - title: "abenteuerlustig"
+    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
+  - title: "open-minded"
+    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
 
-subtopic_4:
-  title : "Become Part of the Community"
-  text : "We see ourselves as part of the growing Swiss Cloud Native community and invite you to join in. For this reason, we emphasize knowledge exchange during and after our trainings."
-
-# quote
-quote:
-  text: "It’s people and their competences that contribute to the success of a business. We teach new knowledge and support our participants in the endeavor to develop with the help of new approaches."
-  name: "Thomas"
-  title: "Co-Founder acend"
-  img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
 
 # team
 team:
@@ -241,44 +250,66 @@ team:
       twitter: "https://twitter.com/Tobee_Tr"
       email: "tobi@acend.ch"
 
+
+join_us:
+  title: "Du möchtest Teil unseres Teams werden?"
+  text: "Bei acend schaffen wir ein Umfeld, das von Kreativität, Zusammenarbeit und Innovation geprägt ist. Wir suchen ständig nach talentierten und motivierten Menschen, die bereit sind, gemeinsam mit uns neue Horizonte zu erschliessen."
+  link: "mailto:info@acend.ch"
+  link_label: "Jetzt bewerben"
+
+
+community:
+  text: "Wir begreifen uns als Teil der wachsenden Schweizer Cloud Native Community und laden dich ein, dich anzuschliessen. Deswegen pflegen wir den Austausch während und nach unseren Trainings."
+  images:
+    - img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
+    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
+    - img: "images/ueberuns/ACEND_Students_Discussion@4x.jpg"
+    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
+    - img: "images/ueberuns/ACEND_Workshop_Tablet@4x.jpg"
+    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
+    - img: "images/ueberuns/ACEND_Workshop_Frontal@4x.jpg"
+
+
+
 # Memberships
 memberships:
-  enable: true
+  enable: false
   title : "Memberships"
+  text: "Diese Mitgliedschaften ermöglichen es uns, unser Fachwissen zu erweitern, Best Practices auszutauschen und unser Engagement für Exzellenz in der IT-Branche zu unterstreichen."
   member:
     - title : "bernerit.rocks"
       logo : "images/mitgliedschaften/berner-it-rocks.png"
-      abstract : "The association bernerit.rocks organizes technically motivated events for the Bernese IT community. acend is one of the first patrons and is also represented on the board."
+      text : "The association bernerit.rocks organizes technically motivated events for the Bernese IT community. acend is one of the first patrons and is also represented on the board."
       link : "https://bernerit.rocks/"
       link_label : "bernerit.rocks"
 
     - title : "CH Open"
       logo : "images/mitgliedschaften/CH-open.png"
-      abstract : "CH Open promotes open source software and open standards in the Swiss market through further education and information exchange among members."
+      text : "CH Open promotes open source software and open standards in the Swiss market through further education and information exchange among members."
       link : "https://www.ch-open.ch/"
       link_label : "www.ch-open.ch"
 
     - title : "Cloud Native Computing Foundation"
       logo : "images/mitgliedschaften/cncf.png"
-      abstract : "The Open Source Software Foundation, which promotes collaboration between developers, users and providers of cloud native software."
+      text : "The Open Source Software Foundation, which promotes collaboration between developers, users and providers of cloud native software."
       link : "https://www.cncf.io/"
       link_label : "www.cncf.io"
 
     - title : "Digital Impact Network"
       logo : "images/mitgliedschaften/digital-impact-network.png"
-      abstract : "Digital Impact Network is an association for the promotion of digitalization in the Swiss capital region."
+      text : "Digital Impact Network is an association for the promotion of digitalization in the Swiss capital region."
       link : "https://digitalimpact.ch/"
       link_label : "digitalimpact.ch/"
 
     - title : "Linux Foundation"
       logo : "images/mitgliedschaften/linuxfoundation.png"
-      abstract : "The Linux Foundation has set itself the goal of supporting the growth of Linux. Of course we are happy to help."
+      text : "The Linux Foundation has set itself the goal of supporting the growth of Linux. Of course we are happy to help."
       link : "https://www.linuxfoundation.org/"
       link_label : "www.linuxfoundation.org/"
 
     - title : "swissICT"
       logo : "images/mitgliedschaften/swiss-itc.png"
-      abstract : "swissITC is the largest professional association in the industry and is the only association that connects ICT providers, users and professionals in Switzerland."
+      text : "swissITC is the largest professional association in the industry and is the only association that connects ICT providers, users and professionals in Switzerland."
       link : "https://www.swissict.ch"
       link_label : "www.swissict.ch"
 

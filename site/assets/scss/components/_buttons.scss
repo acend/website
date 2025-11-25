@@ -11,7 +11,7 @@
   font-size: 1.4rem;
 }
 
- 
+
 /*
 .bg-primary {
   background-color: var(--primary) !important;
@@ -40,8 +40,8 @@
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: var(--primary-medium);
   --bs-btn-active-border-color:#fff;
-  
-  
+
+
    --bs-btn-border-color:  #fff;
   --bs-btn-border-width: 2px;
 
@@ -54,6 +54,9 @@
     --bs-btn-border-color: var(--primary);
     --bs-btn-border-width: 2px;
     --bs-btn-hover-color: var(--primary);
+    --bs-btn-active-color: var(--primary-medium);
+    --bs-btn-active-border-color: var(--primary);
+    --bs-btn-active-bg: var(--primary);
     --bs-btn-hover-border-color: var(--primary);
     --bs-btn-hover-bg:  #fff;
 }
@@ -100,7 +103,7 @@
     position: absolute;
     transform: translateX(-50%);
     transition: all 0.2s ease;
-    
+
     [aria-expanded="true"] & {
       background: var(--primary-medium);
       transform: translateX(-50%) scaleY(0);
@@ -117,7 +120,7 @@
     position: absolute;
     transform: translateY(-50%);
     transition: all 0.2s ease;
-    
+
     [aria-expanded="true"] & {
       background: var(--primary-medium);
     }
