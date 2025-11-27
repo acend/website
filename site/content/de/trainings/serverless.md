@@ -10,7 +10,6 @@ slug:
 subtitle: "Basics"
 categories: ["Ergänzende Trainings"]
 
-duration: "1 Tag"
 abstract : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS"
 main_title : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS"
 
@@ -19,9 +18,11 @@ techlogo:
   cut_lg: "images/tech/partials/Serverless_lg.svg"
   cut_sm: "images/tech/partials/Serverless_sm.svg"
 
-personen:
-  daten : ""
-  preis : "CHF 1100"
+duration: "1 Tag"
+costs : "CHF 1100"
+certificate : "Zertifikat"
+documents: "Digitale Unterlagen"
+info: "Bringe deinen eigenen Laptop mit."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Dream@2x.jpg"

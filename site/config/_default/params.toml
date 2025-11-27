@@ -5,7 +5,7 @@ images = ["cover.png"]
 
 
 # contact info
-phone = '<a href="tel:+41313702220">+41 31 370 22 20</a>'
+phone = '<a href="tel:+41313702220">+41 31 370 22 00</a>'
 name = "**acend gmbh**"
 address = "Belpstrasse 37, 3007 Bern"
 email = "hello@acend.ch"

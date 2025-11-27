@@ -8,7 +8,6 @@ draft: false
 weight: 3
 subtitle: "Basics"
 categories: ["Programming"]
-duration: "1 Tag"
 abstract: "Einführung in Go für Software Entwickler, Architekten und DevOps Engineers."
 main_title: "Einführung in Go für Software Entwickler, Architekten und DevOps Engineers."
 techlogo: 
@@ -16,9 +15,11 @@ techlogo:
   cut_lg: "images/tech/partials/Go_lg.svg"
   cut_sm: "images/tech/partials/Go_sm.svg"
 
-personen:
-  daten : ""
-  preis : "CHF 1100"
+duration: "1 Tag"
+costs : "CHF 1100"
+certificate : "Zertifikat"
+documents: "Digitale Unterlagen"
+info: "Bringe deinen eigenen Laptop mit."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"

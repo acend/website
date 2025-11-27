@@ -8,7 +8,6 @@ draft: false
 weight: 4
 subtitle: "Advanced"
 categories: ["Kubernetes"]
-duration: "2 Tage"
 abstract: "OpenShift - Operations Mastery für System Engineers."
 main_title: "OpenShift - Operations Mastery für System Engineers."
 
@@ -17,9 +16,11 @@ techlogo:
   cut_lg: "images/tech/partials/OpenShift_lg.svg"
   cut_sm: "images/tech/partials/OpenShift_sm.svg"
 
-personen:
-  daten : ""
-  preis : "CHF 2200"
+duration: "2 Tage"
+costs : "CHF 2200"
+certificate : "Zertifikat"
+documents: "Digitale Unterlagen"
+info: "Bringe deinen eigenen Laptop mit."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Fels@2x.jpg"
@@ -116,13 +117,6 @@ trainers:
   enable: true
   title : "Lerne deine Trainer kennen"
   trainer:
-    - title : "Benjamin Affolter"
-      image : "images/team/AC_Benji@2x.jpg"
-      designation : "Trainer"
-      abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
-      twitter : "https://twitter.com/bliemli"
-
     - title : "Christian Haller"
       image : "images/team/AC_Christian_Haller@2x.jpg"
       designation : "Trainer, Puzzle ITC"

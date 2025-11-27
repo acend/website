@@ -20,7 +20,7 @@ techlogo:
 # Infos NEU 2024
 duration: "2 Tage"
 costs : "CHF 1900"
-certificate : "Credly Zertifikat"
+certificate : "Zertifikat"
 documents: "Digitale Unterlagen"
 info: "Bringe deinen eigenen Laptop mit."
  

@@ -223,15 +223,13 @@ team:
       experience: "As a consultant and expert for cloud native technologies, he designs and builds Kubernetes platforms for various Puzzle ITC customers. After graduating with a BsC in Computer Science (2017) and a major in Security, Sebastian led a team in Cybersecurity at RUAG Schweiz AG. Various certifications in the Cloud Native environment underline his expertise in containers and Kubernetes. CKA, CKAD, CKS"
       linkedin: "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter: "https://twitter.com/SebaPlattner"
-
-    - title: "Stefan Johner"
-      image: "images/team/AC_Stefu@2x.jpg"
-      designation: "Trainer"
-      abstract: "Stefan is not only a team player in sport. Away from the sports fields, he likes to be active in the Microsoft and cloud native community so that he can get to know new trends and people."
-      experience: "After studying computer science at BFH, Stefan gained several years of experience in the Microsoft cloud ecosystem. Today he works as a Product Manager at Mobiliar Insurance. He has been a Microsoft Azure MVP since 2016 and co-organizer of Azure Bootcamp Switzerland.
-      Stefan also holds an MAS in Digital Management and various Azure certifications."
-      linkedin: "https://www.linkedin.com/in/stefanjohner/"
-      twitter: "https://twitter.com/JohnerStefan"
+    
+    - title: "Simon Stettler"
+      image: "images/team/AC_Simon@2x.jpg"
+      designation: "Sales & Experience"
+      abstract: "Enjoys seeing the bigger picture and strives to bring out the best in himself and organizations. Sometimes also with beer."
+      experience: "Having spent years as a marketer, Simon transitioned into management and leadership. In addition to leading teams in the business world, he has also led teams in sports and is convinced that the athlete's mindset is highly relevant in everyday business. Since July 2024, Simon has been responsible for the further development of acend in Sales & Experience."
+      linkedin: "https://www.linkedin.com/in/simon-stettler/"  
 
     - title: "Thomas Philipona"
       image: "images/team/AC_Thoemu@2x.jpg"

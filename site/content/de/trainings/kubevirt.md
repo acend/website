@@ -19,7 +19,7 @@ techlogo:
 # Infos NEU 2024
 costs : "CHF 2300"
 duration : "2 Tage"
-certificate : "Credly Zertifikat"
+certificate : "Zertifikat"
 documents: "Digitale Unterlagen"
 info: "Bringe deinen eigenen Laptop mit."
 
@@ -103,18 +103,17 @@ trainers:
   enable: true
   title : "Lerne zwei deiner Trainer kennen"
   trainer:
-    - title : "Benjamin Affolter"
-      image : "images/team/AC_Benji@2x.jpg"
+    - title : "Thomas Philipona"
+      image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Trainer"
-      abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
-      twitter : "https://twitter.com/bliemli"
+      abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
+      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
 
     - title: "Christof Lüthi"
       image: "images/team/AC_ChristofLuethi@2x.jpg"
       designation: "Trainer, Tim&Koko AG"
       abstract: "Christof ist zurück von seiner Weltreise, ist viel getaucht und hat unterschiedliche Kulturen kennengelernt. Mit frischem Geist und Neugier ist er nun auf Entdeckungsreise in der Cloud Native Welt."
-      linkedin: "https://www.linkedin.com/in/christof-luethi/"
+      linkedin: "https://www.linkedin.com/in/christof-luethi/"    
 
 # testimonials
 testimonials:

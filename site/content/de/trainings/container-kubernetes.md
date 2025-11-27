@@ -9,7 +9,7 @@ weight: 1
 slug:
 subtitle: "Basics"
 categories: ["Kubernetes"]
-duration: "2 Tage"
+
 abstract : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
 main_title : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
 techlogo: 
@@ -17,10 +17,11 @@ techlogo:
   cut_lg: "images/tech/partials/Kubernetes_lg.svg"
   cut_sm: "images/tech/partials/Kubernetes_sm.svg"
 
-personen:
-  #daten : "15.11.22, 16.11.22"
-  daten : ""
-  preis : "CHF 1900"
+duration: "2 Tage"
+costs : "CHF 1900"
+certificate : "Zertifikat"
+documents: "Digitale Unterlagen"
+info: "Bringe deinen eigenen Laptop mit."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"

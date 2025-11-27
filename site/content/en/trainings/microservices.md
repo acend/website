@@ -12,6 +12,11 @@ duration: "1 Day"
 abstract: "Practice-oriented introduction to MicroServices"
 main_title: "Practice-oriented introduction to MicroServices"
 
+# don't publish the page
+build:
+  list: never
+  render: never
+
 personen:
   daten : ""
   preis : "CHF 1100"
