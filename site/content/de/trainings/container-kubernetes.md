@@ -8,7 +8,7 @@ draft: false
 weight: 1
 slug:
 subtitle: "Basics"
-categories: ["Kubernetes", "New"]
+categories: ["Kubernetes"]
 duration: "2 Tage"
 abstract : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
 main_title : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."

@@ -150,36 +150,21 @@ partner:
   title: "Our Partners"
   item:
     - logo: "images/partner/puzzle-itc.svg"
-      text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on open source technologies as well as the most modern methods. Different interdisciplinary teams work on projects regarding consulting, applications, delivery, infrastructure and open source solutions."
-      URL: "https://puzzle.ch"
-      label: "puzzle.ch"
-    
-    - logo: "images/partner/kubernetes-ktp.svg"
-      text: "KTP is an initiative of the Cloud Native Computing Foundation. We have been recognized by them as a Kubernetes Training Partner (KTP). This is a group of vetted training providers who have extensive experience with training on cloud native technologies."
-      URL: "https://www.cncf.io"
-      label: "cncf.io"
+      text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on open source technologies."
+      link: "https://puzzle.ch"
+      link_label: "puzzle.ch"
 
     - logo: "images/partner/appuio.svg"
-      text: "APPUiO is the leading Kubernetes based container platform for the design, development and operations of applications. Based on reliable open source concepts, such as CRI-O and Kubernetes, APPUiO supports the DevOps approach. Development, deployment and operation processes are accelerated through automation and self-service. The cooperation between software developers and business organization is also improved."
-      URL: "https://www.appuio.ch"
-      label: "appuio.ch"
-
-    - logo: "images/partner/kubernetes-kcsp.svg"
-      text: "KCSP is an initiative from the Cloud Native Computing Foundation. The CNCF serves as a vendor neutral home for many of the fastest growing open source projects, including Kubernetes, Prometheus, and Envoy. It promotes the open source and cloud native world and supports the community around these technologies."
-      URL: "https://www.cncf.io"
-      label: "cncf.io"
+      text: "APPUiO is the leading Kubernetes based container platform for the design, development and operations of applications. Based on reliable open source concepts, such as CRI-O and Kubernetes, APPUiO supports the DevOps approach."
+      link: "https://www.appuio.ch"
+      link_label: "appuio.ch"
 
     - logo: "images/partner/tk.svg"
       text: "tim&koko helps businesses get all the way to the top. More specifically: Into the cloud. With advice at eye-level and technological solutions that unlock untapped potential."
-      URL: "https://tim-koko.ch/"
-      label: "tim-koko.ch/"      
-
-    - logo: "images/partner/arch-cloud.svg"
-      text: "Engineering cloud native solutions is their passion. They support customers in the cloud transformation. Not only in architecture, infrastructure and software development, but also in the appropriate strategy and organization."
-      URL: "https://arch.cloud/"
-      label: "arch.cloud"
+      link: "https://tim-koko.ch/"
+      link_label: "tim-koko.ch/"      
 
     - logo: "images/partner/bespinian.svg"
-      text: 'bespinian is a start-up from Bern that loves software and cloud computing. As "Cloud Native Citizens" they are at home on different cloud platforms and help their customers in close collaboration to build new software in the cloud or to bring existing ones to the cloud.'
-      URL: "https://bespinian.io/"
-      label: "bespinian.io"
+      text: 'bespinian is a start-up from Bern that loves software and cloud computing. As "Cloud Native Citizens" they are at home on different cloud platforms and help their customers on the journey into the cloud.'
+      link: "https://bespinian.io/"
+      link_label: "bespinian.io"
