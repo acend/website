@@ -8,13 +8,14 @@ draft: false
 weight: 4
 subtitle: "Basics"
 categories: ["Additional trainings"]
-duration: "1 Day"
 abstract: "eBPF-based networking"
 main_title: "eBPF-based networking"
 
-personen:
-  daten : ""
-  preis : "CHF 1100"
+duration: "1 day"
+costs : "CHF 1100"
+certificate : "Certifikat"
+documents: "Digitale Handout"
+info: "Bring your own Laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"
@@ -92,11 +93,6 @@ trainers:
       abstract : "He always has his fingers on the pulse of technological developments and stays one step ahead – the more complex the problem, the bigger his motivation. And because nothing explains itself, he’ll also take care of that."
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
-
-    - title : "Gabriel Graf"
-      image : "images/team/AC_Gabriel_Graf@2x.jpg"
-      designation : "Trainer"
-      abstract : "He is our globetrotter and has been at home all over the world from an early age. And of course, he is really at home in the Cloud Native world."
 
 
 # testimonials

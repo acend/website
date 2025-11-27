@@ -8,13 +8,14 @@ draft: false
 weight: 2
 subtitle: "Basics"
 categories: ["Kubernetes"]
-duration: "2 Days"
 abstract: "Container and OpenShift – from theory to practice in no time."
 main_title: "Container and OpenShift – from theory to practice in no time."
 
-personen:
-  daten : ""
-  preis : "CHF 1900"
+duration: "2 days"
+costs : "CHF 1900"
+certificate : "Certifikat"
+documents: "Digitale Handout"
+info: "Bring your own Laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
@@ -100,15 +101,8 @@ video:
 # trainer
 trainers:
   enable: true
-  title : "Meet two of Your Trainers"
+  title : "Meet Your Trainers"
   trainer:
-    - title : "Benjamin Affolter"
-      image : "images/team/AC_Benji@2x.jpg"
-      designation : "Co-Founder & Trainer"
-      abstract : "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
-      twitter : "https://twitter.com/bliemli"
-
     - title : "Christian Haller"
       image : "images/team/AC_Christian_Haller@2x.jpg"
       designation : "Trainer, Puzzle ITC"

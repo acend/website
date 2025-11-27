@@ -9,14 +9,15 @@ weight: 4
 slug:
 subtitle: "Basics"
 categories: ["Additional Trainings"]
-duration: "2 days"
 abstract: "A practical introduction and comprehensive insight into MLOps."
 main_title: "A practical introduction and comprehensive insight into MLOps."
 
 
-personen:
-  daten : ""
-  preis : "CHF 1900"
+duration: "2 days"
+costs : "CHF 2200"
+certificate : "Certifikat"
+documents: "Digitale Handout"
+info: "Bring your own Laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"
@@ -94,14 +95,12 @@ trainers:
       designation : "Trainer"
       abstract: "Sigve is the director of studies at the Mathematical Institute (MAI) of the University of Bern."
       linkedin : "https://www.linkedin.com/in/sigve-haug-75b31b70/"
-      #twitter : "https://twitter.com/tphilipona"
 
     - title : "Iwan Imsand"
       image : "images/team/AC_IwanImsand@2x.jpg"
       designation : "Trainer"
       abstract : "Iwan likes the quote from Don Draper: Make it simple, but significant."
       linkedin : "https://www.linkedin.com/in/iwan-imsand-028065299/"
-      #twitter : "https://twitter.com/g1raffi"
 
 
 # testimonials
