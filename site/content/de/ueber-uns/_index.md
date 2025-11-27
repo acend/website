@@ -17,26 +17,34 @@ header:
 timeline:
   enable: true
   items:
+    - title: "2015"
+      subtitle: "Kubernetes"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Kubernetes Release 1.0 und die ersten Kontakte mit Container und Kubernetes"
     - title: "2019"
+      subtitle: "Samy Deluxe Konzert"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Da fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren."
+    - title: "2019"
+      subtitle: "Erstes Kubernetes Training"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Die erste Kubernetes Trainings Durchführung"
+    - title: "2020"
       subtitle: "Gründung"
       img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Gründung der acend gmbh durch This und Marcel."
-    - title: "2020"
-      subtitle: "Eröffnung"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Eröffnung des acend Trainingscenters in Bern."
+      text: "Offizielle Gründung der acend gmbh"
     - title: "2021"
-      subtitle: "Eröffnung"
+      subtitle: "Portfolio Erweiterung"
       img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Erweiterung des Trainingsangebots um Kubernetes und OpenShift."
+      text: "Erweiterung des Trainingsangebots."
     - title: "2022"
-      subtitle: "Eröffnung"
+      subtitle: "Eigene Trainingslocation"
       img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Eröffnung des acend Trainingscenters in Zürich."
-    - title: "2023"
-      subtitle: "Eröffnung"
+      text: "Eröffnung der acend Trainingslocation im Breitsch."
+    - title: "2024"
+      subtitle: "100 Trainings!"
       img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Erweiterung des Trainingsangebots um Argo CD und Prometheus."
+      text: "Durchführung des 100. Trainings"
 
 introtext: "Wir bieten attraktive Trainings, die den Wissensaustausch und das gemeinsame Lernen ins Zentrum stellen – praxisbezogen, unkompliziert und aus erster Hand."
 
@@ -51,7 +59,7 @@ brand_values:
 # team
 team:
   enable: true
-  title: "Wir sind +26 leidenschaftliche Technologie-Enthusiasten, die davon überzeugt sind, dass die digitale Transformation eine Reise voller Entdeckungen und Herausforderungen ist."
+  title: "Wir sind +20 leidenschaftliche Technologie-Enthusiasten, die davon überzeugt sind, dass die digitale Transformation eine Reise voller Entdeckungen und Herausforderungen ist."
   team_member:
 
     - title: "Anna Pfeifhofer"
