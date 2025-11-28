@@ -13,9 +13,9 @@ trainings:
     link: "/trainings/container-kubernetes"
 
 person:
-  name : "Gabriel Graf"
-  title : "Trainer, acend"
-  quote: ""
+  name : "Roger Bigler"
+  title : "Leiter Technologie & Infrastructure Data Management, PostFinance AG"
+  quote: "Sie unterrichten Technologien und Architekturkonzepte, die sie in der Praxis operativ einsetzen, wodurch ein Dialog auf Augenhöhe entsteht."
 
 main_image : "images/trainings/ACEND_Hicham@2x.jpg"
 
