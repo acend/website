@@ -4,38 +4,57 @@ title: "Über uns"
 seo_title: "Unser Ziel ist es, IT-Schulungen zu revolutionieren - acend gmbh"
 description: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren. Wir sind spezialisiert auf Container-Technologien und weitere OpenSource Technologien im Cloud Native Bereich."
 draft: false
+type: "about"
 
-lead:
+seo:
+  title: "Unser Ziel ist es, IT-Schulungen zu revolutionieren - acend gmbh"
+  description: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren. Wir sind spezialisiert auf Container-Technologien und weitere OpenSource Technologien im Cloud Native Bereich."
+
+header:
   title: "Über uns"
-  content: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren."
+  lead: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren."
+
+timeline:
+  enable: true
+  items:
+    - title: "2015"
+      subtitle: "Kubernetes"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Kubernetes Release 1.0 und die ersten Kontakte mit Container und Kubernetes"
+    - title: "2019"
+      subtitle: "Samy Deluxe Konzert"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Da fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren."
+    - title: "2019"
+      subtitle: "Erstes Kubernetes Training"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Die erste Kubernetes Trainings Durchführung"
+    - title: "2020"
+      subtitle: "Gründung"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Offizielle Gründung der acend gmbh"
+    - title: "2021"
+      subtitle: "Portfolio Erweiterung"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Erweiterung des Trainingsangebots."
+    - title: "2022"
+      subtitle: "Eigene Trainingslocation"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Eröffnung der acend Trainingslocation im Breitsch."
+    - title: "2024"
+      subtitle: "100 Trainings!"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Durchführung des 100. Trainings"
 
 introtext: "Was bisher geschah: Die Idee zu acend entstand 2019 an einem Samy Deluxe Konzert. Hier fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren. Gesagt, getan. Heute können wir dir lehrreiche, unterhaltsame und bereichernde Trainings anbieten, die dir als unvergessliches Erlebnis in Erinnerung bleiben!"
 
-# main image
-main_image: "images/ueberuns/lava_neu.jpg"
-
-subtopic_1:
-  title: "Unsere Mission"
-  text: "Als Wissensplattform begleitet acend Engineers und ihre Unternehmen in technologisches Neuland. Wir bieten aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrungen. Gemeinsam mit starken Partnern wie Puzzle ITC nutzen wir das Fachwissen, das wir in der Entwicklung, Betreuung und Vermittlung von Cloud Native Technologien und Open Source gemacht haben. Unsere Trainings stellen den Wissensaustausch und das gemeinsame Lernen ins Zentrum - praxisbezogen, unkompliziert und aus erster Hand."
-
-subtopic_2:
-  title: "Neue Wege gehen"
-  text: "Wir vermitteln Wissen überraschend und interaktiv. Unsere Trainings bestehen aus abwechslungsreicher Theorie und praxisnahen hands-on Labs."
-
-subtopic_3:
-  title: "Von Pionieren lernen"
-  text: "Unsere Trainer sind Experten auf ihrem Fachgebiet, bilden sich mit viel Wissensdurst weiter und sind mit Herzblut bei der Sache."
-
-subtopic_4:
-  title: "Teil der Community werden"
-  text: "Wir begreifen uns als Teil der wachsenden Schweizer Cloud Native Community und laden dich ein, dich anzuschliessen. Deswegen pflegen wir den Austausch während und nach unseren Trainings."
-
-# quote
-quote:
-  text: "Die Menschen und ihre Kompetenzen verhelfen Unternehmen zu Erfolg. Wir vermitteln unseren TeilnehmerInnen neues Wissen und unterstützen sie dabei, sich mit neuen Ansätzen weiterzuentwickeln."
-  name: "Thomas"
-  title: "Co-Founder acend"
-  img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
+brand_values:
+  - title: "aussergewöhnlich"
+    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
+  - title: "abenteuerlustig"
+    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
+  - title: "open-minded"
+    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
 
 # team
 team:
@@ -185,4 +204,66 @@ team:
       linkedin: "https://www.linkedin.com/in/tobias-troehler/"
       twitter: "https://twitter.com/Tobee_Tr"
       email: "tobi@acend.ch"
+
+join_us:
+  title: "Du möchtest Teil unseres Teams werden?"
+  text: "Bei acend schaffen wir ein Umfeld, das von Kreativität, Zusammenarbeit und Innovation geprägt ist. Wir suchen ständig nach talentierten und motivierten Menschen, die bereit sind, gemeinsam mit uns neue Horizonte zu erschliessen."
+  link: "mailto:info@acend.ch"
+  link_label: "Jetzt bewerben"
+
+
+community:
+  text: "Wir begreifen uns als Teil der wachsenden Schweizer Cloud Native Community und laden dich ein, dich anzuschliessen. Deswegen pflegen wir den Austausch während und nach unseren Trainings."
+  images:
+    - img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
+    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
+    - img: "images/ueberuns/ACEND_Students_Discussion@4x.jpg"
+    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
+    - img: "images/ueberuns/ACEND_Workshop_Tablet@4x.jpg"
+    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
+    - img: "images/ueberuns/ACEND_Workshop_Frontal@4x.jpg"
+
+
+
+# Memberships
+memberships:
+  enable: false
+  title: "Mitgliedschaften"
+  text: "Diese Mitgliedschaften ermöglichen es uns, unser Fachwissen zu erweitern, Best Practices auszutauschen und unser Engagement für Exzellenz in der IT-Branche zu unterstreichen."
+  member:
+    - title: "bernerit.rocks"
+      logo: "images/mitgliedschaften/berner-it-rocks.svg"
+      text: "Der Verein bernerit.rocks veranstaltet technisch motivierte Events für die Berner IT-Community. acend gehört zu den ersten Gönnern und ist auch im Vorstand vertreten."
+      link: "https://bernerit.rocks/"
+      link_label: "bernerit.rocks"
+
+    - title: "CH Open"
+      logo: "images/mitgliedschaften/CH-open.svg"
+      text: "CH Open fördert Open Source Software und offene Standards im Schweizer Markt durch Weiterbildungen und Informationsaustausch unter den Mitgliedern."
+      link: "https://www.ch-open.ch/"
+      link_label: "www.ch-open.ch"
+
+    - title: "Cloud Native Computing Foundation"
+      logo: "images/mitgliedschaften/cncf.svg"
+      text: "Die Open Source Software Stiftung, welche die Zusammenarbeit zwischen Entwickler, Anwender und Anbieter von Cloud Native Software fördert."
+      link: "https://www.cncf.io/"
+      link_label: "www.cncf.io"
+
+    - title: "Digital Impact Network"
+      logo: "images/mitgliedschaften/digital-impact-network.svg"
+      text: "Digital Impact Network ist ein Zusammenschluss zur Förderung der Digitalisierung in der Hauptstadtregion Schweiz."
+      link: "https://digitalimpact.ch/"
+      link_label: "digitalimpact.ch/"
+
+    - title: "Linux Foundation"
+      logo: "images/mitgliedschaften/linuxfoundation.svg"
+      text: "Die Linux Foundation hat sich zum Ziel gesetzt das Wachstum von Linux zu unterstützen. Da helfen wir natürlich gerne mit."
+      link: "https://www.linuxfoundation.org/"
+      link_label: "www.linuxfoundation.org/"
+
+    - title: "swissICT"
+      logo: "images/mitgliedschaften/swiss-itc.svg"
+      text: "swissITC ist der grösste Fachverband der Branche und verbindet als einzger Verband ICT-Anbieter, Anwender und Fachkräfte der Schweiz"
+      link: "https://www.swissict.ch"
+      link_label: "www.swissict.ch"
 ---
