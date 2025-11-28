@@ -1,8 +1,8 @@
 ---
 title: "Engineers finden immer eine Lösung – die Frage ist nur, wie effizient."
 type: 'stories'
-seo_title: "Ansible Kickstart-Training"
-description: "Lerne von unseren Ansible-Cracks, wie du linuxbasierte Services konfigurieren und automatisieren kannst."
+seo_title: "Cloud Native Trainingsjourney der Baloise"
+description: "Schadenmeldung oder Prämienrechner – die Baloise setzt bei ihren digitalen Finanz- und Versicherungslösungen auch auf selbst entwickelte Applikationen."
 date: 2023-09-15T12:16:39+06:00
 draft: false
 weight: 10
