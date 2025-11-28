@@ -9,6 +9,7 @@
     "dev": "hugo server --disableFastRender --noHTTPCache",
     "format": "prettier **/** -w -c",
     "build": "hugo --minify --gc --noBuildLock",
+    "test": "npm run -s lint",
     "hugo-build": "exec-bin node_modules/.bin/hugo/hugo --minify --gc --noBuildLock",
     "preview": "vite preview --outDir public",
     "start": "exec-bin node_modules/.bin/hugo/hugo server --logLevel info  --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost",
