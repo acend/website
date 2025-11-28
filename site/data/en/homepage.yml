@@ -1,3 +1,10 @@
+# video
+video:
+  enable: true
+  title: "Practice-oriented Cloud Native Trainings"
+  src: "/videos/16x9_v2_1280.mp4"
+
+
 # about
 about:
   enable: true
@@ -88,7 +95,7 @@ trainings:
       text: "Exciting technologies from the CNCF landscape"
       trainings:
         - title: "Helm"
-          slug: "helm"      
+          slug: "helm"
         - title: "Prometheus"
           slug: "prometheus"
         - title: "Serverless"
@@ -96,7 +103,7 @@ trainings:
         - title: "Cilium"
           slug: "cilium"
         - title: "Ansible"
-          slug: "ansible"              
+          slug: "ansible"
 
     - title: "Programming"
       text: '"Hello World" & more in Cloud Native'
@@ -106,7 +113,7 @@ trainings:
         - title: "MicroServices"
           slug: "microservices"
         - title: "Quarkus"
-          slug: "quarkus"                 
+          slug: "quarkus"
 
 # video
 # video:
@@ -162,7 +169,7 @@ partner:
     - logo: "images/partner/tk.svg"
       text: "tim&koko helps businesses get all the way to the top. More specifically: Into the cloud. With advice at eye-level and technological solutions that unlock untapped potential."
       link: "https://tim-koko.ch/"
-      link_label: "tim-koko.ch/"      
+      link_label: "tim-koko.ch/"
 
     - logo: "images/partner/bespinian.svg"
       text: 'bespinian is a start-up from Bern that loves software and cloud computing. As "Cloud Native Citizens" they are at home on different cloud platforms and help their customers on the journey into the cloud.'

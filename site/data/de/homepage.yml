@@ -2,7 +2,7 @@
 video:
   enable: true
   title: "Praxisorientierte Cloud Native Trainings"
-  src: "/videos/acend16-9_web_265.mp4"
+  src: "/videos/16x9_v2_1280.mp4"
 
 
 # trainings
@@ -80,7 +80,7 @@ clients:
       link: ""
 
 
-   
+
 # video ????
 #video:
 #  enable: true
@@ -89,9 +89,9 @@ clients:
 #  youtubeID: "BReegJE0HaI"
 
 
- 
+
 # Stories
-stories: 
+stories:
   enable: true
   label: "Stories"
   link: "/stories"
@@ -100,7 +100,7 @@ stories:
 
 
 # Journal
-journal: 
+journal:
   enable: false
   label: "Journal"
   link: "/journal"
@@ -136,7 +136,7 @@ partner:
 
 
 # F.A.Q.
-faq: 
+faq:
   enable: true
   label: "F.A.Q."
   link: "/faq"
