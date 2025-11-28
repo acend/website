@@ -6,61 +6,43 @@ description: "It is our shared ambition to revolutionize the world of IT trainin
 draft: false
 type: "about"
 
-header:
+lead:
   title: "About us"
-  lead: "It is our shared ambition to revolutionize the world of IT training."
+  content: "It is our shared ambition to revolutionize the world of IT training."
 
+introtext: "What has happened so far: the idea of acend was initially formulated at a Sammy Deluxe concert in 2019. This was the moment when some of the founders agreed to pursue their vision of revolutionizing IT training. The rest is history. Today, we provide educational, entertaining and rewarding training experiences you won’t forget!"
 
-timeline:
-  enable: true
-  items:
-    - title: "2015"
-      subtitle: "Kubernetes"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Kubernetes Release 1.0 and first contact with containers and Kubernetes."
-    - title: "2019"
-      subtitle: "Samy Deluxe Concert"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "That is where some of the founders made the ambitious decision to revolutionize IT training."
-    - title: "2019"
-      subtitle: "First Kubernetes Training"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Delivery of the very first Kubernetes training course."
-    - title: "2020"
-      subtitle: "Founding"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Official founding of acend gmbh."
-    - title: "2021"
-      subtitle: "Portfolio Expansion"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Expansion of the training offerings."
-    - title: "2022"
-      subtitle: "Own Training Location"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Opening of the acend training location in Breitsch."
-    - title: "2024"
-      subtitle: "100 Trainings!"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Delivery of the 100th training course."
+# main image
+main_image: "images/ueberuns/lava_neu.jpg"
 
-introtext: "Today, we provide educational, entertaining and rewarding training experiences you won’t forget!"
+subtopic_1:
+  title : "Our Mission"
+  text : "As a knowledge platform, acend accompanies engineers and their businesses across new technological frontiers. We offer extraordinary, inspiring and practice-oriented teaching and learning experiences. Together with high-powered partners like Puzzle ITC, we draw on our expertise in the development, support and teaching of Cloud Native and Open Source technologies. Our trainings focus on the exchange of knowledge and shared learning – practice-oriented, uncomplicated and direct."
 
-
-brand_values:
-  - title: "aussergewöhnlich"
-    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
-  - title: "abenteuerlustig"
-    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
-  - title: "open-minded"
-    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
-
+subtopic_2:
+  title : "Blazing New Trails"
+  text : "We present knowledge in a surprising and interactive fashion. Our trainings consist of varied approaches to theory and practice-based labs."
+  
+subtopic_3:
+  title : "Taught by Pioneers"
+  text : "Our trainers are experts in their field, continue to develop their skills with an ardent thirst for knowledge and put their heart and soul into their trainings."
+   
+subtopic_4:
+  title : "Become Part of the Community"
+  text : "We see ourselves as part of the growing Swiss Cloud Native community and invite you to join in. For this reason, we emphasize knowledge exchange during and after our trainings."
+  
+# quote
+quote:
+  text: "It’s people and their competences that contribute to the success of a business. We teach new knowledge and support our participants in the endeavor to develop with the help of new approaches."
+  name: "Thomas"
+  title: "Co-Founder acend"
+  img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
 
 # team
 team:
   enable: true
   title: "The People Behind acend"
   team_member:
-
     - title: "Anna Pfeifhofer"
       image: "images/team/AC_Anna@2x.jpg"
       designation: "Sales"
@@ -121,20 +103,20 @@ team:
       linkedin: "https://www.linkedin.com/in/david-kilchenmann/"
       twitter: "https://twitter.com/DKilchenmann"
       email: "dave@acend.ch"
-
+  
     - title: "David Schneider"
       image: "images/team/AC_Dave_Schneider@2x.jpg"
       designation: "Trainer, Puzzle ITC"
       abstract: "Our gopher is an explorer. Especially of new hip technologies, as well as of fine hoppy variations under the arbors of Bern's old town."
       experience: "During his apprenticeship at Hewlett-Packard, he already came into contact with open source technologies from Red Hat and middleware topics. After further studies at the FHNW as BSc in Computer Science he dives deep into the Cloud Native world and works with topics like Vault, Kubernetes and OAuth."
-
+    
     - title : "Lena Fuhrimann"
       designation : "Trainer, bespinian"
       abstract : "Head always in the clouds, just look at her hair. Lena loves modernizing software and working with new technologies. She uses Arch btw."
       image : "images/team/AC_Lena_Fuhrimann@2x.jpg"
       experience: "After her studies in business innovation, Lena gained experience as a cloud engineer at Swisscom. After another stint as technical lead at a startup, she finally founded bespinian together with This in 2019. She holds various certifications from AWS, Cloud Foundry and more."
       linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
-      twitter : "https://twitter.com/the_cloudlena"
+      twitter : "https://twitter.com/the_cloudlena"    
 
     - title : "Lorenz Bischof"
       image : "images/team/AC_Lorenz@2x.jpg"
@@ -156,22 +138,22 @@ team:
       experience: "In 1999, Marcel founded Puzzle ITC together with friends directly after his IT studies. Until today, he is  working there full-time as CFO. In addition to his work as CFO, he has also completed an MAS in Online Marketing Management."
       linkedin: "https://www.linkedin.com/in/marcelgroner/"
       twitter: "https://twitter.com/mar73cel"
-
+      
     - title : "Mathis Kretz"
       designation : "Trainer, bespinian"
       abstract : "When he is not deploying microservices or showing others how to do it, he is cooking, preferably with fire."
       image : "images/team/AC_Mathis_Kretz@2x.jpg"
       experience: "After his PhD in computer science, Mathis worked as a software engineer at various companies and gained a lot of know-how in the cloud environment, especially as Head of Cloud Empowerment at Swisscom. In 2019, Lena and Mathis founded Bespinian, where they have been working as consultants in various topics ever since. Mathis has a certification as CKAD."
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
-      twitter : "https://twitter.com/mathis_kretz"
+      twitter : "https://twitter.com/mathis_kretz" 
 
     - title : "Philippe Schmid"
       image : "images/team/AC_Philippe@2x.jpg"
       designation : "Trainer, Puzzle ITC"
       abstract : "Philippe has already completed numerous runs and marathons. He doesn't like this kind of effort in IT, so he automates everything that is possible."
-      experience: "Having started studying computer science almost 20 years ago, Philippe has already experienced many infrastructures and Linux distributions. Since the beginning, his heart has beaten for systems engineering, where he has currently been working at Puzzle for over 10 years. His specialty is automation, currently preferably with Ansible."
-      linkedin : "https://www.linkedin.com/in/philippe-schmid-52644127b/"
-
+      experience: "Having started studying computer science almost 20 years ago, Philippe has already experienced many infrastructures and Linux distributions. Since the beginning, his heart has beaten for systems engineering, where he has currently been working at Puzzle for over 10 years. His specialty is automation, currently preferably with Ansible."      
+      linkedin : "https://www.linkedin.com/in/philippe-schmid-52644127b/" 
+ 
     - title: "Sebastian Plattner"
       image: "images/team/AC_Seba@2x.jpg"
       designation: "Trainer"
@@ -179,14 +161,14 @@ team:
       experience: "As a consultant and expert for cloud native technologies, he designs and builds Kubernetes platforms for various Puzzle ITC customers. After graduating with a BsC in Computer Science (2017) and a major in Security, Sebastian led a team in Cybersecurity at RUAG Schweiz AG. Various certifications in the Cloud Native environment underline his expertise in containers and Kubernetes. CKA, CKAD, CKS"
       linkedin: "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter: "https://twitter.com/SebaPlattner"
-    
+
     - title: "Simon Stettler"
       image: "images/team/AC_Simon@2x.jpg"
-      designation: "Strategy, Marketing & Sales"
+      designation: "Strategie, Marketing & Sales"
       abstract: "Enjoys seeing the bigger picture and strives to bring out the best in himself and organizations. Sometimes also with beer."
       experience: "Having spent years as a marketer, Simon transitioned into management and leadership. In addition to leading teams in the business world, he has also led teams in sports and is convinced that the athlete's mindset is highly relevant in everyday business. Since July 2024, Simon has been responsible for the further development of acend."
-      linkedin: "https://www.linkedin.com/in/simon-stettler/"
-
+      linkedin: "https://www.linkedin.com/in/simon-stettler/"        
+      
     - title: "Thomas Philipona"
       image: "images/team/AC_Thoemu@2x.jpg"
       designation: "Trainer"
@@ -203,69 +185,4 @@ team:
       linkedin: "https://www.linkedin.com/in/tobias-troehler/"
       twitter: "https://twitter.com/Tobee_Tr"
       email: "tobi@acend.ch"
-
-
-join_us:
-  title: "Du möchtest Teil unseres Teams werden?"
-  text: "Bei acend schaffen wir ein Umfeld, das von Kreativität, Zusammenarbeit und Innovation geprägt ist. Wir suchen ständig nach talentierten und motivierten Menschen, die bereit sind, gemeinsam mit uns neue Horizonte zu erschliessen."
-  link: "mailto:info@acend.ch"
-  link_label: "Jetzt bewerben"
-
-
-community:
-  text: "Wir begreifen uns als Teil der wachsenden Schweizer Cloud Native Community und laden dich ein, dich anzuschliessen. Deswegen pflegen wir den Austausch während und nach unseren Trainings."
-  images:
-    - img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
-    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
-    - img: "images/ueberuns/ACEND_Students_Discussion@4x.jpg"
-    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
-    - img: "images/ueberuns/ACEND_Workshop_Tablet@4x.jpg"
-    - img: "images/trainings/ACEND_Jeremy@2x.jpg"
-    - img: "images/ueberuns/ACEND_Workshop_Frontal@4x.jpg"
-
-
-
-# Memberships
-memberships:
-  enable: false
-  title : "Memberships"
-  text: "Diese Mitgliedschaften ermöglichen es uns, unser Fachwissen zu erweitern, Best Practices auszutauschen und unser Engagement für Exzellenz in der IT-Branche zu unterstreichen."
-  member:
-    - title : "bernerit.rocks"
-      logo : "images/mitgliedschaften/berner-it-rocks.png"
-      text : "The association bernerit.rocks organizes technically motivated events for the Bernese IT community. acend is one of the first patrons and is also represented on the board."
-      link : "https://bernerit.rocks/"
-      link_label : "bernerit.rocks"
-
-    - title : "CH Open"
-      logo : "images/mitgliedschaften/CH-open.png"
-      text : "CH Open promotes open source software and open standards in the Swiss market through further education and information exchange among members."
-      link : "https://www.ch-open.ch/"
-      link_label : "www.ch-open.ch"
-
-    - title : "Cloud Native Computing Foundation"
-      logo : "images/mitgliedschaften/cncf.png"
-      text : "The Open Source Software Foundation, which promotes collaboration between developers, users and providers of cloud native software."
-      link : "https://www.cncf.io/"
-      link_label : "www.cncf.io"
-
-    - title : "Digital Impact Network"
-      logo : "images/mitgliedschaften/digital-impact-network.png"
-      text : "Digital Impact Network is an association for the promotion of digitalization in the Swiss capital region."
-      link : "https://digitalimpact.ch/"
-      link_label : "digitalimpact.ch/"
-
-    - title : "Linux Foundation"
-      logo : "images/mitgliedschaften/linuxfoundation.png"
-      text : "The Linux Foundation has set itself the goal of supporting the growth of Linux. Of course we are happy to help."
-      link : "https://www.linuxfoundation.org/"
-      link_label : "www.linuxfoundation.org/"
-
-    - title : "swissICT"
-      logo : "images/mitgliedschaften/swiss-itc.png"
-      text : "swissITC is the largest professional association in the industry and is the only association that connects ICT providers, users and professionals in Switzerland."
-      link : "https://www.swissict.ch"
-      link_label : "www.swissict.ch"
-
-
 ---
