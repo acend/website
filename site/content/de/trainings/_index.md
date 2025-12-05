@@ -39,9 +39,8 @@ categories:
 
 zertifikate:
   title: "Zertifikate und Badges"
-  text: "Nach erfolgreichem Abschluss des Trainings erhälts Du von uns ein Zertifikat (PDF) und einen Credly-Badge. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod temp."
-  link: "https://credly.com"
-  linktext: "Weiter zu Credly"
+  text: "Nach erfolgreichem Abschluss des Trainings erhälts Du von uns ein Zertifikat (PDF)."
+
 
 excellence:
   title: "Mit acend zur Exzellenz"

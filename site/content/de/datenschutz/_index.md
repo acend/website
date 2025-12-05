@@ -20,12 +20,12 @@ Für die in dieser Datenschutzerklärung abgebildete Datenverarbeitung verantwor
 
 acend.ch
 acend gmbh
-Sickingerstrasse 10
-3014 Bern
+Belpstrasse 37
+3007 Bern
 
 datenschutz@acend.ch
 
-Tel. +41 31 370 22 20
+Tel. +41 31 370 22 00
 
 ## Datenschutzbeauftragter
 

@@ -420,23 +420,6 @@ a {
   }
 }
 
-.entry-content {
-  ol, ul, dl {
-    padding-left: 0;
-  }
-
-  li {
-    list-style: none;
-    line-height: 1.7;
-    padding-left: 1em;
-
-    &::before {
-      content: "– ";
-      margin-left: -1em;
-    }
-  }
-}
-
 .hyphens {
   hyphens: auto;
 }

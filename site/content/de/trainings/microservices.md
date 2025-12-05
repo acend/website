@@ -9,7 +9,6 @@ weight: 10
 slug:
 subtitle: "Basics"
 categories: ["Programming"]
-duration: "1 Tag"
 abstract: "Praxisorientierter Einstieg in MicroServices"
 main_title: "Praxisorientierter Einstieg in MicroServices"
 techlogo:  
@@ -17,9 +16,16 @@ techlogo:
   #cut_lg: "images/tech/partials/KubeVirt_lg.svg"
   #cut_sm: "images/tech/partials/KubeVirt_sm.svg"
 
-personen:
-  daten : ""
-  preis : "CHF 1100"
+# don't publish the page
+build:
+  list: never
+  render: never
+
+duration: "1 Tag"
+costs : "CHF 1100"
+certificate : "Zertifikat"
+documents: "Digitale Unterlagen"
+info: "Bringe deinen eigenen Laptop mit."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Nadia-Redstone@2x.jpg"
@@ -97,14 +103,6 @@ trainers:
       designation: "Trainer, Tim&Koko AG"
       abstract: "Christof ist zurück von seiner Weltreise, ist viel getaucht und hat unterschiedliche Kulturen kennengelernt. Mit frischem Geist und Neugier ist er nun auf Entdeckungsreise in der Cloud Native Welt."
       linkedin: "https://www.linkedin.com/in/christof-luethi/"
-
-    - title : "Raffael Hertle"
-      image : "images/team/AC_Raffael_Hertle@2x.jpg"
-      designation : "Trainer"
-      abstract : "Verkleidet sich gerne für die Fasnacht, sieht aber bei den Cloud Native Technologien gerne hinter die Masken"
-      linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
-      twitter : "https://twitter.com/g1raffi"
-
 
 # testimonials
 testimonials:

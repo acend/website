@@ -9,7 +9,6 @@ weight: 3
 slug:
 subtitle: "Basics"
 categories: ["Delivery CI/CD"]
-duration: "1 Tag"
 abstract: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
 main_title: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
 
@@ -18,9 +17,11 @@ techlogo:
   cut_lg: "images/tech/partials/Tekton_lg.svg"
   cut_sm: "images/tech/partials/Tekton_sm.svg"
 
-personen:
-  daten : ""
-  preis : "CHF 1200"
+duration: "1 Tag"
+costs : "CHF 1200"
+certificate : "Zertifikat"
+documents: "Digitale Unterlagen"
+info: "Bringe deinen eigenen Laptop mit."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lara-Ocean@2x.jpg"
@@ -88,19 +89,16 @@ trainers:
   enable: true
   title : "Lerne zwei deiner Trainer kennen"
   trainer:
+    - title : "Christian Schlatter"
+      image : "images/team/AC_Christian_Schlatter@2x.jpg"
+      designation : "Trainer"
+      abstract : "Er reist nicht nur gerne durch die reale Welt, sondern entdeckt auch in der Cloud Native Landscape neue Orte"
+      linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
     - title : "Thomas Philipona"
       image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Trainer"
       abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
       linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
-      twitter : "https://twitter.com/tphilipona"
-
-    - title : "Raffael Hertle"
-      image : "images/team/AC_Raffael_Hertle@2x.jpg"
-      designation : "Trainer"
-      abstract : "Verkleidet sich gerne für die Fasnacht, sieht aber bei den Cloud Native Technologien gerne hinter die Masken"
-      linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
-      twitter : "https://twitter.com/g1raffi"
 
 
 # testimonials

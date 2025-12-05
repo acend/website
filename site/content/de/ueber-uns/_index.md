@@ -12,33 +12,41 @@ seo:
 
 header:
   title: "Über uns"
-  lead: "Gemeinsam die Zukunft von IT-Trainings revolutionieren"
+  lead: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren."
 
 timeline:
   enable: true
   items:
+    - title: "2015"
+      subtitle: "Kubernetes"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Kubernetes Release 1.0 und die ersten Kontakte mit Container und Kubernetes"
     - title: "2019"
+      subtitle: "Samy Deluxe Konzert"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Da fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren."
+    - title: "2019"
+      subtitle: "Erstes Kubernetes Training"
+      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      text: "Die erste Kubernetes Trainings Durchführung"
+    - title: "2020"
       subtitle: "Gründung"
       img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Gründung der acend gmbh durch This und Marcel."
-    - title: "2020"
-      subtitle: "Eröffnung"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Eröffnung des acend Trainingscenters in Bern."
+      text: "Offizielle Gründung der acend gmbh"
     - title: "2021"
-      subtitle: "Eröffnung"
+      subtitle: "Portfolio Erweiterung"
       img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Erweiterung des Trainingsangebots um Kubernetes und OpenShift."
+      text: "Erweiterung des Trainingsangebots."
     - title: "2022"
-      subtitle: "Eröffnung"
+      subtitle: "Eigene Trainingslocation"
       img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Eröffnung des acend Trainingscenters in Zürich."
-    - title: "2023"
-      subtitle: "Eröffnung"
+      text: "Eröffnung der acend Trainingslocation im Breitsch."
+    - title: "2024"
+      subtitle: "100 Trainings!"
       img: "images/trainings/ACEND_Jeremy@2x.jpg"
-      text: "Erweiterung des Trainingsangebots um Argo CD und Prometheus."
+      text: "Durchführung des 100. Trainings"
 
-introtext: "Wir bieten attraktive Trainings, die den Wissensaustausch und das gemeinsame Lernen ins Zentrum stellen – praxisbezogen, unkompliziert und aus erster Hand."
+introtext: "Was bisher geschah: Die Idee zu acend entstand 2019 an einem Samy Deluxe Konzert. Hier fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren. Gesagt, getan. Heute können wir dir lehrreiche, unterhaltsame und bereichernde Trainings anbieten, die dir als unvergessliches Erlebnis in Erinnerung bleiben!"
 
 brand_values:
   - title: "aussergewöhnlich"
@@ -51,16 +59,9 @@ brand_values:
 # team
 team:
   enable: true
-  title: "Wir sind +26 leidenschaftliche Technologie-Enthusiasten, die davon überzeugt sind, dass die digitale Transformation eine Reise voller Entdeckungen und Herausforderungen ist."
+  title: "Die Personen hinter acend"
   team_member:
-
-    - title: "Andreas Gehrig"
-      image: "images/team/AC_Andreas_Gehrig@2x.jpg"
-      designation: "Trainer, arch.cloud"
-      abstract: "Er ist immer mit seinem Notebook unterwegs, schreibt Software und entwirft Cloud-Architekturen."
-      experience: "Seit seiner Lehre als Applikationsentwickler hat Andreas für mehrere grosse Organisationen wie die Schweizer Börse, den Nasdaq oder Fisch Asset Management gearbeitet. Seit mehr als drei Jahren ist er inzwischen als selbstständiger Software und Cloud Architect für arch.cloud tätig."
-      linkedin: "https://www.linkedin.com/in/andreasgehrig/"
-
+  
     - title: "Anna Pfeifhofer"
       image: "images/team/AC_Anna@2x.jpg"
       designation: "Sales"
@@ -75,22 +76,14 @@ team:
       abstract: "Nicht nur beim Sport hat Beat eine eiserne Disziplin, auch mit dem stetigen Aufbauen von neuem Wissen stählt er sein Gehirn."
       experience: "Nach der Informatiker-Lehre hat Beat ohne Unterbruch gleich berufsbegleitend den Bachelor in Informatik angehängt. Vom Linux Engineering bei DXC, ist er heute bei Puzzle im Kubernetes Umfeld gelandet. Dort begleitet er viele Kunden auf dem Weg zu Kubernetes und auch Observability, was seine Leidenschaft ist."
       linkedin: "https://www.linkedin.com/in/beat-sch%C3%A4rz/"
-
-    - title: "Benjamin Affolter"
-      image: "images/team/AC_Benji@2x.jpg"
-      designation: "Trainer"
-      abstract: "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      experience: "Nebst der Erarbeitung von neuen und der Durchführung von bestehenden Trainings, hat Benj über 7 Jahre bei Puzzle ITC als Architekt für verschiedenste Firmen im Bereich Container und Cloud Native viele Erfahrungen gesammelt. Seit 2023 unterstützt er die Kunden bei tim&koko.  Er hat nebst einem Bachelor in IT (2015) verschiedene Zertifizierungen, wie den RHCA und den CKA gemacht, die ihn perfekt als Trainer ausrüsten."
-      linkedin: "https://www.linkedin.com/in/benjamin-affolter/"
-      twitter: "https://twitter.com/bliemli"
-
+    
     - title: "Christian Haller"
       image: "images/team/AC_Christian_Haller@2x.jpg"
       designation: "Trainer, Puzzle ITC"
       abstract: "Als Ausgleich zum hektischen Container-Alltag, macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
       experience: "Nach seinem Studium in Informatik hat Christian fast 10 Jahre Projekt- und Betriebserfahrung gesammelt als Systems Engineer im Netzwerk- und Security-Bereich. Seit mehr als 3 Jahren ist er nun bei Puzzle als Consultant im Bereich Container und Cloud Native Technologien unterwegs."
       linkedin: "https://www.linkedin.com/in/christian-haller-0a637493"
-
+    
     - title : "Christian Schlatter"
       image : "images/team/AC_Christian_Schlatter@2x.jpg"
       designation : "Trainer"
@@ -104,13 +97,6 @@ team:
       abstract: "Christof ist zurück von seiner Weltreise, ist viel getaucht und hat unterschiedliche Kulturen kennengelernt. Mit frischem Geist und Neugier ist er nun auf Entdeckungsreise in der Cloud Native Welt."
       experience: "Christof hat um das Jahr 2000 mit der Informatiklehre gestartet, anschliessend hat er die FH und ein MAS in Informatik an der FH Bern gemacht. Daneben hat er zuerst als System Engineer und danach lange als Software Entwickler und Architekt gearbeitet. Genau in dieser Schnittstelle im Bereich Middleware mit einer Vorliebe für Daten gefällt es ihm am besten. Seit 2024 ist er als Messaging und Cloud Native Spezialist bei Tim&Koko AG und viel im Cloud Native Umfeld bei verschiedenen Kunden unterwegs."
       linkedin: "https://www.linkedin.com/in/christof-luethi/"
-
-    - title: "Christoph Aymon"
-      image: "images/team/AC_Chrigu@2x.jpg"
-      designation: "Experience"
-      abstract: "Sitzt er nicht konzentriert vor dem Computer, dann am ehesten in einem schnellen Auto – er dreht nur auf dem Nürburgring Extrarunden."
-      experience: "Bereits 1996 startete Christoph in der IT der Mobiliar, wo er in vielen Bereichen Erfahrung sammelte. Zeitgleich absolvierte er sein Studium an der Universität Bern mit dem Abschluss als Master in IT. Seit 2021 ist er Architekt und für Themen wie Observability, Container, Messaging und weitere Technologien zuständig."
-      linkedin: "https://www.linkedin.com/in/christoph-aymon/"
 
     - title: "Christoph Raaflaub"
       image: "images/team/AC_Christoph_Raaflaub@2x.jpg"
@@ -142,21 +128,6 @@ team:
       designation: "Trainer, Puzzle ITC"
       abstract: "Unser Gopher ist ein Entdecker. Besonders von neuen hippen Technologien, sowie auch von feinen hopfigen Variationen unter den Lauben der Berner Altstadt."
       experience: "Bereits in seiner Lehre bei Hewlett-Packard kommt er mit Open Source Technologien von Red Hat und Middleware Themen in Berührung. Nach einem weiteren Studium an der FHNW als BSc in Informatik taucht er tief in die Cloud Native Welt ein und arbeitet mit Themen wie Vault, Kubernetes und OAuth."
-
-    - title: "Gabriel Graf"
-      image: "images/team/AC_Gabriel_Graf@2x.jpg"
-      designation: "Trainer"
-      abstract: "Er ist unser Weltenbummler und schon von klein auf überall auf der Welt zu Hause. Und so richtig daheim ist er natürlich in der Cloud Native Welt."
-      experience: "Seit seinem Abschluss als Wirtschaftsinformatiker FH 2007 arbeitet Gabriel mehrere Jahre in der IT verschiedener Unternehmen als Entwickler, Firewall, Systems und Cloud Engineer.
-      Weiterbildung ist ihm stets wichtig, so absolvierte er neben CISSP, RHCE und CKA auch noch einen CAS in Advanced Data Science. Seit 2016 ist er bei der Schweizerischen Mobiliar und arbeite dort am Aufbau und Betrieb von grossen Container Plattformen mit."
-
-    - title: "Johann Gyger"
-      image: "images/team/AC_Johann@2x.jpg"
-      designation: "Trainer"
-      abstract: "Stille Wasser sind tief und tief taucht er auch in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund ist er aber lieber im Thunersee als im Meer."
-      experience: "Johann hat an der ETH Computer Science studiert und bereits über 20 Jahre Erfahrung in der IT-Branche. Bei zahlreichen namhaften Kunden und Arbeitgebern hat er unter anderem als als IT Architekt, Coach, Consultant und Software Engineer gearbeitet und ist Cloud Native Ambassador."
-      linkedin: "https://www.linkedin.com/in/johanngyger/"
-      twitter: "https://twitter.com/johanngyger"
 
     - title : "Lena Fuhrimann"
       designation : "Trainerin, bespinian"
@@ -194,46 +165,28 @@ team:
       image : "images/team/AC_Mathis_Kretz@2x.jpg"
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz"
-
-    - title: "Philipp Grossenbacher"
-      image: "images/team/AC_Phippu@2x.jpg"
-      designation: "Sales & Experience"
-      abstract: "Er verantwortet unsere Special-Effects. Böse Zungen behaupten es war der lang ersehnte Meistertitel seines Lieblingsclubs, der bei ihm die Lust auf das Unerwartete entfacht hat."
-      experience: "Nach seinem Bachelor in Informatik hat Philipp mehrere Jahre Erfahrung in den IT-Abteilungen grosser Versicherungs- und Bankdienstleister gesammelt. Im 2021 hat er ein EMBA in Digital Business abgeschlossen, hauptberuflich arbeitet er als Product Owner bei der Mobiliar."
-      linkedin: "https://www.linkedin.com/in/philipp-grossenbacher/"
-      twitter: "https://twitter.com/philogros"
-
+  
     - title : "Philippe Schmid"
       image : "images/team/AC_Philippe@2x.jpg"
       designation : "Trainer, Puzzle ITC"
       abstract : "Philippe hat bereits zahlreiche Läufe und Marathons absolviert. In der Informatik mag er derartige Anstrengungen nicht, daher automatisiert er alles, was möglich ist."
-      experience: "Vor fast 20 Jahren, gestartet mit dem Informatik-Studium, hat Philippe schon viele Infrastrukturen und Linux-Distributionen erlebt. Seit Beginn schlägt sein Herz fürs System-Engineering, wo er aktuell bei Puzzle auch seit über 10 Jahren tätig ist. Seine Spezialität ist die Automatisierung, aktuell am liebsten mit Ansible."
+      experience: "Vor fast 20 Jahren, gestartet mit dem Informatik-Studium, hat Philippe schon viele Infrastrukturen und Linux-Distributionen erlebt. Seit Beginn schlägt sein Herz fürs System-Engineering, wo er aktuell bei Puzzle auch seit über 10 Jahren tätig ist. Seine Spezialität ist die Automatisierung, aktuell am liebsten mit Ansible."      
       linkedin : "https://www.linkedin.com/in/philippe-schmid-52644127b/"
-
-    - title : "Raffael Hertle"
-      image : "images/team/AC_Raffael_Hertle@2x.jpg"
-      designation : "Trainer"
-      abstract : "Verkleidet sich gerne für die Fasnacht, sieht aber bei den Cloud Native Technologien gerne hinter die Masken"
-      experience: "Von Sarnen hat ihn das Informatikstudium an die Uni nach Bern gezogen. Seit dem Abschluss arbeitet Raffael als Software Engineer, wobei ihn dort die neuen Frameworks und Cloud Native Technologien wie Quarkus am meisten faszinieren."
-      linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
-      twitter : "https://twitter.com/g1raffi"
 
     - title: "Sebastian Plattner"
       image: "images/team/AC_Seba@2x.jpg"
       designation: "Trainer"
       abstract: "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
-      experience: "Als Consultant und Experte für Cloud Native Technologien konzipiert und baut er Kubernetes Plattformen für verschiedene Kunden von Puzzle ITC. Nach seinem Abschluss in BsC in Informatik (2017) mit der vertiefung Security leitete Sebastian ein Team im Bereich Cybersecurity bei der RUAG Schweiz AG. Verschiedene Zertifikate im Cloud Native Umfeld unterstreichen sein Fachwissen in den Bereichen Container und Kubernetes. CKA, CKAD, CKS"
+      experience: "Als Consultant und Experte für Cloud Native Technologien konzipiert und baut er Kubernetes Plattformen für verschiedene Kunden von Puzzle ITC. Nach seinem Abschluss in BsC in Informatik (2017) mit der vertiefung Security leitete Sebastian ein Team im Bereich Cybersecurity bei der RUAG Schweiz AG. Verschiedene Zertifikate im Cloud Native Umfeld unterstreichen sein Fachwissen in den Bereichen Container und Kubernetes. CKA, CKAD, CKS."
       linkedin: "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter: "https://twitter.com/SebaPlattner"
 
-    - title: "Stefan Johner"
-      image: "images/team/AC_Stefu@2x.jpg"
-      designation: "Trainer"
-      abstract: "Stefan ist nicht nur im Sport ein Teamplayer. Abseits der Sportplätze bewegt er sich gerne in der Microsoft- und Cloud Native Community, um neue Trends und Leute kennenzulernen."
-      experience: "Nach seinem Informatik-Studium an der BFH hat Stefan mehrere Jahre im Microsoft Cloud Ökosystem Erfahrung gesammelt. Heute arbeitet er als Product Manager bei der Mobiliar Versicherung. Er ist seit 2016 Microsoft Azure MVP und Mitorganisator des Azure Bootcamp Switzerland.
-      Zudem verfügt Stefan über ein MAS in Digital Management und diverse Azure Zertifizierungen."
-      linkedin: "https://www.linkedin.com/in/stefanjohner/"
-      twitter: "https://twitter.com/JohnerStefan"
+    - title: "Simon Stettler"
+      image: "images/team/AC_Simon@2x.jpg"
+      designation: "Strategie, Marketing & Sales"
+      abstract: "Mag den Blick auf das grosse Ganze und versucht aus sich und Organisationen das Beste herauszuholen. Manchmal auch mit Bier."
+      experience: "Jahrelang als Marketer unterwegs, hat sich Simon Richtung Management und Leadership entwickelt. Neben mehreren Teams in der Arbeitswelt, hat er auch im Sport Teams angeführt und ist überzeugt, dass das Athletes Mindset im Business-Alltag hohe Relevanz hat. Seit Juli 2024 ist Simon bei acend für dessen Weiterentwicklung zuständig."
+      linkedin: "https://www.linkedin.com/in/simon-stettler/"       
 
     - title: "Thomas Philipona"
       image: "images/team/AC_Thoemu@2x.jpg"
