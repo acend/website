@@ -45,16 +45,17 @@ timeline:
       subtitle: "100 Trainings!"
       img: "images/trainings/ACEND_Jeremy@2x.jpg"
       text: "Durchführung des 100. Trainings"
+    - title: "2024"
 
 introtext: "Was bisher geschah: Die Idee zu acend entstand 2019 an einem Samy Deluxe Konzert. Hier fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren. Gesagt, getan. Heute können wir dir lehrreiche, unterhaltsame und bereichernde Trainings anbieten, die dir als unvergessliches Erlebnis in Erinnerung bleiben!"
 
 brand_values:
   - title: "aussergewöhnlich"
-    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
+    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wir vermitteln Wissen anschaulich, praxisbezogen und aus erster Hand und stellen dafür hervorragende Rahmenbedingungen sicher."
   - title: "abenteuerlustig"
-    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
+    text: "acend fordert mit inspirierten Methoden die Trainings-teilnehmer*innen und deren Unternehmen dazu auf, sich mit neuen Ansätzen und Technologien weiterzuentwickeln."
   - title: "open-minded"
-    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
+    text: "acend ist offen gegenüber dem Neuen und Unterwarteten; lässt sich von innovativen Entwicklungen begeistern und freut sich über die Vielfalt von Ansichten und Einstellungen bei Kund*innen und Mitarbeitenden."
 
 # team
 team:

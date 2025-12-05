@@ -45,12 +45,12 @@ timeline:
 introtext: "What has happened so far: the idea of acend was initially formulated at a Sammy Deluxe concert in 2019. This was the moment when some of the founders agreed to pursue their vision of revolutionizing IT training. The rest is history. Today, we provide educational, entertaining and rewarding training experiences you won’t forget!"
 
 brand_values:
-  - title: "aussergewöhnlich"
-    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
-  - title: "abenteuerlustig"
-    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
+  - title: "extraordinary"
+    text: "acend stands for an extraordinary, enjoyable, and purpose-driven teaching and learning experience. We convey knowledge in a clear, practical, and first-hand manner and ensure excellent framework conditions."
+  - title: "adventurous"
+    text: "acend uses inspired methods to challenge training participants and their companies to further develop themselves with new approaches and technologies."
   - title: "open-minded"
-    text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wissen wird anschaulich, praxisbezogen und aus erster Hand vermittelt und acend stellt dafür hervorragende Rahmenbedingungen sicher."
+    text: "acend is open to the new and the unexpected; it is inspired by innovative developments and values the diversity of perspectives and attitudes among customers and employees."
 
 
 # team
@@ -203,14 +203,14 @@ team:
 
 
 join_us:
-  title: "Du möchtest Teil unseres Teams werden?"
-  text: "Bei acend schaffen wir ein Umfeld, das von Kreativität, Zusammenarbeit und Innovation geprägt ist. Wir suchen ständig nach talentierten und motivierten Menschen, die bereit sind, gemeinsam mit uns neue Horizonte zu erschliessen."
+  title: "You want to be part of our team?"
+  text: "At acend, we create an environment shaped by creativity, collaboration, and innovation. We are constantly looking for talented and motivated people who are ready to explore new horizons with us."
   link: "mailto:info@acend.ch"
-  link_label: "Jetzt bewerben"
+  link_label: "Apply now"
 
 
 community:
-  text: "Wir begreifen uns als Teil der wachsenden Schweizer Cloud Native Community und laden dich ein, dich anzuschliessen. Deswegen pflegen wir den Austausch während und nach unseren Trainings."
+  text: "We see ourselves as part of the growing Swiss Cloud Native community and invite you to join us. That’s why we foster exchange during and after our trainings."
   images:
     - img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
     - img: "images/trainings/ACEND_Jeremy@2x.jpg"
@@ -226,7 +226,7 @@ community:
 memberships:
   enable: false
   title : "Memberships"
-  text: "Diese Mitgliedschaften ermöglichen es uns, unser Fachwissen zu erweitern, Best Practices auszutauschen und unser Engagement für Exzellenz in der IT-Branche zu unterstreichen."
+  text: "These memberships enable us to expand our expertise, exchange best practices, and underline our commitment to excellence in the IT industry."
   member:
     - title : "bernerit.rocks"
       logo : "images/mitgliedschaften/berner-it-rocks.png"
