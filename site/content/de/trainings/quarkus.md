@@ -18,7 +18,7 @@ techlogo:
   cut_sm: "images/tech/partials/Quarkus_sm.svg"
 
 duration: "2 Tage"
-costs : "CHF 2200"
+costs : "CHF 1900"
 certificate : "Zertifikat"
 documents: "Digitale Unterlagen"
 info: "Bringe deinen eigenen Laptop mit."

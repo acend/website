@@ -13,7 +13,7 @@ abstract: "A practical introduction and comprehensive insight into MLOps."
 main_title: "A practical introduction and comprehensive insight into MLOps."
 
 duration: "2 days"
-costs : "CHF 1900"
+costs : "CHF 2200"
 certificate : "Certifikat"
 documents: "Digitale Handout"
 info: "Bring your own Laptop."
@@ -57,7 +57,7 @@ accordion:
         - title: "Conditions"
           icon: "4"
           content: "<ul>
-<li>CHF 1900 / participant for two days.</li>
+<li>CHF 2200 / participant for two days.</li>
 <li>Group sessions consisting of 8 to 24 participants.</li>
 <li>Includes catering and documentation.</li>
 <li>Discounts available for groups of 12 participants or more.</li>

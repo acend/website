@@ -58,7 +58,7 @@ accordion:
         - title : "Konditionen"
           icon : "4"
           content : "<ul>
-<li>CHF 1900 / Person für zwei Tage</li>
+<li>CHF 2200 / Person für zwei Tage</li>
 <li>Gruppen von 8-24 Personen</li>
 <li>Inklusive Verpflegung, Unterlagen und Trainingsumgebung in der Cloud</li>
 <li>Rabatt ab 12 Personen</li>

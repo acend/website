@@ -57,7 +57,7 @@ accordion:
         - title: "Conditions"
           icon: "4"
           content: "<ul>
-<li>CHF 1900 / participant for two days.</li>
+<li>CHF 2200 / participant for two days.</li>
 <li>Group sessions consisting of 8 to 24 participants.</li>
 <li>Includes catering and documentation.</li>
 <li>Discounts available for groups of 12 participants or more.</li>

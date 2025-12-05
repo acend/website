@@ -24,7 +24,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeB@2x.jpg"
 
 
-main_text: "Dieses zweitägige Training bietet einen praktischen Einstieg in MLOps, das den Machine-Learning-Lebenszyklus durch Automatisierung und Standardisierung optimiert. Die Versionierung von Code und Daten sowie die Überwachung der Modellparameter sorgen für konsistente, reproduzierbare Ergebnisse. Continuous Integration und Continuous Deployment (CI/CD) beschleunigen die Markteinführung neuerms-Produkte.\n\n
+main_text: "Dieses zweitägige Training bietet einen praktischen Einstieg in MLOps, das den Machine-Learning-Lebenszyklus durch Automatisierung und Standardisierung optimiert. Die Versionierung von Code und Daten sowie die Überwachung der Modellparameter sorgen für konsistente, reproduzierbare Ergebnisse. Continuous Integration und Continuous Deployment (CI/CD) beschleunigen die Markteinführung neuer ML-Produkte.\n\n
 Unser Trainerteam besteht aus Fachleuten, die sowohl in der Machine Learning-Forschung tätig sind als auch über umfangreiche Erfahrung in der praktischen Implementierung von Datenmodellen in Unternehmen verfügen.
 "
 
@@ -57,7 +57,7 @@ accordion:
         - title : "Konditionen"
           icon : "4"
           content : "<ul>
-<li>CHF 1900 / Person für zwei Tage</li>
+<li>CHF 2200 / Person für zwei Tage</li>
 <li>Gruppen von 8-24 Personen</li>
 <li>Inklusive Verpflegung, Unterlagen und Trainingsumgebung in der Cloud</li>
 <li>Rabatt ab 12 Personen</li>
@@ -76,7 +76,7 @@ trainingsinhalt:
       liste:
         - el: "Einführung in Machine Learning (Klassifikatoren/Regressoren, Over- und Underfitting)"
         - el: "ML Modelle: von der linearer Regression zu neuronalen Netzen"
-        - el: "Datensammeln und -aufbereiten mittels verschiedener Technikenn"
+        - el: "Datensammeln und -aufbereiten mittels verschiedener Techniken"
         - el: "Mittels den aufbereiteten Daten ein Modell trainieren"
         - el: "Nutzung von Codespaces/GitHub Actions im Free Tier"
         - el: "Problemstellung: Prozess reproduzierbar und messbar machen"
