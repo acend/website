@@ -32,9 +32,7 @@ headerimages:
 
 
 main_text: "
-Dieses zweitägige Training richtet sich an IT-Fachkräfte aus den Bereichen Systemadministration, Architektur und Softwareentwicklung, die fundierte Grundkenntnisse zu Ansible erwerben wollen.
-Ansible ist ein Open-Source-Werkzeug zur Automatisierung, Orchestrierung und allgemeinen zur Konfiguration und Administration von Computern. Es kombiniert Softwareverteilung, Ad-hoc-Kommandoausführung und Konfigurationsmanagement. Die Verwaltung der Server erfolgt unter anderem über SSH und erfordert keinerlei zusätzliche Software auf dem zu verwaltenden System.
-Das Kickstart-Training gibt einen Einblick in die Technologie und zeigt anhand von Hands-on-Labs, wie sich Ansible effizient nutzen lässt.
+Dieses zweitägige Training richtet sich an IT-Fachkräfte aus den Bereichen Systemadministration, Architektur und Softwareentwicklung, die fundierte Grundkenntnisse zu Ansible erwerben wollen. Ansible ist ein Open-Source-Werkzeug zur Automatisierung, Orchestrierung und allgemeinen zur Konfiguration und Administration von Computern. Es kombiniert Softwareverteilung, Ad-hoc-Kommandoausführung und Konfigurationsmanagement. Die Verwaltung der Server erfolgt unter anderem über SSH und erfordert keinerlei zusätzliche Software auf dem zu verwaltenden System. Das Kickstart-Training gibt einen Einblick in die Technologie und zeigt anhand von Hands-on-Labs, wie sich Ansible effizient nutzen lässt.
 "
 
 accordion:
@@ -74,8 +72,7 @@ accordion:
 # Trainingsinhalt
 trainingsinhalt:
     title : "Trainingsinhalt"
-    text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu uebermitteln.<br/>
-Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
+    text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu uebermitteln. Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
 
     liste1:
       title: "Ansible Kickstart"
