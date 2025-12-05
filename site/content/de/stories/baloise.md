@@ -37,8 +37,10 @@ partner:
 
 Im Baloise Park in Basel, dem Hauptsitz der Finanzdienstleisterin mit europaweit 8000 Mitarbeitenden, weht an diesem Nachmittag ein heftiger Wind um die drei architektonisch markanten Gebäude. Drinnen empfangen Product Owner Nikolas Philips und Head of Engineering Joachim Prinzbach von der IT-Abteilung der Baloise entspannt zum Interview. Sie können zwei breitflächig angesetzte Trainingsperioden mit acend abhaken und nehmen sich gerne einen Moment Zeit, um darauf zurückzublicken und ihre Erfahrungen zu teilen.
 
+</div>
+<div class="entry-content">
 {{< figure
-  process="fill 2364x1600"
+  process="fill 2388x1616"
   lqip="21x webp q20"
   loading="lazy"
   fetchpriority="auto"
@@ -46,6 +48,8 @@ Im Baloise Park in Basel, dem Hauptsitz der Finanzdienstleisterin mit europaweit
   alt="Joachim Prinzbach und Nikolas Philips"
   caption="Joachim Prinzbach und Nikolas Philips"
 >}}
+</div>
+<div class="col-lg-8 offset-lg-2 entry-content">
 
 ### Was war der Auslöser für die Trainings?
 Nikolas: Wir haben die Applikationsinfrastruktur der Baloise einer Teilmodernisierung unterzogen. IT steht generell nie still. Mit jeder technologischen Entwicklung ist die Weiterbildung der Mitarbeitenden zentral.

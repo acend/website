@@ -30,8 +30,10 @@ partner:
 
 
 ---
+</div>
+<div class="entry-content">
 {{< figure
-  process="fill 2364x1600"
+  process="fill 2388x1616"
   lqip="21x webp q20"
   loading="lazy"
   fetchpriority="auto"
@@ -39,6 +41,8 @@ partner:
   alt="Gebäude der PostFinance AG"
   caption="PostFinance AG"
 >}}
+</div>
+<div class="col-lg-8 offset-lg-2 entry-content">
 
 ## Das sagt der Trainer über die IT-Schulung { class="h1 mb-8 mb-lg-16" }
 <div class="col-8 col-md-5 mx-auto">
