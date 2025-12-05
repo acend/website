@@ -5,14 +5,15 @@
 {{ end }}
 
 {{ with .Params.timeline }}
-<div class="overflow-x-hidden mb-8 mb-lg-16">
+<div class="overflow-x-hidden mb-8 mb-lg-16 position-relative">
+  <div class=" scrollmove">
   <div class="container-fluid">
-    <div class="col-lg-10 offset-lg-1 scrollmove">
+    <div class="col-lg-10 offset-lg-1 ">
       <div class="row flex-nowrap">
 
         {{ range .items}}
-        <div class="col-10 col-md-6">
-          <div data-scroll_ class="timeline-item me-14 me-lg-48">
+        <div class="col-10 col-md-6 col-lg-5">
+          <div data-scroll_ class="timeline-item me-14 me-lg-32">
               <h2>{{ .title }}</h2>
               <p>{{ .subtitle }}</p>
               {{ with .img }}
@@ -28,8 +29,9 @@
     </div>
   </div>
 </div>
+</div>
 {{ end }}
-  
+
 
 <div class="container-fluid">
   {{ with .Params.introtext }}
@@ -37,8 +39,8 @@
     <h2 data-scroll class="mb-0">{{ . | markdownify }}</h2>
   </div>
   {{ end }}
-  
-  
+
+
   <div class="col-lg-10 offset-lg-1 mb-16 mb-lg-32">
     <div class="row row-cols-1 row-cols-lg-3 gy-6">
       {{ range $index, $value := .Params.brand_values }}
@@ -50,11 +52,11 @@
       </div>
       {{ end }}
       {{ end }}
-  
+
     </div>
   </div>
-  
-  
+
+
   {{ with .Params.team }}
   <div class="col-lg-8 mb-8 mb-lg-16">
     <h2 id="team" data-scroll class="mb-5">{{ .title | markdownify }}</h2>
@@ -70,13 +72,13 @@
     <button class="btn btn-showmore mx-auto px-3 border-1">{{ i18n "loadMore" }}<svg class="colored ms-2" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M1.41421 0.585815L7.41421 6.58582L13.4142 0.585815L14.8284 2.00003L7.41421 9.41424L0 2.00003L1.41421 0.585815Z" fill="#074761"/>
           </svg>
-               
+
     </button>
   </div>
 
   {{ end }}
 
- 
+
 
 {{ with .Params.join_us }}
   <div class="col-lg-5 mb-16 mb-lg-32">
@@ -107,13 +109,13 @@
     {{ end }}
   {{ end }}
 
-  
+
 </div>
 {{ end }}
 
 
 
- 
+
 
 
 
@@ -123,7 +125,7 @@
   <!-- memberships -->
   {{ if .Params.memberships.enable }}
   {{ with .Params.memberships }}
- 
+
     <div class="container-fluid ">
 
       <div class="col-lg-5 mb-8 mb-lg-16" >
@@ -131,22 +133,22 @@
         <div data-scroll class="mb-4 mb-lg-8">{{ .text | markdownify }}</div>
        </div>
 
-    </div>           
+    </div>
 
     <div data-scroll class="partner-carousel mb-16 mb-lg-32">
       {{ range .member }}
       {{ partial "content-partner" . }}
       {{ end }}
     </div>
-     
-        
-  
- 
+
+
+
+
 
 {{ end }}
 {{ end }}
 
 
- 
+
 
 {{ end }}
