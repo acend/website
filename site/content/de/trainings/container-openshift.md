@@ -8,7 +8,6 @@ draft: false
 weight: 2
 subtitle: "Basics"
 categories: ["Kubernetes"]
-duration: "2 Tage"
 abstract: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
 main_title: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
 techlogo: 
@@ -16,9 +15,11 @@ techlogo:
   cut_lg: "images/tech/partials/OpenShift_lg.svg"
   cut_sm: "images/tech/partials/OpenShift_sm.svg"
 
-personen:
-  daten : ""
-  preis : "CHF 1900"
+duration: "2 Tage"
+costs : "CHF 1900"
+certificate : "Zertifikat"
+documents: "Digitale Unterlagen"
+info: "Bringe deinen eigenen Laptop mit."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
@@ -107,20 +108,20 @@ video:
 # trainer
 trainers:
   enable: true
-  title : "Lerne zwei deiner Trainer kennen"
+  title : "Lerne deine Trainer kennen"
   trainer:
-    - title : "Benjamin Affolter"
-      image : "images/team/AC_Benji@2x.jpg"
-      designation : "Trainer"
-      abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
-      twitter : "https://twitter.com/bliemli"
-
     - title : "Christian Haller"
       image : "images/team/AC_Christian_Haller@2x.jpg"
       designation : "Trainer, Puzzle ITC"
       abstract : "Als Ausgleich zum hektischen Container-Alltag, macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
       linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
+
+    - title: "Daniel Strohecker"
+      image: "images/team/AC_Daenu@2x.jpg"
+      designation : "Trainer"
+      abstract : "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
+      linkedin: "https://www.linkedin.com/in/dstrohecker/"
+      twitter: "https://twitter.com/sybnex"
 
 
 # testimonials

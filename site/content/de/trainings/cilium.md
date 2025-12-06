@@ -7,7 +7,7 @@ date: 2020-04-12T12:16:39+06:00
 draft: false
 weight: 4
 subtitle: "Basics"
-categories: ["Ergänzende Trainings", "New"]
+categories: ["Ergänzende Trainings"]
 
 abstract: "eBPF-basiertes Networking"
 main_title: "eBPF-basiertes Networking"
@@ -20,7 +20,7 @@ techlogo:
   # Infos NEU 2024
 duration: "1 Tag"
 costs : "CHF 1100"
-certificate : "Credly Zertifikat"
+certificate : "Zertifikat"
 documents: "Digitale Unterlagen"
 info: "Bringe deinen eigenen Laptop mit."
 
@@ -100,11 +100,6 @@ trainers:
       abstract : "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
-
-    - title : "Gabriel Graf"
-      image : "images/team/AC_Gabriel_Graf@2x.jpg"
-      designation : "Trainer"
-      abstract : "Er ist unser Weltenbummler und schon von klein auf überall auf der Welt zu Hause. Und so richtig daheim ist er natürlich in der Cloud Native Welt."
 
 
 # testimonials

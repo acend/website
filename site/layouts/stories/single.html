@@ -10,7 +10,7 @@
       <div class="mb-6 d-md-none">
         {{- partial "img" (dict "page" page "src" .  "process" "fill 1400x1400" "class" "w-100") }}
       </div>
-      
+
     </div>
   {{ end }}
 
@@ -34,7 +34,7 @@
           {{ end }}
 
 
-       
+
       {{ end }}
 
       </div>
@@ -57,12 +57,11 @@
 
           {{ with .Params.person }}
           <div class="mb-2">
-            {{  .name  }}
-            {{ with .title }}, <div class="d-inline-block">{{  .  }}</div>{{ end }}
+            {{  .name  }}{{ with .title }}, <div class="d-inline-block">{{  .  }}</div>{{ end }}
           </div>
           {{ end }}
           <h1 class="sm mb-8 mb-lg-16">{{ .Title }}</h1>
-          
+
           {{ with .Params.lead }}
           <div class="lead-article mb-16 mb-lg-32">
             {{  .  }}
@@ -70,18 +69,18 @@
           {{ end }}
       </div>
 
-     
+
 
     </div>
-    
+
     <div class="row ">
-      <div class="col-lg-8 offset-lg-2 entry-content mb-8 mb-lg-16">
+      <div class="col-lg-8 offset-lg-2 entry-content mb-8_ mb-lg-16_">
         {{ .Content }}
       </div>
       <div class="col-md-10 offset-md-1">
         {{ partial "socialmedia-share" . }}
- 
-        
+
+
         {{ $related := (where (.Site.RegularPages.Related .) "Type" "stories") | first 3 }}
         {{ with $related }}
         <h3 class="mb-8">Weitere Beiträge zum Thema</h3>
@@ -100,7 +99,7 @@
 </article>
 
 
- 
+
 
 
 

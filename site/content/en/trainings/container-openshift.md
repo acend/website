@@ -8,13 +8,14 @@ draft: false
 weight: 2
 subtitle: "Basics"
 categories: ["Kubernetes"]
-duration: "2 Days"
 abstract: "Container and OpenShift – from theory to practice in no time."
 main_title: "Container and OpenShift – from theory to practice in no time."
 
-personen:
-  daten : ""
-  preis : "CHF 1900"
+duration: "2 days"
+costs : "CHF 1900"
+certificate : "Certifikat"
+documents: "Digitale Handout"
+info: "Bring your own Laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
@@ -100,20 +101,20 @@ video:
 # trainer
 trainers:
   enable: true
-  title : "Meet two of Your Trainers"
+  title : "Meet Your Trainers"
   trainer:
-    - title : "Benjamin Affolter"
-      image : "images/team/AC_Benji@2x.jpg"
-      designation : "Co-Founder & Trainer"
-      abstract : "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
-      twitter : "https://twitter.com/bliemli"
-
     - title : "Christian Haller"
       image : "images/team/AC_Christian_Haller@2x.jpg"
       designation : "Trainer, Puzzle ITC"
       abstract : "To balance out his hectic day-to-day container life, he makes his sourdough pizza by hand. And then eats it himself right away."
       linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
+    
+    - title: "Daniel Strohecker"
+      image: "images/team/AC_Daenu@2x.jpg"
+      designation : "Trainer"
+      abstract : "He’s been picking up speed on his bike as of late. He can slow down, though, and make sure our clients proceed through our trainings on sure feet."
+      linkedin: "https://www.linkedin.com/in/dstrohecker/"
+      twitter: "https://twitter.com/sybnex"
 
 
 # testimonials

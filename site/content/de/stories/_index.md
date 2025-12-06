@@ -12,4 +12,4 @@ header:
 
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+Unsere Kundinnen erzählen ihre Erfolgsgeschichten: echte Erfahrungen, echte Veränderungen. Hier teilen sie, was unsere Trainings für sie bewirkt haben. Lass dich von ihren individuellen Wegen inspirieren und entdecke, wie unser Training auch dich weiterbringen kann.

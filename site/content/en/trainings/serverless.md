@@ -10,13 +10,14 @@ slug:
 subtitle: "Basics"
 categories: ["Additional trainings"]
 
-duration: "1 Day"
 abstract : "Level up your serverless game - Hands-on best practices for serverless and FaaS."
 main_title : "Level up your serverless game - Hands-on best practices für serverless und FaaS"
 
-personen:
-  daten : ""
-  preis : "CHF 1100"
+duration: "1 day"
+costs : "CHF 1100"
+certificate : "Certifikat"
+documents: "Digitale Handout"
+info: "Bring your own Laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"

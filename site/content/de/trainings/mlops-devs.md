@@ -8,14 +8,15 @@ draft: false
 weight: 4
 slug:
 subtitle: "Basics"
-categories: ["Ergänzende Trainings"]
-duration: "2 Tage"
+categories: ["Ergänzende Trainings", "New"]
 abstract : "Ein praktischer Einstieg und umfassender Einblick in MLOps."
 main_title : "Ein praktischer Einstieg und umfassender Einblick in MLOps."
 
-personen:
-  daten : ""
-  preis : "CHF 1900"
+duration: "2 Tage"
+costs : "CHF 2200"
+certificate : "Zertifikat"
+documents: "Digitale Unterlagen"
+info: "Bringe deinen eigenen Laptop mit."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lava@2x.jpg"
@@ -23,7 +24,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeB@2x.jpg"
 
 
-main_text: "Dieses zweitägige Training bietet einen praktischen Einstieg in MLOps, das den Machine-Learning-Lebenszyklus durch Automatisierung und Standardisierung optimiert. Die Versionierung von Code und Daten sowie die Überwachung der Modellparameter sorgen für konsistente, reproduzierbare Ergebnisse. Continuous Integration und Continuous Deployment (CI/CD) beschleunigen die Markteinführung neuerms-Produkte.\n\n
+main_text: "Dieses zweitägige Training bietet einen praktischen Einstieg in MLOps, das den Machine-Learning-Lebenszyklus durch Automatisierung und Standardisierung optimiert. Die Versionierung von Code und Daten sowie die Überwachung der Modellparameter sorgen für konsistente, reproduzierbare Ergebnisse. Continuous Integration und Continuous Deployment (CI/CD) beschleunigen die Markteinführung neuer ML-Produkte.\n\n
 Unser Trainerteam besteht aus Fachleuten, die sowohl in der Machine Learning-Forschung tätig sind als auch über umfangreiche Erfahrung in der praktischen Implementierung von Datenmodellen in Unternehmen verfügen.
 "
 
@@ -56,7 +57,7 @@ accordion:
         - title : "Konditionen"
           icon : "4"
           content : "<ul>
-<li>CHF 1900 / Person für zwei Tage</li>
+<li>CHF 2200 / Person für zwei Tage</li>
 <li>Gruppen von 8-24 Personen</li>
 <li>Inklusive Verpflegung, Unterlagen und Trainingsumgebung in der Cloud</li>
 <li>Rabatt ab 12 Personen</li>
@@ -75,7 +76,7 @@ trainingsinhalt:
       liste:
         - el: "Einführung in Machine Learning (Klassifikatoren/Regressoren, Over- und Underfitting)"
         - el: "ML Modelle: von der linearer Regression zu neuronalen Netzen"
-        - el: "Datensammeln und -aufbereiten mittels verschiedener Technikenn"
+        - el: "Datensammeln und -aufbereiten mittels verschiedener Techniken"
         - el: "Mittels den aufbereiteten Daten ein Modell trainieren"
         - el: "Nutzung von Codespaces/GitHub Actions im Free Tier"
         - el: "Problemstellung: Prozess reproduzierbar und messbar machen"
@@ -94,14 +95,12 @@ trainers:
       designation : "Trainer"
       abstract : "Sigve ist Studienleiter am Mathematischen Institut (MAI) der Uni Bern."
       linkedin : "https://www.linkedin.com/in/sigve-haug-75b31b70/"
-      #twitter : "https://twitter.com/tphilipona"
 
     - title : "Iwan Imsand"
       image : "images/team/AC_IwanImsand@2x.jpg"
       designation : "Trainer"
       abstract : "Iwan mag das Zitat von Don Draper: Make it simple, but significant."
       linkedin : "https://www.linkedin.com/in/iwan-imsand-028065299/"
-      #twitter : "https://twitter.com/g1raffi"
 
 
 # testimonials

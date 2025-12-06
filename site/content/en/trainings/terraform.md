@@ -10,13 +10,14 @@ slug:
 subtitle: "Basics"
 categories: ["Delivery CI/CD"]
 
-duration: "2 Days"
 abstract : "Write, Plan and Apply. IaC made easy."
 main_title : "Write, Plan and Apply. IaC made easy."
 
-personen:
-  daten : ""
-  preis : "CHF 2200"
+duration: "2 days"
+costs : "CHF 2200"
+certificate : "Certifikat"
+documents: "Digitale Handout"
+info: "Bring your own Laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
@@ -91,26 +92,27 @@ trainingsinhalt:
           - el: "MariaDB and Demo Application"
 
 # Kooperation
-kooperation:
-  enable: true
-  title: "Developed together with <strong>arch.cloud</strong>"
-  subtitle: "In collaboration with <strong>arch.cloud</strong>"
-  logo: "images/partner/arch-cloud.png"
-  text: "Engineering cloud native solutions is their passion. They support customers in the cloud transformation. Not only in architecture, infrastructure and software development, but also in the appropriate strategy and organization."
-  link: "https://arch.cloud"
-  linktext: "arch.cloud"
+# kooperation:
+#  enable: true
+#  title: "Developed together with <strong>arch.cloud</strong>"
+#  subtitle: "In collaboration with <strong>arch.cloud</strong>"
+#  logo: "images/partner/arch-cloud.png"
+#  text: "Engineering cloud native solutions is their passion. They support customers in the cloud transformation. Not only in architecture, infrastructure and software development, but also in the appropriate strategy and organization."
+#  link: "https://arch.cloud"
+#  linktext: "arch.cloud"
 
 # trainer
 trainers:
   enable: true
   title : "Meet two of Your Trainers"
   trainer:
-    - title : "Andreas Gehrig"
-      designation : "Trainer, arch.cloud"
-      abstract : "He is always on the road with his notebook, writing software and designing cloud architectures."
-      image : "images/team/AC_Andreas_Gehrig@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/andreasgehrig/"
-
+    - title : "Lena Fuhrimann"
+      designation : "Trainer, bespinian"
+      abstract : "Head always in the clouds, just look at her hair. Lena loves modernizing software and working with new technologies. She uses Arch btw."
+      image : "images/team/AC_Lena_Fuhrimann@2x.jpg"
+      linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
+      twitter : "https://twitter.com/the_cloudlena"
+    
     - title : "Daniel Strohecker"
       image : "images/team/AC_Daenu@2x.jpg"
       designation : "Trainer"

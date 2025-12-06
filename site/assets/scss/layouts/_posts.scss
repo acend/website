@@ -1,11 +1,50 @@
 .entry-content {
-  figure {
-    margin: 6rem 0;
-  }
-
   figcaption {
     font-size: 1.4rem;
     margin-top: 2rem;
     font-style: normal;
+  }
+
+  figure,
+  p {
+    margin-bottom: 3.2rem;
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 6.4rem;
+    }
+  }
+
+  h3,
+  .h3 {
+    margin-bottom: 1.2rem;
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 2.4rem;
+    }
+  }
+}
+
+.entry-content,
+.infobox-content {
+  ol, ul, dl {
+    padding-left: 0;
+  }
+
+  li {
+    list-style: none;
+    line-height: 1.7;
+    padding-left: 1em;
+
+    &::before {
+      content: "– ";
+      margin-left: -1em;
+    }
+  }
+}
+
+.infobox-content ul {
+  @include media-breakpoint-up(md) {
+    column-count: 2;
+    column-gap: 4rem;
   }
 }

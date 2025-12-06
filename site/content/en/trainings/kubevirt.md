@@ -9,14 +9,14 @@ weight: 1
 slug: ""
 subtitle: "Basics"
 categories: ["Kubernetes"]
-duration: "2 Days"
 abstract: "KubeVirt allows DevOps teams to run traditional virtual machines and non-containerizable workloads on Kubernetes."
 main_title: "KubeVirt allows DevOps teams to run traditional virtual machines and non-containerizable workloads on Kubernetes."
 
-personen:
-  #daten: "15.11.22, 16.11.22"
-  daten: ""
-  preis: "CHF 2300"
+duration: "2 days"
+costs : "CHF 2300"
+certificate : "Certifikat"
+documents: "Digitale Handout"
+info: "Bring your own Laptop."
 
 headerimages:
   img1: "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
@@ -91,19 +91,18 @@ trainers:
   enable: true
   title : "Meet two of Your Trainers"
   trainer:
-    - title : "Benjamin Affolter"
-      image : "images/team/AC_Benji@2x.jpg"
+    - title : "Thomas Philipona"
+      image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Co-Founder & Trainer"
-      abstract : "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
-      twitter : "https://twitter.com/bliemli"
+      abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
+      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
+      twitter : "https://twitter.com/tphilipona"
 
     - title: "Christof Lüthi"
       image: "images/team/AC_ChristofLuethi@2x.jpg"
       designation: "Trainer, Tim&Koko AG"
       abstract: "Christof is back from his trip around the world, has dived a lot and got to know different cultures. With a fresh spirit and curiosity, he is now on a journey of discovery in the Cloud Native world."
-      linkedin: "https://www.linkedin.com/in/christof-luethi/"
-
+      linkedin: "https://www.linkedin.com/in/christof-luethi/"   
 # testimonials
 testimonials:
   enable: true

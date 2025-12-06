@@ -10,13 +10,15 @@ slug:
 thumbnail: "images/trainings/ACEND_Adyna@2x.jpg"
 subtitle: "Basics"
 categories: ["Additional trainings"]
-duration: "1 Day"
+
 abstract : "A practical introduction to the best-known Package Manager for applications on Kubernetes."
 main_title : "A practical introduction to the best-known Package Manager for applications on Kubernetes."
 
-personen:
-  daten : ""
-  preis : "CHF 1100"
+duration: "1 day"
+costs : "CHF 1100"
+certificate : "Certifikat"
+documents: "Digitale Handout"
+info: "Bring your own Laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lava@2x.jpg"
@@ -95,20 +97,16 @@ trainers:
   enable: true
   title : "Meet two of Your Trainers"
   trainer:
+    - title : "Christian Schlatter"
+      image : "images/team/AC_Christian_Schlatter@2x.jpg"
+      designation : "Trainer"
+      abstract : "Not only does he enjoy traveling through the real world, but he also discovers new places in the Cloud Native Landscape"
+      linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
     - title : "Thomas Philipona"
       image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
       linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
-      twitter : "https://twitter.com/tphilipona"
-
-
-    - title : "Raffael Hertle"
-      image : "images/team/AC_Raffael_Hertle@2x.jpg"
-      designation : "Trainer"
-      abstract : "Likes to dress up for carnival, but likes to look behind the masks when it comes to cloud native technologies"
-      linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
-      twitter : "https://twitter.com/g1raffi"
 
 
 # testimonials

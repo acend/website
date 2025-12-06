@@ -8,13 +8,14 @@ draft: false
 weight: 3
 subtitle: "Basics"
 categories: ["Programming"]
-duration: "1 Day"
 abstract: "Introduction to Go for software developers, architects and DevOps engineers."
 main_title: "Introduction to Go for software developers, architects and DevOps engineers."
 
-personen:
-  daten : ""
-  preis : "CHF 1100"
+duration: "1 day"
+costs : "CHF 1100"
+certificate : "Certifikat"
+documents: "Digitale Handout"
+info: "Bring your own Laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"

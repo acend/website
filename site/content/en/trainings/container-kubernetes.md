@@ -9,14 +9,15 @@ weight: 1
 slug:
 subtitle: "Basics"
 categories: ["Kubernetes"]
-duration: "2 Days"
+
 abstract : "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
 main_title : "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
 
-personen:
-  #daten : "15.11.22, 16.11.22"
-  daten : ""
-  preis : "CHF 1900"
+duration: "2 days"
+costs : "CHF 1900"
+certificate : "Certifikat"
+documents: "Digitale Handout"
+info: "Bring your own Laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
@@ -108,12 +109,7 @@ trainers:
   enable: true
   title : "Meet two of Your Trainers"
   trainer:
-    #- title : "Johann Gyger"
-    #  image : "images/team/AC_Johann@2x.jpg"
-    #  designation : "Trainer"
-    #  abstract : "Still waters run deep, and he’s one to deep dive into Cloud Native technologies. As a supporter of sustainability and a climate-friendly world, he prefers Lake Thun to the ocean."
-    #  linkedin : "https://www.linkedin.com/in/johanngyger/"
-    #  twitter : "https://twitter.com/johanngyger"
+
 
     - title : "Daniel Strohecker"
       image : "images/team/AC_Daenu@2x.jpg"

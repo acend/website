@@ -9,13 +9,14 @@ weight: 10
 slug:
 subtitle: "Basics"
 categories: ["Programming"]
-duration: "2 Days"
 abstract: "Get started with Quarkus, the Supersonic Subatomic Java Toolkit"
 main_title: "Get started with Quarkus, the Supersonic Subatomic Java Toolkit"
 
-personen:
-  daten : ""
-  preis : "CHF 1900"
+duration: "2 days"
+costs : "CHF 1900"
+certificate : "Certifikat"
+documents: "Digitale Handout"
+info: "Bring your own Laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Nadia-Redstone@2x.jpg"
@@ -88,21 +89,13 @@ We are also happy to refer to your infrastructure in consultation. If further co
 # trainer
 trainers:
   enable: true
-  title : "Meet two of Your Trainers"
+  title : "Meet Your Trainers"
   trainer:
     - title: "Christof Lüthi"
       image: "images/team/AC_ChristofLuethi@2x.jpg"
       designation: "Trainer, Tim&Koko AG"
       abstract: "Christof is back from his trip around the world, has dived a lot and got to know different cultures. With a fresh spirit and curiosity, he is now on a journey of discovery in the Cloud Native world."
-      linkedin: "https://www.linkedin.com/in/christof-luethi/"
-
-    - title : "Raffael Hertle"
-      image : "images/team/AC_Raffael_Hertle@2x.jpg"
-      designation : "Trainer"
-      abstract : "Likes to dress up for carnival, but likes to look behind the masks when it comes to cloud native technologies"
-      linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
-      twitter : "https://twitter.com/g1raffi"
-
+      linkedin: "https://www.linkedin.com/in/christof-luethi/"   
 
 # testimonials
 testimonials:

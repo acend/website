@@ -8,13 +8,19 @@ draft: false
 weight: 4
 subtitle: "Basics"
 categories: ["Programming"]
-duration: "1 Day"
 abstract: "Practice-oriented introduction to MicroServices"
 main_title: "Practice-oriented introduction to MicroServices"
 
-personen:
-  daten : ""
-  preis : "CHF 1100"
+# don't publish the page
+build:
+  list: never
+  render: never
+
+duration: "1 day"
+costs : "CHF 1100"
+certificate : "Certifikat"
+documents: "Digitale Handout"
+info: "Bring your own Laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Nadia-Redstone@2x.jpg"
@@ -82,7 +88,7 @@ trainingsinhalt:
 # trainer
 trainers:
   enable: true
-  title : "Meet two of Your Trainers"
+  title : "Meet Your Trainers"
   trainer:
     - title: "Christof Lüthi"
       image: "images/team/AC_ChristofLuethi@2x.jpg"
@@ -90,12 +96,6 @@ trainers:
       abstract: "Christof is back from his trip around the world, has dived a lot and got to know different cultures. With a fresh spirit and curiosity, he is now on a journey of discovery in the Cloud Native world."
       linkedin: "https://www.linkedin.com/in/christof-luethi/"
 
-    - title : "Raffael Hertle"
-      image : "images/team/AC_Raffael_Hertle@2x.jpg"
-      designation : "Trainer"
-      abstract : "Likes to dress up for carnival, but likes to look behind the masks when it comes to cloud native technologies"
-      linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
-      twitter : "https://twitter.com/g1raffi"
 
 
 # testimonials
