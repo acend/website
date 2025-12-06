@@ -30,53 +30,21 @@ partner:
 
 
 ---
-</div>
-<div class="entry-content">
-{{< figure
-  process="fill 2388x1616"
-  lqip="21x webp q20"
-  loading="lazy"
-  fetchpriority="auto"
-  src="images/stories/postfinance/postfinance-gebaeude.jpg"
-  alt="Gebäude der PostFinance AG"
-  caption="PostFinance AG"
->}}
-</div>
-<div class="col-lg-8 offset-lg-2 entry-content">
 
-## Das sagt der Trainer über die IT-Schulung { class="h1 mb-8 mb-lg-16" }
-<div class="col-8 col-md-5 mx-auto">
-{{< figure
-  process="fill 804x1072"
-  lqip="21x webp q20"
-  loading="lazy"
-  fetchpriority="auto"
-  src="images/stories/postfinance/AC_Gabriel2@.jpg"
-  alt="Gabriel Graf, Trainer, acend"
-  caption="Gabriel Graf, Trainer, acend"
->}}
-</div>
+# Das sagt der Trainer über die IT-Schulung
 
-### Was war der Grund der Trainings?
- Die PostFinance führte Container und Kubernetes auf breiter Front ein. Dies ist eine neue Art, Software zu betreiben und bereitzustellen. Die Umstellung erfordert neue Denkweisen und bringt eine eigene Sprache mit. Ich habe selbst solche Transitionen durchlaufen und befähige als Trainer andere dazu, diese Technologie schnell zu begreifen und effektiv einzusetzen.
+((Foto))
+Gabriel Graf, Trainer, acend
 
-<<<<<<< HEAD
 ## Was war der Grund der Trainings? 
- Die PostFinance führte Container und Kubernetes auf breiter Front ein. Dies ist eine neue Art, Software zu betreiben und bereitzustellen. Die Umstellung erfordert neue Denkweisen und bringt eine eigene Sprache mit. Ich habe selbst solche Transitionen durchlaufen und befähige als Trainer andere dazu, diese Technologie schnell zu begreifen und effektiv einzusetzen.</br>
+ Die PostFinance führte Container und Kubernetes auf breiter Front ein. Dies ist eine neue Art, Software zu betreiben und bereitzustellen. Die Umstellung erfordert neue Denkweisen und bringt eine eigene Sprache mit. Ich habe selbst solche Transitionen durchlaufen und befähige als Trainer andere dazu, diese Technologie schnell zu begreifen und effektiv einzusetzen
 
 
 ## Wer hat an den Schulungen teilgenommen? 
-Die Teilnehmenden kamen aus den Bereichen  Management, Software Engineering, Data Science, Business Analyse und Software Testing. Die Bandbreite reichte von Einsteiger: innen, die noch nie mit Kubernetes gearbeitet haben bis zu vereinzelten Cracks. Das schöne war, dass die Teilnehmenden teamübergreifend zusammengearbeitet haben.</br>
-
-## Wie sind die Trainings aufgebaut? 
-Das Training ist ein abwechslungsreicher Mix aus theoretischen Grundlagen und Labs. Dabei nehmen wir direkt Bezug auf die IT-Infrastruktur der Unternehmen. Im Fall der PostFinance war eine interne Fachperson dabei, welche die Unternehmens-DNA vertreten hat. So konnten wir die spezifische Ausgangslage der PostFinance aufnehmen und die Tools konnten gleich eins zu eins im eigenen Umfeld der Trainings-Teilnehmenden erprobt werden und direkt in die Praxis umgesetzt werden.</br>
-=======
-### Wer hat an den Schulungen teilgenommen?
 Die Teilnehmenden kamen aus den Bereichen  Management, Software Engineering, Data Science, Business Analyse und Software Testing. Die Bandbreite reichte von Einsteiger: innen, die noch nie mit Kubernetes gearbeitet haben bis zu vereinzelten Cracks. Das schöne war, dass die Teilnehmenden teamübergreifend zusammengearbeitet haben.
 
-### Wie sind die Trainings aufgebaut?
-Das Training ist ein abwechslungsreicher Mix aus theoretischen Grundlagen und Labs. Dabei nehmen wir direkt Bezug auf die IT-Infrastruktur der Unternehmen. Im Fall der PostFinance war eine interne Fachperson dabei, welche die Unternehmens-DNA vertreten hat. So konnten wir die spezifische Ausgangslage der PostFinance aufnehmen und die Tools konnten gleich eins zu eins im eigenen Umfeld der Trainings-Teilnehmenden erprobt werden und direkt in die Praxis umgesetzt werden.
->>>>>>> jan
+## Wie sind die Trainings aufgebaut? 
+Das Training ist ein abwechslungsreicher Mix aus theoretischen Grundlagen und Labs. Dabei nehmen wir direkt Bezug auf die IT-Infrastruktur der Unternehmen. Im Fall der PostFinance war eine interne Fachperson dabei, welche die Unternehmens-DNA vertreten hat. So konnten wir die spezifische Ausgangslage der PostFinance aufnehmen und die Tools konnten gleich eins zu eins im eigenen Umfeld der Trainings-Teilnehmenden erprobt werden und direkt in die Praxis umgesetzt werden. 
 
 {{< infobox
   size="wide"
@@ -85,8 +53,8 @@ Das Training ist ein abwechslungsreicher Mix aus theoretischen Grundlagen und La
   text="<ul><li>Erhöhte Servicequalität</li><li>Schnellere Reaktionszeiten</li><li>Verbesserte Observability</li><li>Verbesserte Interoperabilität</li><li>Automatisierte Schnittstelle</li></ul>"
 >}}
 
-## Das sagt der Auftraggeber über die Trainings  { class="h1 my-8 my-lg-16" }
 
+## Das sagt der Auftraggeber über die Trainings  { class="h1 my-8 my-lg-16" }
 {{< figure
   process="fill 1580x1040"
   lqip="21x webp q20"
@@ -97,16 +65,17 @@ Das Training ist ein abwechslungsreicher Mix aus theoretischen Grundlagen und La
   caption="Roger Bigler, Leiter Technologie & Infrastructure Data Management, PostFinance AG"
 >}}
 
-### Welches Fazit ziehen Sie aus den IT-Schulungen?
 
+
+## Welches Fazit ziehen Sie aus den IT-Schulungen? 
 acend hat uns geholfen, Cloud-Native-Technologien wie Kubernetes in der gesamten IT zu verankern. Das Aufbauen von Know-how aller Stakeholder ist bei der Transformation auf eine neue Cloud-Native-Infrastruktur enorm wichtig.
 
-### Was haben Sie am Training besonders geschätzt?
 
+## Was haben Sie am Training besonders geschätzt? 
 Was wir besonders an acend schätzen, ist die Praxisnähe der Trainer. Sie unterrichten Technologien und Architekturkonzepte, die sie in der Praxis operativ einsetzen, wodurch ein Dialog auf Augenhöhe entsteht. Den Leuten hat das Training Spass gemacht und waren spürbar motiviert, das Gelernte anzuwenden.
 
-### Welche Bedeutung messen Sie IT-Weiterbildungen bei?
 
+## Welche Bedeutung messen Sie IT-Weiterbildungen bei? 
 Eine wichtige Lösung im Kampf gegen den Fachkräftemangel in der IT-Branche ist die Ausbildung und Stärkung der bestehenden Teams. Hier sind die Trainings von acend sehr wertvoll.
 
 {{< infobox
@@ -117,7 +86,6 @@ Eine wichtige Lösung im Kampf gegen den Fachkräftemangel in der IT-Branche ist
 >}}
 
 ## Das sagt eine Teilnehmerin  { class="h1 my-8 my-lg-16" }
-
 {{< figure
   process="fill 1580x1040"
   lqip="21x webp q20"
@@ -128,16 +96,14 @@ Eine wichtige Lösung im Kampf gegen den Fachkräftemangel in der IT-Branche ist
   caption="Luana Cusseddu, Systems Engineer, PostFinance AG"
 >}}
 
-## Was hat Ihnen das Training gebracht?
 
-Die acend-Trainings waren für mich als Productowener Kubernetes äusserst wertvoll, da sie mir ermöglicht haben, vertieft in spezifische Themen einzutauchen.
+## Was hat Ihnen das Training gebracht? 
+Die acend-Trainings waren für mich als Productowener Kubernetes äusserst wertvoll, da sie mir ermöglicht haben, vertieft in spezifische Themen einzutauchen. 
 
-## Was war besonders hilfreich?
+## Was war besonders hilfreich? 
+Insbesondere die Labs haben mir den Praxistransfer erleichtert und viel Spass gemacht. 
 
-Insbesondere die Labs haben mir den Praxistransfer erleichtert und viel Spass gemacht.
-
-## Was hat sich dadurch in der Zusammenarbeit verändert?
-
+## Was hat sich dadurch in der Zusammenarbeit verändert? 
 Die Trainings haben sowohl Management, Software Engineering, Data Science, Business Analyse und Software TestingSoftware-Engineers und Data Scientists  befähigt, unsere Kubernetes-Plattform zu verstehen und effizient zu nutzen.
 
 {{< infobox
