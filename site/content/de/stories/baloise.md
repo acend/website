@@ -35,7 +35,7 @@ partner:
 
 ---
 
-Im Baloise Park in Basel, dem Hauptsitz der Finanzdienstleisterin mit europaweit 8000 Mitarbeitenden, weht an diesem Nachmittag ein heftiger Wind um die drei architektonisch markanten Gebäude. Drinnen empfangen Product Owner Nikolas Philips und Head of Engineering Joachim Prinzbach von der IT-Abteilung der Baloise entspannt zum Interview. Sie können zwei breitflächig angesetzte Trainingsperioden mit acend abhaken und nehmen sich gerne einen Moment Zeit, um darauf zurückzublicken und ihre Erfahrungen zu teilen.</br>
+Im Baloise Park in Basel, dem Hauptsitz der Finanzdienstleisterin mit europaweit 8000 Mitarbeitenden, weht an diesem Nachmittag ein heftiger Wind um die drei architektonisch markanten Gebäude. Drinnen empfangen Product Owner Nikolas Philips und Head of Engineering Joachim Prinzbach von der IT-Abteilung der Baloise entspannt zum Interview. Sie können zwei breitflächig angesetzte Trainingsperioden mit acend abhaken und nehmen sich gerne einen Moment Zeit, um darauf zurückzublicken und ihre Erfahrungen zu teilen.
 
 </div>
 <div class="entry-content">
@@ -81,7 +81,6 @@ Joachim: Wir hatten zwei breitflächig angesetzte Trainingsperioden über einen 
 ### Was haben die Teilnehmenden an den Trainings besonders geschätzt?
 
 Nikolas: Die Trainings bestanden aus Theorieblöcken und Labs, um direkt in die Praxis zu kommen. Das Lösen von Aufgaben ist wichtig. Denn dabei passieren Fehler. Und weil die Trainer vor Ort sind, muss nicht lange nach einer Lösung gesucht werden. Das räumt einen wichtigen Zeitkiller aus dem Weg. Entwickler finden meist eine Lösung – die Frage ist jedoch, wie schnell und sauber. Unser Ziel war, dass die Mitarbeitenden direkt nach dem Training das Erlernte anwenden können. Denn je mehr Zeitraum zwischen Schulung und Anwendung vergeht, je weniger bleibt hängen.
-
 
 {{< figure
   process="fill 1580x1040"
