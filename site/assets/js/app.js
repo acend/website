@@ -12,7 +12,7 @@ import starterScripts from "./assets/js/views/starter-scripts";
 import onEveryPage from "./assets/js/views/on-every-page";
 
 // Include parts of Bootstrap
-
+/*
 import {
   //Alert,
   Button,
@@ -27,7 +27,7 @@ import {
   //Toast,
   //Tooltip
 } from 'bootstrap';
-
+*/
 
 
 const swup = new Swup({
