@@ -155,6 +155,7 @@ testimonials:
 partner:
   enable: true
   title: "Our Partners"
+  text: "Together with strong partners, we are reshaping cloud-native learning. Our partnerships combine know-how, passion, and vision."
   item:
     - logo: "images/partner/puzzle-itc.svg"
       text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on open source technologies."
