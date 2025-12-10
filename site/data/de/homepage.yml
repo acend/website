@@ -112,7 +112,7 @@ journal:
 partner:
   enable: true
   title: "Unsere Partner"
-  text: "Kurzer Beschreibungstext zum Thema Certe, inquam, pertinax non emolumento aliquo, sed ut aut in animis nostris inesse."
+  text: "Gemeinsam mit starken Partnern gestalten wir Cloud-Native Lernen neu. Unsere Partnerschaften verbinden Know-how, Leidenschaft und Vision."
   item:
     - logo: "images/partner/puzzle-itc.svg"
       text: "Puzzle ITC deckt als innovativer IT-Dienstleister den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei wird konsequent auf Open Source Technologien gesetzt."
