@@ -147,22 +147,19 @@ faq:
       answer: "Unsere Trainings richten sich an Software-Entwickler:innen, System- oder DevOps-Ingenieur:innen."
 
     - question: "Brauche ich Vorkenntnisse?"
-      answer: "Das hängt vom Kurs ab: Für „Basics“-Trainings (z. B. Container & Kubernetes, Go, OpenShift etc.) sind meist keine oder nur geringe Vorkenntnisse nötig. Voraussetzungen wie ein Laptop mit Internetzugang werden jedoch oft vorausgesetzt."
-    
-    - question: "Für wen sind die Trainings geeignet?"
-      answer: "Unsere Trainings richten sich an Software-Entwickler:innen, System- oder DevOps-Ingenieur:innen."
+      answer: "Das hängt vom Kurs ab: Für die „Basics“-Trainings sind meist keine oder nur geringe Vorkenntnisse nötig. Ein Laptop mit Internetzugang wird jedoch vorausgesetzt."
     
     - question: "Wie lange dauern die Trainings und was kostet ein Kurs?"
-      answer: "Die Trainings dauern 1–2 Tage. Die Dauer variiert je nach Thema. Der Preis hängt vom Kurs ab. Für Gruppen ab 12 Personen werden separate Konditionen angeboten."
+      answer: "Die Trainings dauern 1–2 Tage. Die Dauer und der Preis variiert je nach Kurs. Für Gruppen ab 12 Personen werden separate Konditionen angeboten."
 
     - question: "Sind die Trainings praxisnah?"
-      answer: "acend kombiniert theoretische Inputs mit praxisorientierten „hands-on Labs“, damit Teilnehmer das Gelernte direkt anwenden können."
+      answer: "acend kombiniert theoretische Inputs mit praxisorientierten „hands-on Labs“, damit Teilnehmer:innen das Gelernte direkt anwenden können."
 
     - question: "Gibt es auch Trainings für Teams oder Unternehmen?"
       answer: "Ja. Neben öffentlich ausgeschriebenen Kursen bietet acend auch Firmen-Trainings mit individuellen Terminen und Bedingungen an."
 
     - question: "Was passiert nach dem Training?"
-      answer: "acend sieht sich als Teil der Cloud-Native-Community und legt Wert auf Austausch während und nach den Trainings. Das heisst, Teilnehmer werden eingeladen, Teil dieser Community zu werden und sich kontinuierlich weiterzuentwickeln. Ausserdem senden wir dir dein Zertifikat zu."
+      answer: "acend sieht sich als Teil der Cloud-Native-Community und legt Wert auf Austausch während und nach den Trainings. Das heisst, Teilnehmer:innen werden eingeladen, Teil dieser Community zu werden und sich kontinuierlich weiterzuentwickeln. Ausserdem senden wir dir dein Zertifikat zu."
 
     - question: "Was sind die Vorteile von Cloud Native?"
       answer: "Cloud Native Anwendungen sind modular, skalierbar und hochverfügbar. Sie können schneller entwickelt und ausgerollt werden. Durch die Automatisierung von Prozessen wird die Betriebsstabilität erhöht. Cloud Native Anwendungen sind zudem kosteneffizient und können flexibel betrieben werden."
