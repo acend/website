@@ -155,6 +155,7 @@ testimonials:
 partner:
   enable: true
   title: "Our Partners"
+  text: "Together with strong partners, we are reshaping cloud-native learning. Our partnerships combine know-how, passion, and vision."
   item:
     - logo: "images/partner/puzzle-itc.svg"
       text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on open source technologies."
@@ -175,3 +176,32 @@ partner:
       text: 'bespinian is a start-up from Bern that loves software and cloud computing. As "Cloud Native Citizens" they are at home on different cloud platforms and help their customers on the journey into the cloud.'
       link: "https://bespinian.io/"
       link_label: "bespinian.io"
+
+# F.A.Q.
+faq:
+  enable: true
+  label: "F.A.Q."
+  link: "/faq"
+  title: "Frequently Asked Questions"
+  text: "Here you’ll find answers to the most common questions about our trainings and about acend."
+  items:
+    - question: "Who are the trainings suitable for?"
+      answer: "Our trainings are designed for software developers, system engineers, or DevOps engineers."
+
+    - question: "Do I need prior knowledge?"
+      answer: "That depends on the course: For the ‘Basics’ trainings, little to no prior knowledge is required. However, a laptop with internet access is necessary."
+    
+    - question: "How long do the trainings last and how much does a course cost?"
+      answer: "The trainings last 1–2 days. The duration and price vary depending on the course. Separate conditions are offered for groups of 12 or more participants."
+
+    - question: "Are the trainings hands-on?"
+      answer: "acend combines theoretical input with practical ‘hands-on labs’ so participants can immediately apply what they’ve learned."
+
+    - question: "Are there trainings for teams or companies?"
+      answer: "Yes. In addition to publicly offered courses, acend also provides corporate trainings with individual scheduling and conditions."
+      
+    - question: "What happens after the training?"
+      answer: "acend sees itself as part of the cloud-native community and values exchange during and after the trainings. This means participants are invited to join this community and continue developing their skills. We also send you your certificate."
+      
+    - question: "What are the advantages of Cloud Native?"
+      answer: "Cloud-native applications are modular, scalable, and highly available. They can be developed and deployed more quickly. Automation increases operational stability. Cloud-native applications are also cost-efficient and can be operated flexibly."

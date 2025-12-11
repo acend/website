@@ -1,5 +1,5 @@
 ---
-title: "Zertifikate und Badges"
+title: "Was ist...?"
 draft: false
 weight: 1
 abstract: ""

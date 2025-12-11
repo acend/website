@@ -112,7 +112,7 @@ journal:
 partner:
   enable: true
   title: "Unsere Partner"
-  text: "Kurzer Beschreibungstext zum Thema Certe, inquam, pertinax non emolumento aliquo, sed ut aut in animis nostris inesse."
+  text: "Gemeinsam mit starken Partnern gestalten wir Cloud-Native Lernen neu. Unsere Partnerschaften verbinden Know-how, Leidenschaft und Vision."
   item:
     - logo: "images/partner/puzzle-itc.svg"
       text: "Puzzle ITC deckt als innovativer IT-Dienstleister den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei wird konsequent auf Open Source Technologien gesetzt."
@@ -143,8 +143,23 @@ faq:
   title: "Häufige Fragen"
   text: "Hier findest du Antworten auf die häufigsten Fragen zu unseren Trainings und acend."
   items:
-    - question: "Was ist Cloud Native?"
-      answer: "Cloud Native ist ein Ansatz, um Anwendungen zu entwickeln und zu betreiben. Dabei werden die Vorteile der Cloud voll ausgeschöpft. Cloud Native Anwendungen sind modular, skalierbar und hochverfügbar. Sie werden in Containern betrieben und dynamisch orchestriert. Cloud Native Technologien sind Open Source und werden von der Cloud Native Computing Foundation (CNCF) unterstützt."
+    - question: "Für wen sind die Trainings geeignet?"
+      answer: "Unsere Trainings richten sich an Software-Entwickler:innen, System- oder DevOps-Ingenieur:innen."
+
+    - question: "Brauche ich Vorkenntnisse?"
+      answer: "Das hängt vom Kurs ab: Für die „Basics“-Trainings sind meist keine oder nur geringe Vorkenntnisse nötig. Ein Laptop mit Internetzugang wird jedoch vorausgesetzt."
+    
+    - question: "Wie lange dauern die Trainings und was kostet ein Kurs?"
+      answer: "Die Trainings dauern 1–2 Tage. Die Dauer und der Preis variiert je nach Kurs. Für Gruppen ab 12 Personen werden separate Konditionen angeboten."
+
+    - question: "Sind die Trainings praxisnah?"
+      answer: "acend kombiniert theoretische Inputs mit praxisorientierten „hands-on Labs“, damit Teilnehmer:innen das Gelernte direkt anwenden können."
+
+    - question: "Gibt es auch Trainings für Teams oder Unternehmen?"
+      answer: "Ja. Neben öffentlich ausgeschriebenen Kursen bietet acend auch Firmen-Trainings mit individuellen Terminen und Bedingungen an."
+
+    - question: "Was passiert nach dem Training?"
+      answer: "acend sieht sich als Teil der Cloud-Native-Community und legt Wert auf Austausch während und nach den Trainings. Das heisst, Teilnehmer:innen werden eingeladen, Teil dieser Community zu werden und sich kontinuierlich weiterzuentwickeln. Ausserdem senden wir dir dein Zertifikat zu."
 
     - question: "Was sind die Vorteile von Cloud Native?"
       answer: "Cloud Native Anwendungen sind modular, skalierbar und hochverfügbar. Sie können schneller entwickelt und ausgerollt werden. Durch die Automatisierung von Prozessen wird die Betriebsstabilität erhöht. Cloud Native Anwendungen sind zudem kosteneffizient und können flexibel betrieben werden."
