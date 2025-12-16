@@ -1,2 +1,3 @@
 # Overrides for production environment
-baseURL = "https://acend-website-new.netlify.app/"
+baseURL = "https://new.acend.ch/"
+
