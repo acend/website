@@ -199,10 +199,10 @@ export default function() {
           //fade: true,
           //speed: 0,
           adaptiveHeight: false,
-          autoPlay: 7500,
+          autoPlay: 5000,
           pauseAutoPlayOnHover: false,
           prevNextButtons: false,
-          fade: { crossFade: false },
+          fade: { crossFade: true },
           on: {
               ready: function() {
                   window.dispatchEvent(new Event('resize'));
