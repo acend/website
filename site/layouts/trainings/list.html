@@ -10,35 +10,35 @@
          <div data-scroll_ class="h1 md mb-0">{{ .lead | markdownify }}</div>
       {{ end }}
     </div>
- 
+
      <div data-scroll_ class="col-lg-6 py-16 py-lg-32 imagecloud">
- 
- 
+
+
       {{ range .Params.imagecloud }}
- 
-     
+
+
       <div  class="d-none images">
         <div class="img-container align-self-end mb-10 z-1" id="l1">
-          {{- partial "img" (dict "page" . "src"  .img1 "width" 200 "process" ""  ) }} 
+          {{- partial "img" (dict "page" . "src"  .img1 "width" 200 "process" ""  ) }}
           </div>
           <div class="img-container" id="l2">
-             {{- partial "img" (dict "page" . "src"  .img2 "width" 600 "process" ""  ) }} 
+             {{- partial "img" (dict "page" . "src"  .img2 "width" 600 "process" ""  ) }}
           </div>
           <div class="img-container mt-20" id="l3">
-            {{- partial "img" (dict "page" . "src"  .img3 "width" 300 "process" ""  ) }} 
+            {{- partial "img" (dict "page" . "src"  .img3 "width" 300 "process" ""  ) }}
           </div>
         </div>
-   
+
         {{ end }}
     </div>
 
-      
-       
+
+
   </div>
 
 
 
-  
+
   <div class="col-lg-8 offset-lg-1 mb-8 mb-lg-16">
       <h2 data-scroll class="mb-4 mb-lg-8">{{ .Params.filtertitle }}</h2>
       <div data-scroll>
@@ -74,22 +74,22 @@
       </div>
 
 
- 
+
       <div class="row gy-8 gy-lg-16 gx-lg-15">
         {{ range .Data.Pages }}
         {{ partial "box-training" . }}
         {{ end }}
       </div>
- 
+
   </div>
 
 </div>
- 
+
 {{ with .Params.zertifikate }}
   <div class="px-lg-6 mb-16_ mb-lg-32_">
     <div class="bg-primarylight py-8 py-lg-16">
       <div class="container-fluid">
-        
+
         <div class="row gy-8 ">
           <div class="col-lg-5 offset-lg-1">
             <div data-scroll class="h2 mb-4">{{ .title }}</div>
@@ -103,8 +103,8 @@
 
         </div>
       </div>
-      
-      
+
+
     </div>
   </div>
 {{ end }}
@@ -114,22 +114,22 @@
 <div class="container-fluid py-16 py-lg-32">
   <div class="row gy-8 position-relative outline ">
     <div class="col-lg-6 d-flex">
-      
+
       <div data-scroll class="d-flex my-auto images">
         <div class="img-container align-self-end mb-20 z-1" id="l1">
-          {{- partial "img" (dict "page" . "src"  .img3 "width" 300 "process" ""  ) }} 
+          {{- partial "img" (dict "page" . "src"  .img3 "width" 300 "process" ""  ) }}
         </div>
         <div class="img-container" id="l2">
-          {{- partial "img" (dict "page" . "src"  .img2 "width" 600 "process" ""  ) }} 
+          {{- partial "img" (dict "page" . "src"  .img2 "width" 600 "process" ""  ) }}
         </div>
         <div class="img-container mt-10 z-1" id="l3">
-          {{- partial "img" (dict "page" . "src"  .img1 "width" 200 "process" ""  ) }} 
+          {{- partial "img" (dict "page" . "src"  .img1 "width" 200 "process" ""  ) }}
         </div>
       </div>
 
-      
+
     </div>
-    
+
     <div class="col-lg-6 d-flex">
       <div class="px-4 ps-lg-8 pe-lg-16 py-lg-32 my-auto quote">
         <div data-scroll class=" bold mb-0">{{ .title }}</div>
@@ -150,15 +150,15 @@
     <div class="col-lg-4">
       <h2  data-scroll  class="mb-4 ">{{ .title }}</h2>
       <p>{{ .text | markdownify }}</p>
-  </div> 
-  
+  </div>
+
   <div class="col-lg-7 offset-lg-1">
     <div class="accordion accordion-flush border-top border-bottom" id="faqAccordion">
       {{ range $index, $value := .items }}
       <div data-scroll class="accordion-item">
         <h3 class="accordion-header" id="heading{{ $index }}">
           <button class="accordion-button strong {{ if (ne $index 0) }} collapsed {{ end }}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ $index }}" aria-expanded="{{ if (eq $index 0) }}true{{ else }}false{{ end }}" aria-controls="collapse{{ $index }}">
-            <div class="title">{{ .question }}</div> <div class="icon-plus ms-auto me-3"></div>
+            <div class="title">{{ .question }}</div> <div class="icon-plus flex-shrink-0 ms-auto me-3"></div>
           </button>
         </h3>
         <div id="collapse{{ $index }}" class="accordion-collapse collapse {{ if (eq $index 0) }} show {{ end }}" aria-labelledby="heading{{ $index }}" data-bs-parent="#faqAccordion">
@@ -170,7 +170,7 @@
       {{ end }}
     </div>
   </div>
-   
+
 </div>
 </div>
 

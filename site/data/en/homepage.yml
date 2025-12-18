@@ -5,6 +5,13 @@ video:
   src: "/videos/16x9_v2_1280.mp4"
 
 
+# trainings
+trainings:
+  label: "Trainings"
+  title: "Learn new technologies in a practice-oriented way"
+  text: "Our trainings combine theory with practice-oriented hands-on labs. Get inspired by new technologies – taught by our dedicated trainers."
+  subtitle: "The right training for you"
+
 # about
 about:
   enable: true
@@ -15,105 +22,84 @@ about:
   button:
     enable: false
     label: "Discover"
-    URL: "ueber-uns"
+    URL: "about-uns"
 
-# slideshow trainigs
-slideshow:
+
+# Unsere Kunden
+clients:
   enable: true
+  title: "Our Clients"
+  text: "We have already worked with many companies and supported them in the Cloud Native transformation. Here you will find a selection of our clients."
   item:
-    - ubertitle: "Training offer"
-      title: "Argo CD"
-      subtitle: "Basics"
-      URL: "/en/trainings/argo-cd/"
-      label: "View training now"
-      img1: "images/trainings/ACEND_Adventure_TopHill@2x.jpg"
-      img2: "images/trainings/ACEND_Poi@2x.jpg"
-      img3: "images/trainings/ACEND_CodeP@2x.jpg"
+    - title: "Aargauische Kantonalbank"
+      logo: "images/clients/aargauische-kantonalbank.svg"
+      link: ""
 
-    - ubertitle: "Training offer"
-      title: "Go"
-      subtitle: "Basics"
-      URL: "/en/trainings/go/"
-      label: "View training now"
-      img1: "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"
-      img2: "images/trainings/ACEND_Mats@2x.jpg"
-      img3: "images/trainings/ACEND_CodeT@2x.jpg"
+    - title: "ABB"
+      logo: "images/clients/ABB.svg"
+      link: ""
 
-    - ubertitle: "Training offer"
-      title: "Cilium"
-      subtitle: "Basics"
-      URL: "/en/trainings/cilium/"
-      label: "View training now"
-      img1: "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"
-      img2: "images/trainings/ACEND_Lena@2x.jpg"
-      img3: "images/trainings/ACEND_CodeD@2x.jpg"
+    - title: "abraxas"
+      logo: "images/clients/abraxas.svg"
+      link: ""
 
-    - ubertitle: "Training offer"
-      title: "Container & Kubernetes"
-      subtitle: "Basics"
-      URL: "/en/trainings/container-kubernetes/"
-      label: "View training now"
-      img1: "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
-      img2: "images/trainings/ACEND_Jeremy@2x.jpg"
-      img3: "images/trainings/ACEND_CodeA@2x.jpg"
+    - title: "adcubum"
+      logo: "images/clients/adcubum.svg"
+      link: ""
 
-    - ubertitle: "Training offer"
-      title: "Container & OpenShift"
-      subtitle: "Basics"
-      URL: "/en/trainings/container-openshift/"
-      label: "View training now"
-      img1: "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
-      img2: "images/trainings/ACEND_Philip@2x.jpg"
-      img3: "images/trainings/ACEND_CodeD@2x.jpg"
+    - title: "baloise"
+      logo: "images/clients/baloise.svg"
+      link: ""
 
-# trainings
-trainings:
-  title: "Our trainings"
-  text: "Our trainings combine theory with practice-oriented hands-on labs. Get inspired by new technologies – taught by our dedicated trainers."
-  categories:
-    - title: "Kubernetes"
-      text: "Orchestration and management"
-      trainings:
-        - title: "Container & Kubernetes"
-          slug: "container-kubernetes"
-        - title: "Container & OpenShift"
-          slug: "container-openshift"
-        - title: "OpenShift Operations"
-          slug: "openshift-operations"
+    - title: "bernmobil"
+      logo: "images/clients/bernmobil.svg"
+      link: ""
 
-    - title: "Delivery CI/CD"
-      text: "App definition and development"
-      trainings:
-        - title: "Argo CD"
-          slug: "argo-cd"
-        - title: "Tekton"
-          slug: "tekton"
-        - title: "Terraform on Azure"
-          slug: "terraform"
+    - title: "Schweizerische Eidgenossenschaft"
+      logo: "images/clients/bit.svg"
+      link: ""
 
-    - title: "Additional trainings"
-      text: "Exciting technologies from the CNCF landscape"
-      trainings:
-        - title: "Helm"
-          slug: "helm"
-        - title: "Prometheus"
-          slug: "prometheus"
-        - title: "Serverless"
-          slug: "serverless"
-        - title: "Cilium"
-          slug: "cilium"
-        - title: "Ansible"
-          slug: "ansible"
+    - title: "die Mobiliar"
+      logo: "images/clients/dieMobiliar.svg"
+      link: ""
 
-    - title: "Programming"
-      text: '"Hello World" & more in Cloud Native'
-      trainings:
-        - title: "Go"
-          slug: "go"
-        - title: "MicroServices"
-          slug: "microservices"
-        - title: "Quarkus"
-          slug: "quarkus"
+    - title: "Kanton Solothurn"
+      logo: "images/clients/kanton-solothurn.svg"
+      link: ""
+
+    - title: "Luzerner Kantonalbank"
+      logo: "images/clients/Luzerner-Kantonalbank.svg"
+      link: ""
+
+    - title: "nexplore ag"
+      logo: "images/clients/nexplore.svg"
+      link: ""
+
+    - title: "die Post"
+      logo: "images/clients/post.svg"
+      link: ""
+
+    - title: "PostFinance"
+      logo: "images/clients/PostFinance.svg"
+      link: ""
+
+    - title: "SBB"
+      logo: "images/clients/sbb.svg"
+      link: ""
+
+    - title: "scout24"
+      logo: "images/clients/scout24.svg"
+      link: ""
+
+    - title: "swisscom"
+      logo: "images/clients/swisscom.svg"
+      link: ""
+
+    - title: "Swissmedic"
+      logo: "images/clients/swissmedic.svg"
+      link: ""
+
+
 
 # video
 # video:
@@ -122,7 +108,16 @@ trainings:
   # text: "Hier ein tolles Video das euch einen einfachen Überblick gibt zur Verwendung unseres Produktes."
   # youtubeID: "M7lc1UVf-VE"
 
-# testimonial
+# Stories
+stories:
+  enable: true
+  label: "Stories"
+  link: "/en/stories"
+  title: "Erfahre was unsere Trainingsteilnehmer denken"
+  text: "In unseren Stories berichten wir über unsere Trainings und die Erfahrungen unserer Teilnehmer. Lass dich inspirieren und erfahre mehr über die Welt von Cloud Native."
+
+
+# testimonial > ALT
 testimonials:
   enable: true
   title: "Testimonials"
@@ -150,6 +145,16 @@ testimonials:
     - title: "Here’s what our clients say about our trainings:<br/>Nathanael Weber, Bern"
       logo: "images/testimonials/mtrail.png"
       text: "The training was exceptionally well tailored to our needs. The practical exercises were just difficult enough that more questions about Helm arose and were answered competently by the instructor. Many thanks acend for this experience!"
+
+
+
+# Journal
+journal:
+  enable: false
+  label: "Journal"
+  link: "/journal"
+  title: "Neuigkeiten von Cloud Native bis Open Source"
+  text: "In unserem Journal findest du spannende Artikel und Neuigkeiten rund um Cloud Native, Open Source und die Welt von acend."
 
 # partner
 partner:
@@ -190,7 +195,7 @@ faq:
 
     - question: "Do I need prior knowledge?"
       answer: "That depends on the course: For the ‘Basics’ trainings, little to no prior knowledge is required. However, a laptop with internet access is necessary."
-    
+
     - question: "How long do the trainings last and how much does a course cost?"
       answer: "The trainings last 1–2 days. The duration and price vary depending on the course. Separate conditions are offered for groups of 12 or more participants."
 
@@ -199,9 +204,9 @@ faq:
 
     - question: "Are there trainings for teams or companies?"
       answer: "Yes. In addition to publicly offered courses, acend also provides corporate trainings with individual scheduling and conditions."
-      
+
     - question: "What happens after the training?"
       answer: "acend sees itself as part of the cloud-native community and values exchange during and after the trainings. This means participants are invited to join this community and continue developing their skills. We also send you your certificate."
-      
+
     - question: "What are the advantages of Cloud Native?"
       answer: "Cloud-native applications are modular, scalable, and highly available. They can be developed and deployed more quickly. Automation increases operational stability. Cloud-native applications are also cost-efficient and can be operated flexibly."

@@ -5,12 +5,12 @@
   <div class="mb-6 d-none d-md-block">
     {{- partial "img" (dict "page" page "src" .  "process" "fill 1940x700" "class" "w-100") }}
   </div>
-  <div class="mb-6 d-md-none">
+  <div class="mb-6 d-md-none ">
     {{- partial "img" (dict "page" page "src" .  "process" "fill 1400x930" "class" "w-100") }}
   </div>
 {{ end }}
 
- 
+
     <div class="row gy-8">
       <div class="col-7">
         {{ with .Params.person }}
@@ -22,14 +22,14 @@
       </div>
         <div class="col-5 d-flex">
           {{ if .Params.partner.enable }}
-           
+
           {{ $logo := resources.Get .Params.partner.logo }}
           {{ if $logo }}
             <div class="logo logo-gray ms-auto flex-shrink-1">
-              {{ if eq $logo.MediaType.SubType "svg" }}                 
+              {{ if eq $logo.MediaType.SubType "svg" }}
                 {{ $logo.Content | htmlUnescape | safeHTML }}
               {{ else }}
-               {{- partial "img" (dict "page" . "src"  .Params.partner.logo "width" 190 "process" "" "alt" "{{ .Params.partner.title }}") }} 
+               {{- partial "img" (dict "page" . "src"  .Params.partner.logo "width" 190 "process" "" "alt" "{{ .Params.partner.title }}" "class" "contain") }}
               {{ end }}
             </div>
           {{ end }}
@@ -41,9 +41,9 @@
        <div class="col-md-7 col-lg-5">
         <a class="stretched-link" href="{{ .Permalink | safeURL }}">
           <h2  class="h3 mb-0">{{ .Title }}</h2>
-        </a> 
+        </a>
       </div>
 
  </div>
  </div>
- 
+

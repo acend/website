@@ -8,7 +8,7 @@
         {{- partial "img" (dict "page" page "src" .  "process" "fill 1940x700" "class" "w-100") }}
       </div>
       <div class="mb-6 d-md-none">
-        {{- partial "img" (dict "page" page "src" .  "process" "fill 1400x1400" "class" "w-100") }}
+        {{- partial "img" (dict "page" page "src" .  "process" "fill 1400x930" "class" "w-100") }}
       </div>
 
     </div>
@@ -60,7 +60,7 @@
             {{  .name  }}{{ with .title }}, <div class="d-inline-block">{{  .  }}</div>{{ end }}
           </div>
           {{ end }}
-          <h1 class="sm mb-8 mb-lg-16">{{ .Title }}</h1>
+          <h1 class="md mb-8 mb-lg-16">{{ .Title }}</h1>
 
           {{ with .Params.lead }}
           <div class="lead-article mb-16 mb-lg-32">
