@@ -7,10 +7,10 @@
 
 
 <section class="section contact-form my-5">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
 
-      <div class="col-lg-9 offset-lg-3">
+      <div class="col-lg-8 offset-lg-2">
 
          <div class="form-wrap">
             <form id="contactform" name="{{ site.Params.netlifyForms.contact }}" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" >
@@ -46,12 +46,12 @@
               <textarea name="message" id="nachricht" class="form-control form-control-lg mb-4"
                 placeholder="{{ i18n "nachricht" }}"></textarea>
 
-                <div class="form-check form-check mb-4">
+                <div class="form-check form-check mb-6 mb-lg-16">
                     <input type="checkbox" class="form-check-input" id="agb_check_contact" required>
                     <label class="form-check-label small" for="agb_check_contact">{{ i18n "agb_check_contact" | safeHTML }}</label>
                   </div>
 
-              <button type="submit" class="btn btn-outline-primary  py-3 px-5 ">{{ i18n "send" }}</button>
+              <button type="submit" class="btn btn-outline-primary  py-3 px-10 ">{{ i18n "send" }}</button>
             </form>
             <div class="message-success d-none">{{ i18n "messageSuccess" }}</div>
              <div class="message-error d-none">{{ i18n "messageError" }}</div>
