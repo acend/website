@@ -1,6 +1,6 @@
 <div class="testimonial carousel-cell position-relative_ py-lg-16 bg-primary w-100">
   <div class="col-12 col-lg-1 position-absolute bg-white h-100 top-0 "></div>
-  
+
   <div class="row gy-6 ">
 
     <div class="col-lg-5">
@@ -12,7 +12,7 @@
     </div>
       <div class="col-lg-7 px-6 ps-lg-8 pe-lg-16 pb-6">
 
-        <div class="d-flex">
+        <div class="d-flex gap-3 mb-4">
           {{ with .Params.person }}
           <div class="mb-2 small">
             <div class="bold"> {{  .name  }}</div>
@@ -23,18 +23,18 @@
 
             {{ $logo := resources.Get .Params.partner.logo }}
             {{ if $logo }}
-              <div class="logo mb-8 ms-auto">
+              <div class="logo mb-auto ms-auto">
                 {{ if eq $logo.MediaType.SubType "svg" }}
-                  <img src="{{ $logo.RelPermalink }}" alt="{{ .Params.partner.title }}" width="200" height="200" class="contain">  
+                  <img src="{{ $logo.RelPermalink }}" alt="{{ .Params.partner.title }}" width="200" height="200" class="contain">
                   {{ readFile  $logo.RelPermalink | safeHTML }}
                 {{ else }}
-                 {{- partial "img" (dict "page" . "src"  .Params.partner.logo "width" 140 "process" "" "alt" "{{ .Params.partner.title }}") }} 
+                 {{- partial "img" (dict "page" . "src"  .Params.partner.logo "width" 140 "process" "" "alt" "{{ .Params.partner.title }}") }}
                 {{ end }}
               </div>
             {{ end }}
 
 
-      
+
           {{ end }}
         </div>
 
@@ -42,12 +42,12 @@
 
         <a class="stretched-link_ link-border" href="{{ .Permalink | safeURL }}">
           {{ i18n "continueReading" }}
-        </a> 
-        
+        </a>
+
        </div>
 
-   
+
      </div>
   </div>
- 
- 
+
+

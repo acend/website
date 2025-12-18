@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 
- 
+
 
   <div class="title-huge overflow-hidden marquee position-relative mb-4">
     <div class="marquee__inner">
@@ -12,13 +12,13 @@
     </div>
   </div>
 
- 
+
 
   <div class="container-fluid mb-16 mb-lg-32" data-sticky-container>
     <div class="row">
 
       <div class="col-8 col-md-7 order-md-1">
-        <div class="h4 mb-0 mb-lg-4">Training</div> 
+        <div class="h4 mb-0 mb-lg-4">Training</div>
         <h1 class="mb-8 mb-lg-16">{{ .Title }}</h1>
       </div>
 
@@ -34,19 +34,19 @@
         {{ end }}
         {{ end }}
       </div>
-      
+
       {{ if .Params.kooperation.enable }}
         <div class="col-7 col-md-4 col-lg-3 offset-lg-1 ps-md-10 order-md-3">
           <div class="mb-8 text-md-end">{{ .Params.kooperation.subtitle | safeHTML }}</div>
         </div>
         {{ end }}
-        
+
       </div>
- 
-        
-        
+
+
+
       <div class="row">
-        
+
         <div class="col-md-7 offset-md-1">
         <div class="h2 mb-4 mb-lg-8">{{ .Params.main_title | markdownify}}</div>
         <div class="entry-content mb-16 mb-lg-32">
@@ -71,14 +71,14 @@
                 {{ else if eq .icon "4" }}
                 <svg class="icon me-3 me-lg-6" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Wallet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Wallet" transform="translate(6 7)" fill="#010101" fill-rule="nonzero"><path d="M48 16H36.08a10.73 10.73 0 0 0 .9-4.09H48v-4H36.35A11 11 0 0 0 15.62 8H6a6 6 0 0 0-6 6v36h40v-4H4V19.65A6 6 0 0 0 6 20h42v26h-4v4h8V16h-4zM26 4.6a7 7 0 0 1 7 7 6.94 6.94 0 0 1-1.56 4.4H20.56A6.94 6.94 0 0 1 19 11.6a7 7 0 0 1 7-7zM4 14a2 2 0 0 1 2-2h9a10.86 10.86 0 0 0 .9 4H6a2 2 0 0 1-2-2z" id="Shape"/></g></g></svg>
                 {{ end }}
-               
-                {{ .title }} 
+
+                {{ .title }}
                 </div>
-                <div class="icon-plus ms-auto me-3"></div>
+                <div class="icon-plus flex-shrink-0 ms-auto me-3"></div>
               </button>
             </h3>
 
-           
+
 
 
             <div id="collapse{{ $index }}" class="collapse {{ if (eq $index 999) }} show {{ end }}" aria-labelledby="heading" data-parent="#mainAccordion">
@@ -106,7 +106,7 @@
 
 
            <h2 class="mb-2 mb-lg-4">{{ .Params.trainingsinhalt.title | markdownify}}</h2>
-   
+
             <div class="entry-content mb-6">
                 {{ .Params.trainingsinhalt.text | markdownify}}
             </div>
@@ -151,7 +151,7 @@
             </div>
 
 
-        
+
 
 
 
@@ -159,7 +159,7 @@
         {{ if .Params.kooperation.enable }}
           {{ with .Params.kooperation }}
           <div  data-scroll class="row">
- 
+
                   <h3 class="mb-4 mb-md-6 pb-2 border-bottom">{{ .title  | markdownify }}</h3>
 
                   <div class="">
@@ -170,7 +170,7 @@
                   </div>
 
                 </div>
-            
+
 
           {{ end }}
         {{ end }}
@@ -178,8 +178,8 @@
 
 
       </div>
-      
-      
+
+
       <div class="col-md-4 col-lg-3 offset-lg-1 ps-md-10">
 
 
@@ -189,7 +189,7 @@
           </button>
 
           <div class="inner d-md-block "  >
-            
+
             <div class="box border px-5 pb-2 pt-3  mb-md-2 bg-white small">
 
               {{ with .Params.duration }}
@@ -198,40 +198,40 @@
                   <p class="mb-0 pt-1">{{ . }}</p>
                 </div>
                 {{end}}
-                
+
                 {{ with .Params.costs }}
                 <div class="py-2  d-flex border-bottom">
                   <svg class="icon icon-sm img-fluid flex-shrink-0 me-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Wallet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Wallet" transform="translate(6 7)" fill="#010101" fill-rule="nonzero"><path d="M48 16H36.08a10.73 10.73 0 0 0 .9-4.09H48v-4H36.35A11 11 0 0 0 15.62 8H6a6 6 0 0 0-6 6v36h40v-4H4V19.65A6 6 0 0 0 6 20h42v26h-4v4h8V16h-4zM26 4.6a7 7 0 0 1 7 7 6.94 6.94 0 0 1-1.56 4.4H20.56A6.94 6.94 0 0 1 19 11.6a7 7 0 0 1 7-7zM4 14a2 2 0 0 1 2-2h9a10.86 10.86 0 0 0 .9 4H6a2 2 0 0 1-2-2z" id="Shape"/></g></g></svg>
                   <p class="mb-0 pt-1">{{ . }}</p>
                 </div>
                 {{end}}
-     
+
                 {{ with .Params.certificate }}
                 <div class="py-2  d-flex border-bottom">
                   <svg class="icon icon-sm img-fluid flex-shrink-0 me-2" width="64" height="64" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M26.525 14.134h-2l-.025-2h4l-.03 16.307H13v1.5l-3.7-2.314-3.7 2.314V20.6a5.685 5.685 0 0 1 2.9-9.966V2.14H22l6.63 7.996H13v-2h7V4.14h-9.5v6.566a5.647 5.647 0 0 1 2.705 1.43H22.5v1.999h-7.915c.256.636.396 1.313.415 1.999h9.5v1.999h-9.82A5.712 5.712 0 0 1 13 20.6v5.867h13.525V14.134ZM24.37 8.137l-2.4-2.894v2.894h2.4ZM9.3 12.574a3.7 3.7 0 1 1 .002 7.399 3.7 3.7 0 0 1-.002-7.399ZM7.6 21.71v4.602l1.7-1.074 1.7 1.075V21.71a5.693 5.693 0 0 1-3.4 0Z" fill="#074761"/><path fill="#074761" d="M20 20.131h4.5v1.999H20z"/></svg>
                   <p class="mb-0 pt-1">{{ . }}</p>
                 </div>
                 {{end}}
-             
+
                 {{ with .Params.documents }}
                 <div class="py-2  d-flex border-bottom">
-                  <svg class="icon icon-sm img-fluid flex-shrink-0 me-2"  width="64" height="64" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.184 19.84v-3.674h-2v3.689c0 1.364-.835 2.198-2.24 2.223a2.181 2.181 0 0 1-1.605-.554 2.273 2.273 0 0 1-.605-1.67v-3.778c0-1.499.665-2.144 2.145-2.144a3.16 3.16 0 0 1 1.415.345c.81.41 1.737.529 2.625.335l1-.195-.42-1.959-1 .195a2.03 2.03 0 0 1-1.45-.215 5.047 5.047 0 0 0-2.2-.5c-2.595 0-4.145 1.55-4.145 4.143v3.764c0 .907.277 1.793.795 2.538l-4.45 2.849v2.928h2v-1.834l4.06-2.614c.56.237 1.162.356 1.77.35h.12a4.643 4.643 0 0 0 1.845-.4l4.155 2.664v1.834h2v-2.928l-4.555-2.924c.492-.728.75-1.59.74-2.468Z" fill="#074761"/><path d="M27.01 20.164h-10v2h12V10.168h-2v9.995ZM3.01 4.172v17.991h2V10.17h20V8.17h-20V6.171h22v2h2V4.171h-26Z" fill="#074761"/></svg>              
+                  <svg class="icon icon-sm img-fluid flex-shrink-0 me-2"  width="64" height="64" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.184 19.84v-3.674h-2v3.689c0 1.364-.835 2.198-2.24 2.223a2.181 2.181 0 0 1-1.605-.554 2.273 2.273 0 0 1-.605-1.67v-3.778c0-1.499.665-2.144 2.145-2.144a3.16 3.16 0 0 1 1.415.345c.81.41 1.737.529 2.625.335l1-.195-.42-1.959-1 .195a2.03 2.03 0 0 1-1.45-.215 5.047 5.047 0 0 0-2.2-.5c-2.595 0-4.145 1.55-4.145 4.143v3.764c0 .907.277 1.793.795 2.538l-4.45 2.849v2.928h2v-1.834l4.06-2.614c.56.237 1.162.356 1.77.35h.12a4.643 4.643 0 0 0 1.845-.4l4.155 2.664v1.834h2v-2.928l-4.555-2.924c.492-.728.75-1.59.74-2.468Z" fill="#074761"/><path d="M27.01 20.164h-10v2h12V10.168h-2v9.995ZM3.01 4.172v17.991h2V10.17h20V8.17h-20V6.171h22v2h2V4.171h-26Z" fill="#074761"/></svg>
                   <p class="mb-0 pt-1">{{ . }}</p>
                 </div>
                 {{end}}
-     
+
                 {{ with .Params.info }}
                 <div class="py-2  d-flex  ">
                   <svg class="icon icon-sm img-fluid flex-shrink-0 me-2"  width="64" height="64" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.25 16.1C3.25 9.062 8.958 3.357 16 3.357S28.75 9.062 28.75 16.1 23.042 28.844 16 28.844 3.25 23.138 3.25 16.1Zm23.679 0c0-6.032-4.893-10.923-10.929-10.923-6.036 0-10.929 4.89-10.929 10.923S9.964 27.023 16 27.023c6.036 0 10.929-4.89 10.929-10.923Z" fill="#074761"/><path fill-rule="evenodd" clip-rule="evenodd" d="M16.775 11.766a1.084 1.084 0 0 1-.783.316c-.305 0-.563-.105-.775-.316a1.053 1.053 0 0 1-.317-.775c0-.305.106-.566.317-.783a1.04 1.04 0 0 1 .775-.325c.305 0 .566.108.783.325.218.217.326.478.326.783 0 .305-.108.564-.326.775Zm.15 1.636v8.975h-1.849v-8.975h1.849Z" fill="#074761"/></svg>
                   <p class="mb-0 pt-1">{{ . }}</p>
                 </div>
                 {{end}}
-            
-            
-             
+
+
+
             </div>
 
- 
+
               <button  type="button" data-bs-toggle="modal" data-bs-target="#signupModal" data-kurs="{{.Params.title }}" class="btn btn-primary py-3 w-100">{{ i18n "anmelden" }}</button>
 
               </div>
@@ -242,10 +242,10 @@
 
 
 
-     
+
     </div>
   </div>
- 
+
 
 
 
@@ -258,7 +258,7 @@
   <div class="container-fluid mb-16 mb-lg-32">
     <div class="row">
 
-      
+
 
       <div class="col-lg-11 offset-lg-1 ">
         <h3 class="h2 mb-4 mb-lg-6">{{ .title  | markdownify }}</h3>
@@ -272,7 +272,7 @@
       </div>
     </div>
   </div>
- 
+
 {{ end }}
 {{ end }}
 <!-- /trainer -->
@@ -298,7 +298,7 @@
   <div class="container-fluid mb-16 mb-lg-32">
     <h3 class="h2 mb-8 mb-lg-10">Weitere Trainings</h3>
     <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 gy-8">
-      
+
       {{ $related := $.Site.RegularPages.Related . | first 4 }}
       {{ with $related }}
         {{ range . }}
@@ -306,10 +306,10 @@
         {{ end }}
       {{ end }}
     </div>
-      
-      
-  
-    
+
+
+
+
   <div class="d-flex mt-8 mb-18">
     <a href="{{ i18n "trainingsLink" }}" class="btn btn-outline-primary  py-3 px-18 px-md-5 mx-auto  me-md-0">{{ i18n "backToTrainings" }}</a>
   </div>

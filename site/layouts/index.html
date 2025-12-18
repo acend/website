@@ -1,11 +1,11 @@
 {{ define "main" }}
 {{ $data := index .Site.Data .Site.Language.Lang }}
- 
+
 {{ with  $data.homepage.video }}
 <div data-scroll_ class="hero-video px-lg-6  position-relative">
   <div class="bg-primary video-container pb-0">
     <video    autoplay loop muted playsinline class="cover">
-      <source src="{{ .src }}" type="video/mp4"> 
+      <source src="{{ .src }}" type="video/mp4">
     </video>
     <div class="scroll-down position-absolute bottom-0 left-0 w-100 text-center pb-6">
       <a id="scrollDownButton" href="#start" aria-label="Scroll down">
@@ -29,11 +29,11 @@
           <a data-scroll class="btn btn-sm btn-outline-primary border-1 py-0  mb-2" href="{{ i18n "trainingsLink" }}">{{ . }}</a>
        {{ end }}
         <h2  data-scroll  class="mb-2 col-lg-4">{{ .title }}</h2>
- 
+
         <div  data-scroll  class="col-lg-7 mb-8 mb-lg-16">
           <p>{{ .text | markdownify }}</p>
         </div>
- 
+
           <h3 data-scroll class="mb-8 mb-lg-10">{{ .subtitle }}</h3>
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3  row-cols-lg-4 gy-8">
             {{ range where (where $.Site.RegularPages "Section" "trainings") ".Params.categories" "intersect" (slice "New") }}
@@ -44,11 +44,11 @@
           <div data-scroll class="d-flex mt-8 mb-18">
             <a href="{{ i18n "trainingsLink" }}" class="btn btn-outline-primary  py-3 px-18 px-md-5 mx-auto  me-md-0">{{ i18n "showAllTrainings" }}</a>
          </div>
-      
+
       {{ end }}
     </div>
   </section>
-      
+
 
 
   <!-- about -->
@@ -92,25 +92,29 @@
   <!-- partner -->
   {{ if  $data.homepage.clients.enable }}
   {{ with  $data.homepage.clients }}
- 
-    <div class="container-fluid  mb-8 mb-lg-16">
+
+    <div class="container-fluid  mb-4 mb-lg-8">
       <h2 data-scroll class="mb-2 col-lg-4">{{  .title }}</h2>
        <div data-scroll class="col-lg-7">
         <p>{{  .text | markdownify }}</p>
-      </div>           
+      </div>
     </div>
-    
+
     <div data-scroll class="clients-carousel mb-16 mb-lg-32">
     {{ range .item }}
       {{ $title := .title }}
       {{ with resources.Get .logo }}
-        <div class="col-4 col-md-3 col-xxl-2  text-center p-4 p-lg-8">
-              <img src="{{ .RelPermalink }}" alt="{{ $title }}" width="100" height="30" class="contain" loading="lazy">  
+        <div class="col-4 col-md-3 col-xxl-2  text-center p-4 p-lg-8 d-flex align-items-center justify-content-center">
+            <div class="ratio " style="--bs-aspect-ratio: 60%;">
+              <div class="p-lg-4">
+                <img src="{{ .RelPermalink }}" alt="{{ $title }}" width="100" height="30" class="contain" loading="lazy">
+              </div>
+          </div>
         </div>
       {{ end }}
     {{ end }}
     </div>
- 
+
   {{ end }}
   {{ end }}
   <!-- /partner -->
@@ -124,7 +128,7 @@
   <div class="container-fluid  mb-18 mb-lg-32">
       <a data-scroll class="btn btn-sm btn-outline-primary border-1 py-0  mb-2" href="{{ .link }}">{{ .label }}</a>
      <h2  data-scroll  class="mb-2 col-lg-4">{{ .title }}</h2>
-  
+
      <div  data-scroll  class="col-lg-7 mb-8 mb-lg-16">
        <p>{{ .text | markdownify }}</p>
      </div>
@@ -137,7 +141,7 @@
   </div>
   {{ end }}
   {{ end }}
- 
+
 
   {{ if  $data.homepage.journal.enable }}
   {{ with  $data.homepage.journal }}
@@ -145,7 +149,7 @@
   <div class="container-fluid  mb-16 mb-lg-32">
       <a data-scroll class="btn btn-sm btn-outline-primary border-1 py-0  mb-2" href="{{ .link }}">{{ .label }}</a>
      <h2  data-scroll  class="mb-2 col-lg-4">{{ .title }}</h2>
-  
+
      <div  data-scroll  class="col-lg-7 mb-8 mb-lg-16">
        <p>{{ .text | markdownify }}</p>
      </div>
@@ -159,12 +163,12 @@
     <div class="d-flex mt-8 mb-18">
       <a data-scroll  href="{{ .link }}" class="btn btn-outline-primary  py-3 px-18 px-md-5 mx-auto  me-md-0">{{ i18n "readMore" }}</a>
    </div>
- 
+
   </div>
   {{ end }}
   {{ end }}
- 
- 
+
+
 
   <!-- partner -->
   {{ if  $data.homepage.partner.enable }}
@@ -174,8 +178,8 @@
       <h2 data-scroll class="mb-2 col-lg-4">{{  .title }}</h2>
        <div data-scroll class="col-lg-7 mb-8 mb-lg-16">
         <p>{{  .text | markdownify }}</p>
-      </div>           
-    </div>           
+      </div>
+    </div>
 
     <div data-scroll  class="partner-carousel mb-16 mb-lg-32">
       {{ range .item }}
@@ -185,17 +189,17 @@
 
       {{/*
 <div class=" ">
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4  row-cols-xxl-6 gy-4">           
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4  row-cols-xxl-6 gy-4">
         {{ range .item }}
         {{ partial "content-partner" . }}
         {{ end }}
-      </div>           
+      </div>
 
- 
 
-             
+
+
     </div> */}}
-        
+
   </section>
   {{ end }}
   {{ end }}
@@ -216,15 +220,15 @@
         <a data-scroll class="btn btn-sm btn-outline-primary border-1 py-0  mb-2" href="{{ .link }}">{{ .label }}</a>
         <h2  data-scroll  class="mb-4 mb-lg-8">{{ .title }}</h2>
         <p>{{ .text | markdownify }}</p>
-    </div> 
-    
+    </div>
+
     <div class="col-lg-7 offset-lg-1">
       <div class="accordion accordion-flush border-top border-bottom" id="faqAccordion">
         {{ range $index, $value := .items }}
         <div data-scroll class="accordion-item">
           <h3 class="accordion-header" id="heading{{ $index }}">
             <button class="accordion-button strong {{ if (ne $index 0) }} collapsed {{ end }}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ $index }}" aria-expanded="{{ if (eq $index 0) }}true{{ else }}false{{ end }}" aria-controls="collapse{{ $index }}">
-              <div class="title">{{ .question }}</div>  <div class="icon-plus ms-auto me-3"></div>
+              <div class="title">{{ .question }}</div>  <div class="icon-plus flex-shrink-0 ms-auto me-3"></div>
             </button>
           </h3>
           <div id="collapse{{ $index }}" class="accordion-collapse collapse {{ if (eq $index 0) }} show {{ end }}" aria-labelledby="heading{{ $index }}" data-bs-parent="#faqAccordion">
@@ -236,15 +240,15 @@
         {{ end }}
       </div>
     </div>
-     
+
   </div>
 </div>
 
-  
+
   {{ end }}
   {{ end }}
 
 
- 
+
 
 {{ end }}

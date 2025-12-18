@@ -1,4 +1,4 @@
-import  Flickity from 'flickity';
+import  Flickity from 'flickity-fade';
 //import anime from 'animejs'; // old home slider
 
 export default function() {
@@ -196,11 +196,13 @@ export default function() {
 
       const flkty_testimonial = new Flickity( carouselTestimonials, {
           wrapAround: true,
-          fade: true,
+          //fade: true,
+          //speed: 0,
           adaptiveHeight: false,
           autoPlay: 7500,
           pauseAutoPlayOnHover: false,
           prevNextButtons: false,
+          fade: { crossFade: false },
           on: {
               ready: function() {
                   window.dispatchEvent(new Event('resize'));

@@ -44,19 +44,17 @@ partner:
 </div>
 <div class="col-lg-8 offset-lg-2 entry-content">
 
-## Das sagt der Trainer über die IT-Schulung { class="h1 mb-8 mb-lg-16" }
+## Das sagt der Trainer über die IT-Schulung { class="h1 sm mb-8 mb-lg-16" }
 
-<div class="col-8 col-md-5 mx-auto">
 {{< figure
-  process="fill 804x1072"
+  process="fill 1580x1040"
   lqip="21x webp q20"
   loading="lazy"
   fetchpriority="auto"
-  src="images/stories/postfinance/AC_Gabriel2@.jpg"
+  src="images/stories/postfinance/Gabriel-Graf.jpg"
   alt="Gabriel Graf, Trainer, acend"
   caption="Gabriel Graf, Trainer, acend"
 >}}
-</div>
 
 ### Was war der Grund der Trainings?
 
@@ -77,7 +75,7 @@ Das Training ist ein abwechslungsreicher Mix aus theoretischen Grundlagen und La
   text="<ul><li>Erhöhte Servicequalität</li><li>Schnellere Reaktionszeiten</li><li>Verbesserte Observability</li><li>Verbesserte Interoperabilität</li><li>Automatisierte Schnittstelle</li></ul>"
 >}}
 
-## Das sagt der Auftraggeber über die Trainings  { class="h1 my-8 my-lg-16" }
+## Das sagt der Auftraggeber über die Trainings  { class="h1 sm my-8 my-lg-16" }
 
 {{< figure
   process="fill 1580x1040"
@@ -108,7 +106,7 @@ Eine wichtige Lösung im Kampf gegen den Fachkräftemangel in der IT-Branche ist
   text="<ul><li><strong>Anwendungen:</strong><br>Kubernetes</li><li><strong>Zeitraum:</strong><br>Bitte Zeitraum ergänzen</li><li><strong>Trainingstage:</strong><br>Bitte Anzahl Trainingstage total ergänzen</li><li><strong>Teilnehmende:</strong><br>Bitte total der Teilnehmenden ergänzen</li><li><strong>Orte:</strong><br>Bitte Länder oder Städte ergänzen</li></ul>"
 >}}
 
-## Das sagt eine Teilnehmerin  { class="h1 my-8 my-lg-16" }
+## Das sagt eine Teilnehmerin  { class="h1 sm my-8 my-lg-16" }
 
 {{< figure
   process="fill 1580x1040"

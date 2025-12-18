@@ -1,11 +1,11 @@
 .testimonials-img {
   margin-top: 12rem;
-  
+
   .testimonial {
     .img {
       margin-top: -10%;
       margin-left: -10%;
-  
+
       @include media-breakpoint-up(md) {
         margin-left: -11.5%;
       }
@@ -15,13 +15,13 @@
 
 .testimonial {
   .logo {
-    width: 10rem;
-    
+    //width: 10rem;
+
     @include media-breakpoint-up(md) {
       width: 14rem;
     }
   }
-  
+
   @include media-breakpoint-down(lg) {
     .bg-white {
       height: 11rem !important;

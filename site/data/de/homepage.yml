@@ -31,52 +31,72 @@ clients:
   title: "Unsere Kunden"
   text: "Wir haben bereits mit vielen Unternehmen zusammengearbeitet und sie in der Cloud Native Transformation unterstützt. Hier findest du eine Auswahl unserer Kunden."
   item:
-    - title: "die Mobiliar"
-      logo: "images/clients/dieMobiliar.svg"
+    - title: "Aargauische Kantonalbank"
+      logo: "images/clients/aargauische-kantonalbank.svg"
+      link: ""
+
+    - title: "ABB"
+      logo: "images/clients/ABB.svg"
+      link: ""
+
+    - title: "abraxas"
+      logo: "images/clients/abraxas.svg"
+      link: ""
+
+    - title: "adcubum"
+      logo: "images/clients/adcubum.svg"
+      link: ""
+
+    - title: "baloise"
+      logo: "images/clients/baloise.svg"
+      link: ""
+
+    - title: "bernmobil"
+      logo: "images/clients/bernmobil.svg"
+      link: ""
+
+    - title: "Schweizerische Eidgenossenschaft"
+      logo: "images/clients/bit.svg"
       link: ""
 
     - title: "die Mobiliar"
       logo: "images/clients/dieMobiliar.svg"
       link: ""
 
-    - title: "die Mobiliar"
-      logo: "images/clients/dieMobiliar.svg"
+    - title: "Kanton Solothurn"
+      logo: "images/clients/kanton-solothurn.svg"
       link: ""
 
-    - title: "die Mobiliar"
-      logo: "images/clients/dieMobiliar.svg"
+    - title: "Luzerner Kantonalbank"
+      logo: "images/clients/Luzerner-Kantonalbank.svg"
       link: ""
 
-    - title: "die Mobiliar"
-      logo: "images/clients/dieMobiliar.svg"
+    - title: "nexplore ag"
+      logo: "images/clients/nexplore.svg"
       link: ""
 
-    - title: "die Mobiliar"
-      logo: "images/clients/dieMobiliar.svg"
+    - title: "die Post"
+      logo: "images/clients/post.svg"
       link: ""
 
-    - title: "die Mobiliar"
-      logo: "images/clients/dieMobiliar.svg"
+    - title: "PostFinance"
+      logo: "images/clients/PostFinance.svg"
       link: ""
 
-    - title: "die Mobiliar"
-      logo: "images/clients/dieMobiliar.svg"
+    - title: "SBB"
+      logo: "images/clients/sbb.svg"
       link: ""
 
-    - title: "die Mobiliar"
-      logo: "images/clients/dieMobiliar.svg"
+    - title: "scout24"
+      logo: "images/clients/scout24.svg"
       link: ""
 
-    - title: "die Mobiliar"
-      logo: "images/clients/dieMobiliar.svg"
+    - title: "swisscom"
+      logo: "images/clients/swisscom.svg"
       link: ""
 
-    - title: "die Mobiliar"
-      logo: "images/clients/dieMobiliar.svg"
-      link: ""
-
-    - title: "die Mobiliar"
-      logo: "images/clients/dieMobiliar.svg"
+    - title: "Swissmedic"
+      logo: "images/clients/swissmedic.svg"
       link: ""
 
 
@@ -148,7 +168,7 @@ faq:
 
     - question: "Brauche ich Vorkenntnisse?"
       answer: "Das hängt vom Kurs ab: Für die „Basics“-Trainings sind meist keine oder nur geringe Vorkenntnisse nötig. Ein Laptop mit Internetzugang wird jedoch vorausgesetzt."
-    
+
     - question: "Wie lange dauern die Trainings und was kostet ein Kurs?"
       answer: "Die Trainings dauern 1–2 Tage. Die Dauer und der Preis variiert je nach Kurs. Für Gruppen ab 12 Personen werden separate Konditionen angeboten."
 

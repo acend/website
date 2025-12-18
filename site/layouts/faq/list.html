@@ -59,7 +59,7 @@
           <a role="button" class="collapsed" data-bs-toggle="collapse" data-bs-target="#{{ .Title | urlize}}" aria-expanded="false" aria-controls="{{ .Title | urlize}}">
             <div class="accordion-header py-3 border-top d-flex align-items-center">
               <h4 class="accordion-title_ bold m-0">{{ .Title | markdownify}}</h4>
-                <div class="icon-plusms-autome-3"></div>
+                <div class="icon-plus flex-shrink-0 ms-auto me-3"></div>
             </div>
           </a>
           <div id="{{ .Title | urlize}}" class="collapse" aria-labelledby="heading" data-parent_="#mainAccordion">

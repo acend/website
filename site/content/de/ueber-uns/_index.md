@@ -19,33 +19,32 @@ timeline:
   items:
     - title: "2015"
       subtitle: "Kubernetes"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      img: "images/ueberuns/timeline/ACEND_About_Timeline_Kubernetes@2x.jpg"
       text: "Kubernetes Release 1.0 und die ersten Kontakte mit Container und Kubernetes"
     - title: "2019"
       subtitle: "Samy Deluxe Konzert"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      img: "images/ueberuns/timeline/ACEND_About_Timeline_Concert@2x.jpg"
       text: "Da fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren."
     - title: "2019"
       subtitle: "Erstes Kubernetes Training"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      img: "images/ueberuns/timeline/ACEND_About_Timeline_Training1@2x.jpg"
       text: "Die erste Kubernetes Trainings Durchführung"
     - title: "2020"
       subtitle: "Gründung"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      img: "images/ueberuns/timeline/ACEND_About_Timeline_Founding@2x.jpg"
       text: "Offizielle Gründung der acend gmbh"
     - title: "2021"
       subtitle: "Portfolio Erweiterung"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      img: "images/ueberuns/timeline/ACEND_About_Timeline_Portfolio@2x.jpg"
       text: "Erweiterung des Trainingsangebots."
     - title: "2022"
       subtitle: "Eigene Trainingslocation"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      img: "images/ueberuns/timeline/ACEND_About_Timeline_Location@2x.jpg"
       text: "Eröffnung der acend Trainingslocation im Breitsch."
     - title: "2024"
       subtitle: "100 Trainings!"
-      img: "images/trainings/ACEND_Jeremy@2x.jpg"
+      img: "images/ueberuns/timeline/ACEND_About_Timeline_Training100@2x.jpg"
       text: "Durchführung des 100. Trainings"
-    - title: "2024"
 
 introtext: "Was bisher geschah: Die Idee zu acend entstand 2019 an einem Samy Deluxe Konzert. Hier fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren. Gesagt, getan. Heute können wir dir lehrreiche, unterhaltsame und bereichernde Trainings anbieten, die dir als unvergessliches Erlebnis in Erinnerung bleiben!"
 
@@ -62,7 +61,7 @@ team:
   enable: true
   title: "Die Personen hinter acend"
   team_member:
-  
+
     - title: "Anna Pfeifhofer"
       image: "images/team/AC_Anna@2x.jpg"
       designation: "Sales"
@@ -77,14 +76,14 @@ team:
       abstract: "Nicht nur beim Sport hat Beat eine eiserne Disziplin, auch mit dem stetigen Aufbauen von neuem Wissen stählt er sein Gehirn."
       experience: "Nach der Informatiker-Lehre hat Beat ohne Unterbruch gleich berufsbegleitend den Bachelor in Informatik angehängt. Vom Linux Engineering bei DXC, ist er heute bei Puzzle im Kubernetes Umfeld gelandet. Dort begleitet er viele Kunden auf dem Weg zu Kubernetes und auch Observability, was seine Leidenschaft ist."
       linkedin: "https://www.linkedin.com/in/beat-sch%C3%A4rz/"
-    
+
     - title: "Christian Haller"
       image: "images/team/AC_Christian_Haller@2x.jpg"
       designation: "Trainer, Puzzle ITC"
       abstract: "Als Ausgleich zum hektischen Container-Alltag, macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
       experience: "Nach seinem Studium in Informatik hat Christian fast 10 Jahre Projekt- und Betriebserfahrung gesammelt als Systems Engineer im Netzwerk- und Security-Bereich. Seit mehr als 3 Jahren ist er nun bei Puzzle als Consultant im Bereich Container und Cloud Native Technologien unterwegs."
       linkedin: "https://www.linkedin.com/in/christian-haller-0a637493"
-    
+
     - title : "Christian Schlatter"
       image : "images/team/AC_Christian_Schlatter@2x.jpg"
       designation : "Trainer"
@@ -166,12 +165,12 @@ team:
       image : "images/team/AC_Mathis_Kretz@2x.jpg"
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz"
-  
+
     - title : "Philippe Schmid"
       image : "images/team/AC_Philippe@2x.jpg"
       designation : "Trainer, Puzzle ITC"
       abstract : "Philippe hat bereits zahlreiche Läufe und Marathons absolviert. In der Informatik mag er derartige Anstrengungen nicht, daher automatisiert er alles, was möglich ist."
-      experience: "Vor fast 20 Jahren, gestartet mit dem Informatik-Studium, hat Philippe schon viele Infrastrukturen und Linux-Distributionen erlebt. Seit Beginn schlägt sein Herz fürs System-Engineering, wo er aktuell bei Puzzle auch seit über 10 Jahren tätig ist. Seine Spezialität ist die Automatisierung, aktuell am liebsten mit Ansible."      
+      experience: "Vor fast 20 Jahren, gestartet mit dem Informatik-Studium, hat Philippe schon viele Infrastrukturen und Linux-Distributionen erlebt. Seit Beginn schlägt sein Herz fürs System-Engineering, wo er aktuell bei Puzzle auch seit über 10 Jahren tätig ist. Seine Spezialität ist die Automatisierung, aktuell am liebsten mit Ansible."
       linkedin : "https://www.linkedin.com/in/philippe-schmid-52644127b/"
 
     - title: "Sebastian Plattner"
@@ -187,7 +186,7 @@ team:
       designation: "Strategie, Marketing & Sales"
       abstract: "Mag den Blick auf das grosse Ganze und versucht aus sich und Organisationen das Beste herauszuholen. Manchmal auch mit Bier."
       experience: "Jahrelang als Marketer unterwegs, hat sich Simon Richtung Management und Leadership entwickelt. Neben mehreren Teams in der Arbeitswelt, hat er auch im Sport Teams angeführt und ist überzeugt, dass das Athletes Mindset im Business-Alltag hohe Relevanz hat. Seit Juli 2024 ist Simon bei acend für dessen Weiterentwicklung zuständig."
-      linkedin: "https://www.linkedin.com/in/simon-stettler/"       
+      linkedin: "https://www.linkedin.com/in/simon-stettler/"
 
     - title: "Thomas Philipona"
       image: "images/team/AC_Thoemu@2x.jpg"
