@@ -1,27 +1,33 @@
-//import 'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js';
+import { animate, onScroll } from 'animejs';
 
 
 export default function() {
 
-  if (window.innerWidth < 768) return;
+    const scrollEl = document.querySelector('.scrollmove');
+    if (!scrollEl) return;
 
-  const scrollEl = document.querySelector('.scrollmove');
+    if (window.innerWidth < 768) return;
 
-  if (!scrollEl) return;
+    const container = scrollEl.parentElement;
+    let scrollElWidth = scrollEl.scrollWidth - container.clientWidth;
 
-    const container  = scrollEl.parentElement
+    const animation = animate(scrollEl, {
+      x: `-${scrollElWidth}px`,
+      ease: 'linear',
+      autoplay: onScroll({
+        container: '.scroll-container',
+        enter: 'bottom-=50 bottom',
+        leave: 'top+=100 top',
+        sync: .9,
+        //debug: true,
+      })
+    });
 
-  // get element widths
-  const scrollElWidth = scrollEl.scrollWidth - container.clientWidth;
-
-  scrollEl.animate(
-   { transform: ['translateX(0%)','translateX(-' + scrollElWidth + 'px)'] }, {
-    timeline: new ViewTimeline({ subject: container }),
-    rangeStart: { rangeName: 'contain', offset: CSS.percent(10) },
-    rangeEnd: { rangeName: 'contain', offset: CSS.percent(80) },
-    fill: 'both',
-  });
-
-
+    // Update on resize
+  const recalculateWidth = () => {
+    scrollElWidth = scrollEl.scrollWidth - container.clientWidth;
+    animation.refresh();
+  };
+  window.addEventListener('resize', recalculateWidth);
 
 }
