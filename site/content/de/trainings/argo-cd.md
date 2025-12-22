@@ -9,6 +9,7 @@ weight: 3
 slug:
 subtitle: "Basics"
 categories: ["Delivery CI/CD"]
+showOnHomePage: true
 
 abstract: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 main_title: "Anwendungsbereitstellung und -betrieb der nächsten Generation."

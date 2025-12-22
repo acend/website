@@ -9,6 +9,7 @@ weight: 1
 slug:
 subtitle: "Basics"
 categories: ["Kubernetes"]
+showOnHomePage: true
 
 abstract : "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
 main_title : "From the basics to self-deployed, Container-based applications on Kubernetes in two days."

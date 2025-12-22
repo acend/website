@@ -9,6 +9,7 @@ weight: 3
 slug:
 subtitle: "Basics"
 categories: ["Delivery CI/CD"]
+showOnHomePage: true
 
 abstract: "Next generation application delivery and operations."
 main_title: "Next generation application delivery and operations."
