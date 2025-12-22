@@ -4,6 +4,9 @@ type: 'trainings'
 seo_title: "Cloud Native Trainings mit Experten - Kubernetes, OpenShift, Argo CD."
 description: "Cloud Native Trainings mit einer einzigartigen Experience. Von Kubernetes über Prometheus bis hin zu Cilium. "
 
+date: 2022-02-22T00:00:00+00:00
+lastmod: 2025-12-23T00:16:39+06:00
+
 draft: false
 
 header:

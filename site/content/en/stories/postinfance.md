@@ -3,7 +3,7 @@ title: "Kubernetes is a different way of handling software"
 type: 'stories'
 seo_title: ""
 description: "One training, three perspectives: How did the trainer, the client, and a participant experience the Kubernetes course?"
-date: 2023-09-15T12:16:39+06:00
+date: 2025-12-23T00:16:39+06:00
 draft: false
 weight: 10
 slug:

@@ -3,7 +3,7 @@ title: "Kubernetes ist eine andere Art mit Software umzugehen"
 type: 'stories'
 seo_title: ""
 description: "Ein Training, drei Blickwinkel: Wie haben Trainer, Auftraggeber und eine Teilnehmerin den Kubernetes-Kurs erlebt?"
-date: 2023-09-15T12:16:39+06:00
+date: 2025-12-22T12:16:39+06:00
 draft: false
 weight: 10
 slug:
