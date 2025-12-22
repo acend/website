@@ -11,6 +11,11 @@ categories: ["Kubernetes"]
 abstract: "OpenShift - Operations Mastery for System Engineers."
 main_title: "OpenShift - Operations Mastery for System Engineers."
 
+techlogo: 
+  full: "images/tech/OpenShift.svg"
+  cut_lg: "images/tech/partials/OpenShift_lg.svg"
+  cut_sm: "images/tech/partials/OpenShift_sm.svg"
+
 duration: "2 days"
 costs : "CHF 2200"
 certificate : "Certifikat"

@@ -8,7 +8,8 @@ draft: false
 weight: 4
 slug:
 subtitle: "Basics"
-categories: ["Ergänzende Trainings", "New"]
+categories: ["Ergänzende Trainings"]
+showOnHomePage: true
 abstract : "Ein praktischer Einstieg und umfassender Einblick in MLOps."
 main_title : "Ein praktischer Einstieg und umfassender Einblick in MLOps."
 

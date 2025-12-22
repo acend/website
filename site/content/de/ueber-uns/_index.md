@@ -222,6 +222,11 @@ community:
     - img: "images/ueberuns/community/ACEND_About_Community-5@2x.jpg"
     - img: "images/ueberuns/community/ACEND_About_Community-6@2x.jpg"
     - img: "images/ueberuns/community/ACEND_About_Community-7@2x.jpg"
+    - img: "images/ueberuns/community/ACEND_About_Community-8@2x.jpg"
+    - img: "images/ueberuns/community/ACEND_About_Community-9@2x.jpg"
+    - img: "images/ueberuns/community/ACEND_About_Community-10@2x.jpg"
+    - img: "images/ueberuns/community/ACEND_About_Community-11@2x.jpg"
+    - img: "images/ueberuns/community/ACEND_About_Community-12@2x.jpg"
 
 
 

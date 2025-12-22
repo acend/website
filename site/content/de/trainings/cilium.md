@@ -106,8 +106,8 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-     - title : "Das sagt unser Trainingsteilnehmer<br/>Roland Egli, Solothurn"
-       logo : "images/testimonials/kt-solothurn.png"
-       text : "Herzlichen Dank für das wunderbare Zertifikat. Das Training war sehr lernreich und der Austausch mit den anderen Trainees empfand ich als sehr wertvoll. Toll organisiert."
+    - title : "Das sagt unser Trainingsteilnehmer<br/>Roland Egli, Solothurn"
+      logo : "images/testimonials/kt-solothurn.png"
+      text : "Herzlichen Dank für das wunderbare Zertifikat. Das Training war sehr lernreich und der Austausch mit den anderen Trainees empfand ich als sehr wertvoll. Toll organisiert."
 
 ---

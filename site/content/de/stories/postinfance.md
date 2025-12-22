@@ -3,7 +3,7 @@ title: "Kubernetes ist eine andere Art mit Software umzugehen"
 type: 'stories'
 seo_title: ""
 description: "Ein Training, drei Blickwinkel: Wie haben Trainer, Auftraggeber und eine Teilnehmerin den Kubernetes-Kurs erlebt?"
-date: 2023-09-15T12:16:39+06:00
+date: 2025-12-22T12:16:39+06:00
 draft: false
 weight: 10
 slug:
@@ -13,8 +13,8 @@ trainings:
     link: "/trainings/container-kubernetes"
 
 person:
-  name : "Roger Bigler"
-  title : "Leiter Technologie & Infrastructure Data Management, PostFinance AG"
+  name : "Roger Bigler und Luana Cusseddu"
+  title : "Leiter Technologie & Infrastructure Data Management, Systems Engineer, PostFinance AG"
   quote: "Sie unterrichten Technologien und Architekturkonzepte, die sie in der Praxis operativ einsetzen, wodurch ein Dialog auf Augenhöhe entsteht."
 
 main_image : "images/stories/postfinance/main_image.jpg"
@@ -26,7 +26,7 @@ partner:
   enable: true
   title: "Unser Partner"
   logo: "images/stories/postfinance/PostFinance.svg"
-  link: "?"
+  link: "https://www.postfinance.ch/"
 
 
 ---
@@ -103,7 +103,7 @@ Eine wichtige Lösung im Kampf gegen den Fachkräftemangel in der IT-Branche ist
   size="wide"
   title_icon="<svg class=\"icon flex-shrink-0\" xmlns=\"http://www.w3.org/2000/svg\" width=\"48\" height=\"48\" fill=\"none\" viewBox=\"0 0 48 48\"><path fill=\"#074761\" fill-rule=\"evenodd\" d=\"M4.875 24C4.875 13.438 13.438 4.875 24 4.875S43.125 13.438 43.125 24 34.562 43.125 24 43.125 4.875 34.562 4.875 24Zm35.518 0c0-9.053-7.34-16.393-16.393-16.393S7.607 14.947 7.607 24 14.947 40.393 24 40.393 40.393 33.053 40.393 24Z\" clip-rule=\"evenodd\"/><path fill=\"#074761\" fill-rule=\"evenodd\" d=\"M25.162 17.495a1.625 1.625 0 0 1-1.175.475 1.58 1.58 0 0 1-1.162-.475 1.58 1.58 0 0 1-.476-1.162c0-.458.159-.85.476-1.175a1.56 1.56 0 0 1 1.162-.489c.457 0 .85.163 1.175.489.326.325.488.717.488 1.175 0 .458-.162.845-.488 1.162Zm.224 2.456v13.468h-2.773V19.951h2.773Z\" clip-rule=\"evenodd\"/></svg>"
   title="Projektinfos"
-  text="<ul><li><strong>Anwendungen:</strong><br>Kubernetes</li><li><strong>Zeitraum:</strong><br>Bitte Zeitraum ergänzen</li><li><strong>Trainingstage:</strong><br>Bitte Anzahl Trainingstage total ergänzen</li><li><strong>Teilnehmende:</strong><br>Bitte total der Teilnehmenden ergänzen</li><li><strong>Orte:</strong><br>Bitte Länder oder Städte ergänzen</li></ul>"
+  text="<ul><li><strong>Trainings:</strong><br>Kubernetes</li><li><strong>Zeitraum:</strong><br>2019 - 2024</li><li><strong>Trainingstage:</strong> 10</li><li><strong>Teilnehmende:</strong> 50</li><li><strong>Orte:</strong><br>Bern</li></ul>"
 >}}
 
 ## Das sagt eine Teilnehmerin  { class="h1 sm my-8 my-lg-16" }

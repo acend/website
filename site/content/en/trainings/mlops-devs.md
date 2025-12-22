@@ -9,6 +9,7 @@ weight: 4
 slug:
 subtitle: "Basics"
 categories: ["Additional Trainings"]
+showOnHomePage: true
 abstract: "A practical introduction and comprehensive insight into MLOps."
 main_title: "A practical introduction and comprehensive insight into MLOps."
 

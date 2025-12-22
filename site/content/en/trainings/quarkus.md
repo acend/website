@@ -12,6 +12,11 @@ categories: ["Programming"]
 abstract: "Get started with Quarkus, the Supersonic Subatomic Java Toolkit"
 main_title: "Get started with Quarkus, the Supersonic Subatomic Java Toolkit"
 
+techlogo:  
+  full: "images/tech/Quarkus.svg"
+  cut_lg: "images/tech/partials/Quarkus_lg.svg"
+  cut_sm: "images/tech/partials/Quarkus_sm.svg"
+
 duration: "2 days"
 costs : "CHF 1900"
 certificate : "Certifikat"

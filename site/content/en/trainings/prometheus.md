@@ -12,6 +12,11 @@ categories: ["Additional trainings"]
 abstract: "Prometheus – Introduction to the modern monitoring platform."
 main_title: "Prometheus – Introduction to the modern monitoring platform."
 
+techlogo:  
+  full: "images/tech/Prometheus.svg"
+  cut_lg: "images/tech/partials/Prometheus_lg.svg"
+  cut_sm: "images/tech/partials/Prometheus_sm.svg"
+
 duration: "2 days"
 costs : "CHF 2200"
 certificate : "Certifikat"
@@ -80,6 +85,12 @@ trainingsinhalt:
         - el: "Deep Dive PromQL with Prometheus Co-Founder Julius Volz"
         - el: "Hands-on labs with lots of real-world examples"
 
+# video
+video:
+  enable: true
+  title: "Einfach erklärt: Was ist Observability?"
+  youtubeID: "FrQKfrMH_nU"
+
 # Kooperation
 kooperation:
   enable: true
@@ -89,12 +100,6 @@ kooperation:
   text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on open source technologies as well as the most modern methods. Different interdisciplinary teams work on projects regarding consulting, applications, delivery, infrastructure and open source solutions."
   link: "https://puzzle.ch"
   linktext: "puzzle.ch"
-
-# video
-video:
-  enable: true
-  title: "Simply explained: What is Observability?"
-  youtubeID: "FrQKfrMH_nU"
 
 # trainer
 trainers:

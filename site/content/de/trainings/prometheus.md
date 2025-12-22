@@ -110,7 +110,6 @@ trainers:
   trainer:
 
 
-
     - title : "Thomas Philipona"
       image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Trainer"

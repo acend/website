@@ -10,6 +10,10 @@ subtitle: "Basics"
 categories: ["Programming"]
 abstract: "Practice-oriented introduction to MicroServices"
 main_title: "Practice-oriented introduction to MicroServices"
+techlogo:  
+  full: "images/tech/Kubernetes.svg"
+  #cut_lg: "images/tech/partials/KubeVirt_lg.svg"
+  #cut_sm: "images/tech/partials/KubeVirt_sm.svg"
 
 # don't publish the page
 build:

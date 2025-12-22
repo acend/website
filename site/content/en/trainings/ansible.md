@@ -9,8 +9,13 @@ weight: 10
 slug:
 subtitle: "Basics"
 categories: ["Ergänzende Trainings"]
+
 abstract: "Ansible kickstart training"
 main_title: "Ansible kickstart training"
+techlogo: 
+  full: "images/tech/Ansible.svg"
+  cut_lg: "images/tech/partials/Ansible_lg.svg"
+  cut_sm: "images/tech/partials/Ansible_sm.svg"
 
 # Infos NEU 2024
 duration: "2 days"

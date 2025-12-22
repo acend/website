@@ -41,7 +41,7 @@
 
       {{ with .Params.trainings }}
       <div class="col-lg-2">
-        <div data-scroll class="mb-3 bold small">Gebuchte Kurse</div>
+        <div data-scroll class="mb-3 bold small">{{ i18n "gebuchteTrainings" }}</div>
         {{ range . }}
           <a  class="btn btn-sm btn-outline-primary border-1 py-0  mb-2 me-2" href="{{ .link }}"> {{ .title  }} </a>
         {{ end }}
@@ -83,7 +83,7 @@
 
         {{ $related := (where (.Site.RegularPages.Related .) "Type" "stories") | first 3 }}
         {{ with $related }}
-        <h3 class="mb-8">Weitere Beiträge zum Thema</h3>
+        <h3 class="mb-8">{{ i18n "weitereBeitraegezumThema" }}</h3>
           {{ range . }}
             {{ partial "content-stories" . }}
           {{ end }}

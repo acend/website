@@ -13,6 +13,12 @@ categories: ["Delivery CI/CD"]
 abstract : "Write, Plan and Apply. IaC made easy."
 main_title : "Write, Plan and Apply. IaC made easy."
 
+techlogo:  
+  full: "images/tech/Terraform.svg"
+  cut_lg: "images/tech/partials/Terraform_lg.svg"
+  cut_sm: "images/tech/partials/Terraform_sm.svg"
+
+
 duration: "2 days"
 costs : "CHF 2200"
 certificate : "Certifikat"
@@ -91,34 +97,26 @@ trainingsinhalt:
           - el: "Kubernetes / LoadBalancer"
           - el: "MariaDB and Demo Application"
 
-# Kooperation
-# kooperation:
-#  enable: true
-#  title: "Developed together with <strong>arch.cloud</strong>"
-#  subtitle: "In collaboration with <strong>arch.cloud</strong>"
-#  logo: "images/partner/arch-cloud.png"
-#  text: "Engineering cloud native solutions is their passion. They support customers in the cloud transformation. Not only in architecture, infrastructure and software development, but also in the appropriate strategy and organization."
-#  link: "https://arch.cloud"
-#  linktext: "arch.cloud"
+
 
 # trainer
 trainers:
   enable: true
   title : "Meet two of Your Trainers"
-  trainer:
-    - title : "Lena Fuhrimann"
-      designation : "Trainer, bespinian"
-      abstract : "Head always in the clouds, just look at her hair. Lena loves modernizing software and working with new technologies. She uses Arch btw."
-      image : "images/team/AC_Lena_Fuhrimann@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
-      twitter : "https://twitter.com/the_cloudlena"
-    
+  trainer:   
     - title : "Daniel Strohecker"
       image : "images/team/AC_Daenu@2x.jpg"
       designation : "Trainer"
       abstract : "He’s been picking up speed on his bike as of late. He can slow down, though, and make sure our clients proceed through our trainings on sure feet."
       linkedin : "https://www.linkedin.com/in/dstrohecker/"
       twitter : "https://twitter.com/sybnex"
+
+    - title : "Sebastian Plattner"
+      image : "images/team/AC_Seba@2x.jpg"
+      designation : "Trainer"
+      abstract : "He always has his fingers on the pulse of technological developments and stays one step ahead – the more complex the problem, the bigger his motivation. And because nothing explains itself, he’ll also take care of that."
+      linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
+      twitter : "https://twitter.com/SebaPlattner"
 
 
 # testimonials

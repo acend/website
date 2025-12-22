@@ -11,6 +11,11 @@ authors: ['david-kilchenmann']
 categories: ['Trainings']
  
 
+ # don't publish the page
+build:
+  list: never
+  render: never
+
 main_image : "images/journal/test/test.jpg"
 
 lead: "Lead-/Einleitungstext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Accusam et justo duo."

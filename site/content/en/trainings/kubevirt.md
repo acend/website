@@ -9,11 +9,15 @@ weight: 1
 slug: ""
 subtitle: "Basics"
 categories: ["Kubernetes"]
+showOnHomePage: true
 abstract: "KubeVirt allows DevOps teams to run traditional virtual machines and non-containerizable workloads on Kubernetes."
 main_title: "KubeVirt allows DevOps teams to run traditional virtual machines and non-containerizable workloads on Kubernetes."
-
+techlogo:  
+  full: "images/tech/KubeVirt.svg"
+  cut_lg: "images/tech/partials/KubeVirt_lg.svg"
+  cut_sm: "images/tech/partials/KubeVirt_sm.svg"
+costs: "CHF 2300"
 duration: "2 days"
-costs : "CHF 2300"
 certificate : "Certifikat"
 documents: "Digitale Handout"
 info: "Bring your own Laptop."

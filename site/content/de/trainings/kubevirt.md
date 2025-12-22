@@ -9,6 +9,7 @@ weight: 1
 slug:
 subtitle: "Basics"
 categories: ["Kubernetes"]
+showOnHomePage: true
 abstract : "KubeVirt ermöglicht DevOps-Teams, herkömmliche virtuelle Maschinen und nicht containerisierbare Workloads auf Kubernetes zu betreiben."
 main_title : "KubeVirt ermöglicht DevOps-Teams, herkömmliche virtuelle Maschinen und nicht containerisierbare Workloads auf Kubernetes zu betreiben."
 techlogo:  
@@ -17,17 +18,11 @@ techlogo:
   cut_sm: "images/tech/partials/KubeVirt_sm.svg"
 
 # Infos NEU 2024
-costs : "CHF 2300"
-duration : "2 Tage"
+costs: "CHF 2300"
+duration: "2 Tage"
 certificate : "Zertifikat"
 documents: "Digitale Unterlagen"
 info: "Bringe deinen eigenen Laptop mit."
-
-# old
-personen:
-  #daten : "15.11.22, 16.11.22"
-  daten : ""
-  preis : "CHF 2300"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"

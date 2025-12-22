@@ -13,6 +13,11 @@ categories: ["Additional trainings"]
 abstract : "Level up your serverless game - Hands-on best practices for serverless and FaaS."
 main_title : "Level up your serverless game - Hands-on best practices für serverless und FaaS"
 
+techlogo:  
+  full: "images/tech/Serverless.svg"
+  cut_lg: "images/tech/partials/Serverless_lg.svg"
+  cut_sm: "images/tech/partials/Serverless_sm.svg"
+
 duration: "1 day"
 costs : "CHF 1100"
 certificate : "Certifikat"

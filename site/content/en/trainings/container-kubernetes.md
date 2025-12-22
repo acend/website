@@ -9,9 +9,14 @@ weight: 1
 slug:
 subtitle: "Basics"
 categories: ["Kubernetes"]
+showOnHomePage: true
 
 abstract : "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
 main_title : "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
+techlogo: 
+  full: "images/tech/Kubernetes.svg"
+  cut_lg: "images/tech/partials/Kubernetes_lg.svg"
+  cut_sm: "images/tech/partials/Kubernetes_sm.svg"
 
 duration: "2 days"
 costs : "CHF 1900"
@@ -129,6 +134,7 @@ trainers:
 # testimonials
 testimonials:
   enable: true
+  title: "Here’s what our clients say"
   testimonial:
     - title : "Here’s what our clients say about our trainings:<br/>Corsin Decurtins, Zurich"
       logo : "images/testimonials/netceterea.png"
