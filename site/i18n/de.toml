@@ -43,6 +43,12 @@ other = "/trainings/"
 [praxiserfahrung]
 other = "Expertise"
 
+[weitereBeitraegezumThema]
+other = "Weitere Beiträge zum Thema"
+
+[gebuchteTrainings]
+other = "Gebuchte Trainings"
+
 #––––––––––––––––
 # Forms
 [messageSuccess]
