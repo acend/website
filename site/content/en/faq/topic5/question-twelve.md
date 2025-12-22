@@ -1,7 +1,7 @@
 ---
-title: "Sind die Trainings praxisnah?"
+title: "Are the training courses practical?"
 draft: false
 weight: 1
 ---
 
-acend kombiniert theoretische Inputs mit praxisorientierten „hands-on Labs“, damit Teilnehmer:innen das Gelernte direkt anwenden können.
+acend combines theoretical input with practice-oriented "hands-on labs," allowing participants to apply what they have learned immediately.

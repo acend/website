@@ -1,10 +1,10 @@
 ---
-title: "Wie bleiben wir in Kontakt?"
+title: "How to stay in touch?"
 draft: false
 weight: 1
 ---
 
-Du hast verschiedene Möglichkeiten mit uns in Kontakt zu bleiben:
-1) Kontaktiere uns direkt via hello@acend.ch oder https://acend.ch/kontakt/
-2) Abonniere unseren Newsletter: https://acend.ch/#newsletter
-3) Kommuniziere mit uns in der acend Slack Community
+There are several ways you can stay in touch with us:
+1) Contact us directly via hello@acend.ch or https://acend.ch/kontakt/
+2) Subscribe to our newsletter: https://acend.ch/#newsletter
+3) Communicate with us in the acend Slack community

@@ -1,7 +1,7 @@
 ---
-title: "Gibt es auch Trainings für Teams oder Unternehmen?"
+title: "Do you offer training for teams or companies?"
 draft: false
 weight: 1
 ---
 
-Ja. Neben öffentlich ausgeschriebenen Kursen bietet acend auch Firmen-Trainings mit individuellen Terminen und Bedingungen an.
+Yes. In addition to our publicly listed courses, acend also offers corporate training with customized dates and terms.

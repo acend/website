@@ -1,7 +1,7 @@
 ---
-title: "Was ist ein Container?"
+title: "What is a Container?"
 draft: false
 weight: 1
 ---
 
-Ein Container ist eine standardisierte Einheit von Software, die alle notwendigen Abhängigkeiten enthält, um eine Anwendung auszuführen. Container sind isoliert und laufen auf einem gemeinsamen Betriebssystem. Sie sind leichtgewichtig und können schnell gestartet und gestoppt werden. Container sind die Grundlage für Cloud Native Anwendungen.
+A container is a standardized unit of software that contains all the necessary dependencies to run an application. Containers are isolated and run on a shared operating system. They are lightweight and can be started and stopped quickly. Containers are the foundation for Cloud Native applications.

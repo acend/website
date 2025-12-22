@@ -1,7 +1,7 @@
 ---
-title: "Für wen sind die Trainings geeignet?"
+title: "Who are the training courses suitable for?"
 draft: false
 weight: 1
 ---
 
-Unsere Trainings richten sich an Software-Entwickler:innen, System- oder DevOps-Ingenieur:innen.
+Our training courses are designed for software developers, system engineers, or DevOps engineers.

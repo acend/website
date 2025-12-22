@@ -1,7 +1,7 @@
 ---
-title: "Wie lange dauern die Trainings und was kostet ein Kurs?"
+title: "How long do the trainings last and what is the cost of a course?"
 draft: false
 weight: 1
 ---
 
-Die Trainings dauern 1–2 Tage. Die Dauer und der Preis variiert je nach Kurs. Für Gruppen ab 12 Personen werden separate Konditionen angeboten.
+The training courses typically last 1–2 days. The duration and price vary depending on the specific course. For groups of 12 or more people, separate terms and conditions are offered.

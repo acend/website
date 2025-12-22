@@ -1,7 +1,7 @@
 ---
-title: "Was ist Kubernetes?"
+title: "What is Kubernetes?"
 draft: false
 weight: 1
 ---
 
-Kubernetes ist ein Open Source System zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von Container-Anwendungen. Es wurde von Google entwickelt und wird von der Cloud Native Computing Foundation (CNCF) unterstützt. Kubernetes ist die führende Plattform für Container Orchestrierung und wird von vielen Unternehmen weltweit eingesetzt.
+Kubernetes is an open-source system for automating the deployment, scaling, and management of containerized applications. It was originally developed by Google and is supported by the Cloud Native Computing Foundation (CNCF). Kubernetes is the leading platform for container orchestration and is used by many companies worldwide.

@@ -1,7 +1,7 @@
 ---
-title: "Was sind die Vorteile von Cloud Native?"
+title: "What are the benefits of Cloud Native?"
 draft: false
 weight: 1
 ---
 
-Cloud Native Anwendungen sind modular, skalierbar und hochverfügbar. Sie können schneller entwickelt und ausgerollt werden. Durch die Automatisierung von Prozessen wird die Betriebsstabilität erhöht. Cloud Native Anwendungen sind zudem kosteneffizient und können flexibel betrieben werden.
+Cloud Native applications are modular, scalable, and highly available. They can be developed and deployed faster. Through the automation of processes, operational stability is increased. Furthermore, Cloud Native applications are cost-efficient and can be operated flexibly.

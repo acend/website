@@ -1,7 +1,7 @@
 ---
-title: "Was ist OpenShift?"
+title: "What is OpenShift?"
 draft: false
 weight: 1
 ---
 
-OpenShift ist eine Kubernetes Distribution, die von Red Hat entwickelt wurde. Sie basiert auf Kubernetes und bietet zusätzliche Funktionen für die Entwicklung, den Betrieb und die Skalierung von Cloud Native Anwendungen. OpenShift ist eine Container Plattform, die auf Kubernetes aufbaut und von Red Hat unterstützt wird.
+OpenShift is a Kubernetes distribution developed by Red Hat. It is based on Kubernetes and offers additional features for the development, operation, and scaling of Cloud Native applications. OpenShift is a container platform built on top of Kubernetes and is supported by Red Hat.

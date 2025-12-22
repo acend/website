@@ -1,7 +1,7 @@
 ---
-title: "Was passiert nach dem Training?"
+title: "What happens after the training?"
 draft: false
 weight: 1
 ---
 
-acend sieht sich als Teil der Cloud-Native-Community und legt Wert auf Austausch während und nach den Trainings. Das heisst, Teilnehmer:innen werden eingeladen, Teil dieser Community zu werden und sich kontinuierlich weiterzuentwickeln. Ausserdem senden wir dir dein Zertifikat zu.
+acend sees itself as part of the Cloud Native community and values exchange both during and after the training sessions. This means participants are invited to become part of this community and to continue their professional development. Additionally, we will send you your certificate.

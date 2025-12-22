@@ -1,7 +1,7 @@
 ---
-title: "Was ist Cloud Native?"
+title: "What is Cloud Native?"
 draft: false
 weight: 1
 ---
 
-Cloud Native ist ein Ansatz, um Anwendungen zu entwickeln und zu betreiben. Dabei werden die Vorteile der Cloud voll ausgeschöpft. Cloud Native Anwendungen sind modular, skalierbar und hochverfügbar. Sie werden in Containern betrieben und dynamisch orchestriert. Cloud Native Technologien sind Open Source und werden von der Cloud Native Computing Foundation (CNCF) unterstützt.
+Cloud Native is an approach to building and running applications that fully leverages the advantages of the cloud. Cloud Native applications are modular, scalable, and highly available. They are operated in containers and dynamically orchestrated. Cloud Native technologies are open source and supported by the Cloud Native Computing Foundation (CNCF).

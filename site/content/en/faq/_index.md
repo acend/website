@@ -1,6 +1,6 @@
 ---
 title: "FAQ"
-seo_title: "Häufig gestellte Fragen zu den acend Trainings"
+seo_title: "Frequently asked questions about acend training courses"
 date: 2020-09-02T13:43:28+02:00
 draft: false
 topic_selector: true

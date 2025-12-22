@@ -1,7 +1,7 @@
 ---
-title: "Brauche ich Vorkenntnisse?"
+title: "Do I need prior knowledge?"
 draft: false
 weight: 1
 ---
 
-Das hängt vom Kurs ab: Für die „Basics“-Trainings sind meist keine oder nur geringe Vorkenntnisse nötig. Ein Laptop mit Internetzugang wird jedoch vorausgesetzt.
+It depends on the course: For the "Basics" training sessions, little to no prior knowledge is usually required. However, a laptop with internet access is a prerequisite.
