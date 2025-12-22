@@ -70,9 +70,13 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
         name = "Trainings"
         weight = 1
       [[languages.en.menus.main]]
+        pageRef = "/en/stories"
+        name = "Stories"
+        weight = 2
+      [[languages.en.menus.main]]
         pageRef = "/en/about"
         name = "About"
-        weight = 2
+        weight = 5
       [[languages.en.menus.main]]
         pageRef = "/en/contact"
         name = "Contact"

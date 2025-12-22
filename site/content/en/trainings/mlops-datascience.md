@@ -11,7 +11,8 @@ subtitle: "Basics"
 categories: ["Additional Trainings"]
 abstract: "A practical introduction and comprehensive insight into MLOps."
 main_title: "A practical introduction and comprehensive insight into MLOps."
-
+techlogo:  
+  full: "images/tech/Kubernetes.svg"
 
 duration: "2 days"
 costs : "CHF 2200"

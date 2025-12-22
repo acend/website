@@ -10,6 +10,10 @@ subtitle: "Basics"
 categories: ["Kubernetes"]
 abstract: "Container and OpenShift – from theory to practice in no time."
 main_title: "Container and OpenShift – from theory to practice in no time."
+techlogo: 
+  full: "images/tech/OpenShift.svg"
+  cut_lg: "images/tech/partials/OpenShift_lg.svg"
+  cut_sm: "images/tech/partials/OpenShift_sm.svg"
 
 duration: "2 days"
 costs : "CHF 1900"

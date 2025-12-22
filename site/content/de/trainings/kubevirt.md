@@ -17,17 +17,11 @@ techlogo:
   cut_sm: "images/tech/partials/KubeVirt_sm.svg"
 
 # Infos NEU 2024
-costs : "CHF 2300"
-duration : "2 Tage"
+costs: "CHF 2300"
+duration: "2 Tage"
 certificate : "Zertifikat"
 documents: "Digitale Unterlagen"
 info: "Bringe deinen eigenen Laptop mit."
-
-# old
-personen:
-  #daten : "15.11.22, 16.11.22"
-  daten : ""
-  preis : "CHF 2300"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"

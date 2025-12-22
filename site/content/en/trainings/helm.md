@@ -13,6 +13,10 @@ categories: ["Additional trainings"]
 
 abstract : "A practical introduction to the best-known Package Manager for applications on Kubernetes."
 main_title : "A practical introduction to the best-known Package Manager for applications on Kubernetes."
+techlogo: 
+  full: "images/tech/Helm.svg"
+  cut_lg: "images/tech/partials/Helm_lg.svg"
+  cut_sm: "images/tech/partials/Helm_sm.svg"
 
 duration: "1 day"
 costs : "CHF 1100"

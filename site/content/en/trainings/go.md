@@ -10,6 +10,10 @@ subtitle: "Basics"
 categories: ["Programming"]
 abstract: "Introduction to Go for software developers, architects and DevOps engineers."
 main_title: "Introduction to Go for software developers, architects and DevOps engineers."
+techlogo: 
+  full: "images/tech/Go.svg"
+  cut_lg: "images/tech/partials/Go_lg.svg"
+  cut_sm: "images/tech/partials/Go_sm.svg"
 
 duration: "1 day"
 costs : "CHF 1100"
@@ -102,7 +106,6 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-
     - title: "Here’s what our clients say about our trainings:<br/>Nathanael Weber, Bern"
       logo: "images/testimonials/mtrail.png"
       text: "The training was exceptionally well tailored to our needs. The practical exercises were just difficult enough that more questions about Helm arose and were answered competently by the instructor. Many thanks acend for this experience!"

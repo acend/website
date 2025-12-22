@@ -11,18 +11,18 @@ draft: false
 ## General Information
 
 We value your privacy and manage your data only in accordance with the legal requirements. In this privacy policy, we will explain how we collect and otherwise process personal information. Personal data means all information relating to a specific or identifiable person.
-This privacy policy is based on the EU General Data Protection Regulation (GDPR). Although the GDPR is a regulation of the European Union (EU), it also may apply to Swiss businesses in certain circumstances. 
+This privacy policy is based on the EU General Data Protection Regulation (GDPR). Although the GDPR is a regulation of the European Union (EU), it also may apply to Swiss businesses in certain circumstances.
 
 ## Responsible People
 
 Responsible for the data processing, which we describe here, are the contacts listed below. If you have concerns regarding data protection, you can contact us at the following address:
 
-acend.ch    
-acend gmbh    
+acend.ch
+acend gmbh
 Belpstrasse 37
 3007 Bern
 
-datenschutz@acend.ch   
+datenschutz@acend.ch
 Ph. +41 31 370 22 00
 
 ## Data Protection Officer

@@ -13,6 +13,11 @@ categories: ["Delivery CI/CD"]
 abstract: "Kubernetes-native CI/CD building blocks."
 main_title: "Kubernetes-native CI/CD building blocks."
 
+techlogo:  
+  full: "images/tech/Tekton.svg"
+  cut_lg: "images/tech/partials/Tekton_lg.svg"
+  cut_sm: "images/tech/partials/Tekton_sm.svg"
+
 duration: "1 day"
 costs : "CHF 1200"
 certificate : "Certifikat"

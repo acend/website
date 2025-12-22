@@ -9,14 +9,21 @@ weight: 3
 slug:
 subtitle: "Basics"
 categories: ["Delivery CI/CD"]
+
 abstract: "Next generation application delivery and operations."
 main_title: "Next generation application delivery and operations."
+
+techlogo: 
+  full: "images/tech/ArgoCD.svg"
+  cut_lg: "images/tech/partials/ArgoCD_lg.svg"
+  cut_sm: "images/tech/partials/ArgoCD_sm.svg"
 
 duration: "1 day"
 costs : "CHF 1100"
 certificate : "Certifikat"
 documents: "Digitale Handout"
 info: "Bring your own Laptop."
+
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_TopHill@2x.jpg"

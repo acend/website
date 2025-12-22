@@ -23,6 +23,11 @@ partner:
   title: "Unser Partner"
   logo: "images/stories/baloise.png"
   link: "?"
+
+# don't publish the page
+build:
+  list: never
+  render: never
  
 
 ---

@@ -10,6 +10,12 @@ subtitle: "Basics"
 categories: ["Additional trainings"]
 abstract: "eBPF-based networking"
 main_title: "eBPF-based networking"
+techlogo: 
+  full: "images/tech/Cilium.svg"
+  cut_lg: "images/tech/partials/Cilium_lg.svg"
+  cut_sm: "images/tech/partials/Cilium_sm.svg"
+
+
 
 duration: "1 day"
 costs : "CHF 1100"
@@ -99,7 +105,6 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-
     - title: "Here’s what our clients say about our trainings:<br/>Nathanael Weber, Bern"
       logo: "images/testimonials/mtrail.png"
       text: "The training was exceptionally well tailored to our needs. The practical exercises were just difficult enough that more questions about Helm arose and were answered competently by the instructor. Many thanks acend for this experience!"
