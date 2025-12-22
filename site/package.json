@@ -9,10 +9,9 @@
     "dev": "hugo server --disableFastRender --noHTTPCache",
     "format": "prettier **/** -w -c",
     "build": "hugo --minify --gc --noBuildLock",
-    "hugo-build": "exec-bin node_modules/.bin/hugo/hugo --minify --gc --noBuildLock",
+    "hugo-build": "hugo --minify --gc --noBuildLock",
     "preview": "vite preview --outDir public",
-    "start": "exec-bin node_modules/.bin/hugo/hugo server --logLevel info  --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost",
-    "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo"
+    "start": "hugo server --logLevel info  --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost"
   },
   "dependencies": {
     "@swup/body-class-plugin": "^3.2.0",
@@ -22,23 +21,19 @@
     "@thulite/images": "^3.3.3",
     "@thulite/seo": "^2.4.2",
     "animejs": "^4.2.2",
-    "exec-bin": "^1.0.0",
     "flickity": "^2.3.0",
     "flickity-fade": "^1.0.0",
     "headroom.js": "^0.12.0",
-    "hugo-installer": "^4.0",
     "scroll-out": "^2.2.12",
     "swup": "^4.7.0",
     "thulite": "^2.6.3"
   },
   "devDependencies": {
+    "hugo-extended": "^0.152.2",
     "prettier": "^3.2.5",
     "vite": "^5.2.10"
   },
   "engines": {
     "node": ">=20.11.0"
-  },
-  "otherDependencies": {
-    "hugo": "0.152.2"
   }
 }
