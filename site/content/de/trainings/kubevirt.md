@@ -9,7 +9,7 @@ weight: 1
 slug:
 subtitle: "Basics"
 categories: ["Kubernetes"]
-showOnHomePage: true
+showOnHomePage: false
 abstract : "KubeVirt ermöglicht DevOps-Teams, herkömmliche virtuelle Maschinen und nicht containerisierbare Workloads auf Kubernetes zu betreiben."
 main_title : "KubeVirt ermöglicht DevOps-Teams, herkömmliche virtuelle Maschinen und nicht containerisierbare Workloads auf Kubernetes zu betreiben."
 techlogo:  

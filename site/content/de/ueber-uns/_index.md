@@ -196,6 +196,14 @@ team:
       linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter: "https://twitter.com/tphilipona"
 
+    - title: "Tobias Kluge"
+      image: "images/team/AC_TobiasKluge@2x.jpg"
+      designation: "Trainer"
+      abstract: "Als “Mr. AI” ist er KI-Pragmatiker. Sein Ziel: KI verständlich machen und überall dort einsetzen, wo es gut funktioniert und einen Mehrwert bringt."
+      experience: "Nach dem Informatikstudium und über 28 Jahren in Rollen wie Software-Entwickler, Solution Architect, CTO bei einem Smart-Home Startup und Projektleiter begleitet Tobias heute KMU bei der digitalen Transformation mit KI. Als C-AI-O und «technisches Gewissen» hilft er Führungsteams, KI-Governance, Sicherheit und Architektur so aufzusetzen, dass Innovation und Betrieb zusammenpassen.
+Mit der von ihm gegründeten incratec GmbH fokussiert er auf pragmatische KI-Einführung: vom sinnvollen Einsatz von GitHub Copilot und Co. in der Entwicklung über MLOps in der Cloud bis hin zu stabilen DevOps-Prozessen mit KI-Unterstützung"
+      linkedin: "https://www.linkedin.com/in/tobiaskluge/"
+
     - title: "Tobias Tröhler"
       image: "images/team/AC_Tobi@2x.jpg"
       designation: "Sales & Experience"
