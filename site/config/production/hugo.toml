@@ -1,3 +1,4 @@
 # Overrides for production environment
-baseURL = "https://new.acend.ch/"
+baseURL = "https://acend.ch/"
+
 
