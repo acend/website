@@ -29,7 +29,7 @@
     "thulite": "^2.6.3"
   },
   "devDependencies": {
-    "hugo-extended": "^0.153.0",
+    "hugo-extended": "^0.154.0",
     "prettier": "^3.2.5",
     "vite": "^5.2.10"
   },
