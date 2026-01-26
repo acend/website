@@ -22,6 +22,19 @@
 [context.next.environment]
   HUGO_ENV = "next"
 
+[[redirects]]
+# redirect typo
+  from = "/stories/postinfance/*"
+  to = "/stories/postfinance/"
+  status = 301
+  force = true
+[[redirects]]
+# redirect typo
+  from = "/en/stories/postinfance/*"
+  to = "/en/stories/postfinance/"
+  status = 301
+  force = true
+
 [dev]
   framework = "#custom"
   command = "npm run dev"
