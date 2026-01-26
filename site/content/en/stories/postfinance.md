@@ -128,7 +128,7 @@ The labs, in particular, made the transfer to practice easier for me and were a 
 
 ## How did collaboration change as a result?
 
-The training enabled management, software engineering, data science, business analysis, software engineers, and data scientists to understand and use our Kubernetes platform efficiently.
+The training sessions have enabled both management and the Software Engineering, Data Science, and Business Analysis departments to understand and efficiently utilize our Kubernetes platform.
 
 {{< infobox
   size="narrow"

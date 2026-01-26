@@ -128,7 +128,7 @@ Insbesondere die Labs haben mir den Praxistransfer erleichtert und viel Spass ge
 
 ## Was hat sich dadurch in der Zusammenarbeit verändert?
 
-Die Trainings haben sowohl Management, Software Engineering, Data Science, Business Analyse und Software TestingSoftware-Engineers und Data Scientists  befähigt, unsere Kubernetes-Plattform zu verstehen und effizient zu nutzen.
+Die Trainings haben sowohl das Management als auch die Bereiche Software Engineering, Data Science und Business Analyse befähigt, unsere Kubernetes-Plattform zu verstehen und effizient zu nutzen.
 
 {{< infobox
   size="narrow"
