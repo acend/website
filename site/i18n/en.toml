@@ -144,6 +144,15 @@ other = "Send"
 [agb_check_contact]
 other = 'I have read and accept the <u><b><a href="/en/privacy/" target=\"_blank\" rel=\"noopener\">Privacy Policy</a></b></u> of this website.'
 
+[dateneweiterleitenTKundPuzzle]
+other = "I agree that my data may be shared with tim&koko and Puzzle ITC AG."
+
+[fuerDenNewsletterAnmelden]
+other = "Sign up for our newsletter."
+
+[selectLab]
+other = "Please choose a lab"
+
 #––––––––––––––––
 # Page 404
 

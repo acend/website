@@ -1,0 +1,99 @@
+{{ define "main" }}
+
+<div class="overflow-hidden">
+
+<div class="container-fluid mb-16 mb-lg-32">
+  <div class="row ">
+    <div class="col-lg-6">
+      {{ with .Params.header }}
+      <h1 data-scroll_ class="h4 mb-2 mb-lg-3">{{ .title | markdownify }}</h1>
+         <div data-scroll_ class="h1 md mb-0">{{ .lead | markdownify }}</div>
+      {{ end }}
+    </div>
+
+     <div data-scroll_ class="col-lg-6 py-16 py-lg-32 imagecloud">
+
+
+      {{ range .Params.imagecloud }}
+
+
+      <div  class="d-none images">
+        <div class="img-container align-self-end mb-10 z-1" id="l1">
+          {{- partial "img" (dict "page" . "src"  .img1 "width" 200 "process" ""  ) }}
+          </div>
+          <div class="img-container" id="l2">
+             {{- partial "img" (dict "page" . "src"  .img2 "width" 600 "process" ""  ) }}
+          </div>
+          <div class="img-container mt-20" id="l3">
+            {{- partial "img" (dict "page" . "src"  .img3 "width" 300 "process" ""  ) }}
+          </div>
+        </div>
+
+        {{ end }}
+    </div>
+
+
+
+  </div>
+
+
+  <div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10">
+        {{ .Content }}
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-1"></div>
+    <div class="form-wrap col-lg-10">
+    <form  name="{{ .Params.netlifyFormname }}" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" >
+      <input type="hidden" name="bot-field" />
+      <input type="hidden" name="form-name" value="{{ .Params.netlifyFormname }}" />
+
+      <input type="text" id="name" name="name" placeholder="{{ i18n "name" }} *" class="form-control form-control-lg  mb-4" required>
+
+      <input type="text" id="vorname" name="vorname" placeholder="{{ i18n "vorname" }} *" class="form-control form-control-lg  mb-4" required>
+      
+      <input type="text" id="firma" name="firma" placeholder="{{ i18n "firma" }}" class="form-control form-control-lg  mb-4">
+      <input type="email" id="email" name="email" placeholder="{{ i18n "email" }} *" class="form-control form-control-lg mb-4" required>
+
+      <input type="text" id="telefon" name="telefon" placeholder="{{ i18n "telefon" }}" class="form-control form-control-lg mb-4">
+      
+      <textarea name="message" id="nachricht" class="form-control form-control-lg mb-4"
+                placeholder="{{ i18n "nachricht" }}"></textarea>
+
+      <div class="col-lg-6 mb-6 mb-lg-16">
+        <select class="form-select form-control" name="lab" id="lab" required>
+          <option value="" selected>{{ i18n "selectLab" }}</option>
+          {{ $t := where .Site.RegularPages "Section" "trainings"}}
+          {{ range .Params.formSelect.labs }}
+          <option value="{{.value}}">{{.option}}</option>
+          {{ end }}
+        </select>
+      </div>
+      
+      <div class="form-check form-check mb-6">
+        <input type="checkbox" class="form-check-input" id="agb_check_contact" required>
+        <label class="form-check-label small" for="agb_check_contact">{{ i18n "agb_check_contact" | safeHTML }}</label>
+      </div>
+      <div class="form-check form-check mb-6">
+        <input type="checkbox" class="form-check-input" id="dataCheck" required>
+        <label class="form-check-label small" for="dataCheck">{{ i18n "dateneweiterleitenTKundPuzzle" | safeHTML }}</label>
+      </div>
+      <div class="form-check form-check mb-6">
+        <input type="checkbox" class="form-check-input" id="newsletterCheck">
+        <label class="form-check-label small" for="newsletterCheck">{{ i18n "fuerDenNewsletterAnmelden" | safeHTML }}</label>
+      </div>
+
+      <button type="submit" class="btn btn-outline-primary  py-3 px-10 ">{{ i18n "anmelden" }}</button>
+    
+    </form>
+    <div class="message-success d-none">{{ i18n "messageSuccess" }}</div>
+    <div class="message-error d-none">{{ i18n "messageError" }}</div>
+
+
+    </div>
+  </div>
+</div>
+</div>
+{{ end }}
