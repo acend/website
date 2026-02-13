@@ -43,8 +43,8 @@ export default function() {
 
 
   /* FORMULAR : for gold only */
-
-
+  // Commented out - now using forms-netlify.js handler instead
+  /*
   document.querySelector('form').addEventListener('submit', function(e) {
     e.preventDefault();
 
@@ -71,5 +71,6 @@ export default function() {
         console.error(error);
       });
   });
+  */
 
 }

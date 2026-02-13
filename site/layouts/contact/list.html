@@ -17,8 +17,6 @@
                     <input type="hidden" name="bot-field" />
                     <input type="hidden" name="form-name" value="{{ site.Params.netlifyForms.contact }}" />
 
-           {{/* <form data-scroll id="contactform" action="{{site.Params.contact.form_action}}" method="POST" > */}}
-
               <div class="mb-4">
                 <div class="form-check form-check-inline">
                     <input type="radio" id="anrede_frau" name="anrede" value="Frau" class="form-check-input" required>
@@ -27,6 +25,14 @@
                   <div class="form-check form-check-inline">
                     <input type="radio" id="anrede_herr" name="anrede" value="Herr" class="form-check-input">
                     <label class="form-check-label" for="anrede_herr">{{ i18n "herr" }}</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input type="radio" id="anrede_divers" name="anrede" value="Divers" class="form-check-input">
+                    <label class="form-check-label" for="anrede_divers">{{ i18n "divers" }}</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input type="radio" id="anrede_none" name="anrede" value="keine Angabe" class="form-check-input">
+                    <label class="form-check-label" for="anrede_none">{{ i18n "keineAngabe" }}</label>
                   </div>
                 </div>
 

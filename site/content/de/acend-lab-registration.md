@@ -50,6 +50,11 @@ imagecloud:
     img2: "images/trainings/ACEND_Philip@2x.jpg"
     img3: "images/trainings/ACEND_CodeD@2x.jpg"
 
+# don't publish the page
+build:
+  list: never
+  render: never
+
 ---
 
 
