@@ -7,8 +7,8 @@ export default function() {
     const myForm = event.target;
     const formData = new FormData(myForm);
 
-    console.log('Form submission intercepted, posting to:', '/');
-    console.log('Form data:', new URLSearchParams(formData).toString());
+    // console.log('Form submission intercepted, posting to:', '/');
+    // console.log('Form data:', new URLSearchParams(formData).toString());
 
     fetch('/', {
       method: 'POST',
