@@ -85,12 +85,13 @@ trainers:
   enable: true
   title : "Lerne deinen Trainer kennen"
   trainer:
-    - title : "Daniel Strohecker"
-      image : "images/team/AC_Daenu@2x.jpg"
-      designation : "Trainer"
-      abstract : "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
-      linkedin : "https://www.linkedin.com/in/dstrohecker/"
-      twitter : "https://twitter.com/sybnex"
+    - title: "Christoph Raaflaub"
+      image: "images/team/AC_Christoph_Raaflaub@2x.jpg"
+      designation: "Trainer, Puzzle ITC"
+      abstract: "Mit seinem Wohnmobil hat er schon viele Orte besucht, auch wenn es um die Cloud Native Landscape geht, ist er ein erfahrener und ortskundiger Reiseführer."
+      experience: "Christoph arbeitet seit 20 Jahren in der IT, wodurch ihn fast kein Problem mehr überraschen kann. Gestartet als Softwareentwickler, nebenbei den Abschluss als Informatik Ingenieur FH gemacht, arbeitet er heute im CI/CD Bereich bei Puzzle ITC. Dort begleitet er viele Kunden auf dem Weg zu qualitativen Pipelines."
+      linkedin: "https://www.linkedin.com/in/chrira/"
+      twitter: "https://twitter.com/chrira"
 
 # testimonials
 testimonials:
