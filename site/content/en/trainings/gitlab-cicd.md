@@ -74,11 +74,11 @@ trainingsinhalt:
     liste1:
       title: "GitLab CI/CD Basics"
       liste:
-        - el: "**Git crash course:** repositories, feature branches, and efficient workflows."
-        - el: "**GitLab architecture:** instances, projects, and the role of the runner."
-        - el: "**Pipeline fundamentals:** jobs, stages, and the .gitlab-ci.yml."
-        - el: "**Advanced CI:** artifacts, caching, variables, and environments."
-        - el: "**Monitoring & debugging:** analyzing pipeline failures and optimizing performance."
+        - el: "Git crash course: repositories, feature branches, and efficient workflows."
+        - el: "GitLab architecture: instances, projects, and the role of the runner."
+        - el: "Pipeline fundamentals: jobs, stages, and the .gitlab-ci.yml."
+        - el: "Advanced CI: artifacts, caching, variables, and environments."
+        - el: "Monitoring & debugging: analyzing pipeline failures and optimizing performance."
 
 # trainer
 trainers:
