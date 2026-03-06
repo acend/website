@@ -85,12 +85,13 @@ trainers:
   enable: true
   title : "Meet your trainer"
   trainer:
-    - title : "Daniel Strohecker"
-      image : "images/team/AC_Daenu@2x.jpg"
-      designation : "Trainer"
-      abstract : "He’s been picking up speed on his bike as of late. He can slow down, though, and make sure our clients proceed through our trainings on sure feet."
-      linkedin : "https://www.linkedin.com/in/dstrohecker/"
-      twitter : "https://twitter.com/sybnex"
+    - title: "Christoph Raaflaub"
+      image: "images/team/AC_Christoph_Raaflaub@2x.jpg"
+      designation: "Trainer, Puzzle ITC"
+      abstract: "He has visited many places with his RV, and when it comes to the Cloud Native Landscape, he is also an experienced and knowledgeable guide."
+      experience: "Christoph has been working in IT for 20 years, so almost no problem can surprise him anymore. He started as a software developer and graduated as a computer science engineer FH on the side. Today he works in the CI/CD area at Puzzle ITC. There he accompanies many customers on their way to qualitative pipelines."
+      linkedin: "https://www.linkedin.com/in/chrira/"
+      twitter: "https://twitter.com/chrira"
 
 # testimonials
 testimonials:
