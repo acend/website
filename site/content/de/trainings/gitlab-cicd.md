@@ -8,7 +8,7 @@ draft: false
 weight: 1
 slug:
 subtitle: "Basics"
-categories: ["GitLab CI/CD", "New"]
+categories: ["Delivery CI/CD", "New"]
 showOnHomePage: true
 abstract : "GitLab ist weit mehr als ein Source-Versionskontrollsystem. Es ist ein Build Server und eine Application Development Platform."
 main_title : "GitLab ist weit mehr als ein Source-Versionskontrollsystem. Es ist ein Build Server und eine Application Development Platform."
