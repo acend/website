@@ -2,13 +2,13 @@
 translationKey: "about"
 title: "Über uns"
 seo_title: "Unser Ziel ist es, IT-Schulungen zu revolutionieren - acend gmbh"
-description: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren. Wir sind spezialisiert auf Container-Technologien und weitere OpenSource Technologien im Cloud Native Bereich."
+description: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren. Wir sind spezialisiert auf Container-Technologien und weitere OpenSource-Technologien im Cloud Native Bereich."
 draft: false
 type: "about"
 
 seo:
   title: "Unser Ziel ist es, IT-Schulungen zu revolutionieren - acend gmbh"
-  description: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren. Wir sind spezialisiert auf Container-Technologien und weitere OpenSource Technologien im Cloud Native Bereich."
+  description: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren. Wir sind spezialisiert auf Container-Technologien und weitere OpenSource-Technologien im Cloud Native Bereich."
 
 header:
   title: "Über uns"
@@ -28,13 +28,13 @@ timeline:
     - title: "2019"
       subtitle: "Erstes Kubernetes Training"
       img: "images/ueberuns/timeline/ACEND_About_Timeline_Training1@2x.jpg"
-      text: "Die erste Kubernetes Trainings Durchführung"
+      text: "Die erste Kubernetes Trainingsdurchführung"
     - title: "2020"
       subtitle: "Gründung"
       img: "images/ueberuns/timeline/ACEND_About_Timeline_Founding@2x.jpg"
       text: "Offizielle Gründung der acend gmbh"
     - title: "2021"
-      subtitle: "Portfolio Erweiterung"
+      subtitle: "Portfolio-Erweiterung"
       img: "images/ueberuns/timeline/ACEND_About_Timeline_Portfolio@2x.jpg"
       text: "Erweiterung des Trainingsangebots."
     - title: "2022"
@@ -52,9 +52,9 @@ brand_values:
   - title: "aussergewöhnlich"
     text: "acend steht für eine aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrung. Wir vermitteln Wissen anschaulich, praxisbezogen und aus erster Hand und stellen dafür hervorragende Rahmenbedingungen sicher."
   - title: "abenteuerlustig"
-    text: "acend fordert mit inspirierten Methoden die Trainings-teilnehmer*innen und deren Unternehmen dazu auf, sich mit neuen Ansätzen und Technologien weiterzuentwickeln."
+    text: "acend fordert mit inspirierten Methoden die Trainingsteilnehmer:innen und deren Unternehmen dazu auf, sich mit neuen Ansätzen und Technologien weiterzuentwickeln."
   - title: "open-minded"
-    text: "acend ist offen gegenüber dem Neuen und Unterwarteten; lässt sich von innovativen Entwicklungen begeistern und freut sich über die Vielfalt von Ansichten und Einstellungen bei Kund*innen und Mitarbeitenden."
+    text: "acend ist offen gegenüber dem Neuen und Unerwarteten; lässt sich von innovativen Entwicklungen begeistern und freut sich über die Vielfalt von Ansichten und Einstellungen bei Kund:innen und Mitarbeitenden."
 
 # team
 team:
@@ -67,20 +67,20 @@ team:
       designation: "Sales"
       abstract: "Bringt Struktur ins Chaos - liebt es Abläufe zu optimieren und kann keine Minute still sitzen wenn Musik läuft."
       experience: "Nach der Lehre als Informatikerin und einigen weiteren Stationen in der IT hat Anna einen Abstecher in die Fliegerei gemacht. Sie betreute sowohl die Serverlandschaft der Edelweiss Air, als auch die Passagiere über den Wolken.
-      Danach folgten weitere spannende Jahre als System Engineer bei HRM Systems und die Weiterbildung zur Projektleiterin. Seit vier Jahren ist Anna bei Puzzle ITC, schaut, dass alle Container und CI/CD Engineers, wie auch die Kunden happy sind."
+      Danach folgten weitere spannende Jahre als System Engineer bei HRM Systems und die Weiterbildung zur Projektleiterin. Seit vier Jahren ist Anna bei Puzzle ITC, schaut, dass alle Container und CI/CD Engineers, wie auch die Kund:innen happy sind."
       linkedin: "https://www.linkedin.com/in/anna-pfeifhofer-902495183/"
 
     - title: "Beat Schärz"
       image: "images/team/AC_Beat_Schaerz@2x.jpg"
       designation: "Trainer, Puzzle ITC"
       abstract: "Nicht nur beim Sport hat Beat eine eiserne Disziplin, auch mit dem stetigen Aufbauen von neuem Wissen stählt er sein Gehirn."
-      experience: "Nach der Informatiker-Lehre hat Beat ohne Unterbruch gleich berufsbegleitend den Bachelor in Informatik angehängt. Vom Linux Engineering bei DXC, ist er heute bei Puzzle im Kubernetes Umfeld gelandet. Dort begleitet er viele Kunden auf dem Weg zu Kubernetes und auch Observability, was seine Leidenschaft ist."
+      experience: "Nach der Informatiker-Lehre hat Beat ohne Unterbruch gleich berufsbegleitend den Bachelor in Informatik angehängt. Vom Linux Engineering bei DXC, ist er heute bei Puzzle im Kubernetes Umfeld gelandet. Dort begleitet er viele Kund:innen auf dem Weg zu Kubernetes und auch Observability, was seine Leidenschaft ist."
       linkedin: "https://www.linkedin.com/in/beat-sch%C3%A4rz/"
 
     - title: "Christian Haller"
       image: "images/team/AC_Christian_Haller@2x.jpg"
       designation: "Trainer, Puzzle ITC"
-      abstract: "Als Ausgleich zum hektischen Container-Alltag, macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
+      abstract: "Als Ausgleich zum hektischen Container-Alltag macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
       experience: "Nach seinem Studium in Informatik hat Christian fast 10 Jahre Projekt- und Betriebserfahrung gesammelt als Systems Engineer im Netzwerk- und Security-Bereich. Seit mehr als 3 Jahren ist er nun bei Puzzle als Consultant im Bereich Container und Cloud Native Technologien unterwegs."
       linkedin: "https://www.linkedin.com/in/christian-haller-0a637493"
 
@@ -88,28 +88,28 @@ team:
       image : "images/team/AC_Christian_Schlatter@2x.jpg"
       designation : "Trainer"
       abstract : "Er reist nicht nur gerne durch die reale Welt, sondern entdeckt auch in der Cloud Native Landscape neue Orte"
-      experience: "Während seines Bachelorstudiums in Informatik (2014) hat Christian als Software Entwickler zahlreiche Erfahrungen mit Java und Go gesammelt. Seit 2020 arbeitet er als Consultant bei Puzzle und hilft den Kunden mit Cloud Native Technologien, ihre Software-Entwicklung zu enabeln."
+      experience: "Während seines Bachelorstudiums in Informatik (2014) hat Christian als Software Entwickler zahlreiche Erfahrungen mit Java und Go gesammelt. Seit 2020 arbeitet er als Consultant bei Puzzle und hilft den Kund:innen mit Cloud Native Technologien, ihre Software-Entwicklung zu enabeln."
       linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
 
     - title: "Christof Lüthi"
       image: "images/team/AC_ChristofLuethi@2x.jpg"
       designation: "Trainer, Tim&Koko AG"
       abstract: "Christof ist zurück von seiner Weltreise, ist viel getaucht und hat unterschiedliche Kulturen kennengelernt. Mit frischem Geist und Neugier ist er nun auf Entdeckungsreise in der Cloud Native Welt."
-      experience: "Christof hat um das Jahr 2000 mit der Informatiklehre gestartet, anschliessend hat er die FH und ein MAS in Informatik an der FH Bern gemacht. Daneben hat er zuerst als System Engineer und danach lange als Software Entwickler und Architekt gearbeitet. Genau in dieser Schnittstelle im Bereich Middleware mit einer Vorliebe für Daten gefällt es ihm am besten. Seit 2024 ist er als Messaging und Cloud Native Spezialist bei Tim&Koko AG und viel im Cloud Native Umfeld bei verschiedenen Kunden unterwegs."
+      experience: "Christof hat um das Jahr 2000 mit der Informatiklehre gestartet, anschliessend hat er die FH und ein MAS in Informatik an der FH Bern gemacht. Daneben hat er zuerst als System Engineer und danach lange als Software Entwickler und Architekt gearbeitet. Genau in dieser Schnittstelle im Bereich Middleware mit einer Vorliebe für Daten gefällt es ihm am besten. Seit 2024 ist er als Messaging und Cloud Native Spezialist bei Tim&Koko AG und viel im Cloud Native Umfeld bei verschiedenen Kund:innen unterwegs."
       linkedin: "https://www.linkedin.com/in/christof-luethi/"
 
     - title: "Christoph Raaflaub"
       image: "images/team/AC_Christoph_Raaflaub@2x.jpg"
       designation: "Trainer, Puzzle ITC"
       abstract: "Mit seinem Wohnmobil hat er schon viele Orte besucht, auch wenn es um die Cloud Native Landscape geht, ist er ein erfahrener und ortskundiger Reiseführer."
-      experience: "Christoph arbeitet seit 20 Jahren in der IT, wodurch ihn fast kein Problem mehr überraschen kann. Gestartet als Softwareentwickler, nebenbei den Abschluss als Informatik Ingenieur FH gemacht, arbeitet er heute im CI/CD Bereich bei Puzzle ITC. Dort begleitet er viele Kunden auf dem Weg zu qualitativen Pipelines."
+      experience: "Christoph arbeitet seit 20 Jahren in der IT, wodurch ihn fast kein Problem mehr überraschen kann. Gestartet als Softwareentwickler, nebenbei den Abschluss als Informatik Ingenieur FH gemacht, arbeitet er heute im CI/CD Bereich bei Puzzle ITC. Dort begleitet er viele Kund:innen auf dem Weg zu qualitativen Pipelines."
       linkedin: "https://www.linkedin.com/in/chrira/"
       twitter: "https://twitter.com/chrira"
 
     - title: "Daniel Strohecker"
       image: "images/team/AC_Daenu@2x.jpg"
       designation: "Trainer"
-      abstract: "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
+      abstract: "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kund:innen sicher durch die Trainings."
       experience: "Nach seinem Elektrotechnik HF Studium ist er in der Informatik beheimatet und arbeitet seit mehr als 15 Jahren in verschiedenen Operation Teams. Er setzt auf Python und bringt Erfahrung aus grossen produktiven Umgebungen in Linux, Kubernetes, Datenbanken und Monitoring mit. Sein grosses Fachwissen zu Cloud Native Tools teilt er auch an verschiedenen Konferenzen als Speaker. Seit 2013 ist er bei Mobiliar und aktuell als Cloud Engineer tätig."
       linkedin: "https://www.linkedin.com/in/dstrohecker/"
       twitter: "https://twitter.com/sybnex"
@@ -117,8 +117,8 @@ team:
     - title: "David Kilchenmann"
       image: "images/team/AC_Dave@2x.jpg"
       designation: "Sales"
-      abstract: "Der Mann ist der Traum aller Schwiegermütter und auch uns und unseren Kunden zaubert er immer wieder ein Lächeln ins Gesicht."
-      experience: "Seine ersten Schritte in der IT hat David nach seinem Bachelor in Business Administration bei der Swisscom gemacht. Dort war er als PM für das Dev Portal verantwortlich und hat den Software Day organisiert. Seit mehr als 3 Jahren ist er nun bei Puzzle als Key Account Manager unterwegs und erläutert den Kunden, wieso sie auf Cloud Native Technologien setzen sollten."
+      abstract: "Der Mann ist der Traum aller Schwiegermütter und auch uns und unseren Kund:innen zaubert er immer wieder ein Lächeln ins Gesicht."
+      experience: "Seine ersten Schritte in der IT hat David nach seinem Bachelor in Business Administration bei der Swisscom gemacht. Dort war er als PM für das Dev Portal verantwortlich und hat den Software Day organisiert. Seit mehr als 3 Jahren ist er nun bei Puzzle als Key Account Manager unterwegs und erläutert den Kund:innen, wieso sie auf Cloud Native Technologien setzen sollten."
       linkedin: "https://www.linkedin.com/in/david-kilchenmann/"
       twitter: "https://twitter.com/DKilchenmann"
       email: "dave@acend.ch"
@@ -147,7 +147,7 @@ team:
       image : "images/team/AC_Lukas@2x.jpg"
       designation : "Trainer, Puzzle ITC"
       abstract : "Lukas braut selber Bier, ist System Engineer und Pädagoge. Damit stellt er den perfekten Archetyp eines acend Trainers dar."
-      experience: "Lukas hat schon verschiedene Dinge studiert: Geologie, Bauingenieurwesen und hat auch das Seklehrerpatent. Doch es hat ihn immer wieder zurück in die Informatik gezogen, wo er heute seine Leidenschaft als System Engineer nachgehen kann. Dies macht es seit über 10 Jahren bei Puzzle ITC, wo er Kunden hilft, ihre Infrastruktur automatisiert aufzubauen."
+      experience: "Lukas hat schon verschiedene Dinge studiert: Geologie, Bauingenieurwesen und hat auch das Seklehrerpatent. Doch es hat ihn immer wieder zurück in die Informatik gezogen, wo er heute seine Leidenschaft als System Engineer nachgehen kann. Dies macht es seit über 10 Jahren bei Puzzle ITC, wo er Kund:innen hilft, ihre Infrastruktur automatisiert aufzubauen."
       linkedin : "https://www.linkedin.com/in/grimmlukas/"
 
     - title: "Marcel Groner"
@@ -176,8 +176,8 @@ team:
     - title: "Sebastian Plattner"
       image: "images/team/AC_Seba@2x.jpg"
       designation: "Trainer"
-      abstract: "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
-      experience: "Als Consultant und Experte für Cloud Native Technologien konzipiert und baut er Kubernetes Plattformen für verschiedene Kunden von Puzzle ITC. Nach seinem Abschluss in BsC in Informatik (2017) mit der vertiefung Security leitete Sebastian ein Team im Bereich Cybersecurity bei der RUAG Schweiz AG. Verschiedene Zertifikate im Cloud Native Umfeld unterstreichen sein Fachwissen in den Bereichen Container und Kubernetes. CKA, CKAD, CKS."
+      abstract: "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem, desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
+      experience: "Als Consultant und Experte für Cloud Native Technologien konzipiert und baut er Kubernetes Plattformen für verschiedene Kund:innen von Puzzle ITC. Nach seinem Abschluss in BsC in Informatik (2017) mit der vertiefung Security leitete Sebastian ein Team im Bereich Cybersecurity bei der RUAG Schweiz AG. Verschiedene Zertifikate im Cloud Native Umfeld unterstreichen sein Fachwissen in den Bereichen Container und Kubernetes. CKA, CKAD, CKS."
       linkedin: "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter: "https://twitter.com/SebaPlattner"
 
@@ -221,7 +221,7 @@ join_us:
 
 
 community:
-  text: "Wir begreifen uns als Teil der wachsenden Schweizer Cloud Native Community und laden dich ein, dich anzuschliessen. Deswegen pflegen wir den Austausch während und nach unseren Trainings."
+  text: "Wir begreifen uns als Teil der wachsenden Schweizer Cloud-Native-Community und laden dich ein, dich anzuschliessen. Deswegen pflegen wir den Austausch während und nach unseren Trainings."
   images:
     - img: "images/ueberuns/community/ACEND_About_Community-1@2x.jpg"
     - img: "images/ueberuns/community/ACEND_About_Community-2@2x.jpg"
