@@ -17,7 +17,7 @@ trainings:
 
 person:
   name : "Joachim Prinzbach und Nikolas Philips"
-  title : "Procuct Owner und Head of Engineering, IT Abteilung der Baloise"
+  title : "Product Owner und Head of Engineering, IT Abteilung der Baloise"
   quote: "Sie unterrichten Technologien und Architekturkonzepte, die sie in der Praxis operativ einsetzen, wodurch ein Dialog auf Augenhöhe entsteht."
 
 

@@ -30,8 +30,8 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeA@2x.jpg"
 
 
-main_text: "Container-Technologien und insbesondere Kubernetes haben in den letzten Jahren enorm an Bedeutung gewonnen und wurden zu einem wichtigen Treiber der Digitalisierung.\n\n
-Dieses zweitägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in diese Open Source-Technologien. Unsere Trainer kommen aus der Praxis und sind zertifizierte Kubernetes Administratoren."
+main_text: "Container-Technologien und insbesondere Kubernetes haben in den letzten Jahren enorm an Bedeutung gewonnen und wurden zu einem wichtigen Treiber der Digitalisierung.<br></br>
+Dieses zweitägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in diese Open-Source-Technologien. Unsere Trainer kommen aus der Praxis und sind zertifizierte Kubernetes-Administratoren."
 
 accordion:
     enable : true
@@ -54,7 +54,7 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "<ul>
-<li>Unser Training richtet sich an Personen aus dem Software und System Engineering</li>
+<li>Unser Training richtet sich an Personen aus dem Software- und System-Engineering</li>
 <li>Es sind keine Vorkenntnisse mit Container-Technologien oder Kubernetes notwendig</li>
 </ul>"
 
@@ -83,9 +83,6 @@ trainingsinhalt:
         - el: "Konfiguration von Containern"
         - el: "Troubleshooting"
         - el: "Best Practices"
-        - el: "Den Einstieg in eine moderne Technologie finden"
-        - el: "Konzepte von Containern und Kubernetes verstehen"
-        - el: "Applikationen auf Kubernetes deployen"
     liste2:
       title: "Kubernetes Basics"
       liste:
@@ -127,7 +124,7 @@ trainers:
     - title : "Sebastian Plattner"
       image : "images/team/AC_Seba@2x.jpg"
       designation : "Trainer"
-      abstract : "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
+      abstract : "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem, desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
 

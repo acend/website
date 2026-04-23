@@ -32,7 +32,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeP@2x.jpg"
 
 
-main_text: "GitOps ist eine natürliche Erweiterung von Infrastructure-as-Code und Continuous Delivery mit dem Fokus auf der Verwendung von Git als Single Source of Truth für dein System. Änderungen an Infrastruktur und Anwendungen werden deklarativ über ein Git Repository vorgenommen, wobei ein automatisierter Prozess sicherstellt, dass der aktuelle Zustand deines Systems den Zustand des Repository widerspiegelt.\n\n
+main_text: "GitOps ist eine natürliche Erweiterung von Infrastructure-as-Code und Continuous Delivery mit dem Fokus auf der Verwendung von Git als Single Source of Truth für dein System. Änderungen an Infrastruktur und Anwendungen werden deklarativ über ein Git Repository vorgenommen, wobei ein automatisierter Prozess sicherstellt, dass der aktuelle Zustand deines Systems den Zustand des Repositories widerspiegelt.<br></br>
 Dieses eintägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg zu GitOps anhand von Argo CD auf Kubernetes."
 
 accordion:
@@ -101,7 +101,7 @@ trainers:
     - title : "Christian Schlatter"
       image : "images/team/AC_Christian_Schlatter@2x.jpg"
       designation : "Trainer"
-      abstract : "Er reist nicht nur gerne durch die reale Welt, sondern entdeckt auch in der Cloud Native Landscape neue Orte"
+      abstract : "Er reist nicht nur gerne durch die reale Welt, sondern entdeckt auch in der Cloud Native Landscape neue Orte."
       linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
     - title : "Thomas Philipona"
       image : "images/team/AC_Thoemu@2x.jpg"

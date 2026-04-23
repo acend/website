@@ -30,8 +30,8 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeA@2x.jpg"
 
 
-main_text: "KubeVirt ermöglicht es DevOps-Teams, herkömmliche Workloads von virtuellen Maschinen oder solche, die nicht leicht in Container umgewandelt werden können, auf Kubernetes zu betreiben. Dadurch können wir die Arbeitsweise für Container und virtuelle Maschinen vereinheitlichen und standardisierte Prozesse wie GitOps nutzen.\n\n
-Unsere Trainer kommen aus der Praxis und sind zertifizierte Kubernetes Administratoren."
+main_text: "KubeVirt ermöglicht es DevOps-Teams, herkömmliche Workloads von virtuellen Maschinen oder solche, die nicht leicht in Container umgewandelt werden können, auf Kubernetes zu betreiben. Dadurch können wir die Arbeitsweise für Container und virtuelle Maschinen vereinheitlichen und standardisierte Prozesse wie GitOps nutzen.<br></br>
+Unsere Trainer kommen aus der Praxis und sind zertifizierte Kubernetes-Administratoren."
 
 accordion:
     enable : true

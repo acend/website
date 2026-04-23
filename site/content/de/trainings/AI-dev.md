@@ -25,9 +25,9 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeA@2x.jpg"
 
 
-main_text: "Künstliche Intelligenz ist in der Software-Entwicklung angekommen – doch zwischen Marketingversprechen und produktivem Einsatz im Team klafft oft eine Lücke. Viele Tools versprechen mehr Produktivität, aber im Alltag fehlen klare Regeln, passende Use-Cases und ein gemeinsamer Fahrplan.\n\n
-In diesem zweitägigen Training lernen Software-Teams, wie sie KI praxisnah und sicher in ihren bestehenden Entwicklungsprozess integrieren – von Anforderungen über Implementierung und Tests bis hin zu Dokumentation und Betrieb.\n\n
-Am Ende verfügen die Teilnehmenden über geübte Anwendungsfälle, klare Leitplanken zu Datenschutz und Sicherheit sowie einen priorisierten Fahrplan, wie sie KI im Team verantwortungsvoll etablieren können.\n\n
+main_text: "Künstliche Intelligenz ist in der Software-Entwicklung angekommen – doch zwischen Marketingversprechen und produktivem Einsatz im Team klafft oft eine Lücke. Viele Tools versprechen mehr Produktivität, aber im Alltag fehlen klare Regeln, passende Use-Cases und ein gemeinsamer Fahrplan.<br></br>
+In diesem zweitägigen Training lernen Software-Teams, wie sie KI praxisnah und sicher in ihren bestehenden Entwicklungsprozess integrieren – von Anforderungen über Implementierung und Tests bis hin zu Dokumentation und Betrieb.<br></br>
+Am Ende verfügen die Teilnehmenden über geübte Anwendungsfälle, klare Leitplanken zu Datenschutz und Sicherheit sowie einen priorisierten Fahrplan, wie sie KI im Team verantwortungsvoll etablieren können.<br></br>
 Die Beispiele und Übungen werden mit den Tool-Stack von Atlassian (Jira, Confluence), GitHub Copilot, Playwright und Azure gezeigt, und lassen sich auf andere Tools und Anbieter übertragen."
 
 accordion:
@@ -36,10 +36,10 @@ accordion:
         - title : "Trainingsziele"
           icon : "1"
           content : "<ul>
-<li>verstehen, <strong>wo KI in der Software-Entwicklung konkret hilft – und wo nicht</strong> (z.B. bei Spezifikation, Code, Tests, Dokumentation).</li>
+<li>verstehen, <strong>wo KI in der Software-Entwicklung konkret hilft und wo nicht</strong> (z.B. bei Spezifikation, Code, Tests, Dokumentation).</li>
 <li>können moderne KI-Werkzeuge (z.B. Chat- und Code-Assistenten, Agenten) gezielt für ihren Tech-Stack einsetzen und qualitativ prüfen, statt blind zu vertrauen.</li>
 <li>sind in der Lage, <strong>Leitplanken für Datenschutz, Sicherheit und geistiges Eigentum</strong> zu definieren und im Team zu verankern.</li>
-<li>kennen Best Practices, wie sich KI sinnvoll in bestehende DevOps-, Review- und Testprozesse einfügt – ohne die Qualität zu gefährden.</li>
+<li>kennen Best Practices, wie sich KI sinnvoll in bestehende DevOps-, Review- und Testprozesse einfügt ohne die Qualität zu gefährden.</li>
 </ul>"
 
         - title : "Voraussetzungen"
@@ -47,7 +47,7 @@ accordion:
           content : "<ul>
 <li>Grundverständnis von Software-Entwicklung (z.B. als Developer, Tech Lead, Architekt:in, DevOps Engineer).</li>
 <li>Erfahrung mit Git und einer gängigen IDE ist von Vorteil, aber keine zwingende Voraussetzung.</li>
-<li>Laptop mit aktuellem Browser und Internetzugang; Admin-Rechte oder Zugriff auf ein Terminal/Browser-IDE (z.B. analog euren anderen Trainings).</li>
+<li>Laptop mit aktuellem Browser und Internetzugang; Admin-Rechte oder Zugriff auf ein Terminal/Browser-IDE.</li>
 </ul>"
 
         - title : "Zielpublikum"
@@ -70,7 +70,7 @@ accordion:
 trainingsinhalt:
     title : "Trainingsinhalt"
     text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln.
-    Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen.\n\n
+    Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen.\n
     Das Training kombiniert kurze Impuls-Inputs mit vielen praktischen Übungen anhand realer Beispiele."
     liste1:
       title: "Tag 1 – Einführung"

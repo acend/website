@@ -32,7 +32,9 @@ headerimages:
 
 
 main_text: "
-Dieses zweitägige Training richtet sich an IT-Fachkräfte aus den Bereichen Systemadministration, Architektur und Softwareentwicklung, die fundierte Grundkenntnisse zu Ansible erwerben wollen. Ansible ist ein Open-Source-Werkzeug zur Automatisierung, Orchestrierung und allgemeinen zur Konfiguration und Administration von Computern. Es kombiniert Softwareverteilung, Ad-hoc-Kommandoausführung und Konfigurationsmanagement. Die Verwaltung der Server erfolgt unter anderem über SSH und erfordert keinerlei zusätzliche Software auf dem zu verwaltenden System. Das Kickstart-Training gibt einen Einblick in die Technologie und zeigt anhand von Hands-on-Labs, wie sich Ansible effizient nutzen lässt.
+Dieses zweitägige Training richtet sich an IT-Fachkräfte aus den Bereichen Systemadministration, Architektur und Softwareentwicklung, die fundierte Grundkenntnisse zu Ansible erwerben wollen.<br></br>
+
+Ansible ist ein Open-Source-Werkzeug zur Automatisierung, Orchestrierung und allgemein zur Konfiguration und Administration von Computern. Es kombiniert Softwareverteilung, Ad-hoc-Kommandoausführung und Konfigurationsmanagement. Die Verwaltung der Server erfolgt unter anderem über SSH und erfordert keinerlei zusätzliche Software auf dem zu verwaltenden System. Das Kickstart-Training gibt einen Einblick in die Technologie und zeigt anhand von Hands-on-Labs, wie sich Ansible effizient nutzen lässt.
 "
 
 accordion:
@@ -41,7 +43,7 @@ accordion:
         - title : "Trainingsziele"
           icon : "1"
           content : "<ul>
-<li>Verständnis zur effizienten Verwendung des Ansible Ökosystems gewinnen</li>
+<li>Verständnis zur effizienten Verwendung des Ansible-Ökosystems gewinnen</li>
 <li>Arbeitswissen über Ansible Grundlagen für den effektiven Einsatz in der Praxis erhalten</li>
 <li>Überblick über die Architektur und Eigenschaften von Ansible erhalten</li>
 <li>Praktisches Know-how durch die Labs erhalten</li>
@@ -72,14 +74,14 @@ accordion:
 # Trainingsinhalt
 trainingsinhalt:
     title : "Trainingsinhalt"
-    text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu uebermitteln. Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
+    text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln. Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
 
     liste1:
       title: "Ansible Kickstart"
       liste:
         - el: "Einführung in Ansible"
-        - el: "Good Practices zum Aufbau einer Ansible Infrastruktur"
-        - el: "Nutzen von Ad-Hoc Kommandos"
+        - el: "Good Practices zum Aufbau einer Ansible-Infrastruktur"
+        - el: "Nutzen von Ad-hoc Kommandos"
         - el: "Erstellen von Playbooks und Rollen"
         - el: "Arbeiten mit Variablen, Loops, Templates und Jinja-Filtern"
         - el: "Umgang mit Secrets und der Einsatz von Ansible Vault"
@@ -93,7 +95,7 @@ kooperation:
   title: "Erarbeitet von <strong>Puzzle ITC</strong>"
   subtitle: "In Zusammenarbeit mit <strong>Puzzle ITC</strong>"
   logo: "images/partner/puzzle-itc.png"
-  text: "Puzzle ITC deckt als innovativer IT-Dienstleister den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei wird konsequent auf Open Source Technologien sowie modernste Methoden gesetzt. Verschiedene interdisziplinäre Teams arbeitet an Projekten in den Bereichen Beratung, Applikationen, Delivery, Infrastruktur und eigenen Open Source Lösungen."
+  text: "Puzzle ITC deckt als innovativer IT-Dienstleister den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei wird konsequent auf Open Source Technologien sowie modernste Methoden gesetzt. Verschiedene interdisziplinäre Teams arbeiten an Projekten in den Bereichen Beratung, Applikationen, Delivery, Infrastruktur und eigenen Open Source Lösungen."
   link: "https://puzzle.ch"
   linktext: "Puzzle ITC"
 

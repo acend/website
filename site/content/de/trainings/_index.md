@@ -42,7 +42,7 @@ categories:
 
 zertifikate:
   title: "Zertifikate und Badges"
-  text: "Nach erfolgreichem Abschluss des Trainings erhälts Du von uns ein Zertifikat (PDF)."
+  text: "Nach erfolgreichem Abschluss des Trainings erhälst Du von uns ein Zertifikat (PDF)."
 
 
 excellence:

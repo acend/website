@@ -35,9 +35,9 @@ accordion:
           icon : "1"
           content : "<ul>
 <li>Git-Workflows sicher anwenden (Branches, Merges, Pull Requests).</li>
-<li>GitLab Workflow: Pull Requests, Issues, Issue Boards</li>
-<li>Den Mehrwert von CI/CD Ansätzen verstehen.</li>
-<li>Eigene GitLab CI/CD Pipelines für einfache bis komplexe Projekte aufbauen: Env Variablen, Workflow control/rules, Tags und Caching.</li>
+<li>GitLab Workflow: Pull Requests, Issues, Issue Boards.</li>
+<li>Den Mehrwert von CI/CD-Ansätzen verstehen.</li>
+<li>Eigene GitLab CI/CD Pipelines für einfache bis komplexe Projekte aufbauen: Env-Variablen, Workflow control/rules, Tags und Caching.</li>
 <li>GitLab Runner Theorie und Einsatzbereiche.</li>
 <li>Best Practices für Testing, Security und Deployment integrieren.</li>
 </ul>"
@@ -54,7 +54,7 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "<ul>
-<li>Unser Training richtet sich an Software Entwickler, Software Engineers, System Engineers und DevOps-Enthusiasten, die GitLab als zentralen Dreh- und Angelpunkt ihrer Software-Auslieferung nutzen möchten.</li>
+<li>Unser Training richtet sich an Software-Entwickler, Software-Engineers, System-Engineers und DevOps-Enthusiasten, die GitLab als zentralen Dreh- und Angelpunkt ihrer Software-Auslieferung nutzen möchten.</li>
 </ul>"
 
         - title : "Konditionen"
@@ -75,8 +75,8 @@ trainingsinhalt:
       title: "GitLab CI/CD Basics"
       liste:
         - el: "Git Crashkurs: Repositories, Feature Branches und effiziente Workflows."
-        - el: "GitLab Architektur: Instanzen, Projekte und die Rolle des Runners."
-        - el: "Pipeline Grundlagen: Jobs, Stages und die .gitlab-ci.yml."
+        - el: "GitLab-Architektur: Instanzen, Projekte und die Rolle des Runners."
+        - el: "Pipeline-Grundlagen: Jobs, Stages und die .gitlab-ci.yml."
         - el: "Advanced CI: Artifacts, Caching, Variablen und Environments."
         - el: "Monitoring & Debugging: Fehleranalyse in Pipelines und Performance-Optimierung."
 
@@ -88,7 +88,7 @@ trainers:
     - title: "Christoph Raaflaub"
       image: "images/team/AC_Christoph_Raaflaub@2x.jpg"
       designation: "Trainer, Puzzle ITC"
-      abstract: "Mit seinem Wohnmobil hat er schon viele Orte besucht, auch wenn es um die Cloud Native Landscape geht, ist er ein erfahrener und ortskundiger Reiseführer."
+      abstract: "Mit seinem Wohnmobil hat er schon viele Orte besucht. Auch wenn es um die Cloud Native Landscape geht, ist er ein erfahrener und ortskundiger Reiseführer."
       experience: "Christoph arbeitet seit 20 Jahren in der IT, wodurch ihn fast kein Problem mehr überraschen kann. Gestartet als Softwareentwickler, nebenbei den Abschluss als Informatik Ingenieur FH gemacht, arbeitet er heute im CI/CD Bereich bei Puzzle ITC. Dort begleitet er viele Kunden auf dem Weg zu qualitativen Pipelines."
       linkedin: "https://www.linkedin.com/in/chrira/"
       twitter: "https://twitter.com/chrira"
