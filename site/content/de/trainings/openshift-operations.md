@@ -29,8 +29,8 @@ headerimages:
 
 
 main_text: "
-Mit OpenShift verspricht Red Hat eine Kubernetes-Lösung, die mit «automated operations» und weiteren Vorzügen für Betrieb und Entwicklung auftrumpft.\n\n
-Dieses zweitägige Training auf Deutsch oder Englisch bietet eine praktische und klar verständliche Übersicht über die Herausforderungen im Day 2-Betrieb. Unsere Trainer kommen aus der Praxis und sind erfahrene OpenShift Engineers.
+Mit OpenShift verspricht Red Hat eine Kubernetes-Lösung, die mit «automated operations» und weiteren Vorzügen für Betrieb und Entwicklung auftrumpft.<br></br>
+Dieses zweitägige Training auf Deutsch oder Englisch bietet eine praktische und klar verständliche Übersicht über die Herausforderungen im Day-2-Betrieb. Unsere Trainer kommen aus der Praxis und sind erfahrene OpenShift Engineers.
 "
 
 accordion:
@@ -41,7 +41,7 @@ accordion:
           content : "<ul>
 <li>OpenShift Architektur und Komponenten kennenlernen</li>
 <li>Den eigenen OpenShift Cluster installieren</li>
-<li>Unterbruchsfreie Day 2-Operations Tasks meistern</li>
+<li>Unterbruchsfreie Day-2-Operations Tasks meistern</li>
 <li>Monitoring und Troubleshooting Know-how vertiefen</li>
 </ul>"
 
@@ -56,7 +56,7 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "<ul>
-<li>Unser Training richtet sich an System Engineers, OpenShift Engineers und alle, die die Betriebsaspekte von OpenShift kennenlernen wollen</li>
+<li>Unser Training richtet sich an System-Engineers, OpenShift-Engineers und alle, die die Betriebsaspekte von OpenShift kennenlernen wollen</li>
 <li>Grundkenntnisse mit Container-Technologien sowie OpenShift oder Kubernetes werden vorausgesetzt</li>
 <li>Ein vorgängiger Besuch des Trainings Container & OpenShift Basics wird empfohlen</li>
 </ul>"
@@ -78,7 +78,7 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
     liste1:
       title: "OpenShift Overview"
       liste:
-        - el: "Architekur"
+        - el: "Architektur"
         - el: "Cluster-Komponenten und -Rollen"
           liste:
           - el: "Netzwerk und Zonierung"
@@ -90,19 +90,19 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
           - el: "Basiskonfiguration"
           - el: "Automatisierung"
     liste2:
-      title: "Day 2-Operations"
+      title: "Day-2-Operations"
       liste:
         - el: "Infra Nodes"
-        - el: "Austausch von Masters sowie etcd"
-        - el: "Austausch und Ergänzung von Worker Nodes"
+        - el: "Austausch von Master sowie etcd"
+        - el: "Austausch und Ergänzung von Worker-Nodes"
         - el: "Backup & Restore"
         - el: "OpenShift 4 Updates und Optionen"
         - el: "Monitoring / Logging"
         - el: "Troubleshooting"
-        - el: "Real Life-Szenarien hands-on erleben"
+        - el: "Real-Life-Szenarien hands-on erleben"
           liste:
           - el: "Disk ist voll"
-          - el: "Pod wird OOM Killed"
+          - el: "Pod wird OOM-Killed"
           - el: "Netzwerkprobleme"
           - el: "Surprise..."
 
@@ -120,7 +120,7 @@ trainers:
     - title : "Christian Haller"
       image : "images/team/AC_Christian_Haller@2x.jpg"
       designation : "Trainer, Puzzle ITC"
-      abstract : "Als Ausgleich zum hektischen Container-Alltag, macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
+      abstract : "Als Ausgleich zum hektischen Container-Alltag macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
       linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
 
 

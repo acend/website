@@ -1,7 +1,7 @@
 ---
 title: "Tekton"
 type: 'trainings'
-seo_title: "Tekton bietet ein flexibles Framework für das Entwickeln von cloud-native CI/CD Pipelines."
+seo_title: "Tekton bietet ein flexibles Framework für das Entwickeln von Cloud-native CI/CD Pipelines."
 description: "Das Tekton Training gibt dir einen pragmatischen Einblick in die Welt von Continious-Integration und Conitinuous-Delivery Systemen (CI/CD)."
 date: 2022-10-12T12:14:34+06:00
 draft: false
@@ -29,7 +29,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeDe@2x.jpg"
 
 
-main_text: "Mit Tekton bekommt das Kubernetes Ökosystem eine flexible Möglichkeit, Continuous-Integration- und Continuous-Delivery-Systeme zu integrieren. Mit einem modularen Ansatz werden Steps, Tasks und Pipelines zu standardisierten cloud-native Ressourcen. Im Tekton Basics Training bekommst du die Möglichkeit, selbst einen Einblick zu bekommen, wie die CI/CD Welt nahtlos in cloud-zentrierten Umgebungen integriert wird."
+main_text: "Mit Tekton bekommt das Kubernetes-Ökosystem eine flexible Möglichkeit, Continuous-Integration- und Continuous-Delivery-Systeme zu integrieren. Mit einem modularen Ansatz werden Steps, Tasks und Pipelines zu standardisierten Cloud-native-Ressourcen. Im Tekton Basics Training bekommst du die Möglichkeit selbst zu erfahren, wie die CI/CD Welt nahtlos in cloud-zentrierte Umgebungen integriert wird."
 
 accordion:
     enable : true
@@ -38,7 +38,7 @@ accordion:
           icon : "1"
           content : "
 <li>Einstieg und Grundkonzepte von Tekton</li>
-<li>CI/CD Grundkonzepte sind bekannt</li>
+<li>CI/CD-Grundkonzepte sind bekannt</li>
 <li>Eigenständig eine Tekton Build- und Delivery-Pipeline implementieren</li>
 </ul>"
 
@@ -51,7 +51,7 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "
-<li>Unser Training richtet sich an Personen, welche bereits Vorkenntnisse im Bereich von Container-Technologien, Git und Kubernetes besitzen</li>
+<li>Unser Training richtet sich an Personen, welche bereits Vorkenntnisse im Bereich Container-Technologien, Git und Kubernetes besitzen</li>
 <li>Ein vorgängiger Besuch des Trainings Container & Kubernetes Basics oder Container & OpenShift Basics wird empfohlen</li>
 </ul>"
 
@@ -92,7 +92,7 @@ trainers:
     - title : "Christian Schlatter"
       image : "images/team/AC_Christian_Schlatter@2x.jpg"
       designation : "Trainer"
-      abstract : "Er reist nicht nur gerne durch die reale Welt, sondern entdeckt auch in der Cloud Native Landscape neue Orte"
+      abstract : "Er reist nicht nur gerne durch die reale Welt, sondern entdeckt auch in der Cloud Native Landscape neue Orte."
       linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
     - title : "Thomas Philipona"
       image : "images/team/AC_Thoemu@2x.jpg"

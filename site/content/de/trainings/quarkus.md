@@ -30,8 +30,8 @@ headerimages:
 
 
 main_text: "
-Quarkus wurde geschaffen, um Java-Entwicklern die Möglichkeit zu geben, Anwendungen für eine moderne, Cloud-native Welt zu erstellen. Quarkus ist ein Kubernetes-natives Java-Framework, das auf GraalVM und HotSpot zugeschnitten ist und aus den besten Java-Bibliotheken und -Standards entwickelt wurde.\n\n
-In diesem Training werden wir gemeinsam einen kompletten Entwicklungszyklus durchlaufen und beginnen beim Bootstrapping einer Quarkus-Anwendung bis zu deren Ausführung als Container. Immer gut begleitet von unseren praxiserprobten Trainern und mit einem guten Mix aus Theorie und Hands-on Labs."
+Quarkus wurde geschaffen, um Java-Entwickler:innen die Möglichkeit zu geben, Anwendungen für eine moderne, cloud-native Welt zu erstellen. Quarkus ist ein Kubernetes-natives Java-Framework, das auf GraalVM und HotSpot zugeschnitten ist und aus den besten Java-Bibliotheken und -Standards entwickelt wurde.<br></br>
+In diesem Training werden wir gemeinsam einen kompletten Entwicklungszyklus durchlaufen und beginnen beim Bootstrapping einer Quarkus-Anwendung und begleiten Sie bis zu deren Ausführung als Container. Immer gut begleitet von unseren praxiserprobten Trainern und mit einem guten Mix aus Theorie und Hands-on Labs."
 
 accordion:
     enable : true
@@ -57,8 +57,8 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "<ul>
-<li>Unser Training richtet sich an Personen, welche bereits Vorkenntnisse im Bereich der Java Softwareentwicklung und Architektur besitzen</li>
-<li>Des Weiteren ist grundlegendes Know How im Bezug auf Container und Container Plattformen von Vorteil</li>
+<li>Unser Training richtet sich an Personen, welche bereits Vorkenntnisse im Bereich der Java-Softwareentwicklung und Architektur besitzen</li>
+<li>Des Weiteren ist grundlegendes Know-how in Bezug auf Container und Container-Plattformen von Vorteil</li>
 </ul>"
 
         - title : "Konditionen"
@@ -73,21 +73,21 @@ accordion:
 # Trainingsinhalt
 trainingsinhalt:
     title : "Trainingsinhalt"
-    text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu uebermitteln.<br/>
+    text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln.<br/>
 Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
 
     liste1:
       title: "Quarkus Basics"
       liste:
-        - el: "Einführung Microservice Architektur"
+        - el: "Einführung Microservice-Architektur"
         - el: "Erste Einblicke in Quarkus"
         - el: "MicroProfile Spezifikation kennenlernen"
         - el: "Konfigurierbarkeit von Quarkus Applikationen"
         - el: "RESTful Microservices mit Quarkus"
         - el: "Containerisierung von Microservices"
-        - el: "Deployment auf Cloud Native Infrastruktur"
+        - el: "Deployment auf Cloud-native Infrastruktur"
         - el: "Continuous Integration and Delivery (CICD)"
-        - el: "Event Driven Architektur und Messaging mit Apache Kafka"
+        - el: "Event-driven Architektur und Messaging mit Apache Kafka"
         - el: "Distributed Tracing mit OpenTracing und Jaeger"
         - el: "Monitoring der Microservices durch Metriken"
 

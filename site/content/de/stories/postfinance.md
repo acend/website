@@ -15,7 +15,7 @@ trainings:
 person:
   name : "Roger Bigler und Luana Cusseddu"
   title : "Leiter Technologie & Infrastructure Data Management, Systems Engineer, PostFinance AG"
-  quote: "Sie unterrichten Technologien und Architekturkonzepte, die sie in der Praxis operativ einsetzen, wodurch ein Dialog auf Augenhöhe entsteht."
+  quote: "acend hat uns geholfen, Cloud-Native-Technologien wie Kubernetes in der gesamten IT zu verankern. Das Aufbauen von Know-how aller Stakeholder ist bei der Transformation auf eine neue Cloud-Native-Infrastruktur enorm wichtig"
 
 main_image : "images/stories/postfinance/main_image.jpg"
 

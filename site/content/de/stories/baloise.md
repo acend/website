@@ -18,7 +18,7 @@ trainings:
 person:
   name : "Joachim Prinzbach und Nikolas Philips"
   title : "Product Owner und Head of Engineering, IT Abteilung der Baloise"
-  quote: "Sie unterrichten Technologien und Architekturkonzepte, die sie in der Praxis operativ einsetzen, wodurch ein Dialog auf Augenhöhe entsteht."
+  quote: "Die Trainings bestanden aus Theorieblöcken und Labs, um direkt in die Praxis zu kommen. Das Lösen von Aufgaben ist wichtig. Denn dabei passieren Fehler. Und weil die Trainer vor Ort sind, muss nicht lange nach einer Lösung gesucht werden. Das räumt einen wichtigen Zeitkiller aus dem Weg. Entwickler finden meist eine Lösung – die Frage ist jedoch, wie schnell und sauber."
 
 
 main_image : "images/stories/baloise/main_image.jpg"

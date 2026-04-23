@@ -8,8 +8,8 @@ draft: false
 weight: 6
 subtitle: "Basics"
 categories: ["Ergänzende Trainings"]
-abstract: "Prometheus – Einstieg in die moderne Monitoring Plattform."
-main_title: "Prometheus – Einstieg in die moderne Monitoring Plattform."
+abstract: "Prometheus – Einstieg in die moderne Monitoring-Plattform."
+main_title: "Prometheus – Einstieg in die moderne Monitoring-Plattform."
 
 techlogo:  
   full: "images/tech/Prometheus.svg"
@@ -28,7 +28,7 @@ headerimages:
   img3 : "images/trainings/ACEND_Code@2x.jpg"
 
 
-main_text: "Prometheus ist ein modernes und weit verbreitetes, auf Metriken basiertes Monitoringsystem. Prometheus kommt oft im Zusammenhang mit dynamischen Plattformen im Container-Umfeld wie beispielsweise Kubernetes und OpenShift zum Einsatz, eignet sich jedoch auch für die Überwachung klassischer Umgebungen.
+main_text: "Prometheus ist ein modernes und weit verbreitetes, auf Metriken basiertes Monitoring-System. Prometheus kommt oft im Zusammenhang mit dynamischen Plattformen im Container-Umfeld wie beispielsweise Kubernetes und OpenShift zum Einsatz, eignet sich jedoch auch für die Überwachung klassischer Umgebungen.
 <br/>
 Dieses zweitägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in die Prometheus-Technologie.
 Das Training wird von acend in Zusammenarbeit mit Puzzle ITC angeboten. Die Durchführung findet online oder vor Ort statt."
@@ -39,7 +39,7 @@ accordion:
         - title : "Trainingsziele"
           icon : "1"
           content : "<ul>
-<li>Den Einstieg in die moderne Monitoring Plattform Prometheus finden</li>
+<li>Den Einstieg in die moderne Monitoring-Plattform Prometheus finden</li>
 <li>Konzepte von Prometheus verstehen</li>
 <li>Mehr über PromQL und deren Anwendungsbereiche erfahren</li>
 </ul>"
@@ -54,7 +54,7 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "<ul>
-<li>Unser Training richtet sich an Software Developers, System Engineers, Architects und alle, die Prometheus verstehen und für das Monitoring einsetzen möchten</li>
+<li>Unser Training richtet sich an Software-Developers, System-Engineers, Architects und alle, die Prometheus verstehen und für das Monitoring einsetzen möchten.</li>
 </ul>"
 
         - title : "Konditionen"
@@ -99,7 +99,7 @@ kooperation:
   title: "Gemeinsam mit <strong>Puzzle</strong> erarbeitet"
   subtitle: "In Zusammenarbeit mit <strong>Puzzle</strong>"
   logo : "images/partner/puzzle-itc.png"
-  text: "Puzzle ITC deckt als innovativer IT-Dienstleister den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei wird konsequent auf Open Source Technologien sowie modernste Methoden gesetzt. Verschiedene interdisziplinäre Teams arbeitet an Projekten in den Bereichen Beratung, Applikationen, Delivery, Infrastruktur und eigenen Open Source Lösungen."
+  text: "Puzzle ITC deckt als innovativer IT-Dienstleister den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei wird konsequent auf Open-Source-Technologien sowie modernste Methoden gesetzt. Verschiedene interdisziplinäre Teams arbeiten an Projekten in den Bereichen Beratung, Applikationen, Delivery, Infrastruktur und eigenen Open Source Lösungen."
   link: "https://puzzle.ch"
   linktext: "puzzle.ch"
 
@@ -120,7 +120,7 @@ trainers:
     - title : "Christian Haller"
       image : "images/team/AC_Christian_Haller@2x.jpg"
       designation : "Trainer, Puzzle ITC"
-      abstract : "Als Ausgleich zum hektischen Container-Alltag, macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
+      abstract : "Als Ausgleich zum hektischen Container-Alltag macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
       linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
 
 

@@ -25,7 +25,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeB@2x.jpg"
 
 
-main_text: "Dieses zweitägige Training bietet einen praktischen Einstieg in MLOps, das den Machine-Learning-Lebenszyklus durch Automatisierung und Standardisierung optimiert. Die Versionierung von Code und Daten sowie die Überwachung der Modellparameter sorgen für konsistente, reproduzierbare Ergebnisse. Continuous Integration und Continuous Deployment (CI/CD) beschleunigen die Markteinführung neuer ML-Produkte.\n\n
+main_text: "Dieses zweitägige Training bietet einen praktischen Einstieg in MLOps, das den Machine-Learning-Lebenszyklus durch Automatisierung und Standardisierung optimiert. Die Versionierung von Code und Daten sowie die Überwachung der Modellparameter sorgen für konsistente, reproduzierbare Ergebnisse. Continuous Integration und Continuous Deployment (CI/CD) beschleunigen die Markteinführung neuer ML-Produkte.<br></br>
 Unser Trainerteam besteht aus Fachleuten, die sowohl in der Machine Learning-Forschung tätig sind als auch über umfangreiche Erfahrung in der praktischen Implementierung von Datenmodellen in Unternehmen verfügen.
 "
 
@@ -35,11 +35,11 @@ accordion:
         - title : "Trainingsziele"
           icon : "1"
           content : "<ul>
-<li>Grundlagen des Machine Learning und der Datenvorbereitung verstehen</li>
+<li>Grundlagen des Machine-Learning und der Datenvorbereitung verstehen</li>
 <li>Unterschiede zwischen MLOps und DevOps kennen</li>
 <li>ML-Pipelines erstellen, Modelle trainieren und optimieren</li>
-<li>Nutzung von DVC zur Versionierung der Daten und CML fürms-Pipelines</li>
-<li>Weitere Tools wie MLFlow und Kubeflow des MLOps Ecosystems kennenlernen</li>
+<li>Nutzung von DVC zur Versionierung der Daten und CML für ML-Pipelines</li>
+<li>Weitere Tools wie MLflow und Kubeflow des MLOps Ecosystems kennenlernen</li>
 </ul>"
 
         - title : "Voraussetzungen"
@@ -51,8 +51,8 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "<ul>
-<li>Unser Training richtet sich an Software Developer, welche Services aufgrund von Daten und Datenmodellen bereitstellen und bereits Vorkenntnisse im Bereich Softwareentwicklung und Architektur besitzen.</li>
-<li>Vorkenntnisse von Software Delivery Prinzipien wie CI/CD und GIT sind von Vorteil.</li>
+<li>Unser Training richtet sich an Software-Developer:innen, welche Services auf Basis von Daten und Datenmodellen bereitstellen und bereits Vorkenntnisse im Bereich Softwareentwicklung und Architektur besitzen.</li>
+<li>Vorkenntnisse von Software-Delivery-Prinzipien wie CI/CD und GIT sind von Vorteil.</li>
 </ul>"
 
         - title : "Konditionen"
@@ -75,10 +75,10 @@ trainingsinhalt:
     liste1:
       title: "MLOps Developer"
       liste:
-        - el: "Einführung in Machine Learning (Klassifikatoren/Regressoren, Over- und Underfitting)"
-        - el: "ML Modelle: von der linearer Regression zu neuronalen Netzen"
+        - el: "Einführung in Machine-Learning (Klassifikatoren/Regressoren, Over- und Underfitting)"
+        - el: "ML-Modelle: von der linearen Regression zu neuronalen Netzen"
         - el: "Datensammeln und -aufbereiten mittels verschiedener Techniken"
-        - el: "Mittels den aufbereiteten Daten ein Modell trainieren"
+        - el: "Mittels der aufbereiteten Daten ein Modell trainieren"
         - el: "Nutzung von Codespaces/GitHub Actions im Free Tier"
         - el: "Problemstellung: Prozess reproduzierbar und messbar machen"
         - el: "Vom Prototyp zur Pipeline"

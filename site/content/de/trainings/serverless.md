@@ -32,7 +32,7 @@ headerimages:
 
 
 main_text: "
-Serverless Technologien erfahren momentan einen ziemlichen Boom. Sie reichen von Function as a Service (FaaS) über komplette Datenbank- und Queueingsysteme bis hin zu Authentisierungs- und Monitoringlösungen. In diesem Training werden wir uns vor allem FaaS anschauen und entsprechende Functions erstellen, welche die gängigen Best Practices befolgen und in AWS Lambda laufen. Dabei lernen wir gewisse Stolpersteine und Eigenheiten dieser Plattformen kennen und wie man damit umgeht."
+Serverless-Technologien erfahren momentan einen ziemlichen Boom. Sie reichen von Function as a Service (FaaS) über komplette Datenbank- und Queueingsysteme bis hin zu Authentisierungs- und Monitoringlösungen. In diesem Training werden wir uns vor allem FaaS anschauen und entsprechende Functions erstellen, welche die gängigen Best Practices befolgen und in AWS Lambda laufen. Dabei lernen wir gewisse Stolpersteine und Eigenheiten dieser Plattformen kennen und wie man damit umgeht."
 
 accordion:
     enable : true
@@ -57,7 +57,7 @@ accordion:
           icon : "3"
           content : "
 <li>Unser Training richtet sich vor allem an Entwickler:innen, welche diese neue Welt und ihre Vor- und Nachteile kennenlernen möchten</li>
-<li>Die Teilnehmenden sollten Erfahrung mit einer gängigen Programmiersprache haben, ist jedoch keine strikte Voraussetzung</li>
+<li>Die Teilnehmenden sollten Erfahrung mit einer gängigen Programmiersprache haben, dies ist jedoch keine strikte Voraussetzung</li>
 "
 
         - title : "Konditionen"
@@ -82,8 +82,8 @@ trainingsinhalt:
         - el: "Was ist Serverless?"
         - el: "Was ist FaaS und wann sollte ich es benutzen?"
         - el: "Schreiben einer ersten Function"
-        - el: "Serverless Architektur-Patterns"
-        - el: "Schritt für Schritt anwenden der Best Practices"
+        - el: "Serverless-Architektur-Patterns"
+        - el: "Schritt für Schritt Anwenden der Best Practices"
         - el: "Verbinden mit einer Serverless Datenbank"
         - el: "Besprechen der häufigsten Stolpersteine und Lösungsmöglichkeiten"
         - el: "Anwenden dieser Techniken"
