@@ -52,7 +52,7 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "<ul>
-<li>Unser Training richtet sich an Personen, welche mit Daten und Datenmodellen arbeiten und bereits Vorkenntnisse im Bereich Data Science besitzen und Techniken und Prozesse erlernen wollen, aus diesen Daten und Modellen Services bereitzustellen und zu pflegen.</li>
+<li>Unser Training richtet sich an Personen, die mit Daten sowie Datenmodellen arbeiten und bereits Vorkenntnisse im Bereich Data Science besitzen. Wir vermitteln die Techniken und Prozesse, um aus diesen Daten und Modellen Services bereitzustellen und zu pflegen.</li>
 </ul>"
 
         - title : "Konditionen"

@@ -27,7 +27,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeD@2x.jpg"
 
 
-main_text: "Container-Technologien haben in den letzten Jahren enorm an Bedeutung gewonnen. Open­Shift bietet basierend auf diesen Technologien,unter anderem Kubernetes, eine umfassende und komfortable Container-Plattform-Lösung.<br></br>
+main_text: "Container-Technologien haben in den letzten Jahren enorm an Bedeutung gewonnen. Open­Shift bietet basierend auf diesen Technologien, unter anderem Kubernetes, eine umfassende und komfortable Container-Plattform-Lösung.<br></br>
 Dieses zweitägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in diese Open-Source-Technologien. Unsere Trainer kommen aus der Praxis und sind erfahrene OpenShift-Administratoren."
 
 accordion:

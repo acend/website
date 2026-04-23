@@ -1,7 +1,7 @@
 ---
 title: "Neuigkeiten aus der Welt von Cloud Native und Open Source."
 # type: 'stories'
-seo_title: "Neuigkeiten aus der Welt von Cloud Native und Open Source."
+seo_title: "Neuigkeiten aus der Welt von Cloud Native und Open-Source."
 description: ""
 
 draft: false

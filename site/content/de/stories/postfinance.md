@@ -62,7 +62,7 @@ partner:
 
 ### Wer hat an den Schulungen teilgenommen?
 
-Die Teilnehmenden kamen aus den Bereichen  Management, Software Engineering, Data Science, Business Analyse und Software Testing. Die Bandbreite reichte von Einsteiger: innen, die noch nie mit Kubernetes gearbeitet haben bis zu vereinzelten Cracks. Das schöne war, dass die Teilnehmenden teamübergreifend zusammengearbeitet haben.
+Die Teilnehmenden kamen aus den Bereichen  Management, Software Engineering, Data Science, Business Analyse und Software Testing. Die Bandbreite reichte von Einsteiger:innen, die noch nie mit Kubernetes gearbeitet haben, bis zu vereinzelten Cracks. Das schöne war, dass die Teilnehmenden teamübergreifend zusammengearbeitet haben.
 
 ### Wie sind die Trainings aufgebaut?
 
@@ -93,7 +93,7 @@ acend hat uns geholfen, Cloud-Native-Technologien wie Kubernetes in der gesamten
 
 ### Was haben Sie am Training besonders geschätzt?
 
-Was wir besonders an acend schätzen, ist die Praxisnähe der Trainer. Sie unterrichten Technologien und Architekturkonzepte, die sie in der Praxis operativ einsetzen, wodurch ein Dialog auf Augenhöhe entsteht. Den Leuten hat das Training Spass gemacht und waren spürbar motiviert, das Gelernte anzuwenden.
+Was wir besonders an acend schätzen, ist die Praxisnähe der Trainer. Sie unterrichten Technologien und Architekturkonzepte, die sie in der Praxis operativ einsetzen, wodurch ein Dialog auf Augenhöhe entsteht. Den Leuten hat das Training Spass gemacht und sie waren spürbar motiviert, das Gelernte anzuwenden.
 
 ### Welche Bedeutung messen Sie IT-Weiterbildungen bei?
 
