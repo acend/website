@@ -2,7 +2,7 @@
 title: "Cilium"
 type: 'trainings'
 seo_title: "The Cloud Native CNI based on eBPF for full speed."
-description: "With this training you will learn how to use Cilium and how to use eBFP based networking for observability and security in the cloud."
+description: "With this training you will learn how to use Cilium and how to use eBPF based networking for observability and security in the cloud."
 date: 2020-04-12T12:16:39+06:00
 draft: false
 weight: 4
@@ -19,9 +19,9 @@ techlogo:
 
 duration: "1 day"
 costs : "CHF 1100"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"
@@ -30,7 +30,7 @@ headerimages:
 
 
 main_text: "
-This one-day training in English or German provides a practical and clear introduction to Cilium, an eBFP-based networking, observability and security stack for cloud and on-premise infrastructure.
+This one-day training in English or German provides a practical and clear introduction to Cilium, an eBPF-based networking, observability, and security stack for cloud and on-premise infrastructure.
 "
 
 accordion:
@@ -41,7 +41,7 @@ accordion:
           content : "<ul>
 <li>Getting to know the basics of Kubernetes networking</li>
 <li>Understanding and applying the basic concepts of Cilium and Hubble</li>
-<li>Practical application of the most important Cillium features</li>
+<li>Practical application of the most important Cilium features</li>
 </ul>"
 
         - title : "Prerequisites"
@@ -60,7 +60,7 @@ accordion:
         - title : "Conditions"
           icon : "4"
           content : "<ul>
-<li>CHF 1200 / participant for one day</li>
+<li>CHF 1100 / participant for one day</li>
 <li>Group classes consisting of 8 to 24 participants</li>
 <li>Includes catering and documentation</li>
 <li>Discounts available for groups of 12 participants or more</li>
@@ -90,7 +90,7 @@ We are also happy to make reference to your infrastructure in consultation. If t
 # trainer
 trainers:
   enable: true
-  title : "Meet two of Your Trainers"
+  title : "Meet Your Trainer"
   trainer:
 
     - title : "Sebastian Plattner"

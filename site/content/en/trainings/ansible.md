@@ -20,9 +20,9 @@ techlogo:
 # Infos NEU 2024
 duration: "2 days"
 costs : "CHF 1900"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Hicham-Bike@2x.jpg"
@@ -31,8 +31,8 @@ headerimages:
 
 
 main_text: "
-This two-day training course is aimed at IT professionals from the fields of system administration, architecture and software development who want to acquire a sound basic knowledge of Ansible.\n
-Ansible is an open source tool for the automation, orchestration and general configuration and administration of computers. It combines software distribution, ad-hoc command execution and configuration management. The servers are managed via SSH, among other things, and no additional software is required on the system to be managed.\n
+This two-day training course is aimed at IT professionals from the fields of system administration, architecture and software development who want to acquire a sound basic knowledge of Ansible.<br></br>
+Ansible is an open source tool for the automation, orchestration and general configuration and administration of computers. It combines software distribution, ad-hoc command execution and configuration management. The servers are managed via SSH, among other things, and no additional software is required on the system to be managed.<br></br>
 The Kickstart training provides an insight into the technology and uses hands-on labs to show how Ansible can be used efficiently.
 "
 
@@ -58,7 +58,7 @@ accordion:
         - title : "Target Audience"
           icon : "3"
           content : "<ul>
-<li>System administrators, developers and architects and anyone else who wants to understand Ansible and use it for automation.</li>
+<li>System administrators, developers, architects, and anyone else who wants to understand Ansible and use it for automation.</li>
 </ul>"
 
         - title : "Conditions"

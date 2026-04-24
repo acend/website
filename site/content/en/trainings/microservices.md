@@ -22,9 +22,9 @@ build:
 
 duration: "1 day"
 costs : "CHF 1100"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Nadia-Redstone@2x.jpg"

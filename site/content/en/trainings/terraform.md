@@ -10,8 +10,8 @@ slug:
 subtitle: "Basics"
 categories: ["Delivery CI/CD"]
 
-abstract : "Write, Plan and Apply. IaC made easy."
-main_title : "Write, Plan and Apply. IaC made easy."
+abstract : "Write, Plan, and Apply. IaC made easy."
+main_title : "Write, Plan, and Apply. IaC made easy."
 
 techlogo:  
   full: "images/tech/Terraform.svg"
@@ -21,9 +21,9 @@ techlogo:
 
 duration: "2 days"
 costs : "CHF 2200"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own aptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
@@ -31,9 +31,9 @@ headerimages:
   img3 : "images/trainings/ACEND_Code_Yup@2x.jpg"
 
 main_text: "
-To manage its infrastructure declaratively as code, Terraform offers a wide range of functionality. The configuration files, which are typically stored in a Git repository, are used by Terraform as a single source of truth. These files are used, for example, to build infrastructure or to configure entire applications.\n\n
+To manage its infrastructure declaratively as code, Terraform offers a wide range of functionality. The configuration files, which are typically stored in a Git repository, are used by Terraform as a single source of truth. These files are used, for example, to build infrastructure or to configure entire applications.<br></br>
 
-This two-days training in English or German offers a clearly understandable introduction to Terraform and a practical hands-on implementation section on the cloud service provider of your choice (**Azure, GCP oder AWS**)."
+This two-day training in English or German offers a clearly understandable introduction to Terraform and a practical hands-on implementation section on the cloud service provider of your choice (**Azure, GCP or AWS**)."
 
 accordion:
     enable : true
@@ -53,7 +53,7 @@ accordion:
 <li>An appropriate cloud account will be provided</li>
 "
 
-        - title : "Target audience"
+        - title : "Target Audience"
           icon : "3"
           content : "
 <li>Our training is aimed at people who already have some prior knowledge of Kubernetes and Cloud (knowing and using resource types)</li>
@@ -64,7 +64,7 @@ accordion:
           content : "
 <li>CHF 2200 / participant for 2 days</li>
 <li>Group sessions consisting of 8 to 24 participants</li>
-<li>Includes catering, documentation and training infrastucture in the cloud</li>
+<li>Includes catering, documentation and training infrastructure in the cloud</li>
 <li>Discounts available for groups of 12 participants or more</li>
 "
 
@@ -83,7 +83,7 @@ trainingsinhalt:
         - el: "Terraform Basics"
           liste:
           - el: "Sense and Purpose"
-          - el: "Struktur, Files, Configuration, Providers"
+          - el: "Structure, Files, Configuration, Providers"
           - el: "Resource, Data Source, Modules"
         - el: "Terraform Intermediate"
           liste:

@@ -15,9 +15,9 @@ main_title: "A practical introduction and comprehensive insight into MLOps."
 
 duration: "2 days"
 costs : "CHF 2200"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lava@2x.jpg"
@@ -25,7 +25,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeB@2x.jpg"
 
 
-main_text: "This two-day training offers a practical introduction to MLOps, which optimizes the machine learning lifecycle through automation and standardization. Versioning of code and data as well as monitoring model parameters ensure consistent, reproducible results. Continuous Integration and Continuous Deployment (CI/CD) accelerate the market introduction of new ML products.\n\n
+main_text: "This two-day training offers a practical introduction to MLOps, which optimizes the machine learning lifecycle through automation and standardization. Versioning of code and data, as well as monitoring model parameters, ensure consistent, reproducible results. Continuous Integration and Continuous Deployment (CI/CD) accelerate the market introduction of new ML products.<br></br>
 Our training team consists of professionals who are both active in machine learning research and have extensive experience in the practical implementation of data models in companies.
 "
 
@@ -39,7 +39,7 @@ accordion:
 <li>Know the differences between MLOps and DevOps</li>
 <li>Create ML pipelines, train and optimize models</li>
 <li>Use DVC for data versioning and CML for ML pipelines</li>
-<li>Get to know other tools like MLFlow and Kubeflow in the MLOps ecosystem</li>
+<li>Get to know other tools like MLflow and Kubeflow in the MLOps ecosystem</li>
 </ul>"
 
         - title: "Prerequisites"
@@ -48,20 +48,20 @@ accordion:
 <li>Participants need a laptop with direct internet access</li>
 </ul>"
 
-        - title: "Target audience"
+        - title: "Target Audience"
           icon: "3"
           content: "<ul>
 <li>Our training is aimed at software developers who provide services based on data and data models and already have prior knowledge in software development and architecture.</li>
-<li>Prior knowledge of software delivery principles like CI/CD and GIT is advantageous.</li>
+<li>Prior knowledge of software delivery principles like CI/CD and Git is advantageous.</li>
 </ul>"
 
         - title: "Conditions"
           icon: "4"
           content: "<ul>
-<li>CHF 2200 / participant for two days.</li>
-<li>Group sessions consisting of 8 to 24 participants.</li>
-<li>Includes catering and documentation.</li>
-<li>Discounts available for groups of 12 participants or more.</li>
+<li>CHF 2200 / participant for two days</li>
+<li>Group sessions consisting of 8 to 24 participants</li>
+<li>Includes catering and documentation</li>
+<li>Discounts available for groups of 12 participants or more</li>
 </ul>"
 
 
@@ -77,7 +77,7 @@ trainingsinhalt:
       title: "MLOps Developer"
       liste:
         - el: "Introduction to Machine Learning (classifiers/regressors, overfitting and underfitting)"
-        - el: "ML models: from linear regression to neural networks"
+        - el: "ML Models: from linear regression to neural networks"
         - el: "Data collection and preparation using various techniques"
         - el: "Train a model using the prepared data"
         - el: "Use of Codespaces/GitHub Actions in the Free Tier"

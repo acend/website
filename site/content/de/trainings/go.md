@@ -8,8 +8,8 @@ draft: false
 weight: 3
 subtitle: "Basics"
 categories: ["Programming"]
-abstract: "Einführung in Go für Software Entwickler, Architekten und DevOps Engineers."
-main_title: "Einführung in Go für Software Entwickler, Architekten und DevOps Engineers."
+abstract: "Einführung in Go für Software-Entwickler, Architekten und DevOps-Engineers."
+main_title: "Einführung in Go für Software-Entwickler, Architekten und DevOps-Engineers."
 techlogo: 
   full: "images/tech/Go.svg"
   cut_lg: "images/tech/partials/Go_lg.svg"
@@ -28,7 +28,7 @@ headerimages:
 
 
 main_text: "
-Go ist eine Open Source-Programmiersprache, die von Google entwickelt wurde. Das Augenmerk lag dabei auf Pragmatismus, damit möglichst einfacher und sauberer Programmcode erstellt werden kann, welcher effizient ausgeführt wird. Go kommt häufig zum Einsatz bei Anwendungen und Infrastrukturkomponenten, welche auf skalierbaren Netzwerkdiensten, Cloud Computing und Containern basieren.
+Go ist eine Open-Source-Programmiersprache, die von Google entwickelt wurde. Das Augenmerk lag dabei auf Pragmatismus, damit möglichst einfacher und sauberer Programmcode erstellt werden kann, welcher effizient ausgeführt wird. Go kommt häufig zum Einsatz bei Anwendungen und Infrastrukturkomponenten, welche auf skalierbaren Netzwerkdiensten, Cloud Computing und Containern basieren.
 "
 
 accordion:
@@ -73,14 +73,14 @@ trainingsinhalt:
     liste1:
       title: "Go Basics"
       liste:
-        - el: "Einführung, Geschichte und Einsatzgebiete von Go"
-        - el: "Ökosystem & Tooling"
-        - el: "Syntax und Sprachkonstrukte"
-        - el: "Error Handling"
-        - el: "Standard Library (net/http, os, encoding/json, etc.)"
-        - el: "Testing"
-        - el: "Concurrency & Multithreading"
-        - el: "Release Code / Packaging"
+        - el: "Einführung, Geschichte und Einsatzgebiete von Go."
+        - el: "Ökosystem & Tooling."
+        - el: "Syntax und Sprachkonstrukte."
+        - el: "Error Handling."
+        - el: "Standard Library (net/http, os, encoding/json, etc.)."
+        - el: "Testing."
+        - el: "Concurrency & Multithreading."
+        - el: "Release Code / Packaging."
 
 # video
 video:

@@ -11,7 +11,7 @@ subtitle: "Basics"
 categories: ["Additional trainings"]
 
 abstract : "Level up your serverless game - Hands-on best practices for serverless and FaaS."
-main_title : "Level up your serverless game - Hands-on best practices für serverless und FaaS"
+main_title : "Level up your serverless game - Hands-on best practices for serverless and FaaS"
 
 techlogo:  
   full: "images/tech/Serverless.svg"
@@ -20,9 +20,9 @@ techlogo:
 
 duration: "1 day"
 costs : "CHF 1100"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
@@ -31,7 +31,7 @@ headerimages:
 
 
 main_text: "
-Serverless technologies are currently experiencing quite a boom. They range from Function-as-a-Service (FaaS) to complete database and queuing systems to authentication and monitoring solutions. In this training, we will mainly look at FaaS and create corresponding functions that follow common best practices and run in AWS Lambda. In doing so, we will learn about certain stumbling blocks and peculiarities of these platforms and how to deal with them."
+Serverless technologies are currently experiencing quite a boom. They range from Function-as-a-Service (FaaS) to complete database and queuing systems to authentication and monitoring solutions. In this training, we will mainly look at FaaS and and develop functions that follow common best practices and run in AWS Lambda. In doing so, we will learn about certain stumbling blocks and peculiarities of these platforms and how to deal with them."
 
 accordion:
     enable : true
@@ -52,7 +52,7 @@ accordion:
 <li>An AWS account will be provided</li>
 "
 
-        - title : "Target audience"
+        - title : "Target Audience"
           icon : "3"
           content : "
 <li>Our training is primarily aimed at developers who want to learn about this new world and its advantages and disadvantages</li>
@@ -64,7 +64,7 @@ accordion:
           content : "
 <li>CHF 1100 / participant for one day</li>
 <li>Group sessions consisting of 8 to 24 participants</li>
-<li>Includes catering, documentation and a cluster in the cloud</li>
+<li>Includes catering, documentation, and a cluster in the cloud</li>
 <li>Discounts available for groups of 12 participants or more</li>
 "
 
@@ -82,19 +82,19 @@ trainingsinhalt:
         - el: "What is FaaS and when should I use it?"
         - el: "Writing a first function"
         - el: "Serverless architecture patterns"
-        - el: "Step by step application of best practices"
+        - el: "Step-by-step application of best practices"
         - el: "Connecting to a serverless database"
-        - el: "Discussing the most common pitfalls and possible solutions"
+        - el: "Discussion of the most common pitfalls and possible solutions"
         - el: "Applying these techniques"
         - el: "Advanced concepts and learnings from the field"
 
 # Kooperation
 kooperation:
   enable: true
-  title: "Developed from <strong>bespinian</strong>"
+  title: "Developed by <strong>bespinian</strong>"
   subtitle: "In collaboration with <strong>bespinian</strong>"
   logo: "images/partner/bespinian.png"
-  text: "bespinian is a start-up from Bern that loves software and cloud computing. As \"Cloud Native Citizens\" they are at home on different cloud platforms and help their customers in close collaboration to build new software in the cloud or to bring existing ones to the cloud."
+  text: "bespinian is a start-up from Bern that loves software and cloud computing. As \"Cloud Native Citizens\" they are at home on different cloud platforms and help their customers build new software in close collaboration to build new software in the cloud or to migrate existing ones to the cloud."
   link: "https://bespinian.io"
   linktext: "bespinian.io"
 

@@ -21,9 +21,9 @@ techlogo:
 
 duration: "1 day"
 costs : "CHF 1100"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 
 headerimages:
@@ -56,7 +56,7 @@ accordion:
         - title : "Target audience"
           icon : "3"
           content : "<ul>
-<li>Our training is aimed at people who already have prior knowledge of container technologies, Git and Kubernetes</li>
+<li>Our training is aimed at people who have prior knowledge of container technologies, Git, and Kubernetes</li>
 <li>A prior attendance of the Container & Kubernetes Basics or the Container & OpenShift Basics training is recommended</li>
 </ul>"
 
@@ -73,7 +73,7 @@ accordion:
 # Trainingsinhalt
 trainingsinhalt:
     title : "Content"
-    text : "Our trainings consist of varied presentations and hands-on labs in order to teach content in an appealing fashion. We are happy to discuss the possibility of tailoring the content to your infrastructure. Should you require additional contents, we can adapt the program to your needs."
+    text : "Our trainings consist of varied presentations and hands-on labs in order to teach content in an appealing fashion. We are happy to discuss the possibility of tailoring the content to your infrastructure. Should you require additional content, we can adapt the program to your needs."
 
     liste1:
       title: "Argo CD"

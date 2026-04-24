@@ -31,7 +31,7 @@ headerimages:
   img3 : "images/trainings/ACEND_Code_Yup@2x.jpg"
 
 main_text: "
-Um seine Infrastruktur deklarativ als Code zu verwalten, bietet Terraform einen breiten Funktionsumfang an. Die Konfigurationsdateien, welche typischerweise in einem Git Repository gespeichert sind, werden von Terraform als Single Source of Truth verwendet. Anhand dieser Dateien wird beispielsweie Infrastruktur aufgebaut oder es werden ganze Applikationen konfiguriert.\n\n
+Um seine Infrastruktur deklarativ als Code zu verwalten, bietet Terraform einen breiten Funktionsumfang an. Die Konfigurationsdateien, welche typischerweise in einem Git-Repository gespeichert sind, werden von Terraform als Single Source of Truth verwendet. Anhand dieser Dateien wird beispielsweise Infrastruktur aufgebaut oder es werden ganze Applikationen konfiguriert.<br></br>
 Dieses zweitägige Training auf Deutsch oder Englisch bietet einen klar verständlichen Einstieg in Terraform und einen praktischen Umsetzungsteil auf dem Cloud Service Provider deiner Wahl (**Azure, GCP oder AWS**)."
 
 accordion:
@@ -55,7 +55,7 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "
-<li>Unser Training richtet sich an Personen, welche bereits leichte Vorkenntnisse im Bereich von Kubernetes und der Cloud besitzen (Kennen und anwenden von Ressourcentypen)
+<li>Unser Training richtet sich an Personen, welche bereits leichte Vorkenntnisse im Bereich Kubernetes und der Cloud besitzen (Kennen und anwenden von Ressourcentypen)
 </li>
 "
 
@@ -79,7 +79,7 @@ trainingsinhalt:
       title: "Terraform"
       liste:
         - el: "Grundkonzepte"
-        - el: "Neue Welt: Cloud Engineering"
+        - el: "Neue Welt: Cloud-Engineering"
         - el: "Terraform Basics"
           liste:
           - el: "Sinn und Zweck"
@@ -114,7 +114,7 @@ trainers:
     - title : "Sebastian Plattner"
       image : "images/team/AC_Seba@2x.jpg"
       designation : "Trainer"
-      abstract : "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
+      abstract : "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem, desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
 

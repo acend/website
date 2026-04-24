@@ -27,8 +27,8 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeD@2x.jpg"
 
 
-main_text: "Container-Technologien haben in den letzten Jahren enorm an Bedeutung gewonnen. Open­Shift bietet basierend auf diesen Technologien – unter anderem Kubernetes – eine umfassende und komfortable Container Plattform-Lösung.\n\n
-Dieses zweitägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in diese Open Source-Technologien. Unsere Trainer kommen aus der Praxis und sind erfahrene OpenShift Administratoren."
+main_text: "Container-Technologien haben in den letzten Jahren enorm an Bedeutung gewonnen. Open­Shift bietet basierend auf diesen Technologien, unter anderem Kubernetes, eine umfassende und komfortable Container-Plattform-Lösung.<br></br>
+Dieses zweitägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in diese Open-Source-Technologien. Unsere Trainer kommen aus der Praxis und sind erfahrene OpenShift-Administratoren."
 
 accordion:
     enable : true
@@ -51,7 +51,7 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "<ul>
-<li>Unser Training richtet sich an Personen aus dem Software und System Engineering</li>
+<li>Unser Training richtet sich an Personen aus dem Software- und System-Engineering</li>
 <li>Es sind keine Vorkenntnisse mit Container-Technologien oder OpenShift notwendig</li>
 </ul>"
 
@@ -113,7 +113,7 @@ trainers:
     - title : "Christian Haller"
       image : "images/team/AC_Christian_Haller@2x.jpg"
       designation : "Trainer, Puzzle ITC"
-      abstract : "Als Ausgleich zum hektischen Container-Alltag, macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
+      abstract : "Als Ausgleich zum hektischen Container-Alltag macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
       linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
 
     - title: "Daniel Strohecker"

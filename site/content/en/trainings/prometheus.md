@@ -19,9 +19,9 @@ techlogo:
 
 duration: "2 days"
 costs : "CHF 2200"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Surf@2x.jpg"
@@ -29,7 +29,7 @@ headerimages:
   img3 : "images/trainings/ACEND_Code@2x.jpg"
 
 
-main_text: "Prometheus is a modern and widely used metrics-based monitoring system. Prometheus is often used in the context of dynamic platforms in the container environment, such as Kubernetes and OpenShift, but is also suitable for monitoring classic environments.\n\n
+main_text: "Prometheus is a modern and widely used metrics-based monitoring system. Prometheus is often used in the context of dynamic platforms in the container environment, such as Kubernetes and OpenShift, but is also suitable for monitoring classic environments.<br></br>
 This two-day training in German or English offers a practical and clearly understandable introduction to Prometheus technology. The training is offered by acend in cooperation with Puzzle ITC. It can be conducted online or on-site."
 
 
@@ -39,7 +39,7 @@ accordion:
         - title : "Outcomes"
           icon : "1"
           content : "<ul>
-<li>Get started with the modern monitoring platform Prometheus</li>
+<li>Learn the basics of the Prometheus monitoring platform</li>
 <li>Understand Prometheus concepts</li>
 <li>Learn more about PromQL and its application scope</li>
 </ul>"
@@ -54,7 +54,7 @@ accordion:
         - title : "Target Audience"
           icon : "3"
           content : "<ul>
-<li>Our training is aimed at software developers, system engineers, architects and anyone who wants to understand and use Prometheus for monitoring</li>
+<li>Our training is aimed at software developers, system engineers, architects, and anyone who wants to understand and use Prometheus for monitoring</li>
 </ul>"
 
         - title : "Conditions"
@@ -62,14 +62,14 @@ accordion:
           content : "<ul>
 <li>CHF 2200 / participant for two days</li>
 <li>Group classes consisting of 8 to 24 participants</li>
-<li>Includes catering, documentation and a cloud-based lab environment</li>
+<li>Includes catering, documentation, and a cloud-based lab environment</li>
 <li>Discounts available for groups of 12 participants or more</li>
 </ul>"
 
 # Trainingsinhalt
 trainingsinhalt:
     title : "Content"
-    text : "Our trainings consist of varied presentations and hands-on labs in order to teach content in an appealing fashion. We are happy to discuss the possibility of tailoring the content to your infrastructure. Should you require additional contents, we can adapt the program to your needs."
+    text : "Our trainings consist of varied presentations and hands-on labs in order to teach content in an appealing fashion. We are happy to discuss the possibility of tailoring the content to your infrastructure. Should you require additional content, we can adapt the program to your needs."
 
     liste1:
       title: "Prometheus Basics"
@@ -88,14 +88,14 @@ trainingsinhalt:
 # video
 video:
   enable: true
-  title: "Einfach erklärt: Was ist Observability?"
+  title: "Explained simply: What is Observability?"
   youtubeID: "FrQKfrMH_nU"
 
 # Kooperation
 kooperation:
   enable: true
-  title: "Developed together with <strong>Puzzle</strong>"
-  subtitle: "In collaboration with <strong>Puzzle</strong>"
+  title: "Developed together with <strong>Puzzle ITC</strong>"
+  subtitle: "In cooperation with <strong>Puzzle ITC</strong>"
   logo : "images/partner/puzzle-itc.png"
   text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on open source technologies as well as the most modern methods. Different interdisciplinary teams work on projects regarding consulting, applications, delivery, infrastructure and open source solutions."
   link: "https://puzzle.ch"

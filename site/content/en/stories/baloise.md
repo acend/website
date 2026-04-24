@@ -35,7 +35,7 @@ partner:
 
 ---
 
-At Baloise Park in Basel, the headquarters of the financial services provider with 8,000 employees across Europe, a strong wind blows around the three architecturally striking buildings this afternoon. Inside, Product Owner Nikolas Philips and Head of Engineering Joachim Prinzbach from Baloise’s IT department welcome us for a relaxed interview. They have just completed two extensive training periods with acend and are happy to take a moment to look back and share their experiences.
+At Baloise Park in Basel, the headquarters of the financial services provider with 8,000 employees across Europe, a strong wind blows around the three architecturally striking buildings this afternoon. Inside, Product Owner Nikolas Philips and Head of Engineering Joachim Prinzbach from Baloise’s IT department welcomes us for a relaxed interview. They have just completed two extensive training periods with acend and are happy to take a moment to look back and share their experiences.
 
 </div>
 <div class="entry-content">
@@ -58,7 +58,7 @@ Joachim: Another goal was the independence of the application teams, to be as in
 
 ### How did you come across acend?
 
-Nikolas: A few years ago, we initially wanted to train the employees ourselves, but there simply wasn't enough time – and the necessary pedagogical know-how was missing. We already knew some of the trainers and thought it was cool when acend launched their training offer shortly after. Right from the first introductory meeting, we knew it was a great fit, both professionally and personally.
+Nikolas: A few years ago, we initially wanted to train the employees ourselves, but there simply wasn't enough time – and the necessary teaching know-how was missing. We already knew some of the trainers and thought it was cool when acend launched their training offer shortly after. Right from the first introductory meeting, we knew it was a great fit, both professionally and personally.
 
 ### What convinced you?
 
@@ -80,7 +80,7 @@ Joachim: We had two broad training periods over a span of one and a half years. 
 
 ### What did the participants particularly appreciate about the training?
 
-Nikolas: The training consisted of theoretical blocks and labs to get straight into practice. Solving tasks is important because that’s when mistakes happen. And since the trainers are on-site, there's no long search for a solution. This eliminates a major time-killer. Developers usually find a solution – but the question is how quickly and cleanly. Our goal was for employees to be able to apply what they learned immediately after the training. The more time passes between training and application, the less sticks.
+Nikolas: The training consisted of theoretical blocks and labs to get straight into practice. Solving tasks is important because that’s when mistakes happen. And since the trainers are on-site, there's no long search for a solution. This eliminates a major time-killer. Developers usually find a solution – but the question is how quickly and cleanly. Our goal was for employees to be able to apply what they learned immediately after the training. The more time passes between training and application, the less it sticks.
 
 {{< figure
   process="fill 1580x1040"
@@ -105,7 +105,7 @@ Joachim: The know-how is more widely available. This is evident in the fact that
 
 ### How do Baloise customers benefit from this?
 
-Joachim: Simple and practical digital services are a societal need. Many people no longer want to have to call to report a claim. A few clicks are enough. By staying on the ball, we can offer ever-better digital services.
+Joachim: Simple and practical digital services are a societal need. Many people no longer want to have to call to file a claim. A few clicks are enough. By staying on the ball, we can offer ever-better digital services.
 
 ### Why would you recommend acend?
 

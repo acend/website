@@ -2,7 +2,7 @@
 title: "Cilium"
 type: 'trainings'
 seo_title: "Das Cloud Native CNI basierend auf eBPF für volle Geschwindigkeit."
-description: "Mit diesem Training lernst du wie du Cilium einsetzen kannst und wie du eBFP basiertes Networking für Observability und Security in der Cloud nutzen kannst."
+description: "Mit diesem Training lernst du wie du Cilium einsetzen kannst und wie du eBPF basiertes Networking für Observability und Security in der Cloud nutzen kannst."
 date: 2020-04-12T12:16:39+06:00
 draft: false
 weight: 4
@@ -31,7 +31,7 @@ headerimages:
 
 
 main_text: "
-Dieses eintägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in Cilium, einem eBFP basierten Network, Observability und Security Stack für die Cloud und auf on-premise Infrastruktur.
+Dieses eintägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in Cilium, einem eBPF basierten Network, Observability und Security Stack für die Cloud und auf on-premise Infrastruktur.
 "
 
 accordion:
@@ -42,7 +42,7 @@ accordion:
           content : "<ul>
 <li>Grundlagen des Kubernetes Networkings verstehen</li>
 <li>Verständnis und Anwendung der Grundkonzepte von Cilium und Hubble</li>
-<li>Praktische Anwendung der wichtigsten Cillium Features</li>
+<li>Praktische Anwendung der wichtigsten Cilium Features</li>
 </ul>"
 
         - title : "Voraussetzungen"
@@ -97,7 +97,7 @@ trainers:
     - title : "Sebastian Plattner"
       image : "images/team/AC_Seba@2x.jpg"
       designation : "Trainer"
-      abstract : "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
+      abstract : "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem, desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
 

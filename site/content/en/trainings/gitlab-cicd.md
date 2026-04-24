@@ -14,10 +14,10 @@ abstract : "GitLab is much more than a source version control system. It is a bu
 main_title : "GitLab is much more than a source version control system. It is a build server and an application development platform."
 
 costs: "CHF 2100"
-duration: "2 Days"
+duration: "2 days"
 certificate : "Certificate"
 documents: "Digital Documents"
-info: "Please bring your own laptop."
+info: "bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
@@ -57,7 +57,7 @@ accordion:
 <li>This training is aimed at software developers, software engineers, system engineers, and DevOps enthusiasts who want to use GitLab as the central hub for their software delivery process.</li>
 </ul>"
 
-        - title : "Terms & Conditions"
+        - title : "Conditions"
           icon : "4"
           content : "<ul>
 <li>CHF 2100 / person for two days</li>
