@@ -42,7 +42,7 @@ timeline:
       img: "images/ueberuns/timeline/ACEND_About_Timeline_Training100@2x.jpg"
       text: "Delivery of the 100th training course."
 
-introtext: "What has happened so far: the idea of acend was initially formulated at a Sammy Deluxe concert in 2019. This was the moment when some of the founders agreed to pursue their vision of revolutionizing IT training. The rest is history. Today, we provide educational, entertaining and rewarding training experiences you won’t forget!"
+introtext: "What has happened so far: the idea of acend was initially formulated at a Samy Deluxe concert in 2019. This was the moment when some of the founders agreed to pursue their vision of revolutionizing IT training. The rest is history. Today, we provide educational, entertaining, and rewarding training experiences you won’t forget!"
 
 brand_values:
   - title: "extraordinary"
@@ -63,14 +63,14 @@ team:
       designation: "Sales"
       abstract: "Brings structure to chaos - loves to optimize processes and can't sit still for a minute when music is playing."
       experience: "After her apprenticeship as an IT specialist and several other positions in IT, Anna took a detour into aviation. She looked after the server landscape of Edelweiss Air as well as the passengers above the clouds.
-      This was followed by further exciting years as a system engineer at HRM Systems and further training as a project manager. For the last four years Anna has been at Puzzle ITC, making sure that all containers and CI/CD engineers, as well as the customers, are happy."
+      This was followed by further exciting years as a system engineer at HRM Systems and further training as a project manager. For the last four years Anna has been at Puzzle ITC, making sure that the customers, as well as all container and CI/CD engineers, are happy."
       linkedin: "https://www.linkedin.com/in/anna-pfeifhofer-902495183/"
 
     - title: "Beat Schärz"
       image: "images/team/AC_Beat_Schaerz@2x.jpg"
       designation: "Trainer, Puzzle ITC"
       abstract: "Not only does Beat have an iron discipline when it comes to sports, but he also steels his brain by constantly building up new knowledge."
-      experience: "After his apprenticeship as a computer scientist, Beat immediately completed a bachelor's degree in computer science while working. From Linux Engineering at DXC, he now works in the Kubernetes environment at Puzzle. There he accompanies many customers on their way to Kubernetes and also Observability, which is his passion."
+      experience: "After his apprenticeship as a computer scientist, Beat immediately completed a bachelor's degree in computer science while working. From Linux Engineering at DXC, he now works in the Kubernetes environment at Puzzle. There he accompanies many customers on their way to Kubernetes and with Observability, which is his passion."
       linkedin: "https://www.linkedin.com/in/beat-sch%C3%A4rz/"
 
     - title : "Christian Haller"
@@ -113,7 +113,7 @@ team:
     - title: "David Kilchenmann"
       image: "images/team/AC_Dave@2x.jpg"
       designation: "Sales"
-      abstract: "He is the dream of all mothers-in-law and also us and especially our customers he always brings a smile to the face."
+      abstract: "He is the dream of all mothers-in-law and he always brings a smile to our faces, and especially those of our customers."
       experience: "David took his first steps in IT after his Bachelor in Business Administration at Swisscom. There he was responsible for the Dev Portal as PM and organized the Software Day. For more than 3 years now, he has been working for Puzzle as a Key Account Manager and explains to customers why they should rely on cloud native technologies."
       linkedin: "https://www.linkedin.com/in/david-kilchenmann/"
       twitter: "https://twitter.com/DKilchenmann"
@@ -149,7 +149,7 @@ team:
     - title: "Marcel Groner"
       image: "images/team/AC_Marcel@2x.jpg"
       designation: "Finance & Experience"
-      abstract: "Our number’s whizz counts altitudinal differences in his free time – and has climbed many mountain tops in the process."
+      abstract: "Our numbers whizz counts altitudinal differences in his free time – and has climbed many mountain tops in the process."
       experience: "In 1999, Marcel founded Puzzle ITC together with friends directly after his IT studies. Until today, he is  working there full-time as CFO. In addition to his work as CFO, he has also completed an MAS in Online Marketing Management."
       linkedin: "https://www.linkedin.com/in/marcelgroner/"
       twitter: "https://twitter.com/mar73cel"
@@ -173,16 +173,16 @@ team:
       image: "images/team/AC_Seba@2x.jpg"
       designation: "Trainer"
       abstract: "He always has his fingers on the pulse of technological developments and stays one step ahead – the more complex the problem, the bigger his motivation. And because nothing explains itself, he’ll also take care of that."
-      experience: "As a consultant and expert for cloud native technologies, he designs and builds Kubernetes platforms for various Puzzle ITC customers. After graduating with a BsC in Computer Science (2017) and a major in Security, Sebastian led a team in Cybersecurity at RUAG Schweiz AG. Various certifications in the Cloud Native environment underline his expertise in containers and Kubernetes. CKA, CKAD, CKS"
+      experience: "As a consultant and expert for cloud native technologies, he designs and builds Kubernetes platforms for various Puzzle ITC customers. After graduating with a BSc in Computer Science (2017) and a major in Security, Sebastian led a team in Cybersecurity at RUAG Schweiz AG. Various certifications in the Cloud Native environment underline his expertise in containers and Kubernetes. CKA, CKAD, CKS"
       linkedin: "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter: "https://twitter.com/SebaPlattner"
 
-    - title: "Simon Stettler"
-      image: "images/team/AC_Simon@2x.jpg"
-      designation: "Strategie, Marketing & Sales"
-      abstract: "Enjoys seeing the bigger picture and strives to bring out the best in himself and organizations. Sometimes also with beer."
-      experience: "Having spent years as a marketer, Simon transitioned into management and leadership. In addition to leading teams in the business world, he has also led teams in sports and is convinced that the athlete's mindset is highly relevant in everyday business. Since July 2024, Simon has been responsible for the further development of acend."
-      linkedin: "https://www.linkedin.com/in/simon-stettler/"
+    # - title: "Simon Stettler"
+    #  image: "images/team/AC_Simon@2x.jpg"
+    #  designation: "Strategy, Marketing & Sales"
+    #  abstract: "Enjoys seeing the bigger picture and strives to bring out the best in himself and organizations. Sometimes also with beer."
+    #  experience: "Having spent years as a marketer, Simon transitioned into management and leadership. In addition to leading teams in the business world, he has also led teams in sports and is convinced that the athlete's mindset is highly relevant in everyday business. Since July 2024, Simon has been responsible for the further development of acend."
+    #  linkedin: "https://www.linkedin.com/in/simon-stettler/"
 
     - title: "Thomas Philipona"
       image: "images/team/AC_Thoemu@2x.jpg"

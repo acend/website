@@ -181,12 +181,12 @@ team:
       linkedin: "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter: "https://twitter.com/SebaPlattner"
 
-    - title: "Simon Stettler"
-      image: "images/team/AC_Simon@2x.jpg"
-      designation: "Strategie, Marketing & Sales"
-      abstract: "Mag den Blick auf das grosse Ganze und versucht aus sich und Organisationen das Beste herauszuholen. Manchmal auch mit Bier."
-      experience: "Jahrelang als Marketer unterwegs, hat sich Simon Richtung Management und Leadership entwickelt. Neben mehreren Teams in der Arbeitswelt, hat er auch im Sport Teams angeführt und ist überzeugt, dass das Athletes Mindset im Business-Alltag hohe Relevanz hat. Seit Juli 2024 ist Simon bei acend für dessen Weiterentwicklung zuständig."
-      linkedin: "https://www.linkedin.com/in/simon-stettler/"
+    # - title: "Simon Stettler"
+    #   image: "images/team/AC_Simon@2x.jpg"
+    #   designation: "Strategie, Marketing & Sales"
+    #  abstract: "Mag den Blick auf das grosse Ganze und versucht aus sich und Organisationen das Beste herauszuholen. Manchmal auch mit Bier."
+    #  experience: "Jahrelang als Marketer unterwegs, hat sich Simon Richtung Management und Leadership entwickelt. Neben mehreren Teams in der Arbeitswelt, hat er auch im Sport Teams angeführt und ist überzeugt, dass das Athletes Mindset im Business-Alltag hohe Relevanz hat. Seit Juli 2024 ist Simon bei acend für dessen Weiterentwicklung zuständig."
+    #  linkedin: "https://www.linkedin.com/in/simon-stettler/"
 
     - title: "Thomas Philipona"
       image: "images/team/AC_Thoemu@2x.jpg"

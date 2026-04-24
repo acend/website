@@ -1,8 +1,8 @@
 ---
 title: "AI in Software Development"
 type: 'trainings'
-seo_title: "Using AI effectively: From Requirements Engineering and Coding to Testing and Deployment"
-description: "Using AI effectively: From Requirements Engineering and Coding to Testing and Deployment"
+seo_title: "Using AI effectively: From Requirements Engineering and Coding, to Testing and Deployment"
+description: "Using AI effectively: From Requirements Engineering and Coding, to Testing and Deployment"
 date: 2025-12-23T00:14:34+06:00
 draft: false
 weight: 1
@@ -10,11 +10,11 @@ slug:
 subtitle: "Basics"
 categories: ["Additional Trainings", "AI", "New"]
 showOnHomePage: true
-abstract : "Using AI effectively: From Requirements Engineering and Coding to Testing and Deployment"
-main_title : "Using AI effectively: From Requirements Engineering and Coding to Testing and Deployment"
+abstract : "Using AI effectively: From Requirements Engineering and Coding, to Testing and Deployment"
+main_title : "Using AI effectively: From Requirements Engineering and Coding, to Testing and Deployment"
 
 costs: "CHF 1900"
-duration: "2 Days"
+duration: "2 days"
 certificate : "Certificate"
 documents: "Digital Documents"
 info: "Please bring your own laptop."
@@ -25,9 +25,9 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeA@2x.jpg"
 
 
-main_text: "Artificial Intelligence has arrived in software development – but a gap often remains between marketing promises and productive team use. Many tools promise increased productivity, but daily operations lack clear rules, suitable use cases, and a shared roadmap.\n\n
-In this two-day training, software teams learn how to integrate AI into their existing development process in a practical and secure way – from requirements and implementation to testing, documentation, and operations.\n\n
-By the end, participants will have practiced use cases, clear guardrails for data protection and security, and a prioritized roadmap for establishing AI responsibly within their team.\n\n
+main_text: "Artificial Intelligence has arrived in software development – but a gap often remains between marketing promises and productive team use. Many tools promise increased productivity, but daily operations lack clear rules, suitable use cases, and a shared roadmap.<br></br>
+In this two-day training, software teams learn how to integrate AI into their existing development process in a practical and secure way – from requirements and implementation to testing, documentation, and operations.<br></br>
+By the end, participants will have practiced use cases, clear guardrails for data protection and security, and a prioritized roadmap for establishing AI responsibly within their team.<br></br>
 Examples and exercises are demonstrated using the Atlassian tool stack (Jira, Confluence), GitHub Copilot, Playwright, and Azure, but can easily be applied to other tools and providers."
 
 accordion:
@@ -70,7 +70,7 @@ accordion:
 trainingsinhalt:
     title : "Training Content"
     text : "Our training sessions consist of varied presentations and hands-on labs to convey content in an exciting and engaging way.
-    By arrangement, we are happy to reference your specific infrastructure. If additional content is needed, we can make adjustments based on your requirements.\n\n
+    By arrangement, we are happy to reference your specific infrastructure. If additional content is needed, we can make adjustments based on your requirements.<br></br>
     The training combines short impulse inputs with many practical exercises based on real-world examples."
     liste1:
       title: "Day 1 – Introduction"
