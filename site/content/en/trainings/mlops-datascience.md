@@ -16,9 +16,9 @@ techlogo:
 
 duration: "2 days"
 costs : "CHF 2200"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"
@@ -40,7 +40,7 @@ accordion:
 <li>Learn techniques for data acquisition, preparation, and versioning</li>
 <li>Understand and develop MLOps processes: model training and development using pipelines</li>
 <li>Use DVC for data versioning and CML for ML pipelines</li>
-<li>Get to know other tools like MLFlow and Kubeflow in the MLOps ecosystem</li>
+<li>Get to know other tools like MLflow and Kubeflow in the MLOps ecosystem</li>
 </ul>"
 
         - title: "Prerequisites"
@@ -49,19 +49,19 @@ accordion:
 <li>Participants need a laptop with direct internet access</li>
 </ul>"
 
-        - title: "Target audience"
+        - title: "Target Audience"
           icon: "3"
           content: "<ul>
-<li>Our training is aimed at people who work with data and data models and already have prior knowledge in data science, and who want to learn techniques and processes to deploy and maintain services from these data and models.</li>
+<li>Our training is aimed at people who work with data and data models and have prior knowledge in data science, and who want to learn techniques and processes to deploy and maintain services using this data and these models.</li>
 </ul>"
 
         - title: "Conditions"
           icon: "4"
           content: "<ul>
-<li>CHF 2200 / participant for two days.</li>
-<li>Group sessions consisting of 8 to 24 participants.</li>
-<li>Includes catering and documentation.</li>
-<li>Discounts available for groups of 12 participants or more.</li>
+<li>CHF 2200 / participant for two days</li>
+<li>Group sessions consisting of 8 to 24 participants</li>
+<li>Includes catering and documentation</li>
+<li>Discounts available for groups of 12 participants or more</li>
 </ul>"
 
 
@@ -78,7 +78,7 @@ trainingsinhalt:
       liste:
         - el: "Recap of machine learning, model types, and their application areas"
         - el: "Data collection and preparation using various techniques"
-        - el: "Model training and tuning with Code Spaces/GitHub Actions in the Free Tier"
+        - el: "Model training and tuning with Codespaces/GitHub Actions in the Free Tier"
         - el: "Problem statement: making the process reproducible and measurable"
         - el: "From prototype to pipeline"
         - el: "ML pipelines and testing"

@@ -11,8 +11,8 @@ thumbnail: "images/trainings/ACEND_Adyna@2x.jpg"
 subtitle: "Basics"
 categories: ["Additional trainings"]
 
-abstract : "A practical introduction to the best-known Package Manager for applications on Kubernetes."
-main_title : "A practical introduction to the best-known Package Manager for applications on Kubernetes."
+abstract : "A practical introduction to the best-known package manager for applications on Kubernetes."
+main_title : "A practical introduction to the best-known package manager for applications on Kubernetes."
 techlogo: 
   full: "images/tech/Helm.svg"
   cut_lg: "images/tech/partials/Helm_lg.svg"
@@ -20,9 +20,9 @@ techlogo:
 
 duration: "1 day"
 costs : "CHF 1100"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lava@2x.jpg"
@@ -30,8 +30,8 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeB@2x.jpg"
 
 
-main_text: "This one day training in German or English provides a practical and easy-to-understand introduction to Helm, the best-known package manager for applications on Kubernetes. With Helm, even complex applications can be defined, installed, managed and run on container platforms.\n\n
-Our teachers draw on considerable practical experience and are certified Kubernetes administrators."
+main_text: "This one-day training in German or English provides a practical and easy-to-understand introduction to Helm, the best-known package manager for applications on Kubernetes. With Helm, even complex applications can be defined, installed, managed, and run on container platforms.<br></br>
+Our trainers draw on considerable practical experience and are certified Kubernetes administrators."
 
 accordion:
     enable : true
@@ -61,9 +61,9 @@ accordion:
         - title : "Conditions"
           icon : "4"
           content : "<ul>
-<li>CHF 1000 / participant for one day</li>
+<li>CHF 1100 / participant for one day</li>
 <li>Group sessions consisting of 8 to 24 participants</li>
-<li>Includes catering, documentation and a Kubernetes cluster in the cloud</li>
+<li>Includes catering, documentation, and a Kubernetes cluster in the cloud</li>
 <li>Discounts available for groups of 12 participants or more</li>
 </ul>"
 
@@ -72,7 +72,7 @@ trainingsinhalt:
     title : "Content"
     text : "
     Our trainings consist of varied presentations and hands-on labs in order to teach content in an appealing fashion.
-    We are happy to discuss the possibility of tailoring the content to your infrastructure. Should you require additional contents, we can adapt the program to your needs.
+    We are happy to discuss the possibility of tailoring the content to your infrastructure. Should you require additional content, we can adapt the program to your needs.
     If desired, the training can also be conducted on OpenShift."
 
     liste1:

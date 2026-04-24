@@ -18,16 +18,16 @@ techlogo:
   cut_sm: "images/tech/partials/KubeVirt_sm.svg"
 costs: "CHF 2300"
 duration: "2 days"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1: "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
   img2: "images/trainings/ACEND_Jeremy@2x.jpg"
   img3: "images/trainings/ACEND_CodeA@2x.jpg"
 
-main_text: "KubeVirt enables DevOps teams to run traditional workloads from virtual machines or those that cannot be easily containerized on Kubernetes. This allows us to unify the workflows for containers and virtual machines and utilize standardized processes like GitOps.\n\n
+main_text: "KubeVirt enables DevOps teams to run traditional workloads from virtual machines or those that cannot be easily containerized on Kubernetes. This allows teams to unify the workflows for containers and virtual machines and utilize standardized processes like GitOps.<br></br>
 Our trainers are practitioners with hands-on experience and are certified Kubernetes administrators."
 
 
@@ -40,7 +40,7 @@ accordion:
 <li>Introduction to KubeVirt technology</li>
 <li>Understanding the basic concepts and architecture</li>
 <li>Deploying and configuring VMs using KubeVirt</li>
-<li>Exploring integration possibilities of containers and VMs</li>
+<li>Exploring integration options for containers and VMs</li>
 </ul>"
 
         - title: "Prerequisites"
@@ -49,7 +49,7 @@ accordion:
 <li>Participants need a laptop with direct internet access</li>
 </ul>"
 
-        - title: "Target audience"
+        - title: "Target Audience"
           icon: "3"
           content: "<ul>
 <li>Our training is designed for individuals with prior knowledge of containers and container platforms, and a basic understanding of virtual machines.</li>
@@ -60,7 +60,7 @@ accordion:
           content: "<ul>
 <li>CHF 2300 per person for two days</li>
 <li>Groups of 8-24 people</li>
-<li>Includes catering, materials, and Kubernetes cluster in the cloud</li>
+<li>Includes catering, materials, and a Kubernetes cluster in the cloud</li>
 <li>Discount available for groups of 12 or more</li>
 </ul>"
 

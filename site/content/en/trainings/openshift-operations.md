@@ -18,9 +18,9 @@ techlogo:
 
 duration: "2 days"
 costs : "CHF 2200"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Fels@2x.jpg"
@@ -28,7 +28,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeD@2x.jpg"
 
 main_text: "
-With OpenShift, Red Hat promises a Kubernetes solution that boasts «automated operations» and other benefits for operations and development.\n\n
+With OpenShift, Red Hat promises a Kubernetes solution that boasts «automated operations» and other benefits for operations and development.<br></br>
 This two-day training in German or English provides a practical and clearly understandable overview of the challenges in Day 2 operations. Our trainers come from the field and are experienced OpenShift Engineers. Delivery takes place online or on-site."
 
 accordion:
@@ -39,7 +39,7 @@ accordion:
           content : "<ul>
 <li>Get to know OpenShift architecture and components</li>
 <li>Install your own OpenShift cluster</li>
-<li>Mastering day 2-operations tasks without interruption</li>
+<li>Master day 2 operations tasks without interruption</li>
 <li>Deepen monitoring and troubleshooting know-how</li>
 </ul>"
 
@@ -47,14 +47,14 @@ accordion:
           icon : "2"
           content : "<ul>
 <li>Participants will need a laptop with direct access to the Internet</li>
-<li>Additionally, local admin rights or a terminal with the possibility of outgoing SSH connections are required</li>
+<li>Additionally, local admin rights or a terminal that allows outgoing SSH connections are required</li>
 <li>Participants should have basic Linux and Kubernetes knowledge</li>
 </ul>"
 
         - title : "Target Audience"
           icon : "3"
           content : "<ul>
-<li>Our training is aimed at system engineers, OpenShift engineers and everyhone who wants to learn about the operational aspects of OpenShift</li>
+<li>Our training is aimed at system engineers, OpenShift engineers, and everyone who wants to learn about the operational aspects of OpenShift</li>
 <li>Basic knowledge of container technologies as well as OpenShift or Kubernetes is a prerequisite</li>
 </ul>"
 
@@ -63,7 +63,7 @@ accordion:
           content : "<ul>
 <li>CHF 2200 / participant for two days</li>
 <li>Group classes consisting of 8 to 24 participants</li>
-<li>Includes catering, documentation and an OpenShift cluster in the cloud for each participant</li>
+<li>Includes catering, documentation, and an OpenShift cluster in the cloud for each participant</li>
 <li>Discounts available for groups of 12 participants or more</li>
 </ul>"
 
@@ -87,7 +87,7 @@ trainingsinhalt:
           - el: "Basic configuration"
           - el: "Automation"
     liste2:
-      title: "Day 2-Operations"
+      title: "Day 2 Operations"
       liste:
         - el: "Infra Nodes"
         - el: "Exchange of Masters as well as etcd"
@@ -112,7 +112,7 @@ video:
 # trainer
 trainers:
   enable: true
-  title : "Meet Your Trainers"
+  title : "Meet Your Trainer"
   trainer:
     - title : "Christian Haller"
       image : "images/team/AC_Christian_Haller@2x.jpg"

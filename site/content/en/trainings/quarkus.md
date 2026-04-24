@@ -19,9 +19,9 @@ techlogo:
 
 duration: "2 days"
 costs : "CHF 1900"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Nadia-Redstone@2x.jpg"
@@ -30,8 +30,8 @@ headerimages:
 
 
 main_text: "
-Quarkus was created to enable Java developers to build applications for a modern, cloud-native world. Quarkus is a Kubernetes-native Java framework tailored for GraalVM and HotSpot, built from the best Java libraries and standards.\n\n
-In this training we will go through a complete development cycle together, starting with the bootstrapping of a Quarkus application and ending with its execution as a container. Always well accompanied by our experienced trainers and with a good mix of theory and hands-on labs."
+Quarkus was created to enable Java developers to build applications for a modern, cloud-native world. Quarkus is a Kubernetes-native Java framework tailored for GraalVM and HotSpot, built from the best Java libraries and standards.<br></br>
+In this training, we will go through a complete development cycle together, starting with the bootstrapping of a Quarkus application and ending with its execution as a container. Always well accompanied by our experienced trainers and with a good mix of theory and hands-on labs."
 
 accordion:
     enable : true
@@ -48,10 +48,10 @@ accordion:
         - title : "Prerequisites"
           icon : "2"
           content : "<ul>
-<li>Participants will need a recent notebook with free internet access</li>
+<li>Participants will need a modern laptop with free internet access</li>
 <li>Additionally, local admin rights are required</li>
-<li>Already installed Maven, Java OpenJDK 17, IDE, Git</li>
-<li>Installed Docker Engine with Docker-Compose</li>
+<li>Maven, Java OpenJDK 17, IDE, Git must be pre-installed</li>
+<li>Docker Engine with Docker Compose installed</li>
 </ul>"
 
         - title : "Target Audience"
@@ -64,10 +64,10 @@ accordion:
         - title : "Conditions"
           icon : "4"
           content : "<ul>
-<li>CHF 1900 / participant for two days.</li>
-<li>Group sessions consisting of 8 to 24 participants.</li>
-<li>Includes catering and documentation.</li>
-<li>Discounts available for groups of 12 participants or more.</li>
+<li>CHF 1900 / participant for two days</li>
+<li>Group sessions consisting of 8 to 24 participants</li>
+<li>Includes catering and documentation</li>
+<li>Discounts available for groups of 12 participants or more</li>
 </ul>"
 
 # Trainingsinhalt
@@ -85,16 +85,16 @@ We are also happy to refer to your infrastructure in consultation. If further co
         - el: "Configurability of Quarkus applications"
         - el: "RESTful microservices with Quarkus"
         - el: "Containerization of microservices"
-        - el: "Deployment on cloud native infrastructure"
-        - el: "Continuous Integration and Delivery (CICD)"
-        - el: "Event Driven Architecture and Messaging with Apache Kafka"
+        - el: "Deployment on cloud-native infrastructure"
+        - el: "Continuous Integration and Delivery (CI/CD)"
+        - el: "Event-driven architecture and Messaging with Apache Kafka"
         - el: "Distributed tracing with OpenTracing and Jaeger"
         - el: "Monitoring microservices through metrics"
 
 # trainer
 trainers:
   enable: true
-  title : "Meet Your Trainers"
+  title : "Meet Your Trainer"
   trainer:
     - title: "Christof Lüthi"
       image: "images/team/AC_ChristofLuethi@2x.jpg"

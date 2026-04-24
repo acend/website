@@ -8,8 +8,8 @@ draft: false
 weight: 3
 subtitle: "Basics"
 categories: ["Programming"]
-abstract: "Introduction to Go for software developers, architects and DevOps engineers."
-main_title: "Introduction to Go for software developers, architects and DevOps engineers."
+abstract: "Introduction to Go for software developers, architects, and DevOps engineers."
+main_title: "Introduction to Go for software developers, architects, and DevOps engineers."
 techlogo: 
   full: "images/tech/Go.svg"
   cut_lg: "images/tech/partials/Go_lg.svg"
@@ -17,9 +17,9 @@ techlogo:
 
 duration: "1 day"
 costs : "CHF 1100"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"
@@ -39,14 +39,14 @@ accordion:
           content : "<ul>
 <li>Get started and understand basic concepts of Go</li>
 <li>Learn more about the Go ecosystem</li>
-<li>Learn syntax and language constructs</li>
+<li>Master syntax and language constructs</li>
 <li>Build, test, release cycle of Go applications</li>
 </ul>"
         - title : "Prerequisites"
           icon : "2"
           content : "<ul>
 <li>Participants need a laptop with direct access to the Internet</li>
-<li>In addition, local admin rights are required for the installation of the development environment.</li>
+<li>In addition, local admin rights are required for the installation of the development environment</li>
 </ul>"
         - title : "Target Audience"
           icon : "3"
@@ -65,7 +65,7 @@ accordion:
 # Trainingsinhalt
 trainingsinhalt:
     title : "Content"
-    text : "Our trainings consist of varied presentations and hands-on labs to deliver their content in an exciting way.<br/>"
+    text : "Our trainings consist of varied presentations and hands-on labs to deliver their content in an engaging way.<br/>"
 
     liste1:
       title: "Go Basics"
@@ -73,16 +73,16 @@ trainingsinhalt:
         - el: "Introduction, history and application areas of Go"
         - el: "Ecosystem & Tooling"
         - el: "Syntax and language constructs"
-        - el: "Error Handling"
+        - el: "Error handling"
         - el: "Standard Library (net/http, os, encoding/json, etc.)"
         - el: "Testing"
         - el: "Concurrency & Multithreading"
-        - el: "Release Code / Packaging"
+        - el: "Release code / packaging"
 
 # video
 video:
   enable: true
-  title: "Learn to program clean go code with Dave"
+  title: "Learn to program clean Go code with Dave"
   youtubeID: "sYhw3rUzIcw"
 
 # trainer

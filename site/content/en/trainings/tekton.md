@@ -20,16 +20,16 @@ techlogo:
 
 duration: "1 day"
 costs : "CHF 1200"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lara-Ocean@2x.jpg"
   img2 : "images/trainings/ACEND_Lara@2x.jpg"
   img3 : "images/trainings/ACEND_CodeDe@2x.jpg"
 
-main_text: "With Tekton, the Kubernetes ecosystem gets a flexible way to integrate continuous integration and continuous delivery systems. Based on a modular approach, Steps, Tasks and Pipelines become standardized cloud-native resources. In the Tekton Basics training, you'll get a chance to see for yourself how the CI/CD world is seamlessly integrated into your cloud-native environments."
+main_text: "With Tekton, the Kubernetes ecosystem gets a flexible way to integrate continuous integration and continuous delivery systems. Based on a modular approach, Steps, tasks, and pipelines become standardized cloud-native resources. In the Tekton Basics training, you'll get a chance to see for yourself how the CI/CD world is seamlessly integrated into your cloud-native environments."
 
 accordion:
     enable : true
@@ -37,9 +37,9 @@ accordion:
         - title : "Outcomes"
           icon : "1"
           content : "<ul>
-<li>Getting started and basic concepts of Tekton.</li>
-<li>CI/CD basic concepts are known.</li>
-<li>How to implement a Tekton build and delivery pipeline.</li>
+<li>Learn the basics and core concepts of Tekton.</li>
+<li>Understand fundamental CI/CD concepts.</li>
+<li>Implement a Tekton build and delivery pipeline.</li>
 </ul>"
 
         - title : "Prerequisites"
@@ -51,7 +51,7 @@ accordion:
         - title : "Target Audience"
           icon : "3"
           content : "<ul>
-<li>Our training is designed for people who already have prior knowledge of container technologies, Git and Kubernetes.</li>
+<li>Our training is designed for people who already have prior knowledge of container technologies, Git, and Kubernetes.</li>
 <li>We recommend attending the Container & Kubernetes Basics or the Container & OpenShift Basics training before registering for this course.</li>
 </ul>"
 
@@ -68,20 +68,20 @@ accordion:
 trainingsinhalt:
     title : "Content"
     text : "Our trainings consist of varied presentations and hands-on labs in order to teach content in an appealing fashion.
-    We are happy to discuss the possibility of tailoring the content to your infrastructure. Should you require additional contents, we can adapt the program to your needs."
+    We are happy to discuss the possibility of tailoring the content to your infrastructure. Should you require additional content, we can adapt the program to your needs."
 
     liste1:
       title: "Tekton Basics"
       liste:
         - el: "Simple pipeline example"
         - el: "Integration in OpenShift"
-        - el: "Tekton in a cloud native world"
+        - el: "Tekton in a cloud-native world"
         - el: "Building Docker images"
         - el: "CI/CD deep dive"
         - el: "Complex pipeline"
         - el: "Advanced delivery pipeline"
-        - el: "Harmony GitOps / CI/CD principles"
-        - el: "Supply chain (Tekton chains)"
+        - el: "Harmonizing GitOps and CI/CD principles"
+        - el: "Supply chain (Tekton Chains)"
 
 
 # trainer
