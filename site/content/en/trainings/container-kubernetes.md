@@ -11,8 +11,8 @@ subtitle: "Basics"
 categories: ["Kubernetes"]
 showOnHomePage: true
 
-abstract : "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
-main_title : "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
+abstract : "From the basics to self-deployed, container-based applications on Kubernetes in two days."
+main_title : "From the basics to self-deployed, container-based applications on Kubernetes in two days."
 techlogo: 
   full: "images/tech/Kubernetes.svg"
   cut_lg: "images/tech/partials/Kubernetes_lg.svg"
@@ -20,9 +20,9 @@ techlogo:
 
 duration: "2 days"
 costs : "CHF 1900"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
@@ -30,7 +30,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeA@2x.jpg"
 
 
-main_text: "Container technologies, Kubernetes above all, have become more important in recent years and now are a significant driver of digitalization.\n\n
+main_text: "Container technologies, Kubernetes above all, have become more important in recent years and now are a significant driver of digitalization.<br></br>
 This two-day training in German or English provides a practical and easy-to-understand introduction to these open source technologies. Our trainers draw on considerable practical experience and are certified Kubernetes administrators."
 
 accordion:
@@ -63,7 +63,7 @@ accordion:
           content : "<ul>
 <li>CHF 1900 / participant for two days</li>
 <li>Group classes consisting of 8 to 24 participants</li>
-<li>Includes catering, documentation and a Kubernetes cluster in the cloud</li>
+<li>Includes catering, documentation, and a Kubernetes cluster in the cloud</li>
 <li>Discounts available for groups of 12 participants or more</li>
 </ul>"
 
@@ -81,15 +81,12 @@ trainingsinhalt:
         - el: "Configuration of Containers"
         - el: "Troubleshooting"
         - el: "Best Practices"
-        - el: "Become acquainted with a modern technology"
-        - el: "Understand the concepts of Containers and Kubernetes"
-        - el: "Deploy applications on Kubernetes"
     liste2:
       title: "Kubernetes Basics"
       liste:
         - el: "Basic concepts"
         - el: "Architecture and components of Kubernetes"
-        - el: "Useful CLI-Tools"
+        - el: "Useful CLI tools"
         - el: "Applications deployment"
         - el: "Access opportunities"
         - el: "Pod scaling"
@@ -97,7 +94,7 @@ trainingsinhalt:
         - el: "Deployment strategies"
         - el: "Persistent storage"
         - el: "StatefulSet, DaemonSet, Job, ConfigMap"
-        - el: "Init and Sidecar Container"
+        - el: "Init and Sidecar Containers"
         - el: "Quotas and limits"
         - el: "Troubleshooting"
         - el: "CNCF Landscape"

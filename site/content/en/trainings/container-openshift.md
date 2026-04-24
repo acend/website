@@ -17,9 +17,9 @@ techlogo:
 
 duration: "2 days"
 costs : "CHF 1900"
-certificate : "Certifikat"
-documents: "Digitale Handout"
-info: "Bring your own Laptop."
+certificate : "Certificate"
+documents: "Digital Handout"
+info: "Bring your own laptop."
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
@@ -28,7 +28,7 @@ headerimages:
 
 
 main_text: "The importance of container technologies has significantly increased in recent years. Based on such technologies – Kubernetes among others – OpenShift offers a comprehensive and comfortable container platform solution.\n\n
-This two-day training in German or English provides a practical and easy-to-understand introduction to these open source technologies. Our teachers draw on considerable practical experience and are experienced OpenShift administrators."
+This two-day training in German or English provides a practical and easy-to-understand introduction to these open source technologies. Our trainers draw on considerable practical experience and are experienced OpenShift administrators."
 
 accordion:
     enable : true
@@ -48,7 +48,7 @@ accordion:
 <li>Additionally, local admin rights or access to a terminal (in the browser) are required</li>
 </ul>"
 
-        - title : "Target audience"
+        - title : "Target Audience"
           icon : "3"
           content : "<ul>
 <li>Our training is designed for software and system engineers</li>
@@ -60,14 +60,14 @@ accordion:
           content : "<ul>
 <li>CHF 1900 / participant for two days</li>
 <li>Group classes consisting of 8 to 24 participants</li>
-<li>Includes catering, documentation and an OpenShift cluster in the cloud</li>
+<li>Includes catering, documentation, and an OpenShift cluster in the cloud</li>
 <li>Discounts available for groups of 12 participants or more</li>
 </ul>"
 
 # Trainingsinhalt
 trainingsinhalt:
     title : "Content"
-    text : "Our trainings consist of varied presentations and hands-on labs in order to teach content in an appealing fashion. We are happy to discuss the possibility of tailoring the content to your infrastructure. Should you require additional contents, we can adapt the program to your needs."
+    text : "Our trainings consist of varied presentations and hands-on labs in order to teach content in an appealing fashion. We are happy to discuss the possibility of tailoring the content to your infrastructure. Should you require additional content, we can adapt the program to your needs."
     liste1:
       title: "Container Basics"
       liste:
@@ -75,7 +75,7 @@ trainingsinhalt:
         - el: "Installation of Docker"
         - el: "Images and the construction of images"
         - el: "Image registries"
-        - el: "Configuration of Containers"
+        - el: "Configuration of containers"
         - el: "Troubleshooting"
         - el: "Best Practices"
 
