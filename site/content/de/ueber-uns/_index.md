@@ -22,7 +22,7 @@ timeline:
       img: "images/ueberuns/timeline/ACEND_About_Timeline_Kubernetes@2x.jpg"
       text: "Kubernetes Release 1.0 und die ersten Kontakte mit Container und Kubernetes"
     - title: "2019"
-      subtitle: "Samy Deluxe Konzert"
+      subtitle: "Samy-Deluxe-Konzert"
       img: "images/ueberuns/timeline/ACEND_About_Timeline_Concert@2x.jpg"
       text: "Da fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren."
     - title: "2019"
@@ -66,7 +66,7 @@ team:
       image: "images/team/AC_Anna@2x.jpg"
       designation: "Sales"
       abstract: "Bringt Struktur ins Chaos - liebt es Abläufe zu optimieren und kann keine Minute still sitzen wenn Musik läuft."
-      experience: "Nach der Lehre als Informatikerin und einigen weiteren Stationen in der IT hat Anna einen Abstecher in die Fliegerei gemacht. Sie betreute sowohl die Serverlandschaft der Edelweiss Air, als auch die Passagiere über den Wolken.
+      experience: "Nach der Lehre als Informatikerin und einigen weiteren Stationen in der IT hat Anna einen Abstecher in die Fliegerei gemacht. Sie betreute sowohl die Serverlandschaft der Edelweiss Air, als auch die Passagier:innen über den Wolken.
       Danach folgten weitere spannende Jahre als System Engineer bei HRM Systems und die Weiterbildung zur Projektleiterin. Seit vier Jahren ist Anna bei Puzzle ITC, schaut, dass alle Container und CI/CD Engineers, wie auch die Kund:innen happy sind."
       linkedin: "https://www.linkedin.com/in/anna-pfeifhofer-902495183/"
 
@@ -95,7 +95,7 @@ team:
       image: "images/team/AC_ChristofLuethi@2x.jpg"
       designation: "Trainer, Tim&Koko AG"
       abstract: "Christof ist zurück von seiner Weltreise, ist viel getaucht und hat unterschiedliche Kulturen kennengelernt. Mit frischem Geist und Neugier ist er nun auf Entdeckungsreise in der Cloud Native Welt."
-      experience: "Christof hat um das Jahr 2000 mit der Informatiklehre gestartet, anschliessend hat er die FH und ein MAS in Informatik an der FH Bern gemacht. Daneben hat er zuerst als System Engineer und danach lange als Software Entwickler und Architekt gearbeitet. Genau in dieser Schnittstelle im Bereich Middleware mit einer Vorliebe für Daten gefällt es ihm am besten. Seit 2024 ist er als Messaging und Cloud Native Spezialist bei Tim&Koko AG und viel im Cloud Native Umfeld bei verschiedenen Kund:innen unterwegs."
+      experience: "Christof hat um das Jahr 2000 mit der Informatiklehre gestartet, anschliessend hat er die FH und einen MAS in Informatik an der FH Bern gemacht. Daneben hat er zuerst als System Engineer und danach lange als Software Entwickler und Architekt gearbeitet. Genau in dieser Schnittstelle im Bereich Middleware mit einer Vorliebe für Daten gefällt es ihm am besten. Seit 2024 ist er als Messaging und Cloud Native Spezialist bei Tim&Koko AG und viel im Cloud Native Umfeld bei verschiedenen Kund:innen unterwegs."
       linkedin: "https://www.linkedin.com/in/christof-luethi/"
 
     - title: "Christoph Raaflaub"
@@ -161,7 +161,7 @@ team:
     - title : "Mathis Kretz "
       designation : "Trainer, bespinian"
       abstract : "Wenn er nicht gerade Microservices deployt oder anderen zeigt, wie man das macht, kocht er, am liebsten mit Feuer."
-      experience: "Nach seinem Doktortitel in Informatik hat Mathis als Software Engineer bei verschiedenen Firmen gearbeitet und besonders als Head of Cloud Empowerment bei Swisscom viel Knowhow im Cloud Umfeld gesammelt. 2019 haben Lena und Mathis die Firma Bespinian gegründet, wo sie seither als Consultants in verschiedenen Themen unterwegs sind. Mathis hat ein Zertifikat als CKAD."
+      experience: "Nach seinem Doktortitel in Informatik hat Mathis als Software Engineer bei verschiedenen Firmen gearbeitet und besonders als Head of Cloud Empowerment bei Swisscom viel Know-how im Cloud Umfeld gesammelt. 2019 haben Lena und Mathis die Firma bespinian gegründet, wo sie seither als Consultants in verschiedenen Themen unterwegs sind. Mathis hat ein Zertifikat als CKAD."
       image : "images/team/AC_Mathis_Kretz@2x.jpg"
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz"
@@ -177,7 +177,7 @@ team:
       image: "images/team/AC_Seba@2x.jpg"
       designation: "Trainer"
       abstract: "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem, desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
-      experience: "Als Consultant und Experte für Cloud Native Technologien konzipiert und baut er Kubernetes Plattformen für verschiedene Kund:innen von Puzzle ITC. Nach seinem Abschluss in BsC in Informatik (2017) mit der vertiefung Security leitete Sebastian ein Team im Bereich Cybersecurity bei der RUAG Schweiz AG. Verschiedene Zertifikate im Cloud Native Umfeld unterstreichen sein Fachwissen in den Bereichen Container und Kubernetes. CKA, CKAD, CKS."
+      experience: "Als Consultant und Experte für Cloud Native Technologien konzipiert und baut er Kubernetes Plattformen für verschiedene Kund:innen von Puzzle ITC. Nach seinem Abschluss in BSc in Informatik (2017) mit der Vertiefung Security, leitete Sebastian ein Team im Bereich Cybersecurity bei der RUAG Schweiz AG. Verschiedene Zertifikate im Cloud Native Umfeld unterstreichen sein Fachwissen in den Bereichen Container und Kubernetes. CKA, CKAD, CKS."
       linkedin: "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter: "https://twitter.com/SebaPlattner"
 
@@ -208,7 +208,7 @@ Mit der von ihm gegründeten incratec GmbH fokussiert er auf pragmatische KI-Ein
       image: "images/team/AC_Tobi@2x.jpg"
       designation: "Sales & Experience"
       abstract: "Farbige Socken, wilde Ideen: Der richtige Mann, um unseren Auftritt zu gestalten, wenn er nicht gerade Wellen reitet."
-      experience: "Nach seiner Lehre als Informatiker hat Tobias während 15 Jahren bei der Swisscom verschiedene Rollen im Bereich Automation innegehabt. Seit über 4 Jahren ist er nun bei Puzzle und hilft dort die Container-Themen vowärts zu treiben. Berufsbegleitend hat er zuerst die HF und anschliessend die FH in Wirtschaftsinformatik erfolgreich absolviert und eine Coaching-Ausbildung gemacht."
+      experience: "Nach seiner Lehre als Informatiker hat Tobias während 15 Jahren bei der Swisscom verschiedene Rollen im Bereich Automation innegehabt. Seit über 4 Jahren ist er nun bei Puzzle und hilft dort die Container-Themen vorwärts zu treiben. Berufsbegleitend hat er zuerst die HF und anschliessend die FH in Wirtschaftsinformatik erfolgreich absolviert und eine Coaching-Ausbildung gemacht."
       linkedin: "https://www.linkedin.com/in/tobias-troehler/"
       twitter: "https://twitter.com/Tobee_Tr"
       email: "tobi@acend.ch"
