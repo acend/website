@@ -166,6 +166,13 @@ team:
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz"
 
+    - title: "Miriam Streit"
+      image: "images/team/AC_MiriamStreit@2x.jpg"
+      designation: "Trainer, tim&koko"
+      abstract: "Zwischen Fantasy-Romanen und Yoga findet sie den Ausgleich zur Cloud Native Welt – und behält dabei stets den Überblick."
+      experience: "Nach der Lehre als Applikationsentwicklerin und berufsbegleitendem Informatik-Bachelor sammelte Miriam mehrere Jahre Erfahrung als Platform Engineer. Seit Anfang 2026 ist sie mit tim&koko unterwegs und begleitet Kund:innen in Kubernetes, GitOps und CI/CD – mit CKA und CKAD im Gepäck."
+      linkedin: "https://www.linkedin.com/in/miriam-streit/"
+
     - title : "Philippe Schmid"
       image : "images/team/AC_Philippe@2x.jpg"
       designation : "Trainer, Puzzle ITC"
