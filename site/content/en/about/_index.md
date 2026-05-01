@@ -162,6 +162,13 @@ team:
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz"
 
+    - title: "Miriam Streit"
+      image: "images/team/AC_MiriamStreit@2x.jpg"
+      designation: "Trainer, tim&koko"
+      abstract: "Between fantasy novels and yoga, she finds her balance to the Cloud Native world – and never loses sight of the big picture."
+      experience: "After her apprenticeship as a software engineer and a part-time Bachelor's in Computer Science, Miriam gained several years of experience as a Platform Engineer. Since early 2026, she has been working with tim&koko, guiding customers in Kubernetes, GitOps, and CI/CD – with CKA and CKAD to her name."
+      linkedin: "https://www.linkedin.com/in/miriam-streit/"
+
     - title : "Philippe Schmid"
       image : "images/team/AC_Philippe@2x.jpg"
       designation : "Trainer, Puzzle ITC"
@@ -191,7 +198,7 @@ team:
       experience: "Thomas has played a formative role at Puzzle since 2011: After his bachelor's degree in Computer Science, first as a Software Engineer and PL, later as Head of Middleware he was able to establish the topic of Kubernetes at Puzzle, among other things. He was the CTO for several years and then founded his own company tim&koko in 2022. In his new role, as a cloud consultant, he helps customers on their way into the cloud."
       linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter: "https://twitter.com/tphilipona"
-    
+
     - title: "Tobias Kluge"
       image: "images/team/AC_TobiasKluge@2x.jpg"
       designation: "Trainer"
