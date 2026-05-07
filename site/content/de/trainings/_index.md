@@ -47,7 +47,7 @@ zertifikate:
 
 excellence:
   title: "Mit acend zur Exzellenz"
-  text: "Acend ist meine erste Wahl, wenn es um die Verfeinerung meiner Fähigkeiten und den Streben nach Exzellenz geht. Ihr branchenführendes Training und ihre Unterstützung sind unverzichtbar für meinen Erfolg."
+  text: "Acend ist meine erste Wahl, wenn es um die Verfeinerung meiner Fähigkeiten und dem Streben nach Exzellenz geht. Ihr branchenführendes Training und ihre Unterstützung sind unverzichtbar für meinen Erfolg."
   img1 : "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
   img2 : "images/trainings/ACEND_Jeremy@2x.jpg"
   img3 : "images/trainings/ACEND_CodeA@2x.jpg"

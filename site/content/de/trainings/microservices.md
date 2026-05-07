@@ -2,7 +2,7 @@
 title: "MicroServices"
 type: 'trainings'
 seo_title: "Praxisorientierter Einstieg in MicroServices"
-description: "In diesem Training erhältst Du einen Hands-On-First Approach für dein Einstieg und Ueberblick in die Welt der MicroServices."
+description: "In diesem Training erhälst Du einen Hands-On-First Approach für dein Einstieg und Ueberblick in die Welt der MicroServices."
 date: 2022-06-25T12:16:39+06:00
 draft: false
 weight: 10
