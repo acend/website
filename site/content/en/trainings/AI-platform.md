@@ -38,12 +38,12 @@ accordion:
         - title : "Learning Objectives"
           icon : "1"
           content : "<ul>
-<li>Understand how agent-driven tools work – and why it is a different paradigm than classic AI assistants.</li>
-<li>Can set up current technologies and best practices (such as AGENTS.md, Skills, MCP) as a team standard to ensure AI support remains consistent, secure, and traceable.</li>
-<li>Deploy agentic tools specifically for Platform Engineering: generate, review, refactor – with critical quality checks instead of blind trust.</li>
-<li>Can create, debug, and document CI/CD pipelines and automation scripts with AI support.</li>
-<li>Know the specific risks and guardrails for AI use in infrastructure environments.</li>
-<li>Leave the workshop with a ready-to-use Team AI Blueprint (AGENTS.md, skills definition, governance rules) – directly transferable to their own platform, with a prioritized plan for the next steps.</li>
+<li>Understand <strong>how agent-driven tools</strong> work – and why it is a different paradigm than classic AI assistants.</li>
+<li>Can set up current technologies and best practices (such as <strong>AGENTS.md, Skills, MCP</strong>) as a team standard to ensure AI support remains consistent, secure, and traceable.</li>
+<li>Deploy agentic tools specifically for <strong>Platform Engineering:</strong> generate, review, refactor – with critical quality checks instead of blind trust.</li>
+<li>Can create, debug, and document <strong>CI/CD pipelines and automation scripts</strong> with AI support.</li>
+<li>Know the <strong>specific risks and guardrails</strong> for AI use in infrastructure environments.</li>
+<li>Leave the workshop with a ready-to-use <strong>Team AI Blueprint</strong> (AGENTS.md, skills definition, governance rules) – directly transferable to their own platform, with a prioritized plan for the next steps.</li>
 </ul>"
 
         - title : "Prerequisites"

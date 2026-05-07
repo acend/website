@@ -39,12 +39,12 @@ accordion:
         - title : "Trainingsziele"
           icon : "1"
           content : "<ul>
-<li>verstehen, wie agentengesteuerte Werkzeug funktionieren – und warum es ein anderes Paradigma ist als klassische KI-Assistenten.</li>
-<li>können aktuelle Technologien und Best Practices (wie AGENTS.md, Skills, MCP) als Team-Standard einrichten, damit KI-Unterstützung konsistent, sicher und nachvollziehbar bleibt.</li>
-<li>setzen agentic Tools gezielt für Platform Engineering ein: generieren, reviewen, refactoren – mit kritischer Qualitätsprüfung statt blindem Vertrauen.</li>
-<li>können CI/CD-Pipelines und Automatisierungs-Scripts mit KI-Unterstützung erstellen, debuggen und dokumentieren.</li>
-<li>kennen die konkreten Risiken und Leitplanken für den KI-Einsatz in Infrastruktur-Umgebungen.</li>
-<li>verlassen den Workshop mit einem einsatzbereiten Team-KI-Blueprint (AGENTS.md, Skills-Definition, Governance-Regeln) – direkt übertragbar auf ihre eigene Plattform, mit einem priorisierten Plan für die nächsten Schritte.</li>
+<li>verstehen, <strong>wie agentengesteuerte Werkzeug</strong> funktionieren – und warum es ein anderes Paradigma ist als klassische KI-Assistenten.</li>
+<li>können aktuelle Technologien und Best Practices (wie <strong>AGENTS.md, Skills, MCP</strong>) als Team-Standard einrichten, damit KI-Unterstützung konsistent, sicher und nachvollziehbar bleibt.</li>
+<li>setzen agentic Tools gezielt für <strong>Platform Engineering</strong> ein: generieren, reviewen, refactoren – mit kritischer Qualitätsprüfung statt blindem Vertrauen.</li>
+<li>können <strong>CI/CD-Pipelines und Automatisierungs-Scripts</strong> mit KI-Unterstützung erstellen, debuggen und dokumentieren.</li>
+<li>kennen die <strong>konkreten Risiken und Leitplanken</strong> für den KI-Einsatz in Infrastruktur-Umgebungen.</li>
+<li>verlassen den Workshop mit einem einsatzbereiten <strong>Team-KI-Blueprint</strong> (AGENTS.md, Skills-Definition, Governance-Regeln) – direkt übertragbar auf ihre eigene Plattform, mit einem priorisierten Plan für die nächsten Schritte.</li>
 </ul>"
 
         - title : "Voraussetzungen"
