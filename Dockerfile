@@ -8,7 +8,7 @@ COPY ./site /src
 
 RUN npm run build
 
-FROM nginxinc/nginx-unprivileged:1.30-alpine
+FROM nginxinc/nginx-unprivileged:1.31-alpine
 EXPOSE 8080
 # The URL of the backend service, see https://github.com/acend/website-backend
 ENV BACKEND_URL=http://acend-website-backend:8000
