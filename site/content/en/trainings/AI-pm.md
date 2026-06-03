@@ -1,5 +1,5 @@
 ---
-title: "Agentic SDLC: AI in the Software Development Life Cycle"
+title: "Agentic SDLC for Product Owner, Scrum Master and Projektmanager"
 type: 'trainings'
 seo_title: "Sovereign in the Agentic SDLC: Leading AI Teams Faster While Maintaining Full Control Over Quality and Planning."
 description: "Sovereign in the Agentic SDLC: Leading AI Teams Faster While Maintaining Full Control Over Quality and Planning."

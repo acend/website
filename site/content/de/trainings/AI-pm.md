@@ -1,5 +1,5 @@
 ---
-title: "Agentic SDLC: KI im Softwareentwicklungsprozess"
+title: "Agentic SDLC für Product Owner, Scrum Master und Projektleiter"
 type: 'trainings'
 seo_title: "Souverän im Agentic SDLC: KI-Teams schneller führen und Qualität sowie Planung sicher im Griff behalten."
 description: "Souverän im Agentic SDLC: KI-Teams schneller führen und Qualität sowie Planung sicher im Griff behalten."
