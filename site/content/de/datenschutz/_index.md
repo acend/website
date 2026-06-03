@@ -202,7 +202,7 @@ Wir weisen dich darauf hin, dass E-Mails auf dem Übertragungsweg unbefugt und u
 
 ## Versenden des Newsletters
 
-Über unsere Webseite hast du die Möglichkeit dich für einen kostenfreien Newsletter anzumelden. Mit dem Newsletter erhältst du Informationen zu Neuigkeiten, Anlässen und Angeboten. Mit der Anmeldung zum Newsletter werden die in der Eingabemaske von dir angegebenen Daten, wie die E-Mail-Adresse, an uns übermittelt und gespeichert.
+Über unsere Webseite hast du die Möglichkeit dich für einen kostenfreien Newsletter anzumelden. Mit dem Newsletter erhälst du Informationen zu Neuigkeiten, Anlässen und Angeboten. Mit der Anmeldung zum Newsletter werden die in der Eingabemaske von dir angegebenen Daten, wie die E-Mail-Adresse, an uns übermittelt und gespeichert.
 
 Die Anmeldung zu unserem Newsletter erfolgt erst nach Erhalt eines E-Mails in dem du deine E-Mail-Adresse mittels Link bestätigen. Damit stellen wir sicher, dass sich niemand mit fremder E-Mail-Adresse anmelden kann.
 

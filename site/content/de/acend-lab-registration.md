@@ -78,7 +78,7 @@ build:
 
 ### OpenShift Virtualization
 
-In diesem halbtägigen Workshop erhältst du zunächst eine theoretische Einführung in die Grundlagen von OpenShift Virtualization. Anschliessend wendest du das Gelernte direkt in hands-on Labs an. Unsere Experten begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funktionen direkt in der Praxis erleben kannst. Du wirst selber VMs auf einem OpenShift Cluster deployen, starten, stoppen, skalieren, live migrieren, configurieren und vieles mehr.
+In diesem halbtägigen Workshop erhälst du zunächst eine theoretische Einführung in die Grundlagen von OpenShift Virtualization. Anschliessend wendest du das Gelernte direkt in hands-on Labs an. Unsere Experten begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funktionen direkt in der Praxis erleben kannst. Du wirst selber VMs auf einem OpenShift Cluster deployen, starten, stoppen, skalieren, live migrieren, configurieren und vieles mehr.
 
 ### Software-Entwicklung mit KI
 
